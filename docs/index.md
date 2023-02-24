@@ -1,5 +1,6 @@
 ---
 share: true
+comments: false
 tags:
 	- tag1
 	- tag2

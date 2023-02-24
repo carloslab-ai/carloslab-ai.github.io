@@ -1,5 +1,6 @@
 ---
 share: true
+comments: false
 tags:
   - category3
   - category4
