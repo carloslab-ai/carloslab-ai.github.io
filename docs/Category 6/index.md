@@ -2,7 +2,7 @@
 index: true
 comments: false
 hidden: true
-category: Category Blog
+category: Category 6
 template: blog.html
 title: Category Title
 ---
