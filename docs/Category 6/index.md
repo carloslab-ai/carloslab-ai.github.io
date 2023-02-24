@@ -1,9 +1,10 @@
 ---
 index: true
+comments: false
 hidden: true
-category: Category 6
+category: Category Blog
 template: blog.html
-title: Category 6
+title: Category Title
 ---
 
 This is index file
