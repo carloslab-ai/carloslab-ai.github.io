@@ -4,8 +4,8 @@ site_url: https://carlos-gamedev.github.io/
 
 theme:
     name: 'material'
-    logo: assets/meta/favicons.png
-    favicon: assets/meta/favicons.png
+    logo: assets/meta/logo.png
+    favicon: assets/meta/logo.png
     custom_dir: overrides
     font:
         text: Ubuntu
@@ -131,7 +131,7 @@ extra_css:
     - assets/css/custom_attributes.css
     - assets/css/customization.css
 extra:
-  SEO: assets/meta/SEO.png
+  SEO: assets/meta/logo.png
   comments: false #disable comments globally
   generate_graph: true #generate the graph of the site
   attachments: 'assets/img' #path to the folder where the attachments are stored
