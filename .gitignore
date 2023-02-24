@@ -1,2 +1,4 @@
 .vscode/settings.json
 desktop.ini
+docs/assets/graph.html
+overrides/hooks/__pycache__
