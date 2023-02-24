@@ -1,6 +1,7 @@
 ---
 share: true
-tags: category1, category2
+tags: 
+- category1
 ---
 
 This is index file.
