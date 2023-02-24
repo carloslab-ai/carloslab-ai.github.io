@@ -1,8 +1,6 @@
 ---
 share: true
 comments: false
-tags:
-  - category2
 ---
 
 
