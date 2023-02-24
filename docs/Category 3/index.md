@@ -2,9 +2,9 @@
 share: true
 comments: false
 tags:
-  - category3
-  - category4
-  - category5
+- category3
+- category4
+- category5
 ---
 
 
