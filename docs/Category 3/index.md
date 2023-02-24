@@ -2,6 +2,8 @@
 share: true
 tags:
   - category3
+  - category4
+  - category5
 ---
 
 
