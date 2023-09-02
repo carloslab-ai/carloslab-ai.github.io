@@ -2,7 +2,7 @@
 index: true
 comments: false
 hidden: true
-category: Articles Category
+category: Articles
 template: blog.html
 title: Articles List
 ---
