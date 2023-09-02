@@ -1,6 +1,6 @@
 ---
 share: true
-title: Single Responsibility Principle
+title: Open-Closed Principle
 tags: code-design, solid
 ---
 
