@@ -1,7 +1,7 @@
 ---
 share: true
 title: Liskov Substitution Principle
-tags: [tag1, tag2]
+tags: [code design, programming principles, solid]
 ---
 
 This is test file.
