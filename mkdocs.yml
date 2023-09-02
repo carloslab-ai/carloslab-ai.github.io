@@ -1,6 +1,6 @@
 site_name: Carlos's Blog
 site_description: This is my blog
-site_url: https://carlos-gamedev.github.io/
+site_url: https://carlos-truong.github.io/
 
 theme:
     name: 'material'
