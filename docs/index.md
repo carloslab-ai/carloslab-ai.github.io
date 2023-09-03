@@ -15,3 +15,4 @@ title: Home
 </p>
 
 ![[Attachments/github-mark-white.png | center | 42]]
+![[Attachments/twitter.png| center | 42]]
