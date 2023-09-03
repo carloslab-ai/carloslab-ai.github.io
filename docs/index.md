@@ -3,7 +3,7 @@ share: true
 comments: false
 hidden: true
 template: blog.html
-title: All
+title: Home
 ---
 
 This is index file
