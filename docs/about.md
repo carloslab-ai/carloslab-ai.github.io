@@ -25,7 +25,7 @@ Of if you want to contact me or join my community to discuss with me about game 
 
 # My indie games
 
-## Superbugs Awaken
+## 1. Superbugs Awaken
 https://store.steampowered.com/app/1393570/Superbugs_Awaken
 
 <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1393570/header.jpg?t=1648885106s"></img>
@@ -48,6 +48,6 @@ It's a Communication-Based, Co-Op game for 2 Players. You and your friend have t
 	- The Hunter is inside Mimi's body, so he knows what Superbugs look like and he have to describe the Superbugs's appearance and behaviours to the Scientist.
 	- The Scientist is outside Mimi's body, he invented an advanced microscope that could show the location of these Superbugs in Mimi's body but it couldn't clearly show their appearance and behaviours. So he needs to guide his son to the localtion of these Superbugs, make the right vaccine based on his son's description and send it to him to help him kill all the Superbugs before Mimi dies.
 
-## MMORPG
+## 2. MMORPG
 
 
