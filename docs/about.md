@@ -12,8 +12,8 @@ I'm quite interested in techniques related to game programming, such as code des
 If you find some of my articles useful and would like to support me, you can buy me a coffee or join my Patreon.😁
 
 <p align="center">
-	<a href="https://www.buymeacoffee.com/carlos_dev"><img width= '30%' height='30%'  src="./Attachments/buy_me_a_coffee.png"></img></a></br>
-	<a href="https://www.patreon.com/carlos_dev"><img width= '30%' height='30%' src="./Attachments/patreon.png"></img></a><br/>
+	<a href="https://www.buymeacoffee.com/carlos_dev"><img width= '30%' height='30%'  src="Attachments/buy_me_a_coffee.png"></img></a></br>
+	<a href="https://www.patreon.com/carlos_dev"><img width= '30%' height='30%' src="Attachments/patreon.png"></img></a><br/>
 </p>
 
 Of if you want to contact me or join my community to discuss game programming techniques or just talk about life.😀
@@ -24,13 +24,6 @@ Of if you want to contact me or join my community to discuss game programming te
 	<a href="https://github.com/carlos-truong"><img width = '42' height='42' src="Attachments/github.png"></img></a><br/>
 	<a href = "mailto: carlos.truong.dev@gmail.com">carlos.truong.dev@gmail.com</a>
 </p>
-
-![[Attachments/buy_me_a_coffee.png|Attachments/buy_me_a_coffee.png]]
-![[Attachments/patreon.png|Attachments/patreon.png]]
-
-![[Attachments/buy_me_a_coffee.png|Attachments/buy_me_a_coffee.png]]
-![[Attachments/twitter.png|Attachments/twitter.png]]
-![[Attachments/discord.png|Attachments/discord.png]]
 
 # My indie games
 
