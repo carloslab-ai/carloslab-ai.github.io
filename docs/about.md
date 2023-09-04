@@ -53,20 +53,32 @@ It's a Communication-Based, Co-Op game for 2 Players. You and your friend have t
 	- The Hunter is inside Mimi's body, so he knows what the Superbugs look like and he has to describe the Superbugs's appearance and behaviour to the Scientist.
 	- The Scientist is outside Mimi's body, he invented an advanced microscope that can show the location of these Superbugs in Mimi's body but it can't clearly show their appearance and behaviour. So he needs to guide his son to the localtion of these Superbugs, make the right vaccines based on his son's description and send them to him to help him eliminate all the Superbugs before Mimi dies.
 
-## 2. Unnamed Multiplayer RPG
+## 2. Unnamed Multiplayer Online RPG
 
 ### My Team
 I've just started developing this game recently. This time, my team consists of only one person. Yup, you didn't mishear, it's just me alone developing this game. So I am both a designer, an artist, a marketer, and a developer. 🤣
 
-### Why did I start developing this game?
+### Gameplay
+Currently, I have no ideas about gameplay of it. So I will start with making basic features of an Multiplayer RPG first, such as Combat, Abilities, AI, Multiplayer, etc. It's all just the beginning.
 
-After the first indie game, all of us chose to stop, with no intention of continuing to make indie games anymore. But recently, after a year working for a game company, I felt that life was tiring, meaningless and purposeless as I constantly made games driven by market trends. Everything had to be done quickly, with low quality, to keep up with current trends like NFTs, Metaverse, AI and more. That's why I came back to being an indie game dev again.
+### FAQ
+
+#### Why did I start developing this game?
+
+After the first indie game, all of us chose to stop, with no intention of continuing to make indie games anymore. But recently, after a year working for a game company, I felt that life was tiring, meaningless and purposeless as I constantly made games driven by market trends. Everything had to be done quickly, with low quality, to keep up with current trends like NFTs, Metaverse, AI and more. That's why I came back to being an indie game dev again. 
+
+And I started developing this game because I've been a big fan of MMORPGs since I was a child. But I don't think I can create an MMORPG alone, so I removed the word "Massively" from MMO, making it Multiplayer Online RPG.
+
+#### When will this game be released?
 
 I don't even know if I can finish and release this game, and after release, whether it will help me earn enough money to live? These are all unanswered questions. Maybe I'll have to go back to work and earn money like before.
 
+At the moment, I take on freelance jobs to make a living, and I only work on this game in my spare time, so its progress will be very slow. There are a lot of unknown external factors that can cause delays. Therefore, it will be a very, very long journey. 
+
+#### How to support me?
+
 If you want to help me make my dream comes true. There are many ways to support me. For example, you can join my community, provide me with some ideas and feedback for my game, buy me a coffee or join my Patreon. I will be very grateful for your support because it is a huge motivation for me to continue on my indie game dev journey.
 
-### Gameplay
-Currently, I have no ideas about gameplay of it. So I will start with making basic features of an Multiplayer RPG first, such as Combat, Abilities, AI, Multiplayer, etc. It's all just the beginning.
+
 
 
