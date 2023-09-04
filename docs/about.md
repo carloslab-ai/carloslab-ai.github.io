@@ -12,8 +12,8 @@ I'm quite interested in techniques related to game programming, such as code des
 If you find some of my articles useful and would like to support me, you can buy me a coffee or join my Patreon.😁
 
 <p align="center">
-	<a href="https://www.buymeacoffee.com/carlos_dev"><img width= '30%' height='30%'  src="../Attachments/buy_me_a_coffee.png"></img></a><br>
-	<a href="https://www.patreon.com/carlos_dev"><img width= '30%' height='30%' src="../Attachments/patreon.png"></img></a>
+	<a href="https://www.buymeacoffee.com/carlos_truong"><img width= '30%' height='30%'  src="../Attachments/buy_me_a_coffee.png"></img></a><br>
+	<a href="https://www.patreon.com/carlos_truong"><img width= '30%' height='30%' src="../Attachments/patreon.png"></img></a>
 </p>
 
 Of if you want to contact me or join my community to discuss game programming techniques or just talk about life.😀
@@ -27,7 +27,7 @@ Of if you want to contact me or join my community to discuss game programming te
 
 # My indie games
 
-## 1. Superbugs Awaken
+## 1. Superbugs: Awaken
 https://store.steampowered.com/app/1393570/Superbugs_Awaken
 
 <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1393570/header.jpg?t=1648885106s"></img>
@@ -60,19 +60,19 @@ Currently, I have no ideas about gameplay of it. So I will start with making bas
 
 ### FAQ
 
-#### Why did I start developing this game?
+#### 1. Why did I start developing this game?
 
 After the first indie game, all of us chose to stop, with no intention of continuing to make indie games anymore. But recently, after a year working for a game company, I felt that life was tiring, meaningless and purposeless as I constantly made games driven by market trends. Everything had to be done quickly, with low quality, to keep up with current trends like NFTs, Metaverse, AI and more. That's why I came back to being an indie game dev again. 
 
 And I started developing this game because I've been a big fan of MMORPGs since I was a child. But I don't think I can create an MMORPG alone, so I removed the word "Massively" from MMO, making it Multiplayer Online RPG.
 
-#### When will this game be released?
+#### 2. When will this game be released?
 
 I don't even know if I can finish and release this game, and after release, whether it will help me earn enough money to live? These are all unanswered questions. Maybe I'll have to go back to work and earn money like before.
 
 At the moment, I take on freelance jobs to make a living, and I only work on this game in my spare time, so its progress will be very slow. There are a lot of unknown external factors that can cause delays. Therefore, it will be a very, very long journey. 
 
-#### How to support me?
+#### 3. How to support me?
 
 If you want to help me make my dream comes true. There are many ways to support me. For example, you can join my community, provide me with some ideas and feedback for my game, buy me a coffee or join my Patreon. I will be very grateful for your support because it is a huge motivation for me to continue on my indie game dev journey.
 
