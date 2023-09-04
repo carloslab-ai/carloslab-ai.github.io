@@ -25,6 +25,9 @@ Of if you want to contact me or join my community to discuss game programming te
 	<a href = "mailto: carlos.truong.dev@gmail.com">carlos.truong.dev@gmail.com</a>
 </p>
 
+![[Attachments/buy_me_a_coffee.png|Attachments/buy_me_a_coffee.png]]
+![[Attachments/patreon.png|Attachments/patreon.png]]
+
 # My indie games
 
 ## 1. Superbugs Awaken
@@ -50,6 +53,6 @@ It's a Communication-Based, Co-Op game for 2 Players. You and your friend have t
 	- The Hunter is inside Mimi's body, so he knows what the Superbugs look like and he has to describe the Superbugs's appearance and behaviour to the Scientist.
 	- The Scientist is outside Mimi's body, he invented an advanced microscope that can show the location of these Superbugs in Mimi's body but it can't clearly show their appearance and behaviour. So he needs to guide his son to the localtion of these Superbugs, make the right vaccines based on his son's description and send them to him to help him eliminate all the Superbugs before Mimi dies.
 
-## 2. MMORPG
+## 2. Unnamed MMORPG
 
 
