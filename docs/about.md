@@ -20,7 +20,7 @@ Of if you want to contact me or join my community to discuss game programming te
 
 <p align="center">
 	<a href="https://twitter.com/carlos_gamedev"><img width = '42' height='42' src="../Attachments/twitter.png"></img></a>
-	<a href="https://discord.gg/ExdpqnNhXb"><img width = '42' height='42' src="../Attachments/discord.png"></img></a>
+	<a href="https://discord.gg/keVE9nz68P"><img width = '42' height='42' src="../Attachments/discord.png"></img></a>
 	<a href="https://github.com/carlos-truong"><img width = '42' height='42' src="../Attachments/github.png"></img></a><br>
 	<a href = "mailto: carlos.truong.dev@gmail.com">carlos.truong.dev@gmail.com</a>
 </p>
