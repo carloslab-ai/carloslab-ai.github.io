@@ -5,7 +5,6 @@ hidden: true
 template: blog.html
 title: Home
 ---
-
 <p align="center">
 	<a href="https://twitter.com/carlos_gamedev"><img width = '42' height='42' src="Attachments/twitter.png"></img></a>
 	<a href="https://discord.gg/ExdpqnNhXb"><img width = '42' height='42' src="Attachments/discord.png"></img></a>
