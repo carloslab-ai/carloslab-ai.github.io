@@ -28,6 +28,10 @@ Of if you want to contact me or join my community to discuss game programming te
 ![[Attachments/buy_me_a_coffee.png|Attachments/buy_me_a_coffee.png]]
 ![[Attachments/patreon.png|Attachments/patreon.png]]
 
+![[Attachments/buy_me_a_coffee.png|Attachments/buy_me_a_coffee.png]]
+![[Attachments/twitter.png|Attachments/twitter.png]]
+![[Attachments/discord.png|Attachments/discord.png]]
+
 # My indie games
 
 ## 1. Superbugs Awaken
