@@ -9,14 +9,14 @@ Hi! My name is Carlos. I'm from Vietnam. I've been working for game companies fo
 
 I'm quite interested in techniques related to game programming, such as code design, networking, AI, etc. And I want to write articles and create tutorials to share my knowledge with all of you. That's the reason why I created this blog.
 
-If you find some of my work useful and would like to support me, you can buy me a coffee or join my Patreon.😁
+If you find some of my work useful and would like to support me, you can buy me a coffee or join my Patreon:😁
 
 <p align="center">
 	<a href="https://www.buymeacoffee.com/carlos_truong"><img width= '30%' height='30%'  src="../Attachments/buy_me_a_coffee.png"></img></a><br>
 	<a href="https://www.patreon.com/carlos_truong"><img width= '30%' height='30%' src="../Attachments/patreon.png"></img></a>
 </p>
 
-Of if you want to contact me or join my community to discuss game programming techniques or just talk about life.😀
+Of if you want to contact me or join my community to discuss game programming techniques or just talk about life:😀
 
 <p align="center">
 	<a href="https://twitter.com/carlos_truong9"><img width = '42' height='42' src="../Attachments/twitter.png"></img></a>
