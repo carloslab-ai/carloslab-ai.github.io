@@ -48,17 +48,12 @@ DONT FORGET TO EDIT THE URL
     border: 0;
 }
 
-.md-header__title {
-	margin-top: 0;
-	margin-bottom: 0;
-	padding-top: 0.4rem;
-	padding-bottom: 0;
-}
+
 
 .md-header__button.md-logo {
 	margin-top: 0;
 	margin-bottom: 0;
-	padding-top: 0.8rem;
+	padding-top: 0.5rem;
 	padding-bottom: 0;
 }
 
