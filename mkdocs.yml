@@ -4,8 +4,8 @@ site_url: https://carlos-truong.github.io/
 
 theme:
     name: 'material'
-    logo: assets/meta/logo.png
-    favicon: assets/meta/logo.png
+    logo: assets/meta/game-development-square-512.png
+    favicon: assets/meta/game-development-square-512.png
     custom_dir: overrides
     font:
         text: Ubuntu
@@ -122,7 +122,7 @@ extra_css:
     - assets/css/custom_attributes.css
     - assets/css/customization.css
 extra:
-  SEO: assets/meta/logo.png
+  SEO: assets/meta/game-development-square-512.png
   comments: true #disable comments globally
   generator: false
   generate_graph: false #generate the graph of the site
