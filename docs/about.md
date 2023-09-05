@@ -5,18 +5,18 @@ hidden: true
 ---
 
 # About
-Hi! My name is Carlos. I'm from Vietnam. I've been working for game companies for many years. However I still want to create my own games, so I've become an indie game developer now.
+Hi! My name is Carlos, a senior Unity game developer and I'm from Vietnam. I've been working for game companies for many years. However, I prefer more freedom, so currently, I am an indie game dev and a freelancer.
 
-I'm quite interested in techniques related to game programming, such as code design, networking, AI, etc. Therefore, I've created this blog to share my knowledge and discuss these techniques with you all.
+I'm quite interested in techniques related to game programming, such as Code Design, Multiplayer, AI, VR, AR, etc. And I want to write articles and create tutorials to share my knowledge with all of you. That's the reason why I created this blog.
 
-If you find some of my articles useful and would like to support me, you can buy me a coffee or join my Patreon.😁
+If you find some of my work useful and would like to support me, you can buy me a coffee or join my Patreon:😁
 
 <p align="center">
 	<a href="https://www.buymeacoffee.com/carlos_truong"><img width= '30%' height='30%'  src="../Attachments/buy_me_a_coffee.png"></img></a><br>
 	<a href="https://www.patreon.com/carlos_truong"><img width= '30%' height='30%' src="../Attachments/patreon.png"></img></a>
 </p>
 
-Of if you want to contact me or join my community to discuss game programming techniques or just talk about life.😀
+Of if you want to contact me or join my community to discuss game programming techniques or just talk about life:😀
 
 <p align="center">
 	<a href="https://twitter.com/carlos_truong9"><img width = '42' height='42' src="../Attachments/twitter.png"></img></a>
@@ -28,6 +28,8 @@ Of if you want to contact me or join my community to discuss game programming te
 # My indie games
 
 ## 1. Superbugs: Awaken
+This is the first game I made as an indie game dev.
+
 https://store.steampowered.com/app/1393570/Superbugs_Awaken
 
 <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1393570/header.jpg?t=1648885106s"></img>
@@ -47,7 +49,7 @@ It's a Communication-Based, Co-Op game for 2 Players. You and your friend have t
 	- His mission is to make the right vaccines based on the appearance and the behaviour of the Superbugs and send them to his son, the Hunter, to eliminate these troublesome Superbugs.
 	- How does he determine the appearance and the behaviour of these Superbugs? Yeah, it's through communication. The communication is your only weapon to save Mimi from the dangerous Superbugs! 
 - Why is communication the only weapon to save Mimi?
-	- The Hunter is inside Mimi's body, so he knows what the Superbugs look like and he has to describe the Superbugs's appearance and behaviour to the Scientist.
+	- The Hunter is inside Mimi's body, so he knows what the Superbugs look like, what their behaviours are. And he has to describe the Superbugs's appearance and behaviour to the Scientist.
 	- The Scientist is outside Mimi's body, he invented an advanced microscope that can show the location of these Superbugs in Mimi's body but it can't clearly show their appearance and behaviour. So he needs to guide his son to the localtion of these Superbugs, make the right vaccines based on his son's description and send them to him to help him eliminate all the Superbugs before Mimi dies.
 
 ## 2. Unnamed Multiplayer Online RPG
@@ -56,25 +58,23 @@ It's a Communication-Based, Co-Op game for 2 Players. You and your friend have t
 I've just started developing this game recently. This time, my team consists of only one person. Yup, you didn't mishear, it's just me alone developing this game. So I am both a designer, an artist, a marketer, and a developer. 🤣
 
 ### Gameplay
-Currently, I have no ideas about gameplay of it. So I will start with making basic features of an Multiplayer RPG first, such as Combat, Abilities, AI, Multiplayer, etc. It's all just the beginning.
+Currently, I have no ideas about the gameplay of this game. Will it be a VR game or a traditional game? I have no answers for these questions right now. So, I will start with making basic features of an Multiplayer RPG first, such as Combat, Abilities, AI, Multiplayer, etc. It's all just the beginning.
 
 ### FAQ
 
 #### 1. Why did I start developing this game?
 
-After the first indie game, all of us chose to stop, with no intention of continuing to make indie games anymore. But recently, after a year working for a game company, I felt that life was tiring, meaningless and purposeless as I constantly made games driven by market trends. Everything had to be done quickly, with low quality, to keep up with current trends like NFTs, Metaverse, AI and more. That's why I came back to being an indie game dev again. 
-
-And I started developing this game because I've been a big fan of MMORPGs since I was a child. But I don't think I can create an MMORPG alone, so I removed the word "Massively" from MMO, making it Multiplayer Online RPG.
+I started developing this game because I've been a big fan of MMORPGs since I was a child. But I don't think that I can create an MMORPG alone, so I removed the word "Massively" from MMO, making it Multiplayer Online RPG.
 
 #### 2. When will this game be released?
 
 I don't even know if I can finish and release this game, and after release, whether it will help me earn enough money to live? These are all unanswered questions. Maybe I'll have to go back to work and earn money like before.
 
-At the moment, I take on freelance jobs to make a living, and I only work on this game in my spare time, so its progress will be very slow. There are a lot of unknown external factors that can cause delays. Therefore, it will be a very, very long journey. 
+At the moment, I take on freelance jobs to make a living. Besides that, I also want to write articles and create tutorials to share my knowledge with all of you. So I don't have much time for this project. I only work on this game in my spare time, so its progress will be very slow. There are a lot of unknown external factors that can cause delays. Therefore, it will be a very, very long journey. 
 
 #### 3. How to support me?
 
-If you want to help me make my dream comes true. There are many ways to support me. For example, you can join my community, provide me with some ideas and feedback for my game, buy me a coffee or join my Patreon. I will be very grateful for your support because it is a huge motivation for me to continue on my indie game dev journey.
+If you want to help me make my dream come true. There are many ways to support me. For example, you can join my community, provide me with some ideas and feedback for my game, buy me a coffee or join my Patreon. I will be very grateful for your support because it is a huge motivation for me to continue on my indie game dev journey.
 
 
 
