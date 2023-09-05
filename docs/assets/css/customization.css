@@ -52,3 +52,9 @@ DONT FORGET TO EDIT THE URL
     margin: 0;
     padding: 0;
 }
+
+.md-header__button.md-logo img,
+.md-header__button.md-logo png {
+    height: 2.0rem;
+    width: 2.0rem;
+}
