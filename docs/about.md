@@ -12,16 +12,16 @@ I'm quite interested in techniques related to game programming, such as Code Des
 If you find some of my work useful and would like to support me, you can buy me a coffee or join my Patreon:😁
 
 <p align="center">
-	<a href="https://www.buymeacoffee.com/carlos_truong"><img width= '30%' height='30%'  src="../Attachments/buy_me_a_coffee.png"></img></a><br>
-	<a href="https://www.patreon.com/carlos_truong"><img width= '30%' height='30%' src="../Attachments/patreon.png"></img></a>
+	<a href="https://www.buymeacoffee.com/carlos_truong"><img width= '30%' height='30%'  src="/Attachments/buy_me_a_coffee.png"></img></a><br>
+	<a href="https://www.patreon.com/carlos_truong"><img width= '30%' height='30%' src="/Attachments/patreon.png"></img></a>
 </p>
 
 Of if you want to contact me or join my community to discuss game programming techniques or just talk about life:😀
 
 <p align="center">
-	<a href="https://twitter.com/carlos_truong9"><img width = '42' height='42' src="../Attachments/twitter.png"></img></a>
-	<a href="https://discord.gg/keVE9nz68P"><img width = '42' height='42' src="../Attachments/discord.png"></img></a>
-	<a href="https://github.com/carlos-truong"><img width = '42' height='42' src="../Attachments/github.png"></img></a><br>
+	<a href="https://twitter.com/carlos_truong9"><img width = '42' height='42' src="/Attachments/twitter.png"></img></a>
+	<a href="https://discord.gg/keVE9nz68P"><img width = '42' height='42' src="/Attachments/discord.png"></img></a>
+	<a href="https://github.com/carlos-truong"><img width = '42' height='42' src="/Attachments/github.png"></img></a><br>
 	<a href = "mailto: carlos.truong.dev@gmail.com">carlos.truong.dev@gmail.com</a>
 </p>
 
