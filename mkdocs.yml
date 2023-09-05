@@ -122,7 +122,7 @@ extra_css:
     - assets/css/custom_attributes.css
     - assets/css/customization.css
 extra:
-  SEO: assets/meta/game-console.png
+  SEO: assets/meta/logo.png
   comments: true #disable comments globally
   generator: false
   generate_graph: false #generate the graph of the site
