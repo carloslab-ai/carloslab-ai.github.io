@@ -6,5 +6,3 @@ template: blog.html
 category: Unity ECS
 title: Unity ECS
 ---
-
-This is index file
