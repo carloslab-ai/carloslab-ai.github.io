@@ -6,3 +6,5 @@ template: blog.html
 category: Code Design
 title: Code Design
 ---
+
+This is empty now!
