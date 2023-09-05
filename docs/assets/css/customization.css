@@ -49,15 +49,15 @@ DONT FORGET TO EDIT THE URL
 }
 
 .md-header__title {
-  margin-top: 0.5rem;
+  margin-top: 0.4rem;
 }
 
 .md-header__button.md-logo {
-  margin-top: 0.5rem;
+  margin-top: 0.6rem;
 }
 
 .md-header__button.md-logo img,
 .md-header__button.md-logo png {
-    height: 2rem;
-    width: 2rem;
+    height: 3rem;
+    width: 3rem;
 }
