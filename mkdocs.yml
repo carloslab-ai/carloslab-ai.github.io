@@ -4,8 +4,8 @@ site_url: https://carlos-truong.github.io/
 
 theme:
     name: 'material'
-    logo: assets/meta/game-console.png
-    favicon: assets/meta/game-console.png
+    logo: assets/meta/logo.png
+    favicon: assets/meta/logo.png
     custom_dir: overrides
     font:
         text: Ubuntu
