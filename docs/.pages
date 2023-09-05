@@ -1,7 +1,6 @@
 nav:
   - index.md
   - Code Design
-  - Unity ECS
-  - Unity
+  - Tutorials
   - tags.md
   - about.md
