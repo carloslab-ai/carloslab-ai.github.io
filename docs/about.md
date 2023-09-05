@@ -5,7 +5,7 @@ hidden: true
 ---
 
 # About
-Hi! My name is Carlos. I'm from Vietnam. I've been working for game companies for many years. However, I prefer more freedom, so currently, I am an indie game dev and a freelancer.
+Hi! My name is Carlos, a senior Unity game developer. I'm from Vietnam. I've been working for game companies for many years. However, I prefer more freedom, so currently, I am an indie game dev and a freelancer.
 
 I'm quite interested in techniques related to game programming, such as code design, networking, AI, etc. And I want to write articles and create tutorials to share my knowledge with all of you. That's the reason why I created this blog.
 
