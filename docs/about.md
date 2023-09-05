@@ -58,7 +58,7 @@ It's a Communication-Based, Co-Op game for 2 Players. You and your friend have t
 I've just started developing this game recently. This time, my team consists of only one person. Yup, you didn't mishear, it's just me alone developing this game. So I am both a designer, an artist, a marketer, and a developer. 🤣
 
 ### Gameplay
-Currently, I have no ideas about gameplay of it. So I will start with making basic features of an Multiplayer RPG first, such as Combat, Abilities, AI, Multiplayer, etc. It's all just the beginning.
+Currently, I have no ideas about the gameplay of this game. Will it be a VR game or a traditional game? I have no answers for these questions right now. So, I will start with making basic features of an Multiplayer RPG first, such as Combat, Abilities, AI, Multiplayer, etc. It's all just the beginning.
 
 ### FAQ
 
