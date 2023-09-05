@@ -47,7 +47,7 @@ It's a Communication-Based, Co-Op game for 2 Players. You and your friend have t
 	- His mission is to make the right vaccines based on the appearance and the behaviour of the Superbugs and send them to his son, the Hunter, to eliminate these troublesome Superbugs.
 	- How does he determine the appearance and the behaviour of these Superbugs? Yeah, it's through communication. The communication is your only weapon to save Mimi from the dangerous Superbugs! 
 - Why is communication the only weapon to save Mimi?
-	- The Hunter is inside Mimi's body, so he knows what the Superbugs look like and he has to describe the Superbugs's appearance and behaviour to the Scientist.
+	- The Hunter is inside Mimi's body, so he knows what the Superbugs look like, what their behaviours are. And he has to describe the Superbugs's appearance and behaviour to the Scientist.
 	- The Scientist is outside Mimi's body, he invented an advanced microscope that can show the location of these Superbugs in Mimi's body but it can't clearly show their appearance and behaviour. So he needs to guide his son to the localtion of these Superbugs, make the right vaccines based on his son's description and send them to him to help him eliminate all the Superbugs before Mimi dies.
 
 ## 2. Unnamed Multiplayer Online RPG
