@@ -17,7 +17,7 @@ theme:
     - media: "(prefers-color-scheme: light)"
       scheme: default
       primary: light blue
-      accent: deep purple
+      accent: indigo
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
@@ -25,7 +25,7 @@ theme:
     # Dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: light blue
+      primary: blue
       accent: deep purple
       toggle:
         icon: material/toggle-switch
