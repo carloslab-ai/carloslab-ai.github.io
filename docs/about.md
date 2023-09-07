@@ -7,7 +7,7 @@ hidden: true
 # About
 Hi! My name is Carlos, a senior Unity game developer and I'm from Vietnam. I've been working for game companies for many years. However, I prefer more freedom, so currently, I am an indie game dev and a freelancer.
 
-I'm quite interested in techniques related to game programming, such as Code Design, Multiplayer, AI, VR, AR, etc. And I want to write articles and create tutorials to share my knowledge with all of you. That's the reason why I created this blog.
+I'm quite interested in techniques related to game programming, such as Code Design, Multiplayer, AI, VR, AR, etc. And I want to write articles and tutorials to share my knowledge with all of you. That's the reason why I created this blog.
 
 If you find some of my work useful and would like to support me, you can buy me a coffee or join my Patreon:😁
 
@@ -70,7 +70,7 @@ I started developing this game because I've been a big fan of MMORPGs since I wa
 
 I don't even know if I can finish and release this game, and after release, whether it will help me earn enough money to live? These are all unanswered questions. Maybe I'll have to go back to work and earn money like before.
 
-At the moment, I take on freelance jobs to make a living. Besides that, I also want to write articles and create tutorials to share my knowledge with all of you. So I don't have much time for this project. I only work on this game in my spare time, so its progress will be very slow. There are a lot of unknown external factors that can cause delays. Therefore, it will be a very, very long journey. 
+At the moment, I take on freelance jobs to make a living. Besides that, I also want to write aritlces and tutorials about game programming. Therefore, I don't have much time for this project and I only work on it in my spare time, so its progress will be very slow. There are a lot of unknown external factors that can cause delays. Therefore, it will be a very, very long journey. 
 
 #### 3. How to support me?
 
