@@ -7,7 +7,7 @@ jobs:
   update:
     uses: ObsidianPublisher/actions/.github/workflows/update.yml@main
     with:
-      AUTO_MERGE: true
+      AUTO_MERGE: false
       EXCLUDED-FILES: 'docs/tags.md'
     secrets:
       GH_TOKEN: ${{ secrets.GH_TOKEN }}
