@@ -27,7 +27,7 @@ Of if you want to contact me or join my community to discuss game programming te
 
 # My indie games
 
-## 1. Superbugs: Awaken
+## 1. Superbugs: AwakenI
 This is the first game I made as an indie game dev.
 
 https://store.steampowered.com/app/1393570/Superbugs_Awaken
