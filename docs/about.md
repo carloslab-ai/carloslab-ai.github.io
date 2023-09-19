@@ -13,7 +13,9 @@ If you find some of my work useful and would like to support me, you can buy me 
 
 <p align="center">
 	<a href="https://www.buymeacoffee.com/carlos_truong"><img width= '30%' height='30%'  src="/Attachments/buy_me_a_coffee.png" title="Buy me a coffee"></img></a><br>
+<!--
 	<a href="https://www.patreon.com/carlos_truong"><img width= '30%' height='30%' src="/Attachments/patreon.png" title="Join my Patreon"></img></a>
+-->
 </p>
 
 Of if you want to contact me or join my community to discuss game programming techniques or just talk about life:😀
@@ -21,8 +23,10 @@ Of if you want to contact me or join my community to discuss game programming te
 <p align="center">
 	<a href="https://twitter.com/carlos_truong9"><img width = '42' height='42' src="/Attachments/twitter.png" title="Follow what I do every day"></img></a>
 	<a href="https://discord.gg/SX9j2maBzm"><img width = '42' height='42' src="/Attachments/discord.png" title="Join my community"></img></a>
-	<a href="https://github.com/carlos-truong"><img width = '42' height='42' src="/Attachments/github.png" title="Follow my open source projects"></img></a><br>
-	<a href = "mailto: carlos.truong.dev@gmail.com" title="Send Email to Me">carlos.truong.dev@gmail.com</a>
+<!--
+	<a href="https://github.com/carlos-truong"><img width = '42' height='42' src="/Attachments/github.png" title="Follow my open source projects"></img></a>
+-->
+	<br><a href = "mailto: carlos.truong.dev@gmail.com" title="Send Email to Me">carlos.truong.dev@gmail.com</a>
 </p>
 
 # My indie games
