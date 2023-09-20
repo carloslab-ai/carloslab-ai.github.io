@@ -11,7 +11,7 @@ title: Home
 <!--
 	<a href="https://github.com/carlos-truong" title="Follow my open source projects"><img width = '42' height='42' src="/Attachments/github.png"></img></a>
 -->
-	<br><a href = "mailto: carlos.truong.dev@gmail.com" title="Send Email to Me">carlos.truong.dev@gmail.com</a>
+	<br><a href = "mailto: carlos.truong.dev@gmail.com" title="Send email to me">carlos.truong.dev@gmail.com</a>
 </p>
 
 
