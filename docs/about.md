@@ -9,7 +9,7 @@ Hi! My name is Carlos, a senior Unity game developer and I'm from Vietnam. I've 
 
 I'm quite interested in techniques related to game programming, such as Code Design, Multiplayer, AI, VR, AR, etc. And I want to write articles and tutorials to share my knowledge with all of you. That's the reason why I created this blog.
 
-If you find some of my work useful and would like to support me, you can buy me a coffee or join my Patreon:😁
+If you find some of my work useful and would like to support me, you can buy me a coffee😁
 
 <p align="center">
 	<a href="https://www.buymeacoffee.com/carlos_truong"><img width= '30%' height='30%'  src="/Attachments/buy_me_a_coffee.png" title="Buy me a coffee"></img></a><br>
@@ -26,7 +26,7 @@ Of if you want to contact me or join my community to discuss game programming te
 <!--
 	<a href="https://github.com/carlos-truong"><img width = '42' height='42' src="/Attachments/github.png" title="Follow my open source projects"></img></a>
 -->
-	<br><a href = "mailto: carlos.truong.dev@gmail.com" title="Send Email to Me">carlos.truong.dev@gmail.com</a>
+	<br><a href = "mailto: carlos.truong.dev@gmail.com" title="Send email to me">carlos.truong.dev@gmail.com</a>
 </p>
 
 # My indie games
