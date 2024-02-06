@@ -26,7 +26,7 @@ It is very intuitive and designer-friendly Utility AI Framework which allows you
 [Documentation](https://carloslab-ai.github.io/Utility%20Brain/)
 [Asset Store](https://carloslab-ai.github.io/Utility%20Brain/)
 
-![](Attachments/utility-brain.png)
+![](Attachments/score-preview.gif)
 
 ## 2. Utility Map
 It will be coming soon.
