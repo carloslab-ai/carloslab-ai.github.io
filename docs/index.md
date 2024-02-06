@@ -5,7 +5,8 @@ hidden: true
 title: Home
 ---
 
-![[Attachments/carloslab-icon-dark.png | center | 130]]
+![Icon Light | center |130](Attachments/carloslab-icon-light.png#only-light)
+![Icon Dark | center |130](Attachments/carloslab-icon-dark.png#only-dark)
 <p align="center">
 	<font size=16><b>Carlos's Lab</b></font><br>
 	<a href="https://discord.gg/vRFEK5uE3f"><img width = '50' height='50' src="/Attachments/discord.png" title="Join my community"></img></a>
