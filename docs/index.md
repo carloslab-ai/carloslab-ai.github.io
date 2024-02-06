@@ -23,9 +23,9 @@ I'm quite interested in techniques related to AI in games, especially Utility AI
 ## 1. Utility Brain
 It is very intuitive and designer-friendly Utility AI Framework which allows you to create complex AIs with ease. It's inspired by Dave Mark's IAUS System and Mike Lewis's Curvature.
 
-<p>
-<a href="https://carloslab-ai.github.io/Utility%20Brain">Documentation</a> -
-<a href="https://carloslab-ai.github.io/Utility%20Brain">Asset Store</a>
+<p align="center">
+	<a href="https://carloslab-ai.github.io/Utility%20Brain">Documentation</a> -
+	<a href="https://carloslab-ai.github.io/Utility%20Brain">Asset Store</a>
 </p>
 
 ![](Attachments/score-preview.gif)
@@ -38,9 +38,11 @@ It will be coming soon.
 ## Superbugs: Awaken
 This is the first game I made as an indie dev.
 
-[Steam Page](https://store.steampowered.com/app/1393570/Superbugs_Awaken)
+<p align="center">
+	<a href="https://store.steampowered.com/app/1393570/Superbugs_Awaken">Steam Page</a>
+</p>
 
-![](https://cdn.cloudflare.steamstatic.com/steam/apps/1393570/header.jpg?t=1648885106s)
+![Superbugs Awaken | 700](Attachments/superbugs-awaken.png)
 
 ### My team
 I've created this game with my friends. Our team consists of 4 people: 1 designer, 1 artist, 1 marketer and me as an game dev. It's one of the happiest periods in my life. We have numerous unforgettable memories during the journey of developing this game, experiencing both happiness and sadness, but most of the time, it was filled with joy. I'm truly grateful for that. I'm also very happy and pround that we were able to finish and release this game.
