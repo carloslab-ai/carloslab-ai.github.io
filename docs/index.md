@@ -6,7 +6,7 @@ title: Home
 ---
 
 <p align="center">
-	<font size=16><b>Carlos's Lab</b></font><br>
+	<font size=16><b>Carlos Lab</b></font><br>
 	<a href="https://discord.gg/vRFEK5uE3f"><img width = '50' height='50' src="/Attachments/discord.png" title="Join my community"></img></a>
 	<a href="mailto: carlos.truong.dev@gmail.com" title="Send email to me"><img width = '50' height='50' src="/Attachments/gmail.png"></img></a>
 <!--
@@ -23,8 +23,10 @@ I'm quite interested in techniques related to AI in games, especially Utility AI
 ## 1. Utility Brain
 It is very intuitive and designer-friendly Utility AI Framework which allows you to create complex AIs with ease. It's inspired by Dave Mark's IAUS System and Mike Lewis's Curvature.
 
-<a href="https://carloslab-ai.github.io/Utility%20Brain/"><b>Documentation</b></a>
-<a href="https://carloslab-ai.github.io/Utility%20Brain/"><b>Asset Store</b></a>
+[Documentation](https://carloslab-ai.github.io/Utility%20Brain/)
+[Asset Store](https://carloslab-ai.github.io/Utility%20Brain/)
+
+![](Attachments/utility-brain.png)
 
 ## 2. Utility Map
 It will be coming soon.
