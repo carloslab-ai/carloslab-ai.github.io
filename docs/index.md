@@ -17,11 +17,11 @@ title: Home
 # About
 Hi! My name is Carlos, a senior Unity game developer. I've been working for game companies for many years. However, I prefer more freedom, so currently, I am an indie dev.
 
-I'm quite interested in techniques related to AI in games, especially Utility AI. That's the reason why I created these products.
+I'm quite interested in techniques related to AI in games, especially Utility AI. That's the reason why I created these plugins.
 
-# Products
+# My Plugins
 ## 1. Utility Brain
-It is very intuitive and designer-friendly Utility AI which allows you to make complex AIs with ease. It's inspired by Dave Mark's IAUS System and Mike Lewis's Curvature.
+It is very intuitive and designer-friendly Utility AI Framework which allows you to create complex AIs with ease. It's inspired by Dave Mark's IAUS System and Mike Lewis's Curvature.
 
 <a href="https://carloslab-ai.github.io/Utility%20Brain/"><b>Documentation</b></a>
 <a href="https://carloslab-ai.github.io/Utility%20Brain/"><b>Asset Store</b></a>
