@@ -47,18 +47,3 @@ DONT FORGET TO EDIT THE URL
 .admonition.wiki table {
     border: 0;
 }
-
-
-
-.md-header__button.md-logo {
-	margin-top: 0;
-	margin-bottom: 0;
-	padding-top: 0.4rem;
-	padding-bottom: 0;
-}
-
-.md-header__button.md-logo img,
-.md-header__button.md-logo png {
-	height: 2rem;
-	width: 2rem;
-}
