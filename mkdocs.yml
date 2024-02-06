@@ -122,8 +122,8 @@ extra_css:
     - assets/css/custom_attributes.css
     - assets/css/customization.css
 extra:
-  SEO: assets/meta/game-development-square-512.png
-  comments: true #disable comments globally
+  SEO: assets/meta/carloslab-icon.png
+  comments: false #disable comments globally
   generator: false
   generate_graph: false #generate the graph of the site
   attachments: 'assets/img' #path to the folder where the attachments are stored
