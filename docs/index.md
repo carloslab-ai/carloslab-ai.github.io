@@ -23,10 +23,10 @@ I'm quite interested in techniques related to AI in games, especially Utility AI
 ## 1. Utility Brain
 It is very intuitive and designer-friendly Utility AI Framework which allows you to create complex AIs with ease. It's inspired by Dave Mark's IAUS System and Mike Lewis's Curvature.
 
-<p align="center">
+<div align="center">
 	<a href="https://carloslab-ai.github.io/Utility%20Brain">Documentation</a> -
 	<a href="https://carloslab-ai.github.io/Utility%20Brain">Asset Store</a>
-</p>
+</div>
 
 ![](Attachments/score-preview.gif)
 
@@ -38,15 +38,11 @@ It will be coming soon.
 ## Superbugs: Awaken
 This is the first game I made as an indie dev.
 
-<p align="center">
+<div align="center">
 	<a href="https://store.steampowered.com/app/1393570/Superbugs_Awaken">Steam Page</a>
-</p>
+</div>
 
 ![Superbugs Awaken | 700](Attachments/superbugs-awaken.png)
 
 ### My team
 I've created this game with my friends. Our team consists of 4 people: 1 designer, 1 artist, 1 marketer and me as an game dev. It's one of the happiest periods in my life. We have numerous unforgettable memories during the journey of developing this game, experiencing both happiness and sadness, but most of the time, it was filled with joy. I'm truly grateful for that. I'm also very happy and pround that we were able to finish and release this game.
-
-### Gameplay
-It's a Communication-Based, Co-Op game for 2 Players. You and your friend have to choose one of two roles, either as the Scientist or the Hunter. And Mimi, is your precious cat, the 3rd member of your family. Unfortunately, Mimi is seriously ill due to being infected by extremly dangerous Superbugs. Therefore, you both have to collaborate to save Mimi from the damage caused by these deadly Superbugs! 
-
