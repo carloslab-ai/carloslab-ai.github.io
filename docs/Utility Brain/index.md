@@ -14,5 +14,5 @@ title: Utility Brain
 ---
 <p align="center">
 If you like this plugin, please support us by leaving a review on the asset store. Thank you very much!😁<br>
-	<a href="https://www.buymeacoffee.com/carlos_truong"><img width= '30%' height='30%'  src="/Attachments/unity-asset-store.png" title="Buy me a coffee"></img></a>
+	<a href="https://www.buymeacoffee.com/carlos_truong"><img width= '30%' height='30%'  src="/Attachments/unity-asset-store.png" title="Unity Asset Store"></img></a>
 </p>
