@@ -16,6 +16,6 @@ It will be coming soon. In the mean time, please check the demos first. If you d
 
 ---
 <p align="center">
-If you like this plugin, please support me by leaving a 5-star review on <a href="https://www.buymeacoffee.com/carlos_truong">the Unity Asset Store.</a> Thank you very much!😁<br>
+If you like this plugin, please support me by leaving a 5-star review on <a href="https://www.buymeacoffee.com/carlos_truong">the Unity Asset Store</a>. Thank you!😁<br>
 	<a href="https://www.buymeacoffee.com/carlos_truong"><img width= '30%' height='30%'  src="/Attachments/unity-asset-store.png" title="Unity Asset Store"></img></a>
 </p>
