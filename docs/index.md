@@ -6,7 +6,7 @@ title: Home
 ---
 
 <p align="center">
-	<font size=20><b>Carlos's Lab</b></font></br>
+	<font size=16><b>Carlos's Lab</b></font><br>
 <!--
 	<a href="https://twitter.com/carlos_truong9"><img width = '42' height='42' src="/Attachments/twitter.png" title="Follow what I do every day"></img></a>
 -->
