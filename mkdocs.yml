@@ -1,11 +1,11 @@
-site_name: Carlos's Blog
-site_description: This is my blog
-site_url: https://carlos-truong.github.io/
+site_name: Carlos Lab
+site_description: This is the official site of Carlos Lab
+site_url: https://carloslab-ai.github.io/
 
 theme:
     name: 'material'
-    logo: assets/meta/game-development-square-512.png
-    favicon: assets/meta/game-development-square-512.png
+    logo: assets/meta/carloslab-icon.png
+    favicon: assets/meta/carloslab-icon.png
     custom_dir: overrides
     font:
         text: Ubuntu
