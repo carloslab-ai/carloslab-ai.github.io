@@ -6,6 +6,9 @@ category: Utility Brain
 title: Utility Brain
 ---
 
+# Documentation
+It will be coming soon. In the mean time, please check the demos first. If you don't understand anything, you can ask me directly on Discord.
+
 # Video Resources
 
 1. [Architecture Tricks: Managing Behaviors in Time, Space, and Depth](https://www.gdcvault.com/play/1018040/Architecture-Tricks-Managing-Behaviors-in) (From 33:30)
