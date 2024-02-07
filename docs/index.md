@@ -20,18 +20,15 @@ Hi everyone! I'm Carlos, a senior Unity game developer. I've been working for ga
 I'm quite interested in techniques related to AI in games, especially Utility AI. That's the reason why I created these plugins.
 
 # My Plugins
-## 1. Utility Brain
-It is very intuitive and designer-friendly Utility AI Framework which allows you to create complex AIs with ease. It's inspired by Dave Mark's IAUS System and Mike Lewis's Curvature.
+## Utility Brain
+It is very intuitive and designer-friendly Utility AI Framework which allows you to create complex AIs with ease.
 
 <p align="center">
 	<a href="https://store.steampowered.com/app/1393570/Superbugs_Awaken">Documentation</a> - 
 	<a href="https://store.steampowered.com/app/1393570/Superbugs_Awaken">Asset Store</a>
 </p>
 
-![](Attachments/score-preview.gif)
-
-## 2. Utility Map
-It will be coming soon.
+![Score Preview](Attachments/score-preview.gif)
 
 
 <!--
