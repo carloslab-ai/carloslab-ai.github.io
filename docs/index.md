@@ -24,7 +24,8 @@ I'm quite interested in techniques related to AI in games, especially Utility AI
 It is very intuitive and designer-friendly Utility AI Framework which allows you to create complex AIs with ease. It's inspired by Dave Mark's IAUS System and Mike Lewis's Curvature.
 
 <p align="center">
-	<a href="https://store.steampowered.com/app/1393570/Superbugs_Awaken">Steam Page</a>
+	<a href="https://store.steampowered.com/app/1393570/Superbugs_Awaken">Documentation</a> - 
+	<a href="https://store.steampowered.com/app/1393570/Superbugs_Awaken">Asset Store</a>
 </p>
 
 ![](Attachments/score-preview.gif)
