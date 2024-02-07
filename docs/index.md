@@ -24,8 +24,8 @@ I'm quite interested in techniques related to AI in games, especially Utility AI
 It is very intuitive and designer-friendly Utility AI Framework which allows you to create complex AIs with ease.
 
 <p align="center">
-	<a href="https://store.steampowered.com/app/1393570/Superbugs_Awaken">Documentation</a> - 
-	<a href="https://store.steampowered.com/app/1393570/Superbugs_Awaken">Asset Store</a>
+	<a href="https://carloslab-ai.github.io/Utility%20Brain/">Documentation</a> - 
+	<a href="https://carloslab-ai.github.io/Utility%20Brain/">Asset Store</a>
 </p>
 
 ![Score Preview](Attachments/score-preview.gif)
