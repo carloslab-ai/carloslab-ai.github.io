@@ -24,7 +24,7 @@ I'm quite interested in techniques related to AI in games, especially Utility AI
 It is very intuitive and designer-friendly Utility AI Framework which allows you to create complex AIs with ease. It's inspired by Dave Mark's IAUS System and Mike Lewis's Curvature.
 
 <p align="center">
-	<a href="https://carloslab-ai.github.io/Utility%20Brain">Documentation</a> -
+	<a href="https://carloslab-ai.github.io/Utility%20Brain">Documentation</a>
 	<a href="https://carloslab-ai.github.io/Utility%20Brain">Asset Store</a>
 </p>
 
@@ -32,6 +32,9 @@ It is very intuitive and designer-friendly Utility AI Framework which allows you
 
 ## 2. Utility Map
 It will be coming soon.
+
+
+<!--
 
 # My Indie Games
 
@@ -49,4 +52,5 @@ I've created this game with my friends. Our team consists of 4 people: 1 designe
 
 ### Gameplay
 It's a Communication-Based, Co-Op game for 2 Players. You and your friend have to choose one of two roles, either as the Scientist or the Hunter. And Mimi, is your precious cat, the 3rd member of your family. Unfortunately, Mimi is seriously ill due to being infected by extremly dangerous Superbugs. Therefore, you both have to collaborate to save Mimi from the damage caused by these deadly Superbugs! 
+-->
 
