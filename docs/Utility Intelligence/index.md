@@ -6,7 +6,7 @@ category: Utility Intelligence
 title: Utility Intelligence
 ---
 
-<img class="center" src="/Attachments/Card_420-280.png"/>
+![Score Preview](Attachments/Card_420-280.png)
 # Documentation
 It will be coming soon. Currently, I'm writing the documentation for this plugin. In the meantime, please check the demos and watch the videos below first. If you don't understand anything, you can ask me directly on Discord.
 

@@ -24,9 +24,10 @@ It is a very intuitive and designer-friendly Utility AI Framework which allows y
 <p align="center">
 	<a href="https://carloslab-ai.github.io/Utility%20Intelligence">Documentation</a> - 
 	<a href="https://assetstore.unity.com/packages/slug/276632">Asset Store</a>
-	<br>
-	<img src="/Attachments/Card_420-280.png"/>
 </p>
+
+![Score Preview | center](Attachments/Cover_1950-1300.png)
+
 
 <!--
 
