@@ -8,10 +8,8 @@ title: Home
 <p align="center">
 	<font size=16><b>Carlos Lab</b></font><br>
 	<a href="https://discord.gg/vRFEK5uE3f"><img width = '50' height='50' src="/Attachments/discord.png" title="Join my community"></img></a>
-	<a href="mailto: carlos.truong.dev@gmail.com" title="Send email to me"><img width = '50' height='50' src="/Attachments/gmail.png"></img></a>
-<!--
 	<a href="https://twitter.com/carlos_truong9"><img width = '42' height='42' src="/Attachments/twitter.png" title="Follow me"></img></a>
--->
+	<a href="mailto: carlos.truong.dev@gmail.com" title="Send email to me"><img width = '50' height='50' src="/Attachments/gmail.png"></img></a>
 </p>
 
 # Introduction
@@ -20,12 +18,12 @@ Hi everyone! I'm Carlos, a senior Unity game developer. I've been working for ga
 I'm quite interested in techniques related to AI in games, especially Utility AI. That's the reason why I created these plugins.
 
 # My Plugins
-## Utility Brain
-It is very intuitive and designer-friendly Utility AI Framework which allows you to create complex AIs with ease.
+## Utility Intelligence
+It is a very intuitive and designer-friendly Utility AI Framework which allows you to create complex AIs with ease.
 
 <p align="center">
-	<a href="https://carloslab-ai.github.io/Utility%20Brain/">Documentation</a> - 
-	<a href="https://carloslab-ai.github.io/Utility%20Brain/">Asset Store</a>
+	<a href="https://carloslab-ai.github.io/Utility%20Intelligence">Documentation</a> - 
+	<a href="https://assetstore.unity.com/packages/slug/276632">Asset Store</a>
 </p>
 
 ![Score Preview](Attachments/score-preview.gif)
