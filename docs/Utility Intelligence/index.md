@@ -37,7 +37,7 @@ To update **Utility Intelligence** you just need to do the following:
 	- CarlosLab/Common
 	- CarlosLab/AI
 	- CarlosLab/UtilityIntelligence
-- Re-import UtilityIntelligence package
+- Re-import **Utility Intelligence** package
 
 ---
 <p align="center">
