@@ -26,7 +26,7 @@ It is a very intuitive and designer-friendly Utility AI Framework which allows y
 	<a href="https://assetstore.unity.com/packages/slug/276632">Asset Store</a>
 </p>
 
-![Score Preview](Attachments/score-preview.gif)
+![Score Preview | center](Attachments/Card_420-280.png)
 
 
 <!--
