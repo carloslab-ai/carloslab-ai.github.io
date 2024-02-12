@@ -9,8 +9,6 @@ title: Utility Intelligence
 # Documentation
 It will be coming soon. Currently, I'm writing the documentation for this plugin. In the meantime, please check the demos and watch the videos below first. If you don't understand anything, you can ask me directly on Discord.
 
-# Getting Started
-
 # Video Resources
 
 1. [Architecture Tricks: Managing Behaviors in Time, Space, and Depth](https://www.gdcvault.com/play/1018040/Architecture-Tricks-Managing-Behaviors-in) (From 33:30)
@@ -42,5 +40,5 @@ To update **Utility Intelligence** you just need to do the following:
 ---
 <p align="center">
 If you like this plugin, please support me by leaving a 5-star review on <a href="https://assetstore.unity.com/packages/slug/276632">the Unity Asset Store</a>. Thank you!😁
-	<br><a href="https://www.buymeacoffee.com/carlos_truong"><img width= '30%' height='30%'  src="/Attachments/unity-asset-store.png" title="Unity Asset Store"></img></a>
+	<br><a href="https://assetstore.unity.com/packages/slug/276632"><img width= '30%' height='30%'  src="/Attachments/unity-asset-store.png" title="Unity Asset Store"></img></a>
 </p>
