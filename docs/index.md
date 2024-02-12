@@ -22,8 +22,8 @@ I'm quite interested in techniques related to AI in games, especially Utility AI
 It is a very intuitive and designer-friendly Utility AI Framework which allows you to create complex AIs with ease.
 
 <p align="center">
-	<a href="https://carloslab-ai.github.io/Utility%20Intelligence"><font size="6"><b>Documentation</b></font></a> - 
-	<a href="https://assetstore.unity.com/packages/slug/276632"><font size="6"><b>Asset Store</b></font></a>
+	<a href="https://carloslab-ai.github.io/Utility%20Intelligence"><font size="4"><b>Documentation</b></font></a> - 
+	<a href="https://assetstore.unity.com/packages/slug/276632"><font size="4"><b>Asset Store</b></font></a>
 </p>
 
 ![Score Preview | center](Attachments/Cover_1950-1300.png)
