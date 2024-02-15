@@ -8,7 +8,7 @@ title: Utility Intelligence
 
 ![Score Preview | center](Attachments/Cover_1950-1300.png)
 # Documentation
-It will be coming soon. Currently, I'm writing the documentation for this plugin. In the meantime, please check the demos and watch the videos below first. If you don't understand anything, you can ask me directly on Discord.
+It will be coming soon. Currently, I'm writing the documentation for it. In the meantime, please check the demos and watch the videos below first. If you don't understand anything, you can ask me directly on Discord.
 
 # Video Resources
 
