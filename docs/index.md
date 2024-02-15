@@ -23,7 +23,7 @@ It is a very intuitive and designer-friendly Utility AI Framework which allows y
 
 <p align="center">
 	<b>
-		<a href="https://carloslab-ai.github.io/Utility%20Intelligence">Documentation</a> - 
+		<a href="https://carloslab-ai.github.io/Utility%20Intelligence/#documentation">Documentation</a> - 
 		<a href="https://assetstore.unity.com/packages/slug/276632">Asset Store</a>
 	</b>
 </p>
