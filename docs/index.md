@@ -19,7 +19,7 @@ I'm quite interested in techniques related to AI in games, especially Utility AI
 
 # My Plugins
 ## Utility Intelligence
-Utility Intelligence is the complete Utility AI solution for Unity. It implements Dave Mark's **Infinite Axis Utility System** and provides **an intuitive and user-friendly editor** that allows you to create complex AIs with ease.
+**Utility Intelligence** is the complete Utility AI solution for Unity. It implements Dave Mark's **Infinite Axis Utility System** and provides **an intuitive and user-friendly editor** that allows you to create complex AIs with ease.
 
 <p align="center">
 	<b>
@@ -29,7 +29,7 @@ Utility Intelligence is the complete Utility AI solution for Unity. It implement
 </p>
 
 
-<div style="text-align: center"><iframe width="560" height="315" src="https://www.youtube.com/embed/c2cLKrWDq4Y?si=OzKezEhVxUHn4U9A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+<div style="text-align: center"><iframe width="720" height="405" src="https://www.youtube.com/embed/c2cLKrWDq4Y?si=OzKezEhVxUHn4U9A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
 
 
 <!--
