@@ -6,7 +6,10 @@ category: Utility Intelligence
 title: Utility Intelligence
 ---
 
-![Score Preview | center](Attachments/Card_420-280.png)
+<p align="center">
+	<img src="/Attachments/Card_420-280.png"></img>
+</p>
+
 # Documentation
 It will be coming soon. Currently, I'm writing the documentation for it. In the meantime, please check the demos and watch the videos below first. If you don't understand anything, you can ask me directly on Discord.
 
