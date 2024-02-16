@@ -21,6 +21,8 @@ I'm quite interested in techniques related to AI in games, especially Utility AI
 ## Utility Intelligence
 **Utility Intelligence** is the complete Utility AI solution for Unity. It implements Dave Mark's **Infinite Axis Utility System** and provides **an intuitive and user-friendly editor** that allows you to create complex AIs with ease.
 
+**Utility Intelligence** is designed to help people develop their AIs more easily with as little effort as possible. So, it is very **easy to use & learn**.
+
 <p align="center">
 	<b>
 		<a href="https://carloslab-ai.github.io/Utility%20Intelligence/#documentation">Documentation</a> - 
