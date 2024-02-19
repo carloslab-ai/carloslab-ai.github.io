@@ -7,11 +7,51 @@ title: Utility Intelligence
 ---
 
 <p align="center">
-	<img src="Attachments/Card_420-280.png"></img>
+	<img src="/Attachments/UtilityIntelligence/Card_420-280.png"></img>
 </p>
 
 # Documentation
 It will be coming soon. Currently, I'm writing the documentation for it. In the meantime, please check the demos and watch the videos below first. If you don't understand anything, you can ask me directly on Discord.
+
+## Getting Started
+1. Firstly, you need to create a **Utility Agent Asset** by right-clicking in **Project Window** and choosing **Create/CarlosLab/Utility Agent Asset**.
+![[../Attachments/UtilityIntelligence/create-utility-agent-asset.png|../Attachments/UtilityIntelligence/create-utility-agent-asset.png]]
+1. Then double-click on the new Utility Agent Asset to open the **Editor Window**.
+2. Add new Decision Makers, Decisions, Considerations *as many as you want*.
+![[../Attachments/UtilityIntelligence/utility-intelligence-editor.png|../Attachments/UtilityIntelligence/utility-intelligence-editor.png]]
+1. Add **Utility Agent Asset Owner** component to your Agents.
+2. Drag & Drop the new Utility Agent Asset to the **Agent Asset** field of **Utility Agent Asset Owner**.
+![[../Attachments/UtilityIntelligence/utility-agent-owner.png|../Attachments/UtilityIntelligence/utility-agent-owner.png]]
+1. Add **Utility Entity Owner** to other entities that your agents want to interact with.
+![[../Attachments/UtilityIntelligence/utility-entity-owner.png|../Attachments/UtilityIntelligence/utility-entity-owner.png]]
+1. Create **Utility World Owner** GameObject by right-click in **Hierarchy Window** then choose **CarlosLab/Utility World Owner**
+![[../Attachments/UtilityIntelligence/create-utility-world-owner.png|../Attachments/UtilityIntelligence/create-utility-world-owner.png]]
+1. Register all of the entities and agents in your games with the **Utility World**
+	```cs
+	foreach (UtilityAgentOwner agent in agents)  
+	{  
+	    agent.Register(world);  
+	}  
+	  
+	foreach (UtilityEntityOwner chargeStation in chargeStations)  
+	{  
+	    chargeStation.Register(world);  
+	}
+	```
+
+## Framework Components
+
+### Hierarchy Window
+
+#### Utility World Owner
+#### Utility Entity Owner
+#### Utility Agent Owner
+
+### UtilityAgentAsset
+#### Decision Makers
+#### Decisions
+#### Considerations
+
 
 # Video Resources
 
@@ -19,7 +59,7 @@ It will be coming soon. Currently, I'm writing the documentation for it. In the 
 2. [Building a Better Centaur: AI at Massive Scale](https://www.gdcvault.com/play/1021848/Building-a-Better-Centaur-AI)
 
 
-# FAQ
+# FAQs
 
 ## How to run the demos in URP and HDRP
 The demos are created using Built-In Render Pipeline, so if you are using URP or HDRP, please convert all materials to the target pipeline first.
