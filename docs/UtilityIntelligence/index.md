@@ -19,7 +19,7 @@ title: Utility Intelligence
 1. Then double-click on the new Utility Agent Asset to open the **Editor Window**.
 2. Add new Decision Makers, Decisions, Considerations *as many as you want*.
 
-1. Add [[#Utility Agent Owner| > Utility Agent Owner]] component to all of your Agents.
+1. Add [[#Utility Agent Owner t | Utility Agent Owner]] component to all of your Agents.
 2. Drag & Drop the new Utility Agent Asset to the **Agent Asset** field of **Utility Agent Asset Owner**.
 
 1. Add [[#Utility Entity Owner| > Utility Entity Owner]] to all the entities that your agents want to interact with.
