@@ -13,7 +13,7 @@ title: Utility Intelligence
 # Documentation
 
 
-## Getting Started
+## Quick Start
 1. Firstly, you need to create a [[#Utility Agent Asset| > Utility Agent Asset]] by right-clicking in **Project Window** and choosing **Create/CarlosLab/Utility Agent Asset**.
 
 
