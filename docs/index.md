@@ -30,7 +30,7 @@ I'm quite interested in techniques related to AI in games, especially Utility AI
 	</b>
 </p>
 
-<iframe width="720" height="405" src="https://www.youtube.com/embed/1th8sIpijY8?si=sszE4DKDUCL1ghN7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="720" height="405" src="https://www.youtube.com/embed/c9rWd0I3tAU?si=F177joD9CiXrmQyo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 <!--
