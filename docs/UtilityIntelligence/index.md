@@ -16,6 +16,7 @@ It will be coming soon. Currently, I'm writing the documentation for it. In the 
 ## Getting Started
 1. Firstly, you need to create a **Utility Agent Asset** by right-clicking in **Project Window** and choosing **Create/CarlosLab/Utility Agent Asset**.
 ![[../Attachments/UtilityIntelligence/Documentation/create-utility-agent-asset.png|../Attachments/UtilityIntelligence/Documentation/create-utility-agent-asset.png]]
+![](../Attachments/UtilityIntelligence/Documentation/create-utility-agent-asset.png)
 1. Then double-click on the new Utility Agent Asset to open the **Editor Window**.
 2. Add new Decision Makers, Decisions, Considerations *as many as you want*.
 ![[../Attachments/UtilityIntelligence/Documentation/utility-intelligence-editor.png|../Attachments/UtilityIntelligence/Documentation/utility-intelligence-editor.png]]
