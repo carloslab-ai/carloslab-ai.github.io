@@ -24,7 +24,7 @@ title: Utility Intelligence
 
 1. Add [[#Utility Entity Owner | Utility Entity Owner]] to all the entities that your agents want to interact with.
 
-1. Create a [[#Utility World Owner| > Utility World Owner]] GameObject by right-clicking in **Hierarchy Window** then choose **CarlosLab/Utility World Owner**
+1. Create a [[#Utility World Owner | Utility World Owner]] GameObject by right-clicking in **Hierarchy Window** then choose **CarlosLab/Utility World Owner**
 
 1. Register all of the entities and agents in your games with the **Utility World**
 	```cs
