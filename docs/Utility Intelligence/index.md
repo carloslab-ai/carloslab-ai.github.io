@@ -7,7 +7,7 @@ title: Utility Intelligence
 ---
 
 <p align="center">
-	<img src="/Attachments/Card_420-280.png"></img>
+	<img src="Attachments/Card_420-280.png"></img>
 </p>
 
 # Documentation
