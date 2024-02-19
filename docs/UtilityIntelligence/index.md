@@ -16,15 +16,20 @@ title: Utility Intelligence
 ## Getting Started
 1. Firstly, you need to create a [[#Utility Agent Asset| > Utility Agent Asset]] by right-clicking in **Project Window** and choosing **Create/CarlosLab/Utility Agent Asset**.
 
+
 1. Then double-click on the new Utility Agent Asset to open the **Editor Window**.
 2. Add new Decision Makers, Decisions, Considerations *as many as you want*.
+
 
 1. Add [[#Utility Agent Owner| > Utility Agent Owner]] component to all of your Agents.
 2. Drag & Drop the new Utility Agent Asset to the **Agent Asset** field of **Utility Agent Asset Owner**.
 
+
 1. Add [[#Utility Entity Owner| > Utility Entity Owner]] to all the entities that your agents want to interact with.
 
+
 1. Create a [[#Utility World Owner| > Utility World Owner]] GameObject by right-clicking in **Hierarchy Window** then choose **CarlosLab/Utility World Owner**
+
 
 1. Register all of the entities and agents in your games with the **Utility World**
 	```cs
