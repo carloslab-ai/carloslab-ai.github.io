@@ -11,36 +11,51 @@ title: Utility Intelligence
 </p>
 
 # Documentation
-It will be coming soon. Currently, I'm writing the documentation for it. In the meantime, please check the demos and watch the videos below first. If you don't understand anything, you can ask me directly on Discord.
 
 ## Getting Started
-1. Firstly, you need to create a **Utility Agent Asset** by right-clicking in **Project Window** and choosing **Create/CarlosLab/Utility Agent Asset**.
-![[../Attachments/UtilityIntelligence/Documentation/create-utility-agent-asset.png|../Attachments/UtilityIntelligence/Documentation/create-utility-agent-asset.png]]
-![](../Attachments/UtilityIntelligence/Documentation/create-utility-agent-asset.png)
+1. Firstly, you need to create a [[#Utility Agent Asset| > Utility Agent Asset]] by right-clicking in **Project Window** and choosing **Create/CarlosLab/Utility Agent Asset**.
+
 1. Then double-click on the new Utility Agent Asset to open the **Editor Window**.
 2. Add new Decision Makers, Decisions, Considerations *as many as you want*.
-![[../Attachments/UtilityIntelligence/Documentation/utility-intelligence-editor.png|../Attachments/UtilityIntelligence/Documentation/utility-intelligence-editor.png]]
-1. Add **Utility Agent Asset Owner** component to your Agents.
+
+1. Add [[#Utility Agent Owner| > Utility Agent Owner]] component to all of your Agents.
 2. Drag & Drop the new Utility Agent Asset to the **Agent Asset** field of **Utility Agent Asset Owner**.
-![[../Attachments/UtilityIntelligence/Documentation/utility-agent-owner.png|../Attachments/UtilityIntelligence/Documentation/utility-agent-owner.png]]
-1. Add **Utility Entity Owner** to other entities that your agents want to interact with.
-![[../Attachments/UtilityIntelligence/Documentation/utility-entity-owner.png|../Attachments/UtilityIntelligence/Documentation/utility-entity-owner.png]]
-1. Create **Utility World Owner** GameObject by right-click in **Hierarchy Window** then choose **CarlosLab/Utility World Owner**
-![[../Attachments/UtilityIntelligence/Documentation/create-utility-world-owner.png|../Attachments/UtilityIntelligence/Documentation/create-utility-world-owner.png]]
+
+1. Add [[#Utility Entity Owner| > Utility Entity Owner]] to all the entities that your agents want to interact with.
+
+1. Create a [[#Utility World Owner| > Utility World Owner]] GameObject by right-clicking in **Hierarchy Window** then choose **CarlosLab/Utility World Owner**
+
 1. Register all of the entities and agents in your games with the **Utility World**
 	```cs
-	foreach (UtilityAgentOwner agent in agents)  
-	{  
-	    agent.Register(world);  
-	}  
-	  
-	foreach (UtilityEntityOwner chargeStation in chargeStations)  
-	{  
-	    chargeStation.Register(world);  
+	public class AgentsPlacedInSceneDemo : MonoBehaviour
+	{
+	    [SerializeField]
+	    private UtilityWorldOwner world;
+	
+	    [SerializeField]
+	    private List<UtilityAgentOwner> agents;
+	
+	    [SerializeField]
+	    private List<UtilityEntityOwner> chargeStations;
+	
+	    private void Start()
+	    {
+	        foreach (UtilityAgentOwner agent in agents)
+	        {
+	            agent.Register(world);
+	        }
+	
+	        foreach (UtilityEntityOwner chargeStation in chargeStations)
+	        {
+	            chargeStation.Register(world);
+	        }
+	    }
 	}
 	```
 
 ## Framework Components
+
+It will be coming soon.
 
 ### Hierarchy Window
 
@@ -48,7 +63,7 @@ It will be coming soon. Currently, I'm writing the documentation for it. In the 
 #### Utility Entity Owner
 #### Utility Agent Owner
 
-### UtilityAgentAsset
+### Utility Agent Asset
 #### Decision Makers
 #### Decisions
 #### Considerations
