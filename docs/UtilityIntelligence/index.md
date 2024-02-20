@@ -16,6 +16,10 @@ title: Utility Intelligence
 
 ## Utility AI vs Behavior Tree vs State Machine
 
+| Aspect              | Utility AI                                              | Behavior Tree                                       | State Machine                                       |
+| ------------------- | ------------------------------------------------------- | --------------------------------------------------- | --------------------------------------------------- |
+| Make Decision Logic | The decision with highest utility score will be chosen. | Which decision is chosen based on a yes/no question | Which decision is chosen based on a yes/no question |
+
 ## Quick Start
 1. Firstly, you need to create a [[#Utility Agent Asset| > Utility Agent Asset]] by right-clicking in **Project Window** and choosing **Create/CarlosLab/Utility Agent Asset**.
 ![[../Attachments/UtilityIntelligence/Attachments/create-utility-agent-asset.png|../Attachments/UtilityIntelligence/Attachments/create-utility-agent-asset.png]]
