@@ -12,6 +12,9 @@ title: Utility Intelligence
 
 # Documentation
 
+## What is Utility AI
+
+## Utility AI vs Behavior Tree vs State Machine
 
 ## Quick Start
 1. Firstly, you need to create a [[#Utility Agent Asset| > Utility Agent Asset]] by right-clicking in **Project Window** and choosing **Create/CarlosLab/Utility Agent Asset**.
@@ -61,11 +64,11 @@ title: Utility Intelligence
 
 ## Framework Components
 
-It will be coming soon.
-
 ### Hierarchy Window
 
 #### Utility World Owner
+**Utility World Owner** is used to manage the Utility World
+
 #### Utility Entity Owner
 #### Utility Agent Owner
 
