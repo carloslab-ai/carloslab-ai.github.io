@@ -17,7 +17,8 @@ Hi everyone! I'm Carlos, a senior Unity game developer. I've been working for ga
 
 I'm quite interested in techniques related to AI in games, especially Utility AI. That's the reason why I created these plugins.
 
-[[Utility Intelligence|Utility Intelligence]]
+
+[[#Utility Intelligence|Utility Intelligence]]
 
 # My Plugins
 ## Utility Intelligence
