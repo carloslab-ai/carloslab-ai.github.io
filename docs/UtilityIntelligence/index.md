@@ -1,7 +1,6 @@
 ---
 share: true
 comments: false
-attachmentLinks: Attachments/UtilityIntelligence/Documentation
 hidden: true
 category: Utility Intelligence
 title: Utility Intelligence
