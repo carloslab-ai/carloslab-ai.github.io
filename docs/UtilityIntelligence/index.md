@@ -15,8 +15,7 @@ title: Utility Intelligence
 <!--
 ## What is Utility AI
 
-Decision making forms the core of any AI system. There are many different approaches to decision making, for example, behavior trees and finite state machines.
-And Utility AI is one of the most robust and powerful systems about decision-making in game programming. The general concept of Utility AI is that every possible action of an Agent is assigned a **score** (also called **utility**). And the action with the **highest utility** will be chosen.
+Decision-making is the core of every AI system. Various methods exist for decision-making, such as behavior trees and finite state machines, etc. Among these, Utility AI is one of the most robust and powerful systems for decision-making in game programming. The core concept of Utility AI is that every possible action of an Agent is assigned a **score** (also called **utility**). And the action with the **highest utility** will be chosen.
 
 **Here's how it works step by step:**
 1. Evaluating Actions:
@@ -30,9 +29,14 @@ And Utility AI is one of the most robust and powerful systems about decision-mak
 - The action with the **highest utility score** is chosen for the NPC to perform.
 - This ensures the NPC prioritizes actions that are most beneficial for its current situation and goals.
 
+
+## Infinite Axis Utility System
+
 ## Why you should use Utility AI instead of Behavior Tree and Finite State Machine
 
 -->
+
+![[../Attachments/discord.png|center|100]]
 
 ## Quick Start
 1. Firstly, you need to create a [[#Utility Agent Asset|Utility Agent Asset]] by right-clicking in **Project Window** and choosing **Create/CarlosLab/Utility Agent Asset**.
