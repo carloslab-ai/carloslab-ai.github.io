@@ -12,32 +12,42 @@ title: Utility Intelligence
 
 # Documentation
 
+<!--
 ## What is Utility AI
 
-## Utility AI vs Behavior Tree vs State Machine
+Decision making forms the core of any AI system. There are many different approaches to decision making, for example, behavior trees and finite state machines.
+And Utility AI is one of the most robust and powerful systems about decision-making in game programming. The general concept of Utility AI is that every possible action of an Agent is assigned a **score** (also called **utility**). And the action with the **highest utility** will be chosen.
 
-| Aspect              | Utility AI                                              | Behavior Tree                                       | State Machine                                       |
-| ------------------- | ------------------------------------------------------- | --------------------------------------------------- | --------------------------------------------------- |
-| Make Decision Logic | The decision with highest utility score will be chosen. | Which decision is chosen based on a yes/no question | Which decision is chosen based on a yes/no question |
+**Here's how it works step by step:**
+1. Evaluating Actions:
+- The game world state is analyzed, considering factors like the NPC's health, enemy positions, available resources, and goals.
+- Each possible action the NPC can take (attack, heal, move, etc.) is assessed based on its impact on the game state.
+2. Assigning Utilities:
+- Based on the analysis, each action is assigned a numerical score representing its **utility**.
+- This score reflects how "good" the action is for achieving the NPC's goals in the current context.
+- Factors like potential damage dealt, health recovered, or distance moved closer to the objective can contribute to the score.
+3. Making Decisions:
+- The action with the **highest utility score** is chosen for the NPC to perform.
+- This ensures the NPC prioritizes actions that are most beneficial for its current situation and goals.
 
+## Why you should use Utility AI instead of Behavior Tree and Finite State Machine
+
+-->
 
 ## Quick Start
 1. Firstly, you need to create a [[#Utility Agent Asset|Utility Agent Asset]] by right-clicking in **Project Window** and choosing **Create/CarlosLab/Utility Agent Asset**.
-![[../Attachments/UtilityIntelligence/Attachments/create-utility-agent-asset.png|../Attachments/UtilityIntelligence/Attachments/create-utility-agent-asset.png]]
-
 1. Then double-click on the new Utility Agent Asset to open the **Editor Window**.
 2. Add new Decision Makers, Decisions, Considerations *as many as you want*.
-![[../Attachments/UtilityIntelligence/Attachments/utility-intelligence-editor.png|../Attachments/UtilityIntelligence/Attachments/utility-intelligence-editor.png]]
+![[../Attachments/UtilityIntelligence/Documenntation/utility-intelligence-editor.png|../Attachments/UtilityIntelligence/Documenntation/utility-intelligence-editor.png]]
 
 1. Add [[#Utility Agent Owner|Utility Agent Owner]] component to all of your Agents.
 2. Drag & Drop the new Utility Agent Asset to the **Agent Asset** field of **Utility Agent Asset Owner**.
-![[../Attachments/UtilityIntelligence/Attachments/utility-agent-owner.png|../Attachments/UtilityIntelligence/Attachments/utility-agent-owner.png]]
+![[../Attachments/UtilityIntelligence/Documenntation/utility-agent-owner.png| 400]]
 
 1. Add [[#Utility Entity Owner|Utility Entity Owner]] to all the entities that your agents want to interact with.
-![[../Attachments/UtilityIntelligence/Attachments/utility-entity-owner.png|../Attachments/UtilityIntelligence/Attachments/utility-entity-owner.png]]
+![[../Attachments/UtilityIntelligence/Documenntation/utility-entity-owner.png| 400]]
 
 1. Create a [[#Utility World Owner|Utility World Owner]] GameObject by right-clicking in **Hierarchy Window** then choose **CarlosLab/Utility World Owner**
-![[../Attachments/UtilityIntelligence/Attachments/create-utility-world-owner.png|../Attachments/UtilityIntelligence/Attachments/create-utility-world-owner.png]]
 
 1. Register all of the entities and agents in your games with the **Utility World**
 	```cs
@@ -67,6 +77,8 @@ title: Utility Intelligence
 	}
 	```
 
+<!--
+
 ## Framework Components
 
 ### Hierarchy Window
@@ -82,6 +94,7 @@ title: Utility Intelligence
 #### Decisions
 #### Considerations
 
+-->
 
 # Video Resources
 
