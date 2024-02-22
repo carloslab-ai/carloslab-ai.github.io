@@ -6,9 +6,7 @@ category: Utility Intelligence
 title: Utility Intelligence
 ---
 
-<p align="center">
-	<img src="/Attachments/UtilityIntelligence/Card_420-280.png"></img>
-</p>
+![[../Attachments/UtilityIntelligence/Card_420-280.png|center]]
 
 # Documentation
 
@@ -36,6 +34,7 @@ Decision-making is the core of every AI system. Various methods exist for decisi
 
 -->
 
+
 ## Quick Start
 1. Firstly, you need to create a [[#Utility Agent Asset|Utility Agent Asset]] by right-clicking in **Project Window** and choosing **Create/CarlosLab/Utility Agent Asset**.
 1. Then double-click on the new Utility Agent Asset to open the **Editor Window**.
@@ -44,14 +43,10 @@ Decision-making is the core of every AI system. Various methods exist for decisi
 
 1. Add [[#Utility Agent Owner|Utility Agent Owner]] component to all of your Agents.
 2. Drag & Drop the new Utility Agent Asset to the **Agent Asset** field of **Utility Agent Asset Owner**.
-<p align="center">
-	<img src="../Attachments/UtilityIntelligence/Documenntation/utility-agent-owner.png" width = '400' ></img>
-</p>
+![[../Attachments/UtilityIntelligence/Documenntation/utility-agent-owner.png|center|400]]
 
 1. Add [[#Utility Entity Owner|Utility Entity Owner]] to all the entities that your agents want to interact with.
-<p align="center">
-	<img src="../Attachments/UtilityIntelligence/Documenntation/utility-entity-owner.png" width = '400' ></img>
-</p>
+![[../Attachments/UtilityIntelligence/Documenntation/utility-entity-owner.png|center|400]]
 
 1. Create a [[#Utility World Owner|Utility World Owner]] GameObject by right-clicking in **Hierarchy Window** then choose **CarlosLab/Utility World Owner**
 1. Register all of the entities and agents in your games with the **Utility World**
