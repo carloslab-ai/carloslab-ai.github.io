@@ -17,6 +17,8 @@ Decision-making is the core of every AI system. Various methods exist for decisi
 
 ![[../Attachments/UtilityIntelligence/Documenntation/utility-based-ai.png|center|600]]
 
+## Infinite Axis Utility System
+
 <!--
 **Here's how it works step by step:**
 1. Evaluating Actions:
