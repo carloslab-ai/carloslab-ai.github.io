@@ -15,7 +15,7 @@ title: Utility Intelligence
 
 Decision-making is the core of every AI system. Various methods exist for decision-making, such as behavior trees and finite state machines, etc. Among these, utility-based AI is one of the most robust and powerful systems for decision-making in game programming. The core concept of utility-based AI is that every action of an Agent is assigned a **score** (also called **utility**). And the action with the **highest utility** will be chosen.
 
-![[../Attachments/UtilityIntelligence/Documenntation/utility-based-ai.excalidraw.png|../Attachments/UtilityIntelligence/Documenntation/utility-based-ai.excalidraw.png]]
+![[../Attachments/UtilityIntelligence/Documenntation/utility-based-ai.png|../Attachments/UtilityIntelligence/Documenntation/utility-based-ai.png]]
 
 <!--
 **Here's how it works step by step:**
