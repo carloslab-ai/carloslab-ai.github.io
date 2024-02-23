@@ -18,6 +18,9 @@ Decision-making is the core of every AI system. Various methods exist for decisi
 ![[../Attachments/UtilityIntelligence/Documenntation/utility-based-ai.png|center|600]]
 
 ## Infinite Axis Utility System
+**Utility Intelligence** implements **Infinite Axis Utility System** by *Dave Mark*.
+
+For more information about **Infinite Utility System**, please watching *Dave Mark*'s videos in [[#Video Resources|Video Resources]]
 
 <!--
 **Here's how it works step by step:**
