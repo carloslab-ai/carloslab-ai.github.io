@@ -10,7 +10,7 @@ For instance, suppose our agent has a decision called `AttackEnemy`, and this de
 In addition, you can add **as many axes as you want** to a decision. That's why *Dave Mark* called it the **Infinite Axis Utility System**. 
 
 
-### The structure of a consideration
+### Consideration structure
 
 A consideration is made up of:
 - An input

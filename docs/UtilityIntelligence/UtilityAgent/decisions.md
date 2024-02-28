@@ -8,13 +8,12 @@ Every decision has at least 1 target and they will be **scored per target**.  **
 
 ![[../../Attachments/UtilityIntelligence/Documenntation/Decisions/decisions-per-target.png|../../Attachments/UtilityIntelligence/Documenntation/Decisions/decisions-per-target.png]]
 
-### The structure of a decision
+### Decision structure
 
-Each decision contains:
+In **Utility Intelligence**, each decision has:
 - A list of target filters
 - A list of actions
 - A list of considerations
-
 
 
 ### Actions
