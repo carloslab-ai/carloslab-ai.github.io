@@ -3,7 +3,7 @@ share: true
 title: Why use Utility AI
 ---
 
-With traditional AI systems like **Behavior Trees** and **Finite State Machines**, an agent makes decisions by answering **one Yes-No Question at a time** and in **a fixed order:**. 
+With traditional AI systems like **Behavior Trees** and **Finite State Machines**, an agent makes decisions by answering **one Yes-No Question at a time** and in **a fixed order**:. 
 - Should I move towards the enemy? 
 - Should I attack the enemy? 
 - Should I flee from the enemy?
@@ -60,14 +60,14 @@ This is the behavior tree of an agent in one of my previous games:
 
 As you can see, it's quite complex, isn't it? I still remember that once it becomes complex like this, it's very time-consuming to apply changes whenever designers alter the game design. I have to redesign my behavior tree again and again, and it takes a lot of my time. It's a nightmare, and that's one of the reasons why I created this plugin.
 
-Unlike **Behavior Trees** and **Finite State Machines**, the question a **Utility-Based Agent** have to answer is **What do I want to do the most right now?**. So for each decision, the agent need to ask itself: **How much do I want to take this decision at the moment?**. And depending on the answers, it assigns a score to each decision and compares all of those decisions to each other and select the best one with the highest score.
+Unlike **Behavior Trees** and **Finite State Machines**, the question a **Utility-Based Agent** has to answer is **What do I want to do the most right now?**. So for each decision, the agent needs to ask itself: **How much do I want to take this decision at the moment?**. And depending on the answers, it assigns a score to each decision, compares all of those decisions to each other and select the best one with the highest score.
 
-As a result, you no longer need to worry about the conditions and order of all decisions anymore. What matters to you is simply **what is the most important to do at the moment?**.  For example, if the player health is `30`, the energy is `50`, the distance to the enemy is `40`, what do you want to do the most?
+As a result, you no longer need to worry about the conditions and order of all decisions. What matters to you is simply: **What is the most important to do at the moment?**.  For example, if the player health is `30`, the energy is `50`, the distance to the enemy is `40`, what does the player want to do the most?
 - Move towards the enemy?
 - Flee from the enemy?
 - Attack the enemy?
 
-And with **Utility Intelligence**, you can check which decision will be chosen there is something changes (health, energy, distance to the enemy) **right in the Editor without having to play your game** like other AI solutions. I believe this feature will save a lot of your time while designing AIs for your games. And it's just one of the benefits for **Utility Intelligence** users.
+And with **Utility Intelligence**, you can check which decision will be chosen there is something changes (health, energy, distance to the enemy) **right in the Editor without having to play your game** like other AI solutions. I believe this feature will save a lot of your time while designing AIs for your games. 
 
 ![[../Attachments/UtilityIntelligence/Animations/ScorePreview.gif|../Attachments/UtilityIntelligence/Animations/ScorePreview.gif]]
 
@@ -84,10 +84,10 @@ bool ShouldAttackPlayer()
 }
 ```
 
-With this decision-making logic, the enemy will suddenly attack the player when the player enters its attack range (`10` meters). And if the player is outside of `10` meters, it won't do anything, even though the distance from it to the player is `11` meters. So if players know the attack range of each enemy, they can kill any enemy easily without losing a drop of health.
+With this decision-making logic, the enemy will suddenly attack the player when the player enters its attack range (`10` m). And if the player is outside of `10` m, it won't do anything, even though the distance from it to the player is `11` m. So if players know the attack range of each enemy, they can kill any enemy easily without losing a drop of health.
 
-In **Utility AI**, this situation is very unlikely to happen unless you intentionally do so because **Utility AI** measures **How much do I want to take this decision at the moment**. So the distance to the player is `11` meters just means the desire to attack the player is lower than when it is `10` meters. 
+In **Utility AI**, this situation is very unlikely to happen unless you intentionally do so because **Utility AI** measures **How much do I want to take this decision at the moment**. So the distance to the player is `11` m just means the desire to attack the player is lower than when it is `10` m. 
 
-For example, if the players is inside `10` meters, the score of `AttackPlayer` is `1.0`, then if the distance to player is `11` meters, the score of `AttackPlayer` will be `0.9`. Therefore, whether the distance is `11` meters or `10` meters, if the score of `AttackPlayer` is greater than `Idle`, then `AttackPlayer` is still chosen. 
+For example, if the players is inside `10` m, the score of `AttackPlayer` is `1.0`, then if the distance to player is `11` m, the score of `AttackPlayer` will be `0.9`. Therefore, whether the distance is `11` m or `10` m, if the score of `AttackPlayer` is greater than `Idle`, then `AttackPlayer` is still chosen. 
 
 This is the reason why agents made by **Utility-Based AI** are far more natural than the predictably robotic **If/Else-Based AI** such as **Behavior Trees** and **Finite State Machines**.
