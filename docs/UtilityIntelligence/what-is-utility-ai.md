@@ -7,12 +7,12 @@ Decision-making is the core of every AI system. Various methods exist for decisi
 
 ![[../Attachments/UtilityIntelligence/Documenntation/utility-based-ai.png|center|550]]
 
-Here's how a Utility-Based AI works step by step:
+Here's how the decision-making process of a Utility-Based AI works step by step
 1. Evaluating Decisions:
-- The AI character evaluates all of its decisions based on multiple factors like the enemy health, distance to target, available resources, etc.
+- The AI character evaluates all of its decisions based on multiple factors like the enemy health, distance to target, available resources, etc.
 2. Assigning Utilities:
-- Based on the evaluation, each decision is assigned a score representing its **utility**.
+- Based on the evaluation, each decision is assigned a score representing its **utility**.
 - This score reflects how "good" the decision is in the current context.
 3. Making Decisions:
-- The decision with the **highest utility score** is chosen for the AI character to perform.
+- The decision with the **highest utility score** is chosen for the AI character to perform.
 - This ensures the NPC prioritizes decisions that are most beneficial for the current situation.
