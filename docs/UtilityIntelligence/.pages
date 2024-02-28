@@ -3,6 +3,6 @@ nav:
   - getting-started.md
   - what-is-utility-ai.md
   - why-use-utility-ai.md
-  - utility-world-components.md
-  - UtilityAgentComponents
+  - utility-world.md
+  - UtilityAgent
   
