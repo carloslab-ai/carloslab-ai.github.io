@@ -8,53 +8,23 @@ title: Utility Intelligence
 
 ![[../Attachments/UtilityIntelligence/Card_420-280.png|center]]
 
-# Documentation
+
+# Overview
+**Utility Intelligence** is developed based on the **Infinite Axis Utility System** by *Dave Mark*. 
 
 
-## What is Utility AI
-
-Decision-making is the core of every AI system. Various methods exist for decision-making, such as behavior trees and finite state machines, etc. Among these, utility-based AI is one of the most robust and powerful systems for decision-making in game programming. The core concept of utility-based AI is that every action of an Agent is assigned a **score** (also called **utility**). And the action with the **highest utility** will be chosen.
-
-![[../Attachments/UtilityIntelligence/Documenntation/utility-based-ai.png|center|600]]
-
-## Infinite Axis Utility System
-**Utility Intelligence** implements **Infinite Axis Utility System** by *Dave Mark*.
-
-For more information about **Infinite Utility System**, please watching *Dave Mark*'s videos in [[#Video Resources|Video Resources]]
-
-<!--
-**Here's how it works step by step:**
-1. Evaluating Actions:
-- The game world state is analyzed, considering factors like the NPC's health, enemy positions, available resources, and goals.
-- Each possible action the NPC can take (attack, heal, move, etc.) is assessed based on its impact on the game state.
-2. Assigning Utilities:
-- Based on the analysis, each action is assigned a numerical score representing its **utility**.
-- This score reflects how "good" the action is for achieving the NPC's goals in the current context.
-- Factors like potential damage dealt, health recovered, or distance moved closer to the objective can contribute to the score.
-3. Making Decisions:
-- The action with the **highest utility score** is chosen for the NPC to perform.
-- This ensures the NPC prioritizes actions that are most beneficial for its current situation and goals.
-
-
-## Infinite Axis Utility System
-
-## Why you should use Utility AI instead of Behavior Tree and Finite State Machine
-
--->
-
-
-## Quick Start
+# Quick Start
 1. Firstly, you need to create a [[#Utility Agent Asset|Utility Agent Asset]] by right-clicking in **Project Window** and choosing **Create/CarlosLab/Utility Agent Asset**.
 1. Then double-click on the new Utility Agent Asset to open the **Editor Window**.
 2. Add new Decision Makers, Decisions, Considerations *as many as you want*.
-![[../Attachments/UtilityIntelligence/Documenntation/utility-intelligence-editor.png|../Attachments/UtilityIntelligence/Documenntation/utility-intelligence-editor.png]]
+![[../Attachments/UtilityIntelligence/Documenntation/QuickStart/utility-intelligence-editor.png|../Attachments/UtilityIntelligence/Documenntation/QuickStart/utility-intelligence-editor.png]]
 
 1. Add [[#Utility Agent Owner|Utility Agent Owner]] component to all of your Agents.
 2. Drag & Drop the new Utility Agent Asset to the **Agent Asset** field of **Utility Agent Asset Owner**.
-![[../Attachments/UtilityIntelligence/Documenntation/utility-agent-owner.png|center|400]]
+![[../Attachments/UtilityIntelligence/Documenntation/QuickStart/utility-agent-owner.png|center|400]]
 
 1. Add [[#Utility Entity Owner|Utility Entity Owner]] to all the entities that your agents want to interact with.
-![[../Attachments/UtilityIntelligence/Documenntation/utility-entity-owner.png|center|400]]
+![[../Attachments/UtilityIntelligence/Documenntation/QuickStart/utility-entity-owner.png|center|400]]
 
 1. Create a [[#Utility World Owner|Utility World Owner]] GameObject by right-clicking in **Hierarchy Window** then choose **CarlosLab/Utility World Owner**
 1. Register all of the entities and agents in your games with the **Utility World**
@@ -85,29 +55,20 @@ For more information about **Infinite Utility System**, please watching *Dave Ma
 	}
 	```
 
-<!--
 
-## Framework Components
+# Other Learning Resources
 
-### Hierarchy Window
+## Texts
+1. [[An Introduction to Utility Theory](http://www.gameaipro.com/GameAIPro/GameAIPro_Chapter09_An_Introduction_to_Utility_Theory.pdf)](https://www.gameaipro.com/GameAIPro/GameAIPro_Chapter09_An_Introduction_to_Utility_Theory.pdf), David “Rez” Graham
+2. [[Choosing Effective Utility-Based Considerations](http://www.gameaipro.com/GameAIPro3/GameAIPro3_Chapter13_Choosing_Effective_Utility-Based_Considerations.pdf)](https://www.gameaipro.com/GameAIPro3/GameAIPro3_Chapter13_Choosing_Effective_Utility-Based_Considerations.pdf), Mike Lewis
+3. [Curvature's Wiki](https://github.com/apoch/curvature/wiki), Mike Lewis
 
-#### Utility World Owner
-**Utility World Owner** is used to manage the Utility World
 
-#### Utility Entity Owner
-#### Utility Agent Owner
+## Videos
 
-### Utility Agent Asset
-#### Decision Makers
-#### Decisions
-#### Considerations
+1. [Architecture Tricks: Managing Behaviors in Time, Space, and Depth](https://www.gdcvault.com/play/1018040/Architecture-Tricks-Managing-Behaviors-in), Dave Mark (From 33:30)
+2. [Building a Better Centaur: AI at Massive Scale](https://www.gdcvault.com/play/1021848/Building-a-Better-Centaur-AI), Dave Mark and Mike Lewis
 
--->
-
-# Video Resources
-
-1. [Architecture Tricks: Managing Behaviors in Time, Space, and Depth](https://www.gdcvault.com/play/1018040/Architecture-Tricks-Managing-Behaviors-in) (From 33:30)
-2. [Building a Better Centaur: AI at Massive Scale](https://www.gdcvault.com/play/1021848/Building-a-Better-Centaur-AI)
 
 
 # FAQs
@@ -134,6 +95,12 @@ To update **Utility Intelligence** you just need to do the following:
 
 ---
 <p align="center">
-If you like this plugin, please support me by leaving a 5-star review on <a href="https://assetstore.unity.com/packages/slug/276632">the Unity Asset Store</a>. Thank you!😁
-	<br><a href="https://assetstore.unity.com/packages/slug/276632"><img width= '30%' height='30%'  src="/Attachments/unity-asset-store.png" title="Unity Asset Store"></img></a>
+If you find anything that seems incorrect, please let me know so that I can fix it! 😆
+	<br>
+	<a href="https://discord.gg/vRFEK5uE3f"><img width = '50' height='50' src="/Attachments/discord.png"></img></a>
+	<a href="mailto: carlos.truong.dev@gmail.com"><img width = '50' height='50' src="/Attachments/gmail.png"></img></a>
+</p>
+<p align="center">
+If you like this plugin, please support me by leaving a 5-star review on <a href="https://assetstore.unity.com/packages/slug/276632">the Unity Asset Store</a>. Thank you! 🥰
+	<br><a href="https://assetstore.unity.com/packages/slug/276632"><img width= '30%' height='30%'  src="/Attachments/unity-asset-store.png" title="Review this plugin"></img></a>
 </p>
