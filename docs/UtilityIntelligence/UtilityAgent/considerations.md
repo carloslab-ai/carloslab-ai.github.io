@@ -67,7 +67,7 @@ And to add inputs to the agent, you need to go to the **Input Tab**, give it a n
 #### Built-in inputs
 
 Currently, there is only one built-in input, and I will add more in the future based on user feedback:
-- **MyDistanceToTarget**: It returns the distance from the current agent to the target.
+- MyDistanceToTargetInput: It returns the distance from the current agent to the target.
 
 ### Input Normalizations
 
