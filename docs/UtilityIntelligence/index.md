@@ -1,9 +1,6 @@
 ---
 share: true
-comments: false
-hidden: true
-category: Utility Intelligence
-title: Utility Intelligence
+title: Getting Started
 ---
 
 ![[../Attachments/UtilityIntelligence/Card_420-280.png|center]]
