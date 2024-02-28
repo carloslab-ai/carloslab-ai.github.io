@@ -1,6 +1,6 @@
 ---
 share: true
-title: Utility World's Components
+title: Utility World
 ---
 
 
