@@ -7,11 +7,12 @@ title: Getting Started
 
 
 # Overview
-**Utility Intelligence** is developed based on the **Infinite Axis Utility System** by *Dave Mark*. 
+**Utility Intelligence** is a **Utility AI Framework** that is developed based on the **Infinite Axis Utility System** by *Dave Mark*. It provides **an intuitive and user-friendly editor** which allows you to **create complex AIs with ease**.
 
+**Utility Intelligence** is designed to help people develop their AIs more easily with **as little effort as possible**. So, it is very **easy to use & learn**.
 
 # Quick Start
-1. Firstly, you need to create a [[#Utility Agent Asset|Utility Agent Asset]] by right-clicking in **Project Window** and choosing **Create/CarlosLab/Utility Agent Asset**.
+1. Firstly, you need to create a **Utility Agent Asset** by right-clicking in **Project Window** and choosing **Create/CarlosLab/Utility Agent Asset**.
 1. Then double-click on the new Utility Agent Asset to open the **Editor Window**.
 2. Add new Decision Makers, Decisions, Considerations *as many as you want*.
 ![[../Attachments/UtilityIntelligence/Documenntation/QuickStart/utility-intelligence-editor.png|../Attachments/UtilityIntelligence/Documenntation/QuickStart/utility-intelligence-editor.png]]
