@@ -62,7 +62,7 @@ As you can see, it's quite complex, isn't it? I still remember that once it beco
 
 Unlike **Behavior Trees** and **Finite State Machines**, the question a **Utility-Based Agent** has to answer is **What do I want to do the most right now?**. So for each decision, the agent needs to ask itself: **How much do I want to take this decision at the moment?**. And depending on the answers, it assigns a score to each decision, compares all of those decisions to each other and select the best one with the highest score.
 
-As a result, you no longer need to worry about the conditions and order of all decisions. What matters to you is simply: **What is the most important to do at the moment?**.  For example, if the player health is `30`, the energy is `50`, the distance to the enemy is `40`, what does the player want to do the most?
+As a result, you no longer need to worry about the conditions and order of all decisions. What matters to you is simply: **What is the most important thing to do at the moment?**.  For example, if the player health is `30`, the energy is `50`, the distance to the enemy is `40`, what does the player want to do the most?
 - Move towards the enemy?
 - Flee from the enemy?
 - Attack the enemy?
