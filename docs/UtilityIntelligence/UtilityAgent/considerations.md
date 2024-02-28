@@ -119,6 +119,7 @@ In **Utility Intelligence**, response curves are used to remap the normalized in
 - Exponent
 - XShift
 - YShift
+
 You can change these parameters to adjust the shape of the response curve based on your needs. 
 
 **Utility Intelligence** also provides a list of useful presets for response curves. If you want to use our presets, you just need to select one and click to the **Apply** button.
