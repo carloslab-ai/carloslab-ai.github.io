@@ -5,6 +5,8 @@ hidden: true
 title: Home
 ---
 
+
+
 <p align="center">
 	<font size=16><b>Carlos Lab</b></font><br>
 	<a href="https://discord.gg/vRFEK5uE3f"><img width = '50' height='50' src="/Attachments/discord.png" title="Join my community"></img></a>
