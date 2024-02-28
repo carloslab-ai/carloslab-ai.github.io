@@ -1,6 +1,7 @@
 ---
 share: true
 title: Getting Started
+order: 1
 ---
 
 ![[../Attachments/UtilityIntelligence/Card_420-280.png|center]]

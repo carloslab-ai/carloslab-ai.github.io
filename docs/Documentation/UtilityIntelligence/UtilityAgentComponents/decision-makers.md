@@ -1,6 +1,7 @@
 ---
 share: true
 title: Decision Makers
+order: 1
 ---
 
 Each agent contains a list of decision makers and each decision maker contains a list of decisions. Here's how the decision-making process works step by step:
