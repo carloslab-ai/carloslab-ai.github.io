@@ -10,14 +10,16 @@ For instance, suppose our agent has a decision called `AttackEnemy`, and this de
 In addition, you can add **as many axes as you want** to a decision. That's why *Dave Mark* called it the **Infinite Axis Utility System**. 
 
 
-### Consideration structure
+### Consideration's structure
 
 A consideration is made up of:
 - An input
 - An input normalization
 - A response curve
 
-**Input** is some knowledge about the game world that used to calculate the score of a consideration. For example, my health, target health, distance to target, etc. And it is normalized to `[0, 1]` by an **input normalization**. Then the normalized input is processed through a **reponse curve**, which remaps the normalized input to a consideration score. These consideration scores are then multiplied together to get the final score of the decision. Therefore, if the score of any consideration is `0`, then the score of the decision will also be `0`.
+**Input** is some knowledge about the game world that used to calculate the score of a consideration. For example, my health, target health, distance to target, etc. And it is normalized to `[0, 1]` by an **input normalization**. 
+
+Then the normalized input is processed through a **reponse curve**, which remaps the normalized input to a consideration score. These consideration scores are then multiplied together to get the final score of the decision. Therefore, if the score of any consideration is `0`, then the score of the decision will also be `0`.
 
 ![[../../Attachments/UtilityIntelligence/Documenntation/Considerations/infinite-axis.png|center]]
 
@@ -28,7 +30,7 @@ You can add new considerations by using the **Consideration Editor**. With this 
 
 ### Inputs
 
-#### How to create an input
+#### How to create a new input
 There are two ways to create a new input:
 1. Create a class inherited from `Input<Value>` and override `OnGetRawInput` method. For example:
 	```cs
@@ -61,17 +63,17 @@ There are two ways to create a new input:
 ![[../../Attachments/UtilityIntelligence/Documenntation/Considerations/input-source.png|../../Attachments/UtilityIntelligence/Documenntation/Considerations/input-source.png]]
 
 
-And to add inputs to the agent, you need to go to the **Input Tab**, give it a name, select the input type and then press the create button:
+To add inputs to the agent, you need to go to the **Input Tab**, give it a name, select the input type and then click to the **Create** button:
 ![[../../Attachments/UtilityIntelligence/Documenntation/Considerations/add-input.png|../../Attachments/UtilityIntelligence/Documenntation/Considerations/add-input.png]]
 
 #### Built-in inputs
 
-Currently, there is only one built-in input, and I will add more in the future based on user feedback:
+Currently, there is only one built-in input, and I will add more in the future based on user needs:
 - MyDistanceToTargetInput: It returns the distance from the current agent to the target.
 
 ### Input Normalizations
 
-#### How to create an input normalization
+#### How to create a new input normalization
 
 To create a new input normalization, you need to create a new class inherited from `InputNormalization<Value>` and override `OnCalculateNormalizedInput` method. For example:
 ```cs
@@ -95,20 +97,20 @@ To select the input normalization for your consideration, you need to select the
 #### Built-in input normalizations
 
 We provides a lot of built-in input normalizations to help you normalize your inputs **without having to write a single line of code**:
-- Float
+- `Float`
 	- BasicNormalizationFloat: It clamps the input value to `[0, 1]`
 	- DivideByMaxValueFloat: It divides the input by `MaxValue`.
 	- GreaterThanOrEqualValueFloat. It returns `1` if the input value is greater than `Value`; otherwise, it returns `0`.
 	- LessThanOrEqualValueFloat: It returns `1` if the input value is less than the `Value`; otherwise, it returns `0`.
 	- InRangeFloat: It maps the input value from `[MinValue, MaxValue]` to `[0, 1]`.  Note that if the input value is above `MaxValue`, then the normalized value is `1`, and if the input value is below `MaxValue`, then the normalized value is `0`.
 	- IsInRangeFloat: It returns `1` if the input value is in the range `[MinValue, MaValue]`; otherwise, it returns `0`.
-- Int
+- `Int` (These integer input normalizations function similarly to the floats)
 	- BasicNormalizationInt
 	- GreaterThanOrEqualValueInt
 	- LessThanOrEqualValueInt
 	- InRangeInt
 	- IsInRangeInt
-- Bool
+- `Bool`
 	- BasicNormalizationBool: It returns `1` if the input value is `true`; otherwise, it returns `0`.
 
 ### Response Curves
@@ -134,6 +136,6 @@ If you find anything that seems incorrect, please let me know so that I can fix 
 	<a href="mailto: carlos.truong.dev@gmail.com"><img width = '50' height='50' src="/Attachments/gmail.png"></img></a>
 </p>
 <p align="center">
-If you like this plugin, please support me by leaving a 5-star review on <a href="https://assetstore.unity.com/packages/slug/276632">the Unity Asset Store</a>. Thank you! 🥰
+And if you like this plugin, please support me by leaving a 5-star review on <a href="https://assetstore.unity.com/packages/slug/276632">the Unity Asset Store</a>. Thank you! 🥰
 	<br><a href="https://assetstore.unity.com/packages/slug/276632"><img width= '30%' height='30%'  src="/Attachments/unity-asset-store.png" title="Review this plugin"></img></a>
 </p>
