@@ -10,7 +10,7 @@ In **Utility Intelligence**, you can control the prioritization of each decision
 - Combat Layer's Weight: 2.0
 - Urgent Layer's Weight: 3.0
 
-![[../../Attachments/UtilityIntelligence/Documenntation/Decisions/decision-weight|decision-weight|center]]
+![[../../Attachments/UtilityIntelligence/Documenntation/Decisions/decision-weight|decision-weight.png|center]]
 
 To change the decision's weight, you need to use the Editor:
 

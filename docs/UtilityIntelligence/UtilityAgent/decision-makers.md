@@ -12,7 +12,7 @@ Here's how the decision-making process of a utility agent works:
 
 To create new a new decision maker, you need to give it a name and click to the **Create** button:
 
-![[../../Attachments/UtilityIntelligence/Documenntation/DecisionMakers/create-decision-maker.png|../../Attachments/UtilityIntelligence/Documenntation/DecisionMakers/create-decision-maker.png]]
+![[../../Attachments/UtilityIntelligence/Documenntation/DecisionMakers/create-decision-maker.png|center|400]]
 
 ---
 <p align="center">
