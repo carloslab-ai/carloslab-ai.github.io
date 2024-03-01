@@ -33,7 +33,6 @@ Because decisions are scored based on their targets. And any entity in the **Uti
 
 After finding appropriate targets, all considerations of that decision will be evaluated for each target to calculate the final score of each decision-target pair. Subsequently, the best decision-target pair with the highest score will be chosen. 
 
-
 Finally, all actions attached to it will be executed either in **sequence** or in **parallel**.
 
 ### Target Filters
