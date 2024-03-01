@@ -52,10 +52,8 @@ public class ChargeStationFilter : TargetFilter
 }
 ```
 
-
 Note that you can add multiple target filters to a decision. To add target filters, you need to choose the target filter type, and then click the **Create** button:
 ![[../../Attachments/UtilityIntelligence/Documenntation/Decisions/add-target-filter.png|../../Attachments/UtilityIntelligence/Documenntation/Decisions/add-target-filter.png]]
-
 
 #### Built-in target filters
 
