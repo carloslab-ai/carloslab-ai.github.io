@@ -33,7 +33,6 @@ Because decisions are scored based on their targets. And any entity in the **Uti
 
 After finding appropriate targets, all considerations of that decision will be evaluated for each target to calculate the final score of each decision-target pair. Subsequently, the best decision-target pair with the highest score will be chosen. 
 
-
 Finally, all actions attached to it will be executed either in **sequence** or in **parallel**.
 
 ### Target Filters
@@ -53,10 +52,8 @@ public class ChargeStationFilter : TargetFilter
 }
 ```
 
-
 Note that you can add multiple target filters to a decision. To add target filters, you need to choose the target filter type, and then click the **Create** button:
 ![[../../Attachments/UtilityIntelligence/Documenntation/Decisions/add-target-filter.png|../../Attachments/UtilityIntelligence/Documenntation/Decisions/add-target-filter.png]]
-
 
 #### Built-in target filters
 
