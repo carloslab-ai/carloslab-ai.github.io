@@ -26,7 +26,7 @@ Then the normalized input is processed through a **reponse curve**, which remaps
 ### Creating a new Consideration
 
 To create a new Consideration, you need to go to the **Consideration Tab**, fill in the
-**Name** field and then click to the **Create** button:
+**Name** field and then click the **Create** button:
 
 ![[../../Attachments/UtilityIntelligence/Documenntation/Considerations/add-consideration.png|center|400]]
 
