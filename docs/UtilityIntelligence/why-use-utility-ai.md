@@ -67,10 +67,6 @@ As a result, you no longer need to worry about the conditions and order of all d
 - Flee from the enemy?
 - Attack the enemy?
 
-And with **Utility Intelligence**, you can check which decision will be chosen there is something changes (health, energy, distance to the enemy) **right in the Editor without having to play your game** like other AI solutions. I believe this feature will save a lot of your time while designing AIs for your games. 
-
-![[../Attachments/UtilityIntelligence/Animations/ScorePreview.gif|../Attachments/UtilityIntelligence/Animations/ScorePreview.gif]]
-
 One drawback of other AI systems is that the decision-making conditions are based on **a threshold**. Consider this decision-making logic for an Enemy AI:
 ```cs
 if(ShouldAttackPlayer())
