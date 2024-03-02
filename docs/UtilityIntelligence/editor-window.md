@@ -21,7 +21,7 @@ With the File Menu Toolbar, you can directly edit the Agent Model data in JSON u
 
 In **Agent Tab**, you can add new Decision Makers, Decisions, Considerations *as many as you want*:
 
-![[../Attachments/UtilityIntelligence/Documenntation/EditorWindow/agent-tab.png|../Attachments/UtilityIntelligence/Documenntation/EditorWindow/agent-tab.png]]^282538
+![[../Attachments/UtilityIntelligence/Documenntation/EditorWindow/agent-tab.png|../Attachments/UtilityIntelligence/Documenntation/EditorWindow/agent-tab.png]]
 
 ### Score Preview
 
@@ -41,16 +41,13 @@ Moreover, you can modify your AI behavior during runtime for testing without hav
 
 ![[../Attachments/UtilityIntelligence/Animations/RuntimeEditing.gif|../Attachments/UtilityIntelligence/Animations/RuntimeEditing.gif]]
 
-## Considerations Tab
+## Consideration Tab
 
-In **Consideration Tab**, 
-
-
-you can view how the input and the response curve will affect the consideration score without having to visualize it in your head.
+In **Consideration Tab**, you can add new considerations and select the input, the normalization and the response curve for your considerations. Besides that, you can check how they affect the consideration score by changing them:
 
 ![[../Attachments/UtilityIntelligence/Animations/ConsiderationEditor.gif|../Attachments/UtilityIntelligence/Animations/ConsiderationEditor.gif]]
 
-## Inputs Tab
+## Input Tab
 
 ## Blackboard Tab
 
