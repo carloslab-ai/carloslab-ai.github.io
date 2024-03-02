@@ -11,6 +11,8 @@ title: Editor Window
 - `Show Data`: Show the AgentModel data in JSON format.
 - `Clear Data`: Clear all the Agent Model data.
 
+With the File Menu Toolbar, you can directly edit the Agent Model data in JSON using your Text Editor, then Import it into the Agent Asset:
+
 ![[../Attachments/UtilityIntelligence/Animations/JSONEditing.gif|../Attachments/UtilityIntelligence/Animations/JSONEditing.gif]]
 
 # Tabs
@@ -19,13 +21,21 @@ title: Editor Window
 
 ### Score Preview
 
+In **Agent Tab**, you can preview the scores of all decisions, considerations and which decision will be chosen if there are any changes (health, energy, distance to the enemy) **right in the Editor without having to play your game** like with other AI solutions. I believe this feature will save a lot of your time while designing AIs for your games. 
+
+![[../Attachments/UtilityIntelligence/Animations/ScorePreview.gif|../Attachments/UtilityIntelligence/Animations/ScorePreview.gif]]
+
 ### Runtime Status
+
+![[../Attachments/UtilityIntelligence/Animations/RuntimeStatus.gif|../Attachments/UtilityIntelligence/Animations/RuntimeStatus.gif]]
 
 ### Runtime Editing
 
+![[../Attachments/UtilityIntelligence/Animations/RuntimeEditing.gif|../Attachments/UtilityIntelligence/Animations/RuntimeEditing.gif]]
+
 ## Considerations Tab
 
-Consideration Editor
+![[../Attachments/UtilityIntelligence/Animations/ConsiderationEditor.gif|../Attachments/UtilityIntelligence/Animations/ConsiderationEditor.gif]]
 
 ## Inputs Tab
 
