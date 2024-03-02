@@ -10,7 +10,7 @@ For instance, suppose our agent has a decision called `AttackEnemy`, and this de
 In addition, you can add **as many axes as you want** to a decision. That's why *Dave Mark* called it the **Infinite Axis Utility System**. 
 
 
-### Consideration's structure
+### The structure of a consideration
 
 A consideration is made up of:
 - An input
@@ -62,16 +62,15 @@ There are two ways to create a new input:
 - Using `InputFromSource<Value>`, you can choose the source of the input: either **Self** or **Target**:
 ![[../../Attachments/UtilityIntelligence/Documenntation/Considerations/input-source.png|../../Attachments/UtilityIntelligence/Documenntation/Considerations/input-source.png]]
 
-
 To add inputs to the agent, you need to go to the **Input Tab**, give it a name, select the input type and then click to the **Create** button:
 ![[../../Attachments/UtilityIntelligence/Documenntation/Considerations/add-input.png|../../Attachments/UtilityIntelligence/Documenntation/Considerations/add-input.png]]
 
 #### Built-in inputs
 
 Currently, there is only one built-in input, and I will add more in the future based on user needs:
-- MyDistanceToTargetInput: It returns the distance from the current agent to the target.
+- `MyDistanceToTargetInput`: It returns the distance from the current agent to the target.
 
-### Input Normalizations
+### Input normalizations
 
 #### How to create a new input normalization
 
@@ -98,22 +97,18 @@ To select the input normalization for your consideration, you need to select the
 
 We provides a lot of built-in input normalizations to help you normalize your inputs **without having to write a single line of code**:
 - `Float`
-	- BasicNormalizationFloat: It clamps the input value to `[0, 1]`
-	- DivideByMaxValueFloat: It divides the input by `MaxValue`.
-	- GreaterThanOrEqualValueFloat. It returns `1` if the input value is greater than `Value`; otherwise, it returns `0`.
-	- LessThanOrEqualValueFloat: It returns `1` if the input value is less than the `Value`; otherwise, it returns `0`.
-	- InRangeFloat: It maps the input value from `[MinValue, MaxValue]` to `[0, 1]`.  Note that if the input value is above `MaxValue`, then the normalized value is `1`, and if the input value is below `MaxValue`, then the normalized value is `0`.
-	- IsInRangeFloat: It returns `1` if the input value is in the range `[MinValue, MaValue]`; otherwise, it returns `0`.
-- `Int` (These integer input normalizations function similarly to the floats)
-	- BasicNormalizationInt
-	- GreaterThanOrEqualValueInt
-	- LessThanOrEqualValueInt
-	- InRangeInt
-	- IsInRangeInt
+	- `BasicNormalizationFloat`: It clamps the input value to `[0, 1]`
+	- `DivideByMaxValueFloat`: It divides the input by `MaxValue`.
+	- `GreaterThanOrEqualValueFloat`: It returns `1` if the input value is greater than `Value`; otherwise, it returns `0`.
+	- `LessThanOrEqualValueFloat`: It returns `1` if the input value is less than the `Value`; otherwise, it returns `0`.
+	- `InRangeFloat`: It maps the input value from `[MinValue, MaxValue]` to `[0, 1]`.  Note that if the input value is above `MaxValue`, then the normalized value is `1`, and if the input value is below `MaxValue`, then the normalized value is `0`.
+	- `IsInRangeFloat`: It returns `1` if the input value is in the range `[MinValue, MaValue]`; otherwise, it returns `0`.
+- `Int` 
+	- The integer input normalizations are similarly to the floats
 - `Bool`
-	- BasicNormalizationBool: It returns `1` if the input value is `true`; otherwise, it returns `0`.
+	- `BasicNormalizationBool`: It returns `1` if the input value is `true`; otherwise, it returns `0`.
 
-### Response Curves
+### Response curves
 
 In **Utility Intelligence**, response curves are used to remap the normalized input to the consideration score. And it has 5 parameters:
 - Curve Type
