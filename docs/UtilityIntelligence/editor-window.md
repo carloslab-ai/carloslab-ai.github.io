@@ -1,6 +1,6 @@
 ---
 share: true
-title: The Editor Window
+title: Editor Window
 ---
 
 # Toolbar
