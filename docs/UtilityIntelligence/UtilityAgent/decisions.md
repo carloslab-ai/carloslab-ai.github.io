@@ -67,7 +67,7 @@ And more built-in target filters will be added soon.
 ### Actions
 
 
-
+#### Execution Modes
 
 After the agent finds out the best decision, it will execute the action list either in **sequence** or in **parallel**, depending on your choice. Currently, there are two execution modes for the action list:
 - `ActionsRunInSequence`
@@ -79,16 +79,19 @@ After the agent finds out the best decision, it will execute the action list eit
 	- If any action returns success, the action list will finish in success.
 	- If any action returns failure, the action list will finish in failure.
 
+You can choose the execution mode you prefer by selecting it from this drop down menu:
+![[../../Attachments/UtilityIntelligence/Documenntation/Decisions/actions-sequence-parallel.png|../../Attachments/UtilityIntelligence/Documenntation/Decisions/actions-sequence-parallel.png]]
 
-> [!NOTE] Note
-> The action list will be restarted from the beginning after it is finished.
 
+#### Wait Until Finished
 In case you want to wait until the action list of the current decision is finished before the agent makes a new decision, you can check the option: **Wait Until Action List Finished**. For example, it can be used with the attack action because the agent needs to finish the attack before starting the next action, such as run away from the enemy. 
 
 ![[../../Attachments/UtilityIntelligence/Documenntation/Decisions/wait-action-list-finished.png|../../Attachments/UtilityIntelligence/Documenntation/Decisions/wait-action-list-finished.png]]
 
-You can choose the execution mode you prefer by selecting it from this drop down menu:
-![[../../Attachments/UtilityIntelligence/Documenntation/Decisions/actions-sequence-parallel.png|../../Attachments/UtilityIntelligence/Documenntation/Decisions/actions-sequence-parallel.png]]
+#### Restarted After Finished
+
+> [!NOTE] Note
+> The action list will be restarted from the beginning after it is finished.
 
 #### How to create a new action
 
