@@ -21,7 +21,7 @@ I'm quite interested in techniques related to AI in games, especially Utility AI
 
 # My Plugins
 ## Utility Intelligence
-**Utility Intelligence** is a **Utility AI Framework** for Unity which allows you to **create complex AIs with ease**.
+**Utility Intelligence** is a **Utility AI Framework** for Unity which allows you to **create complex AIs with ease**.
 
 <p align="center">
 	<b>
