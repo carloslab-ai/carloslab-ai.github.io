@@ -15,7 +15,7 @@ title: Getting Started
 1. Firstly, you need to create a **Utility Agent Asset** by right-clicking in **Project Window** and choosing **Create/CarlosLab/Utility Agent Asset**.
 1. Then double-click on the new Utility Agent Asset to open the **Editor Window**.
 2. Add new Decision Makers, Decisions, Considerations *as many as you want*.
-![[../Attachments/UtilityIntelligence/Documenntation/QuickStart/utility-intelligence-editor.png|../Attachments/UtilityIntelligence/Documenntation/QuickStart/utility-intelligence-editor.png]]
+![[../Attachments/UtilityIntelligence/Documenntation/EditorWindow/agent-tab.png|../Attachments/UtilityIntelligence/Documenntation/EditorWindow/agent-tab.png]]
 
 1. Add [[#Utility Agent Owner|Utility Agent Owner]] component to all of your Agents.
 2. Drag & Drop the new Utility Agent Asset to the **Agent Asset** field of **Utility Agent Asset Owner**.
