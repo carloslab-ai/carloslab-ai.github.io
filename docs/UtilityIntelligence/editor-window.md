@@ -1,6 +1,6 @@
 ---
 share: true
-title: Intelligence Editor Window
+title: The Editor Window
 ---
 
 # Toolbar
