@@ -49,6 +49,10 @@ In **Consideration Tab**, you can add new considerations and select the input, t
 
 ## Input Tab
 
+In **Input Tab**, you can add as many Inputs as you want to the current Agent:
+
+![[../Attachments/UtilityIntelligence/Documenntation/Considerations/add-input.png|center|400]]
+
 ## Blackboard Tab
 
 In **Blackboard Tab**, you can share information between decision tasks by creating Blackboard Variables:
