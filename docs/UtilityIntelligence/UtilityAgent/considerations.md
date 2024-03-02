@@ -23,14 +23,17 @@ Then the normalized input is processed through a **reponse curve**, which remaps
 
 ![[../../Attachments/UtilityIntelligence/Documenntation/Considerations/infinite-axis.png|center]]
 
+### Creating a new Consideration
 
-You can add new considerations by using the **Consideration Editor**. With this powerful Editor, you can select the input, the normalization and the response curve you want. Besides that, you can check how they affect the consideration score by changing them.
+To create a new Consideration, you need to go to the **Consideration Tab**, fill in the
+**Name** field and then click to the **Create** button:
 
-![[../../Attachments/UtilityIntelligence/Animations/ConsiderationEditor.gif|../../Attachments/UtilityIntelligence/Animations/ConsiderationEditor.gif]]
+![[../../Attachments/UtilityIntelligence/Documenntation/Considerations/add-consideration.png|center|400]]
 
 ### Inputs
 
-#### How to create a new input
+#### Creating a new Input
+
 There are two ways to create a new input:
 1. Create a class inherited from `Input<Value>` and override `OnGetRawInput` method. For example:
 	```cs
@@ -62,17 +65,19 @@ There are two ways to create a new input:
 - Using `InputFromSource<Value>`, you can choose the source of the input: either **Self** or **Target**:
 ![[../../Attachments/UtilityIntelligence/Documenntation/Considerations/input-source.png|../../Attachments/UtilityIntelligence/Documenntation/Considerations/input-source.png]]
 
-To add inputs to the agent, you need to go to the **Input Tab**, give it a name, select the input type and then click to the **Create** button:
-![[../../Attachments/UtilityIntelligence/Documenntation/Considerations/add-input.png|../../Attachments/UtilityIntelligence/Documenntation/Considerations/add-input.png]]
+To add inputs to the agent, you need to go to the **Input Tab**, give it a name, select the input type and then click to the **Create** button: 
 
-#### Built-in inputs
+![[../../Attachments/UtilityIntelligence/Documenntation/Considerations/add-input.png|center|400]]
+
+
+#### Built-in Inputs
 
 Currently, there is only one built-in input, and I will add more in the future based on user needs:
 - `MyDistanceToTargetInput`: It returns the distance from the current agent to the target.
 
-### Input normalizations
+### Input Normalizations
 
-#### How to create a new input normalization
+#### Creating a new Input Normalization
 
 To create a new input normalization, you need to create a new class inherited from `InputNormalization<Value>` and override `OnCalculateNormalizedInput` method. For example:
 ```cs
@@ -90,10 +95,11 @@ public class ChargeRadiusNormalization : InputNormalization<float>
     }}
 ```
 
-To select the input normalization for your consideration, you need to select the normalization type from this drop down in **Consideration Editor**:
-![[../../Attachments/UtilityIntelligence/Documenntation/Considerations/select-normalization.png|../../Attachments/UtilityIntelligence/Documenntation/Considerations/select-normalization.png]]
+To select the input normalization for your consideration, you need to select the normalization type from this drop down in **Consideration Tab**:  
 
-#### Built-in input normalizations
+![[../../Attachments/UtilityIntelligence/Documenntation/Considerations/select-normalization.png|center|500]]
+
+#### Built-in Input Normalizations
 
 We provides a lot of built-in input normalizations to help you normalize your inputs **without having to write a single line of code**:
 - `Float`
@@ -108,7 +114,7 @@ We provides a lot of built-in input normalizations to help you normalize your in
 - `Bool`
 	- `BasicNormalizationBool`: It returns `1` if the input value is `true`; otherwise, it returns `0`.
 
-### Response curves
+### Response Curves
 
 In **Utility Intelligence**, response curves are used to remap the normalized input to the consideration score. And it has 5 parameters:
 - Curve Type
@@ -121,7 +127,7 @@ You can change these parameters to adjust the shape of the response curve based 
 
 **Utility Intelligence** also provides a list of useful presets for response curves. If you want to use our presets, you just need to select one and click to the **Apply** button.
 
-![[../../Attachments/UtilityIntelligence/Documenntation/Considerations/response-curves.png|../../Attachments/UtilityIntelligence/Documenntation/Considerations/response-curves.png]]
+![[../../Attachments/UtilityIntelligence/Documenntation/Considerations/response-curves.png|center|600]]
 
 ---
 <p align="center">
