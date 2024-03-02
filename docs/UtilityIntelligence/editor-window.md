@@ -29,7 +29,9 @@ To create new a new decision maker, you need to give it a name and click to the 
 
 ![[../Attachments/UtilityIntelligence/Documenntation/EditorWindow/create-decision-maker.png|center|400]]
 
-
+<p align="center">
+	<img width = '400' src="/Attachments/UtilityIntelligence/Documenntation/EditorWindow/create-decision-maker.png"></img>
+</p>
 
 ### Score Preview
 
