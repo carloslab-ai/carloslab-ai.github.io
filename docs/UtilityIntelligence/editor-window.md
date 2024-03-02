@@ -21,7 +21,7 @@ With the File Menu Toolbar, you can directly edit the Agent Model data in JSON u
 
 In **Agent Tab**, you can add new Decision Makers, Decisions, Considerations *as many as you want*:
 
-![[../Attachments/UtilityIntelligence/Documenntation/EditorWindow/agent-tab.png|../Attachments/UtilityIntelligence/Documenntation/EditorWindow/agent-tab.png]] ^282538
+![[../Attachments/UtilityIntelligence/Documenntation/EditorWindow/agent-tab.png|../Attachments/UtilityIntelligence/Documenntation/EditorWindow/agent-tab.png]]^282538
 
 ### Score Preview
 
