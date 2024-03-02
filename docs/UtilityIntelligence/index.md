@@ -5,7 +5,7 @@ title: Getting Started
 
 ![[../Attachments/UtilityIntelligence/Card_420-280.png|center]]
 <p align="center">
-	<font size=12><b>Welcome to Utility Intelligence</b></font><br>
+	<font size=6><b>Welcome to Utility Intelligence</b></font><br>
 	<b>Thank you for choosing Utility Intelligence</b>
 </p>
 
