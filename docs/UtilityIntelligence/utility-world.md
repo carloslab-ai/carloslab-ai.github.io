@@ -7,7 +7,7 @@ title: Utility World
 
 A `Utility World` is a collection of Utility Entities. and the ID of each `Utility Entity` is only unique within its own world. 
 
-To create a `Utility World`, right-click in the **Hierarchy Window**, then select **CarlosLab/Utility World Owner**. Alternatively, you can create it manually by creating a new Game Object and adding the `Utility World Owner` component to it:
+To create a `Utility World`, right-click in the **Hierarchy Window**, then select **CarlosLab/Utility World Owner**. Alternatively, you can create it manually by creating a new Game Object and adding the `Utility World Owner` component to it:
 
 ![[../Attachments/UtilityIntelligence/Documenntation/UtilityWorld/utility-world.png|center|400]]
 
@@ -38,8 +38,6 @@ public class ChargeStation : UtilityEntityFacade
     public float ChargePerSec => chargePerSec;
 }
 ```
-
-<br>
 
 
 # Utility Agent
