@@ -3,7 +3,7 @@ share: true
 title: Utility World
 ---
 
-# Utility World
+## Utility World
 
 A `Utility World` is a collection of Utility Entities. and the ID of each `Utility Entity` is only unique within its own world. 
 
@@ -13,7 +13,7 @@ To create a `Utility World`, right-click in the **Hierarchy Window**, then selec
 
 The `Utility World Owner` will automatically create a `Utility World` when your game starts and manage it throughout its lifetime. And you can change `Make Decision Interval` inside a `Utility World` by adjusting it in the `Utility World Owner`'s Inspector, the default value for it is `0.1`.
 
-# Utility Entity
+## Utility Entity
 
 A `Utility Entity` represents an object inside a `Utility World`. And only Utility Entities can interact with each other within a `Utility World`. So you need to convert your Game Objects into Utility Entities to make them interactable by adding 2 components to it:
 1. `Utility Entity Facade`: It is used to interact with the Game Object.
@@ -40,7 +40,7 @@ public class ChargeStation : UtilityEntityFacade
 ```
 
 
-# Utility Agent
+## Utility Agent
 
 A `Utility Agent` is a special `Utility Entity` that helps your AI make the right Decision in the current situation and controls it to perform the Actions attached to the chosen Decision.
 
@@ -79,7 +79,7 @@ public class Character : UtilityAgentFacade
 ```
 
 
-# Registering Utility Entities with a Utility World
+## Registering Utility Entities with a Utility World
 
 Utility Entities can only interact with each other if they are in the same `Utility World`. To add your Utility Entities to a `Utility World`, you need to register them with the Utility World by calling the `Register` method and passing the `Utility World` to it. For example:
 ```cs
