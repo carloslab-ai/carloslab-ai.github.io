@@ -55,7 +55,7 @@ In **Input Tab**, you can add as many Inputs as you want to the current Agent:
 
 ## Blackboard Tab
 
-In **Blackboard Tab**, you can share information between decision tasks by creating Blackboard Variables:
+In **Blackboard Tab**, you can add any type of Variable you want to share information between multiple components in your Agent:
 
 ![[../Attachments/UtilityIntelligence/Animations/BlackboardVariables.gif|../Attachments/UtilityIntelligence/Animations/BlackboardVariables.gif]]
 
