@@ -3,7 +3,26 @@ share: true
 title: Decisions
 ---
 
-# Decision Weight
+## The structure of a Decision
+
+In **Utility Intelligence**, each decision has:
+- A list of target filters
+- A list of considerations
+- A list of actions
+
+Because decisions [[#Decision are scored per Target|are scored per Target]]. And any entity in the **Utility World** (all GameObjects with `UtilityEntityOwner` or `UtilityAgentOwner` attached)  could be a target. Therefore, we need a way to filter targets, ensuring that the **Decision Score Evaluator** only evaluates appropriate targets. And that is the job of `TargetFilter`.
+
+After finding appropriate targets, all considerations of that decision will be evaluated for each target to calculate the final score of each decision-target pair. 
+
+Finally, the best decision-target pair with the highest score will be chosen and the agent will execute all actions attached to the decision, either in **sequence** or in **parallel**.
+
+## Creating Decisions
+
+To create a new Decision, you need to go to the **Agent Tab**, give the new Decision a name, and then click the **Create** button:
+
+![[../../Attachments/UtilityIntelligence/Documenntation/Decisions/add-decision.png|center|500]]
+
+## Decision Weight
 
 In **Utility Intelligence**, you can control the prioritization of each decision by adjusting the decision's weight. For example, you can organize your decisions into multiple layers like the following:
 - Normal Layer's Weight: 1.0
@@ -16,34 +35,15 @@ To change the decision's weight, you need to use the Editor:
 
 ![[../../Attachments/UtilityIntelligence/Documenntation/Decisions/adjust-decision-weight.png|../../Attachments/UtilityIntelligence/Documenntation/Decisions/adjust-decision-weight.png]]
 
-# Decision is scored per Target
+## Decision are scored per Target
 
 Every decision has at least 1 target and they will be **scored per target**.  **Utility Intelligence** will compare all of the decision-target pairs with each other then choose the pair with the highest score.
 
 ![[../../Attachments/UtilityIntelligence/Documenntation/Decisions/decisions-per-target.png|../../Attachments/UtilityIntelligence/Documenntation/Decisions/decisions-per-target.png]]
 
-# The structure of a Decision
+## Target Filters
 
-In **Utility Intelligence**, each decision has:
-- A list of target filters
-- A list of considerations
-- A list of actions
-
-Because decisions are scored based on their targets. And any entity in the **Utility World** (all GameObjects with `UtilityEntityOwner` or `UtilityAgentOwner` attached)  could be a target. Therefore, we need a way to filter targets, ensuring that the **Decision Score Evaluator** only evaluates appropriate targets. And that is the job of `TargetFilter`.
-
-After finding appropriate targets, all considerations of that decision will be evaluated for each target to calculate the final score of each decision-target pair. 
-
-Finally, the best decision-target pair with the highest score will be chosen and the agent will execute all actions attached to the decision, either in **sequence** or in **parallel**.
-
-# Creating a new Decision
-
-To create a new Decision, you need to go to the **Agent Tab**, give the new Decision a name, and then click the **Create** button:
-
-![[../../Attachments/UtilityIntelligence/Documenntation/Decisions/add-decision.png|center|500]]
-
-# Target Filters
-
-## How to create a new Target Filter
+### Creating Target Filters
 
 To create a new Target Filter, you need to create a new class inherited from `TargetFilter` and override `OnFilterTarget` method:
 ```cs
@@ -61,7 +61,7 @@ public class ChargeStationFilter : TargetFilter
 Note that you can add multiple target filters to a decision. To add target filters, you need to choose the target filter type, and then click the **Create** button:
 ![[../../Attachments/UtilityIntelligence/Documenntation/Decisions/add-target-filter.png|../../Attachments/UtilityIntelligence/Documenntation/Decisions/add-target-filter.png]]
 
-## Built-in Target Filters
+### Built-in Target Filters
 
 Currently, **Utility Intelligence** provides some built-in target filters as follows:
 - `SelfFilter`: The filtered target is the current agent.
@@ -70,9 +70,9 @@ Currently, **Utility Intelligence** provides some built-in target filters as fol
 
 And more built-in target filters will be added soon.
 
-# Actions
+## Actions
 
-## Execution Modes
+### Execution Modes
 
 After the agent finds out the best decision, it will execute the action list either in **sequence** or in **parallel**, depending on your choice. Currently, there are two execution modes for the action list:
 - `ActionsRunInSequence`
@@ -88,17 +88,17 @@ You can choose the execution mode you prefer by selecting it from this drop down
 ![[../../Attachments/UtilityIntelligence/Documenntation/Decisions/actions-sequence-parallel.png|../../Attachments/UtilityIntelligence/Documenntation/Decisions/actions-sequence-parallel.png]]
 
 
-## Wait Until Finished
+### Wait Until Finished
 In case you want to wait until the action list of the current decision is finished before the agent makes a new decision, you can check the option: **Wait Until Action List Finished**. For example, it can be used with the attack action because the agent needs to finish the attack before starting the next action, such as run away from the enemy. 
 
 ![[../../Attachments/UtilityIntelligence/Documenntation/Decisions/wait-action-list-finished.png|../../Attachments/UtilityIntelligence/Documenntation/Decisions/wait-action-list-finished.png]]
 
-## Restarted After Finished
+### Restarted After Finished
 
 > [!NOTE] Note
 > The action list will be restarted from the beginning after it is finished.
 
-## Creating a new Action
+### Creating Actions
 
 To create a new action, you need to create a new class inherited from `ActionTask`:
 ```cs
@@ -123,7 +123,7 @@ public class Wait : ActionTask
 ```
 
 
-## Overridable Functions
+### Overridable Functions
 Here is the list of functions you could override to make your actions works as you want:
 
 **Lifecycle Functions:**
@@ -184,7 +184,7 @@ void OnAnimatorMove();
 void OnAnimatorIK(int layerIndex);
 ```
 
-## Coroutine functions
+### Coroutine functions
 
 We provides these functions to help you start/stop coroutines from your actions:
 
@@ -204,7 +204,7 @@ void StopAllCoroutines();
 
 
 
-## Built-in Actions
+### Built-in Actions
 
 Here is the list of built-in actions and there will be more soon:
 - Idle
