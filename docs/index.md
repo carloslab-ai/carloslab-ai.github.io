@@ -21,11 +21,11 @@ I'm quite interested in techniques related to AI in games, especially Utility AI
 
 # My Plugins
 ## Utility Intelligence
-**Utility Intelligence** is a **Utility AI Framework** for Unity which allows you to **create complex AIs with ease**.
+**Utility Intelligence** is a **user-friendly** Utility AI Framework that allows you to **create complex AIs with ease**.
 
 <p align="center">
 	<b>
-		<a href="https://carloslab-ai.github.io/UtilityIntelligence/getting-started/">Documentation</a> - 
+		<a href="https://carloslab-ai.github.io/UtilityIntelligence/">Documentation</a> - 
 		<a href="https://assetstore.unity.com/packages/slug/276632">Asset Store</a>
 	</b>
 </p>
