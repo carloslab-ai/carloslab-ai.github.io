@@ -124,7 +124,7 @@ public class Wait : ActionTask
 ### Overridable Functions
 Here is the list of functions you could override to make your actions works as you want:
 
-**Lifecycle Functions:**
+**Lifecycle Functions**:
 ```cs
 void OnAwake();
 
@@ -143,7 +143,7 @@ void OnAbort();
 void OnEnd();
 ```
 
-**Collision/Trigger 3D:**
+**Collision/Trigger 3D**:
 ```cs
 void OnCollisionEnter(Collision collision);
 
@@ -160,7 +160,7 @@ void OnTriggerExit(Collider other);
 void OnControllerColliderHit(ControllerColliderHit hit);
 ```
 
-**Collision/Trigger 2D:**
+**Collision/Trigger 2D**:
 ```cs
 void OnCollisionEnter2D(Collision2D collision);
 
@@ -199,7 +199,6 @@ void StopCoroutine(IEnumerator routine);
 
 void StopAllCoroutines();
 ```
-
 
 
 ### Built-in Actions
