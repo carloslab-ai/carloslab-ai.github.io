@@ -4,9 +4,9 @@ title: Decisions
 ---
 
 In **Utility Intelligence**, each decision has:
-- A list of **Target Filter**s: They are used to filter the Targets for this Decision.
-- A list of **Consideration**s: They are used to calculate the score of this Decision.
-- A list of **Action**s: These Actions will be executed by the Agent if this Decision is chosen.
+- A list of **Target Filters**: They are used to filter the Targets for this Decision.
+- A list of **Considerations**: They are used to calculate the score of this Decision.
+- A list of **Actions**: These Actions will be executed by the Agent if this Decision is chosen.
 
 # How do Decisions work?
 
