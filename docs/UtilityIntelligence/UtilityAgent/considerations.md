@@ -46,7 +46,7 @@ There are two ways to create a new input:
 	    }}
 	```
 
-2. Because each consideration is considered per target, so if the input factor exists in both self and target entities, then the input class should inherit from `InputFromSource<Value>`:
+2. Because each consideration is considered per target, so if the input factor exists in both **Self** and **Target** entities, then the input class should inherit from `InputFromSource<Value>`:
 	```cs
 	public class HealthInput : InputFromSource<float>  
 	{  
@@ -74,25 +74,24 @@ Currently, there is only one built-in input, and I will add more in the future b
 
 # Input Normalizations
 
-To create a new input normalization, you need to create a new class inherited from `InputNormalization<Value>` and override `OnCalculateNormalizedInput` method. For example:
-```cs
-public class ChargeRadiusNormalization : InputNormalization<float>  
-{  
-    public float ChargeRadius = 2;  
-  
-    protected override float OnCalculateNormalizedInput(float rawInput, ConsiderationContext context)  
-    {        return rawInput >= 0 && rawInput <= GetChargeRadius(context) ? 1.0f : 0.0f;  
-    }  
-    private float GetChargeRadius(ConsiderationContext context)  
-    {        if (context is { TargetFacade: ChargeStation chargeStation })  
-            return chargeStation.ChargeRadius;  
-        return ChargeRadius;  
-    }}
-```
+- To create a new input normalization, you need to create a new class inherited from `InputNormalization<Value>` and override `OnCalculateNormalizedInput` method. For example:
+	```cs
+	public class ChargeRadiusNormalization : InputNormalization<float>  
+	{  
+	    public float ChargeRadius = 2;  
+	  
+	    protected override float OnCalculateNormalizedInput(float rawInput, ConsiderationContext context)  
+	    {        return rawInput >= 0 && rawInput <= GetChargeRadius(context) ? 1.0f : 0.0f;  
+	    }  
+	    private float GetChargeRadius(ConsiderationContext context)  
+	    {        if (context is { TargetFacade: ChargeStation chargeStation })  
+	            return chargeStation.ChargeRadius;  
+	        return ChargeRadius;  
+	    }}
+	```
 
-To select the input normalization for your consideration, you need to select the normalization type from this drop down in **Consideration Tab**:  
-
-![[../../Attachments/UtilityIntelligence/Documenntation/Considerations/select-normalization.png|center|500]]
+- To select the input normalization for your consideration, you need to select the normalization type from this drop down in **Consideration Tab**:  
+	![[../../Attachments/UtilityIntelligence/Documenntation/Considerations/select-normalization.png|center|500]]
 
 ## Built-in Input Normalizations
 
