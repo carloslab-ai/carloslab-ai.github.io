@@ -98,107 +98,106 @@ In case you want to wait until the action list of the current decision is finish
 
 ## Creating Actions
 
-To create a new action, you need to create a new class inherited from `ActionTask`:
-```cs
-public class Wait : ActionTask
-{
-    private float elapsedTime;
-    public VariableReference<float> WaitTime = 1.0f;
-
-    protected override void OnStart()
-    {
-        elapsedTime = 0;
-    }
-
-    protected override Status OnUpdate(float deltaTime)
-    {
-        elapsedTime += deltaTime;
-
-        if (elapsedTime > WaitTime) return Status.Success;
-        return Status.Running;
-    }
-}
-```
+- To create a new action, you need to create a new class inherited from `ActionTask`:
+	```cs
+	public class Wait : ActionTask
+	{
+	    private float elapsedTime;
+	    public VariableReference<float> WaitTime = 1.0f;
+	
+	    protected override void OnStart()
+	    {
+	        elapsedTime = 0;
+	    }
+	
+	    protected override Status OnUpdate(float deltaTime)
+	    {
+	        elapsedTime += deltaTime;
+	
+	        if (elapsedTime > WaitTime) return Status.Success;
+	        return Status.Running;
+	    }
+	}
+	```
 
 
 ## Overridable Functions
 Here is the list of functions you could override to make your actions works as you want:
 
-**Lifecycle Functions**:
-```cs
-void OnAwake();
+- **Lifecycle Functions**:
+	```cs
+	void OnAwake();
+	
+	void OnStart();
+	
+	Status OnUpdate();
+	
+	void OnLateUpdate();
+	
+	void OnFixedUpdate();
+	
+	//OnAbort is called when the action's target changes or when the agent makes a new decision
+	void OnAbort();
+	
+	//OnEnd is called after the action returns a success or failure
+	void OnEnd();
+	```
 
-void OnStart();
+- **Collision/Trigger 3D**:
+	```cs
+	void OnCollisionEnter(Collision collision);
+	
+	void OnCollisionStay(Collision collision);
+	
+	void OnCollisionExit(Collision collision);
+	
+	void OnTriggerEnter(Collider other);
+	
+	void OnTriggerStay(Collider other);
+	
+	void OnTriggerExit(Collider other);
+	
+	void OnControllerColliderHit(ControllerColliderHit hit);
+	```
 
-Status OnUpdate();
+- **Collision/Trigger 2D**:
+	```cs
+	void OnCollisionEnter2D(Collision2D collision);
+	
+	void OnCollisionStay2D(Collision2D collision);
+	
+	void OnCollisionExit2D(Collision2D collision);
+	
+	void OnTriggerEnter2D(Collider2D other);
+	
+	void OnTriggerStay2D(Collider2D other);
+	
+	void OnTriggerExit2D(Collider2D other);
+	```
 
-void OnLateUpdate();
-
-void OnFixedUpdate();
-
-//OnAbort is called when the action's target changes or when the agent makes a new decision
-void OnAbort();
-
-//OnEnd is called after the action returns a success or failure
-void OnEnd();
-```
-
-**Collision/Trigger 3D**:
-```cs
-void OnCollisionEnter(Collision collision);
-
-void OnCollisionStay(Collision collision);
-
-void OnCollisionExit(Collision collision);
-
-void OnTriggerEnter(Collider other);
-
-void OnTriggerStay(Collider other);
-
-void OnTriggerExit(Collider other);
-
-void OnControllerColliderHit(ControllerColliderHit hit);
-```
-
-**Collision/Trigger 2D**:
-```cs
-void OnCollisionEnter2D(Collision2D collision);
-
-void OnCollisionStay2D(Collision2D collision);
-
-void OnCollisionExit2D(Collision2D collision);
-
-void OnTriggerEnter2D(Collider2D other);
-
-void OnTriggerStay2D(Collider2D other);
-
-void OnTriggerExit2D(Collider2D other);
-```
-
-**Animation:**
-```cs
-void OnAnimatorMove();
-
-void OnAnimatorIK(int layerIndex);
-```
+- **Animation**:
+	```cs
+	void OnAnimatorMove();
+	
+	void OnAnimatorIK(int layerIndex);
+	```
 
 ## Coroutine functions
 
-We provides these functions to help you start/stop coroutines from your actions:
-
-```cs
-void StartCoroutine(string methodName);
-
-Coroutine StartCoroutine(IEnumerator routine);
-
-Coroutine StartCoroutine(string methodName, object value);
-
-void StopCoroutine(string methodName);
-
-void StopCoroutine(IEnumerator routine);
-
-void StopAllCoroutines();
-```
+- We provides these functions to help you start/stop coroutines from your actions:
+	```cs
+	void StartCoroutine(string methodName);
+	
+	Coroutine StartCoroutine(IEnumerator routine);
+	
+	Coroutine StartCoroutine(string methodName, object value);
+	
+	void StopCoroutine(string methodName);
+	
+	void StopCoroutine(IEnumerator routine);
+	
+	void StopAllCoroutines();
+	```
 
 
 ## Built-in Actions
