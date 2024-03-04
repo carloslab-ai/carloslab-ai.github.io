@@ -123,7 +123,6 @@ In case you want to wait until the action list of the current decision is finish
 
 ## Overridable Functions
 Here is the list of functions you could override to make your actions works as you want:
-
 - **Lifecycle Functions**:
 	```cs
 	void OnAwake();
@@ -142,7 +141,6 @@ Here is the list of functions you could override to make your actions works as y
 	//OnEnd is called after the action returns a success or failure
 	void OnEnd();
 	```
-
 - **Collision/Trigger 3D**:
 	```cs
 	void OnCollisionEnter(Collision collision);
@@ -159,7 +157,6 @@ Here is the list of functions you could override to make your actions works as y
 	
 	void OnControllerColliderHit(ControllerColliderHit hit);
 	```
-
 - **Collision/Trigger 2D**:
 	```cs
 	void OnCollisionEnter2D(Collision2D collision);
@@ -174,7 +171,6 @@ Here is the list of functions you could override to make your actions works as y
 	
 	void OnTriggerExit2D(Collider2D other);
 	```
-
 - **Animation**:
 	```cs
 	void OnAnimatorMove();
@@ -198,7 +194,6 @@ Here is the list of functions you could override to make your actions works as y
 	
 	void StopAllCoroutines();
 	```
-
 
 ## Built-in Actions
 
