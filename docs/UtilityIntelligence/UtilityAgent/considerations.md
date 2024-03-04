@@ -9,12 +9,12 @@ For instance, suppose our agent has a decision called `AttackEnemy`, and this de
 
 In addition, you can add **as many axes as you want** to a decision. That's why *Dave Mark* called it the **Infinite Axis Utility System**. 
 
-# The structure of a Consideration
+# Consideration Structure
 
 A consideration is made up of:
-- An input
-- An input normalization
-- A response curve
+- An Input
+- An Input Normalization
+- A Response Curve
 
 **Input** is some knowledge about the game world that used to calculate the score of a consideration. For example, my health, target health, distance to target, etc. And it is normalized to `[0, 1]` by an **input normalization**. 
 

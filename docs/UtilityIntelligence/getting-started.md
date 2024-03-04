@@ -21,13 +21,14 @@ title: Getting Started
 
 The demos are created using Built-In Render Pipeline, so if you are using URP or HDRP, please convert all materials to the target pipeline first:
 
-- **URP**
-	1. Open **Render Pipeline Converter** (Window -> Rendering -> Render Pipeline Converter)
-	2. Tick **Material Upgrade**
-	3. Click **Initialize and Converter** button
-- **HDRP**
-	1. Open **HDRP Wizard** (Window -> Rendering -> HDRP Wizard)
-	2. Click **Convert All Built-In Materials to HDRP**
+## URP
+1. Open **Render Pipeline Converter** (Window -> Rendering -> Render Pipeline Converter)
+2. Tick **Material Upgrade**
+3. Click **Initialize and Converter** button
+
+## HDRP
+1. Open **HDRP Wizard** (Window -> Rendering -> HDRP Wizard)
+2. Click **Convert All Built-In Materials to HDRP**
 
 # Upgrade Guide
 
