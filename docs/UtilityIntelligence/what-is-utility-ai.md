@@ -7,7 +7,7 @@ Decision-making is the core of every AI system. Various methods exist for decisi
 
 ![[../Attachments/UtilityIntelligence/Documenntation/utility-based-ai.png|center|550]]
 
-Here's how the decision-making process of a Utility-Based AI works step by step
+Here's how the decision-making process of a Utility-Based AI works step by step:
 1. Evaluating Decisions:
 - The AI character evaluates all of its decisions based on multiple factors like the enemy health, distance to target, available resources, etc.
 2. Assigning Utilities:
