@@ -17,7 +17,7 @@ title: Home
 # Introduction
 Hi everyone! I'm Carlos, a senior Unity game developer. I've been working for game companies for many years. However, I prefer more freedom, so currently, I am an indie dev.
 
-I'm quite interested in techniques related to AI in games, especially Utility AI. That's the reason why I created these plugins.
+I'm quite interested in AI development in games, especially Utility AI. That's why I created these plugins.
 
 # My Plugins
 ## Utility Intelligence
