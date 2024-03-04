@@ -52,7 +52,7 @@ bool ShouldFleeFromEnemy()
 }
 ```
 
-For simple AIs, everything is okay, there aren't any problems. However, as your AIs become more complex, they will have more decisions and their conditions will be related to a lot of factors like health, energy, distance to enemy, distance to cover, distance to a health station, distance to a energy station, etc. Therefore, if your game design changes, it will be very time-consuming to apply these changes to your game because you have to adjust the conditions and the order of all affected decisions. Additionally, testers will have to recheck every behavior of these AIs from the beginning to ensure that they behave as intended.
+For simple AIs, everything is okay, there aren't any problems. However, as your AIs become more complex, they will have more decisions and their conditions will be related to a lot of factors like health, energy, distance to enemy, distance to cover, distance to a health station, etc. Therefore, if your game design changes, it will be very time-consuming to apply these changes to your game because you have to adjust the conditions and the order of all affected decisions. Additionally, testers will have to recheck every behavior of these AIs from the beginning to ensure that they behave as intended.
 
 This is the behavior tree of an agent in one of my previous games:
 
