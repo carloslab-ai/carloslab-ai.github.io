@@ -14,7 +14,7 @@ Here's how the decision-making process of a Utility-Based AI works step by step:
 - Based on the evaluation, each decision is assigned a score representing its **utility**.
 - This score reflects how "good" the decision is in the current context.
 3. Making Decisions:
-- The decision with the **highest utility score** is chosen for the AI character to perform.
+- The decision with the **highest utility score** is chosen for the AI character to execute.
 - This ensures the NPC prioritizes decisions that are most beneficial for the current situation.
 
 ---
