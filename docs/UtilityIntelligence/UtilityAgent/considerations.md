@@ -9,7 +9,7 @@ For instance, suppose our agent has a decision called `AttackEnemy`, and this de
 
 In addition, you can add **as many axes as you want** to a decision. That's why *Dave Mark* called it the **Infinite Axis Utility System**. 
 
-**The structure of a Consideration**
+# The structure of a Consideration
 
 A consideration is made up of:
 - An input
@@ -22,7 +22,7 @@ Then the normalized input is processed through a **reponse curve**, which remaps
 
 ![[../../Attachments/UtilityIntelligence/Documenntation/Considerations/infinite-axis.png|center]]
 
-**Creating Considerations**
+# Creating Considerations
 
 To create a new Consideration, you need to go to the **Consideration Tab**, fill in the
 **Name** field and then click the **Create** button:

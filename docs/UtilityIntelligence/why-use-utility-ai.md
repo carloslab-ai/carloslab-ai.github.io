@@ -3,7 +3,7 @@ share: true
 title: Why use Utility AI
 ---
 
-With traditional AI systems like **Behavior Trees** and **Finite State Machines**, an agent makes decisions by answering **one Yes-No Question at a time** and in **a fixed order**:. 
+With traditional AI systems like **Behavior Trees** and **Finite State Machines**, an agent makes decisions by answering **one Yes-No Question at a time** and in **a fixed order**:
 - Should I move towards the enemy? 
 - Should I attack the enemy? 
 - Should I flee from the enemy?

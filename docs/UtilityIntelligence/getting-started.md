@@ -7,39 +7,37 @@ title: Getting Started
 
 1. Firstly, you need to create a **Utility Agent Asset** by right-clicking in the **Project Window** and select **Create/CarlosLab/Utility Agent Asset**.
 1. Then double-click on the new **Utility Agent Asset** to open the **Editor Window**.
-2. Add new [[UtilityAgent/decision-makers|Decision Makers]], [[UtilityAgent/decisions|Decisions]], [[UtilityAgent/considerations|Considerations]] *as many as you want*.
+2. Add new [[UtilityAgent/decision-makers|Decision Makers]], [[UtilityAgent/decisions|Decisions]], [[UtilityAgent/considerations|Considerations]] *as many as you want*
 ![[../Attachments/UtilityIntelligence/Documenntation/EditorWindow/agent-tab.png|../Attachments/UtilityIntelligence/Documenntation/EditorWindow/agent-tab.png]]
-1. Convert your AI GameObjects into [[utility-world#Utility Agent|Utility Agents]] and assign the new **Utility Agent Asset** to the **Agent Asset** field of the **Utility Agent Owner**.
+1. Convert your AI GameObjects into [[utility-world#Utility Agent|Utility Agents]] and assign the new **Utility Agent Asset** to the **Agent Asset** field of the **Utility Agent Owner**
 ![[../Attachments/UtilityIntelligence/Documenntation/UtilityWorld/utility-agent.png|center|400]]
-1. Convert all the Game Objects that your Agents need to interact with into [[utility-world#Utility Entity|Utility Entities]].
+1. Convert all the Game Objects that your Agents need to interact with into [[utility-world#Utility Entity|Utility Entities]]
 ![[../Attachments/UtilityIntelligence/Documenntation/UtilityWorld/utility-entity.png|center|400]]
 1. Create a [[utility-world|Utility World]] and [[utility-world#Registering Utility Entities with a Utility World|register all the Utility Agents and Utility Entities]] in your game with it.
-2. Play your game.
+![[../Attachments/UtilityIntelligence/Documenntation/UtilityWorld/utility-world.png|center|400]]
+1. Play your game.
 
 # Running Demos in URP and HDRP
 
-The demos are created using Built-In Render Pipeline, so if you are using URP or HDRP, please convert all materials to the target pipeline first.
+The demos are created using Built-In Render Pipeline, so if you are using URP or HDRP, please convert all materials to the target pipeline first:
 
-## URP
-
-1. Open **Render Pipeline Converter** (Window -> Rendering -> Render Pipeline Converter)
-2. Tick **Material Upgrade**
-3. Click **Initialize and Converter** button.
-
-## HDRP
-
-1. Open **HDRP Wizard** (Window -> Rendering -> HDRP Wizard)
-2. Click **Convert All Built-In Materials to HDRP**
+- **URP**
+	1. Open **Render Pipeline Converter** (Window -> Rendering -> Render Pipeline Converter)
+	2. Tick **Material Upgrade**
+	3. Click **Initialize and Converter** button
+- **HDRP**
+	1. Open **HDRP Wizard** (Window -> Rendering -> HDRP Wizard)
+	2. Click **Convert All Built-In Materials to HDRP**
 
 # Upgrade Guide
 
 To update **Utility Intelligence** you just need to do the following:
-- Backup your project.
-- Remove the following folders:
+1. Backup your project
+2. Remove the following folders:
 	- CarlosLab/Common
 	- CarlosLab/AI
 	- CarlosLab/UtilityIntelligence
-- Re-import **Utility Intelligence** package
+3. Re-import **Utility Intelligence** package
 
 # Other Learning Resources
 
