@@ -79,11 +79,11 @@ To convert a Game Object into a Utility Agent, you need to add 2 components to i
 	- It will automatically create a Utility Agent when the game starts and manage it to make the right decisions based on the attached **Agent Asset**.
 ![[../Attachments/UtilityIntelligence/Documenntation/UtilityWorld/utility-agent.png|center|400]]
 
-# Registering Utility Entities with a Utility World
+# Registering Utility Agents and Entities
 
-Utility Entities can only interact with each other if they are in the same Utility World. 
+Utility Agents and Entities can only interact with each other if they are in the same Utility World. 
 
-To add your Utility Entities to a Utility World, you need to register them with the Utility World by calling the `Register` method and passing the Utility World to it. For example:
+To add your Utility Agents and Entities to a Utility World, you need to register them with the Utility World by calling the `Register` method and passing the Utility World to it. For example:
 ```cs
 public class AgentsPlacedInSceneDemo : MonoBehaviour
 {
