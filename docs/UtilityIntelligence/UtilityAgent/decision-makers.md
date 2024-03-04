@@ -7,7 +7,7 @@ In **Utility Intelligence**, a Decision Maker contains a list of decisions, and 
 
 ![[../../Attachments/UtilityIntelligence/Documenntation/DecisionMakers/decision-maker.png|../../Attachments/UtilityIntelligence/Documenntation/DecisionMakers/decision-maker.png]]
 
-# How does the Decision-Making Process work?
+# Understanding how Decision-Making Process work?
 
 Here's how the **Decision-Making Process** of a Utility Agent works:
 1. For each Decision Maker, the Utility Agent calculates the scores of all attached decisions and selects the best decision. 
@@ -15,7 +15,7 @@ Here's how the **Decision-Making Process** of a Utility Agent works:
 
 # Creating Decision Makers
 
-To create a Decision Maker, you need to go to the **Agent Tab**, give the new Decision Maker a name, and then click the **Create** button:
+To create a Decision Maker, you need to go to the **Agent Tab**, fill in the **Name** Field, and then click the **Create** button:
 
 ![[../../Attachments/UtilityIntelligence/Documenntation/DecisionMakers/create-decision-maker.png|center|400]]
 

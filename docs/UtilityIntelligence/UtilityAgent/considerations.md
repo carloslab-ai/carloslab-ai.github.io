@@ -9,29 +9,29 @@ For instance, suppose our agent has a decision called `AttackEnemy`, and this de
 
 In addition, you can add **as many axes as you want** to a decision. That's why *Dave Mark* called it the **Infinite Axis Utility System**. 
 
-# Consideration Structure
+# Understanding how Considerations work?
 
 A consideration is made up of:
 - An Input
 - An Input Normalization
 - A Response Curve
 
-**Input** is some knowledge about the game world that used to calculate the score of a consideration. For example, my health, target health, distance to target, etc. And it is normalized to `[0, 1]` by an **input normalization**. 
+**Input** is some knowledge about the game world that used to calculate the score of a consideration. For example, my health, target health, distance to target, etc. And it is normalized to `[0, 1]` by an **Input Normalization**. 
 
-Then the normalized input is processed through a **reponse curve**, which remaps the normalized input to a consideration score. These consideration scores are then multiplied together to get the final score of the decision. Therefore, if the score of any consideration is `0`, then the score of the decision will also be `0`.
+Then the normalized input is processed through a **Reponse Curve**, which remaps the normalized input to a consideration score. These consideration scores are then multiplied together to get the final score of the decision. Therefore, if the score of any consideration is `0`, then the score of the decision will also be `0`.
 
 ![[../../Attachments/UtilityIntelligence/Documenntation/Considerations/infinite-axis.png|center]]
 
 # Creating Considerations
 
-To create a new Consideration, you need to go to the **Consideration Tab**, fill in the
-**Name** field and then click the **Create** button:
+To create a Consideration, you need to go to the **Consideration Tab**, fill in the
+**Name** field, and then click the **Create** button:
 
 ![[../../Attachments/UtilityIntelligence/Documenntation/Considerations/add-consideration.png|center|400]]
 
 # Inputs
 
-There are two ways to create a new input:
+There are two ways to create a Input:
 1. Create a class inherited from `Input<Value>` and override `OnGetRawInput` method. For example:
 	```cs
 	public class MyDistanceToTargetInput : Input<float>  
@@ -69,12 +69,12 @@ To add inputs to the agent, you need to go to the **Input Tab**, give it a name,
 
 ## Built-in Inputs
 
-Currently, there is only one built-in input, and I will add more in the future based on user needs:
+Currently, there is only one built-in input, and we will add more in the future based on user needs:
 - **MyDistanceToTargetInput**: It returns the distance from the current agent to the target.
 
 # Input Normalizations
 
-- To create a new input normalization, you need to create a new class inherited from `InputNormalization<Value>` and override `OnCalculateNormalizedInput` method. For example:
+- To create a Input Normalization, you need to create a new inherited from `InputNormalization<Value>` and override `OnCalculateNormalizedInput` method. For example:
 	```cs
 	public class ChargeRadiusNormalization : InputNormalization<float>  
 	{  
