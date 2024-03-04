@@ -9,8 +9,7 @@ For instance, suppose our agent has a decision called `AttackEnemy`, and this de
 
 In addition, you can add **as many axes as you want** to a decision. That's why *Dave Mark* called it the **Infinite Axis Utility System**. 
 
-
-### The structure of a consideration
+**The structure of a Consideration**
 
 A consideration is made up of:
 - An input
@@ -23,7 +22,7 @@ Then the normalized input is processed through a **reponse curve**, which remaps
 
 ![[../../Attachments/UtilityIntelligence/Documenntation/Considerations/infinite-axis.png|center]]
 
-### Creating a new Consideration
+**Creating Considerations**
 
 To create a new Consideration, you need to go to the **Consideration Tab**, fill in the
 **Name** field and then click the **Create** button:
@@ -31,8 +30,6 @@ To create a new Consideration, you need to go to the **Consideration Tab**, fill
 ![[../../Attachments/UtilityIntelligence/Documenntation/Considerations/add-consideration.png|center|400]]
 
 ### Inputs
-
-#### Creating a new Input
 
 There are two ways to create a new input:
 1. Create a class inherited from `Input<Value>` and override `OnGetRawInput` method. For example:
@@ -76,8 +73,6 @@ Currently, there is only one built-in input, and I will add more in the future b
 - `MyDistanceToTargetInput`: It returns the distance from the current agent to the target.
 
 ### Input Normalizations
-
-#### Creating a new Input Normalization
 
 To create a new input normalization, you need to create a new class inherited from `InputNormalization<Value>` and override `OnCalculateNormalizedInput` method. For example:
 ```cs
