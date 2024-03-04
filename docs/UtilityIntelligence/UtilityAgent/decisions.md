@@ -40,7 +40,7 @@ Every decision has at least 1 target and they will be **scored per target**.  **
 
 # Creating Decisions
 
-To create a new Decision, you need to go to the **Agent Tab**, give the new Decision a name, and then click the **Create** button:
+To create a Decision, you need to go to the **Agent Tab**, fill in the **Name** field, and then click the **Create** button:
 
 ![[../../Attachments/UtilityIntelligence/Documenntation/Decisions/add-decision.png|center|500]]
 
@@ -49,7 +49,7 @@ To create a new Decision, you need to go to the **Agent Tab**, give the new Dec
 
 ## Creating Target Filters
 
-- To create a new Target Filter, you need to create a new class inherited from `TargetFilter` and override `OnFilterTarget` method:
+- To create a Target Filter, you need to create a class inherited from `TargetFilter` and override `OnFilterTarget` method:
 	```cs
 	public class ChargeStationFilter : TargetFilter
 	{
@@ -62,17 +62,15 @@ To create a new Decision, you need to go to the **Agent Tab**, give the new Dec
 	}
 	```
 
-- Note that you can add multiple Target Filters to a decision. To add a Target Filter, you need to choose a Target Filter type, and then click the **Create** button:
+- Note that you can add multiple Target Filters to a decision. To add a Target Filter, you need to select a Target Filter type, and then click the **Create** button:
 ![[../../Attachments/UtilityIntelligence/Documenntation/Decisions/add-target-filter.png|../../Attachments/UtilityIntelligence/Documenntation/Decisions/add-target-filter.png]]
 
 ## Built-in Target Filters
 
-Currently, **Utility Intelligence** provides some built-in target filters as follows:
+Currently, we provides these built-in Target Filters:
 - **SelfFilter**: The filtered target is the current agent.
 - **OtherFilter**: The filtered targets are any entities in the utility world, except the current agent.
 - **AgentFilter**: The filtered targets are any agents in the utility world.
-
-And more built-in target filters will be added soon.
 
 # Actions
 
@@ -203,7 +201,7 @@ Here is the list of functions you could override to make your actions works as y
 
 ## Built-in Actions
 
-Here is the list of built-in actions and there will be more soon:
+Here is the list of built-in actions we provide:
 - Idle
 - Log
 - Wait
