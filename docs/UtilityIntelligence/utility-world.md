@@ -20,24 +20,25 @@ A Utility Entity represents an object inside a Utility World. And only Utility E
 2. **Utility Entity Owner**: It will automatically create a Utility Entity when the game starts to manage the Game Object within the Utility World.
 ![[../Attachments/UtilityIntelligence/Documenntation/UtilityWorld/utility-entity.png|center|400]]
 
-To create your own **Utility Entity Facade**, you need to create a class inherited from `UtilityEntityFacade`. For example:
-```cs
-public class ChargeStation : UtilityEntityFacade
-{
-    [SerializeField]
-    private ChargeStationType type;
+- To create your own **Utility Entity Facade**, you need to create a class inherited from `UtilityEntityFacade`. For example:
+	```cs
+	public class ChargeStation : UtilityEntityFacade
+	{
+	    [SerializeField]
+	    private ChargeStationType type;
+	
+	    [SerializeField]
+	    private float chargeRadius;
+	
+	    [SerializeField]
+	    private float chargePerSec;
+	
+	    public ChargeStationType Type => type;
+	    public float ChargeRadius => chargeRadius;
+	    public float ChargePerSec => chargePerSec;
+	}
+	```
 
-    [SerializeField]
-    private float chargeRadius;
-
-    [SerializeField]
-    private float chargePerSec;
-
-    public ChargeStationType Type => type;
-    public float ChargeRadius => chargeRadius;
-    public float ChargePerSec => chargePerSec;
-}
-```
 
 
 # Utility Agent
@@ -49,39 +50,41 @@ To convert a Game Object into a Utility Agent, you need to add 2 components to i
 2. **Utility Agent Owner**: It will automatically create a Utility Agent when the game starts and manage it to make the right decisions based on the attached **Agent Asset**.
 ![[../Attachments/UtilityIntelligence/Documenntation/UtilityWorld/utility-agent.png|center|400]]
 
-To create your own Utility Agent Facade, you need to create a class inherited from `UtilityAgentFacade`. For example:
-```cs
-public class Character : UtilityAgentFacade
-{
-    [SerializeField]
-    private Team team;
-    
-    private CharacterEnergy energy;
-    private CharacterHealth health;
-    private NavMeshAgent navMeshAgent;
-    private new Rigidbody rigidbody;
-
-    public Team Team => team;
-    public NavMeshAgent NavMeshAgent => navMeshAgent;
-    public Rigidbody Rigidbody => rigidbody;
-    public CharacterHealth Health => health;
-    public CharacterEnergy Energy => energy;
-
-    private void Awake()
-    {
-        navMeshAgent = GetComponent<NavMeshAgent>();
-        rigidbody = GetComponent<Rigidbody>();
-
-        health = GetComponent<CharacterHealth>();
-        energy = GetComponent<CharacterEnergy>();
-    }
-}
-```
+- To create your own Utility Agent Facade, you need to create a class inherited from `UtilityAgentFacade`. For example:
+	```cs
+	public class Character : UtilityAgentFacade
+	{
+	    [SerializeField]
+	    private Team team;
+	    
+	    private CharacterEnergy energy;
+	    private CharacterHealth health;
+	    private NavMeshAgent navMeshAgent;
+	    private new Rigidbody rigidbody;
+	
+	    public Team Team => team;
+	    public NavMeshAgent NavMeshAgent => navMeshAgent;
+	    public Rigidbody Rigidbody => rigidbody;
+	    public CharacterHealth Health => health;
+	    public CharacterEnergy Energy => energy;
+	
+	    private void Awake()
+	    {
+	        navMeshAgent = GetComponent<NavMeshAgent>();
+	        rigidbody = GetComponent<Rigidbody>();
+	
+	        health = GetComponent<CharacterHealth>();
+	        energy = GetComponent<CharacterEnergy>();
+	    }
+	}
+	```
 
 
 # Registering Utility Entities with a Utility World
 
-Utility Entities can only interact with each other if they are in the same Utility World. To add your Utility Entities to a Utility World, you need to register them with the Utility World by calling the `Register` method and passing the Utility World to it. For example:
+Utility Entities can only interact with each other if they are in the same Utility World. 
+
+To add your Utility Entities to a Utility World, you need to register them with the Utility World by calling the `Register` method and passing the Utility World to it. For example:
 ```cs
 public class AgentsPlacedInSceneDemo : MonoBehaviour
 {
