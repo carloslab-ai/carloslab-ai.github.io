@@ -19,7 +19,7 @@ title: Getting Started
 
 # Running Demos in URP and HDRP
 
-The demos are created using Built-In Render Pipeline, so if you are using URP or HDRP, please convert all materials to the target pipeline first:
+The Demos are created using Built-In Render Pipeline, so if you are using URP or HDRP, please convert all materials to the target pipeline first:
 
 ## URP
 1. Open **Render Pipeline Converter** (Window -> Rendering -> Render Pipeline Converter)
@@ -32,7 +32,7 @@ The demos are created using Built-In Render Pipeline, so if you are using URP or
 
 # Upgrade Guide
 
-To update **Utility Intelligence** you just need to do the following:
+To upgrade **Utility Intelligence** you just need to do the following:
 1. Backup your project
 2. Remove the following folders:
 	- CarlosLab/Common
