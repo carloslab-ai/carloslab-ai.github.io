@@ -29,7 +29,7 @@ To create a new Consideration, you need to go to the **Consideration Tab**, fill
 
 ![[../../Attachments/UtilityIntelligence/Documenntation/Considerations/add-consideration.png|center|400]]
 
-### Inputs
+# Inputs
 
 There are two ways to create a new input:
 1. Create a class inherited from `Input<Value>` and override `OnGetRawInput` method. For example:
@@ -67,12 +67,12 @@ To add inputs to the agent, you need to go to the **Input Tab**, give it a name,
 ![[../../Attachments/UtilityIntelligence/Documenntation/Considerations/add-input.png|center|400]]
 
 
-#### Built-in Inputs
+## Built-in Inputs
 
 Currently, there is only one built-in input, and I will add more in the future based on user needs:
 - **MyDistanceToTargetInput**: It returns the distance from the current agent to the target.
 
-### Input Normalizations
+# Input Normalizations
 
 To create a new input normalization, you need to create a new class inherited from `InputNormalization<Value>` and override `OnCalculateNormalizedInput` method. For example:
 ```cs
@@ -94,7 +94,7 @@ To select the input normalization for your consideration, you need to select the
 
 ![[../../Attachments/UtilityIntelligence/Documenntation/Considerations/select-normalization.png|center|500]]
 
-#### Built-in Input Normalizations
+## Built-in Input Normalizations
 
 We provides a lot of built-in input normalizations to help you normalize your inputs **without having to write a single line of code**:
 - Float
@@ -109,7 +109,7 @@ We provides a lot of built-in input normalizations to help you normalize your in
 - Bool
 	- **BasicNormalizationBool**: It returns `1` if the input value is `true`; otherwise, it returns `0`.
 
-### Response Curves
+# Response Curves
 
 In **Utility Intelligence**, response curves are used to remap the normalized input to the consideration score. And it has 5 parameters:
 - Curve Type
