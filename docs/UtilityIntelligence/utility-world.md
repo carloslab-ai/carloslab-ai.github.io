@@ -7,20 +7,20 @@ title: Utility World
 
 A Utility World is a collection of Utility Entities. and the ID of each Utility Entity is only unique within its own world. 
 
-To create a Utility World, right-click in the **Hierarchy Window**, then select **CarlosLab/Utility World Owner**. Alternatively, you can create it manually by creating a new Game Object and adding the `Utility World Owner` component to it:
+To create a Utility World, right-click in the **Hierarchy Window**, then select **CarlosLab/Utility World Owner**. Alternatively, you can create it manually by creating a new Game Object and adding a **Utility World Owner** component to it:
 
 ![[../Attachments/UtilityIntelligence/Documenntation/UtilityWorld/utility-world.png|center|400]]
 
-The `Utility World Owner` will automatically create a Utility World when your game starts and manage it throughout its lifetime. And you can change `Make Decision Interval` inside a Utility World by adjusting it in the `Utility World Owner`'s Inspector, the default value for it is `0.1`.
+The Utility World Owner will automatically create a Utility World when your game starts and manage it throughout its lifetime. And you can change **Make Decision Interval** inside a Utility World by adjusting it in the Utility World Owner's Inspector, the default value for it is `0.1`.
 
 ## Utility Entity
 
 A Utility Entity represents an object inside a Utility World. And only Utility Entities can interact with each other within a Utility World. So you need to convert your Game Objects into Utility Entities to make them interactable by adding 2 components to it:
-1. `Utility Entity Facade`: It is used to interact with the Game Object.
-2. `Utility Entity Owner`: It will automatically create a Utility Entity when the game starts to manage the Game Object within the Utility World.
+1. **Utility Entity Facade**: It is used to interact with the Game Object.
+2. **Utility Entity Owner**: It will automatically create a Utility Entity when the game starts to manage the Game Object within the Utility World.
 ![[../Attachments/UtilityIntelligence/Documenntation/UtilityWorld/utility-entity.png|center|400]]
 
-To create your own `Utility Entity Facade`, you need to create a class inherited from `UtilityEntityFacade`. For example:
+To create your own **Utility Entity Facade**, you need to create a class inherited from `UtilityEntityFacade`. For example:
 ```cs
 public class ChargeStation : UtilityEntityFacade
 {
@@ -42,14 +42,14 @@ public class ChargeStation : UtilityEntityFacade
 
 ## Utility Agent
 
-A `Utility Agent` is a special Utility Entity that helps your AI make the right Decision in the current situation and controls it to perform the Actions attached to the chosen Decision.
+A Utility Agent is a special Utility Entity that helps your AI make the right Decision in the current situation and controls it to perform the Actions attached to the chosen Decision.
 
-To convert a Game Object into a `Utility Agent`, you need to add 2 components to it:
-1. `Utility Agent Facade`: It is used to interact with the Game Object.
-2. `Utility Agent Owner`: It will automatically create a `Utility Agent` when the game starts and manage it to make the right decisions based on the attached **Agent Asset**.
+To convert a Game Object into a Utility Agent, you need to add 2 components to it:
+1. **Utility Agent Facade**: It is used to interact with the Game Object.
+2. **Utility Agent Owner**: It will automatically create a Utility Agent when the game starts and manage it to make the right decisions based on the attached **Agent Asset**.
 ![[../Attachments/UtilityIntelligence/Documenntation/UtilityWorld/utility-agent.png|center|400]]
 
-To create your own `Utility Agent Facade`, you need to create a class inherited from `UtilityAgentFacade`. For example:
+To create your own Utility Agent Facade, you need to create a class inherited from `UtilityAgentFacade`. For example:
 ```cs
 public class Character : UtilityAgentFacade
 {
