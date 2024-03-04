@@ -7,7 +7,7 @@ Blackboard is used to share information between multiple components in an Agent.
 - It can be access from many places, such as Inputs, Input Normalizations, Target Filters, Actions. 
 - It contains a list of Variables and you can Read/Write to these Variables for any purpose.
 
-# Creating a new Variable
+# Creating Variables
 To create a new Variable, you need to create a new class inherited from `Variable<TValue>`. For example:
 ```cs
 public class FloatVariable : Variable<float>
