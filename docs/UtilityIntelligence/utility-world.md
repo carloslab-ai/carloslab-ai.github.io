@@ -20,6 +20,7 @@ A Utility Entity represents an object inside a Utility World. And only Utility E
 2. **Utility Entity Owner**: It will automatically create a Utility Entity when the game starts to manage the Game Object within the Utility World.
 ![[../Attachments/UtilityIntelligence/Documenntation/UtilityWorld/utility-entity.png|center|400]]
 
+**Creating Utility Entity Facade**
 - To create your own **Utility Entity Facade**, you need to create a class inherited from `UtilityEntityFacade`. For example:
 	```cs
 	public class ChargeStation : UtilityEntityFacade
@@ -50,6 +51,7 @@ To convert a Game Object into a Utility Agent, you need to add 2 components to i
 2. **Utility Agent Owner**: It will automatically create a Utility Agent when the game starts and manage it to make the right decisions based on the attached **Agent Asset**.
 ![[../Attachments/UtilityIntelligence/Documenntation/UtilityWorld/utility-agent.png|center|400]]
 
+**Creating Utility Agent Facade**
 - To create your own Utility Agent Facade, you need to create a class inherited from `UtilityAgentFacade`. For example:
 	```cs
 	public class Character : UtilityAgentFacade
