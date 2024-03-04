@@ -43,20 +43,20 @@ Every decision has at least 1 target and they will be **scored per target**.  **
 
 ## Creating Target Filters
 
-To create a new Target Filter, you need to create a new class inherited from `TargetFilter` and override `OnFilterTarget` method:
-```cs
-public class ChargeStationFilter : TargetFilter
-{
-    public ChargeStationType Type;
+- To create a new Target Filter, you need to create a new class inherited from `TargetFilter` and override `OnFilterTarget` method:
+	```cs
+	public class ChargeStationFilter : TargetFilter
+	{
+	    public ChargeStationType Type;
+	
+	    protected override bool OnFilterTarget(DecisionContext context)
+	    {
+	        return context.TargetFacade is ChargeStation station && station.Type == Type;
+	    }
+	}
+	```
 
-    protected override bool OnFilterTarget(DecisionContext context)
-    {
-        return context.TargetFacade is ChargeStation station && station.Type == Type;
-    }
-}
-```
-
-Note that you can add multiple target filters to a decision. To add target filters, you need to choose the target filter type, and then click the **Create** button:
+- Note that you can add multiple Target Filters to a decision. To add a Target Filter, you need to choose a Target Filter type, and then click the **Create** button:
 ![[../../Attachments/UtilityIntelligence/Documenntation/Decisions/add-target-filter.png|../../Attachments/UtilityIntelligence/Documenntation/Decisions/add-target-filter.png]]
 
 ## Built-in Target Filters
