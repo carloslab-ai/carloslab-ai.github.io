@@ -8,27 +8,26 @@ Blackboard is used to share information between multiple components in an Agent.
 - It contains a list of Variables and you can Read/Write to these Variables for any purpose.
 
 # Creating Variables
-To create a new Variable, you need to create a new class inherited from `Variable<TValue>`. For example:
-```cs
-public class FloatVariable : Variable<float>
-{
-    public FloatVariable()
-    {
-    }
-
-    public FloatVariable(float value) : base(value)
-    {
-    }
-
-    public static implicit operator FloatVariable(float value)
-    {
-        return new FloatVariable { Value = value };
-    }
-}
-```
-
-Then you can add this Variable to your Agent's Blackboard by going to the **Blackboard Tab**, select the Variable type, give it a name and then click the **Create** button:
-![[../../Attachments/UtilityIntelligence/Documenntation/Blackboard/add-variable.png|center|400]]
+- To create a new Variable, you need to create a new class inherited from `Variable<TValue>`. For example:
+	```cs
+	public class FloatVariable : Variable<float>
+	{
+	    public FloatVariable()
+	    {
+	    }
+	
+	    public FloatVariable(float value) : base(value)
+	    {
+	    }
+	
+	    public static implicit operator FloatVariable(float value)
+	    {
+	        return new FloatVariable { Value = value };
+	    }
+	}
+	```
+- Then you can add this Variable to your Agent's Blackboard by going to the **Blackboard Tab**, select the Variable type, give it a name and then click the **Create** button:
+	![[../../Attachments/UtilityIntelligence/Documenntation/Blackboard/add-variable.png|center|400]]
 
 
 # Referencing Variables
