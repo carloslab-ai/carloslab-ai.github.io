@@ -11,6 +11,6 @@ title: Utility Intelligence
 
 ---
 
-**Utility Intelligence** is a **Utility AI Framework** developed based on *Dave Mark*'s **Infinite Axis Utility System**. It provides **an intuitive and user-friendly editor** that allows you to **create complex AIs with ease**.
+**Utility Intelligence** is a **user-friendly** Utility AI Framework inspired by *Dave Mark*'s Infinite Axis Utility System. It provides an **intuitive** Editor that allows you to **create complex AIs effortlessly**.
 
-**Utility Intelligence** is designed to help people develop their AIs more easily with **as little effort as possible**. So, it is very **easy to use and learn**.
+**Designed with ease in mind**, Utility Intelligence takes the complexity out of AI development, making it very **Easy to Use & Learn**.
