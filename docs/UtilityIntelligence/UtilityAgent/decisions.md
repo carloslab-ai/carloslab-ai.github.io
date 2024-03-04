@@ -62,9 +62,9 @@ Note that you can add multiple target filters to a decision. To add target filte
 ### Built-in Target Filters
 
 Currently, **Utility Intelligence** provides some built-in target filters as follows:
-- `SelfFilter`: The filtered target is the current agent.
-- `OtherFilter`: The filtered targets are any entities in the utility world, except the current agent.
-- `AgentFilter`: The filtered targets are any agents in the utility world.
+- **SelfFilter**: The filtered target is the current agent.
+- **OtherFilter**: The filtered targets are any entities in the utility world, except the current agent.
+- **AgentFilter**: The filtered targets are any agents in the utility world.
 
 And more built-in target filters will be added soon.
 
@@ -73,11 +73,11 @@ And more built-in target filters will be added soon.
 ### Execution Modes
 
 After the agent finds out the best decision, it will execute the action list either in **sequence** or in **parallel**, depending on your choice. Currently, there are two execution modes for the action list:
-- `ActionsRunInSequence`
+- **ActionsRunInSequence**
 	- The actions will be run sequentially. 
 	- If an action returns success, the agent will run the next action, and the action list will finish in success when the last action returns success.
 	- If an action returns failure, the action list will finish in failure.
-- `ActionsRunInParallel`
+- **ActionsRunInParallel**
 	- The actions will be run simultaneously. 
 	- If any action returns success, the action list will finish in success.
 	- If any action returns failure, the action list will finish in failure.
