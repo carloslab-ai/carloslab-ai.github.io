@@ -3,8 +3,6 @@ share: true
 title: Decisions
 ---
 
-## The structure of a Decision
-
 In **Utility Intelligence**, each decision has:
 - A list of target filters
 - A list of considerations
@@ -16,7 +14,7 @@ After finding appropriate targets, all considerations of that decision will be e
 
 Finally, the best decision-target pair with the highest score will be chosen and the agent will execute all actions attached to the decision, either in **sequence** or in **parallel**.
 
-## Creating Decisions
+**Creating Decisions**
 
 To create a new Decision, you need to go to the **Agent Tab**, give the new Decision a name, and then click the **Create** button:
 
