@@ -4,12 +4,9 @@ title: Decisions
 ---
 
 In **Utility Intelligence**, each decision has:
-- A list of Target Filters
-	- They are used to filter the Targets for this Decision.
-- A list of Considerations
-	- They are used to calculate the score of this Decision.
-- A list of Actions
-	- These Actions will be executed by the Agent if this Decision is chosen.
+- A list of **Target Filter**s: They are used to filter the Targets for this Decision.
+- A list of **Consideration**s: They are used to calculate the score of this Decision.
+- A list of **Action**s: These Actions will be executed by the Agent if this Decision is chosen.
 
 # How do Decisions work?
 
@@ -40,7 +37,7 @@ Every decision has at least 1 target and they will be **scored per target**.  **
 
 # Creating Decisions
 
-To create a Decision, you need to go to the **Agent Tab**, fill in the **Name** field, and then click the **Create** button:
+To create a Decision, you need to go to the **Agent Tab**, fill in the **Name** field, and then click the **Create** button:
 
 ![[../../Attachments/UtilityIntelligence/Documenntation/Decisions/add-decision.png|center|500]]
 
