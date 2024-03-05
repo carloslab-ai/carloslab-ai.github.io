@@ -62,6 +62,7 @@ To upgrade **Utility Intelligence** you just need to do the following:
 
 ---
 <p align="center">
-If you like this plugin, please support it by leaving a <b>5-star</b> review on the <b>Asset Store</b>, so I will have more time to develop it. Thank you so much! 🥰
+	If you find this plugin helpful, please consider supporting it by leaving a <b>5-star</b> review on the <b>Asset Store</b>. Your <b>positive</b> feedback allows me to <b>dedicate</b> more time to its development. 
+	<br>Thank you so much! 🥰
 	<br><a href="https://assetstore.unity.com/packages/slug/276632"><img width= '30%' height='30%'  src="/Attachments/unity-asset-store.png" title="Review this plugin"></img></a>
 </p>
