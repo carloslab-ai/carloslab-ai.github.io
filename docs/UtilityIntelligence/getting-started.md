@@ -3,6 +3,14 @@ share: true
 title: Getting Started
 ---
 
+![[../Attachments/UtilityIntelligence/Card_420-280.png|center]]
+<p align="center">
+	<font size=5><b>Welcome to Utility Intelligence</b></font><br>
+	<b>Thank you for choosing Utility Intelligence</b>
+</p>
+
+---
+
 # Quick Start
 
 1. Firstly, you need to create a **Utility Agent Asset** by right-clicking in the **Project Window** and select **Create/CarlosLab/Utility Agent Asset**.
