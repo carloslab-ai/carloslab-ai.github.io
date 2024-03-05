@@ -21,7 +21,10 @@ I'm quite interested in AI development in games, especially Utility AI. That's w
 
 # My Plugins
 ## Utility Intelligence
-**Utility Intelligence** is a **user-friendly** Utility AI Framework that allows you to **create complex AIs with ease**.
+
+**Utility Intelligence** is a **user-friendly** Utility AI Framework inspired by *Dave Mark*'s Infinite Axis Utility System. It provides an **intuitive** Editor that allows you to **create complex AIs effortlessly**.
+
+**Designed with ease in mind**, Utility Intelligence takes the complexity out of AI development, making it very **Easy to Use & Learn**.
 
 <p align="center">
 	<b>
