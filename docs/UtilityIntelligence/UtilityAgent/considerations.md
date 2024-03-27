@@ -69,7 +69,8 @@ To add inputs to the agent, you need to go to the **Input Tab**, give it a name,
 
 ## Built-in Inputs
 
-Currently, there is only one built-in input, and we will add more in the future based on user needs:
+Currently, **Utility Intelligence** provides these buit-in inputs:
+- **BasicInputFloat(Int/Bool)**: It returns the default value of the type at runtime and is mainly used for testing considerations
 - **MyDistanceToTargetInput**: It returns the distance from the current agent to the target.
 
 # Input Normalizations
