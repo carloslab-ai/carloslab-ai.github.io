@@ -24,7 +24,7 @@ I'm quite interested in AI development in games, especially Utility AI. That's w
 
 **Utility Intelligence** is a **user-friendly** Utility AI Framework inspired by *Dave Mark*'s Infinite Axis Utility System. It provides an **intuitive** Editor that allows you to **create complex AIs effortlessly**.
 
-**Designed with ease in mind**, Utility Intelligence takes the complexity out of AI development, making it very **easy to use & learn**.
+**Designed with ease in mind**, Utility Intelligence takes the complexity out of AI development, making it very **easy to use & learn**, while keeping it **as fast as possible**.
 
 <p align="center">
 	<b>
@@ -33,7 +33,7 @@ I'm quite interested in AI development in games, especially Utility AI. That's w
 	</b>
 </p>
 
-<iframe width="720" height="405" src="https://www.youtube.com/embed/hmH1puWZBy0?si=EKMZ_zB7slUc0eNf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="720" height="405" src="https://www.youtube.com/embed/CwgmtA7B098?si=3c6o3334MqnJKLni" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <!--
 
