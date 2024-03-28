@@ -92,18 +92,22 @@ Currently, **Utility Intelligence** provides these buit-in inputs:
 
 - To create a Input Normalization, you need to create a new inherited from `InputNormalization<Value>` and override `OnCalculateNormalizedInput` method. For example:
 	```cs
-	public class ChargeRadiusNormalization : InputNormalization<float>  
-	{  
-	    public float ChargeRadius = 2;  
-	  
-	    protected override float OnCalculateNormalizedInput(float rawInput, ConsiderationContext context)  
-	    {        return rawInput >= 0 && rawInput <= GetChargeRadius(context) ? 1.0f : 0.0f;  
-	    }  
-	    private float GetChargeRadius(ConsiderationContext context)  
-	    {        if (context is { TargetFacade: ChargeStation chargeStation })  
-	            return chargeStation.ChargeRadius;  
-	        return ChargeRadius;  
-	    }}
+	public class IsInChargeRadiusNormalization : InputNormalization<float>
+	{
+	    public float ChargeRadius = 2;
+	
+	    protected override float OnCalculateNormalizedInput(float rawInput, InputContext context)
+	    {
+	        return rawInput >= 0 && rawInput <= GetChargeRadius(context) ? 1.0f : 0.0f;
+	    }
+	
+	    private float GetChargeRadius(InputContext context)
+	    {
+	        if (context is { TargetFacade: ChargeStation chargeStation })
+	            return chargeStation.ChargeRadius;
+	        return ChargeRadius;
+	    }
+	}
 	```
 
 - To select the input normalization for a consideration, you need to select the normalization type from this drop down in **Consideration Editor**:  
