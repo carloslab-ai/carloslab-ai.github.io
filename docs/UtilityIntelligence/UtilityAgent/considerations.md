@@ -27,44 +27,57 @@ Then the normalized input is processed through a **Reponse Curve**, which remaps
 To create a Consideration, you need to go to the **Consideration Tab**, fill in the
 **Name** field, and then click the **Create** button:
 
-![[../../Attachments/UtilityIntelligence/Documenntation/Considerations/add-consideration.png|center|400]]
+![[../../Attachments/UtilityIntelligence/Documenntation/Considerations/create-consideration.png|center|600]]
+
+After that, you can select an input, an input normalization and update the response curve of the consideration using **Consideration Editor**.
 
 # Inputs
 
-There are two ways to create a Input:
+## Creating Inputs
+
+There are two ways to create a new input:
 1. Create a class inherited from `Input<Value>` and override `OnGetRawInput` method. For example:
 	```cs
-	public class MyDistanceToTargetInput : Input<float>  
-	{  
-	    protected override float OnGetRawInput(ConsiderationContext context)  
-	    {        Vector3 myPosition = GetComponent<Transform>().position;  
-	        Vector3 targetPosition = context.Target.GetComponent<Transform>().position;  
-	        myPosition.y = 0;  
-	        targetPosition.y = 0;  
-	  
-	        return Vector3.Distance(myPosition, targetPosition);  
-	    }}
+	public class MyDistanceToTargetInput : Input<float>
+	{
+	    protected override float OnGetRawInput(InputContext context)
+	    {
+	        var myPosition = AgentFacade.Position;
+	        var targetPosition = context.TargetFacade.Position;
+	        myPosition.Y = 0;
+	        targetPosition.Y = 0;
+	
+	        return Vector3.Distance(myPosition, targetPosition);
+	    }
+	}
 	```
 
 2. Because each consideration is considered per target, so if the input factor exists in both **Self** and **Target** entities, then the input class should inherit from `InputFromSource<Value>`:
 	```cs
-	public class HealthInput : InputFromSource<float>  
-	{  
-	    protected override float OnGetRawInput(ConsiderationContext context)  
-	    {        UtilityEntity inputSource = GetInputSource(context);  
-	        if (inputSource is UtilityAgent agent)  
-	        {            CharacterHealth characterHealth = agent.GetComponent<CharacterHealth>();  
-	            return characterHealth.Health;  
-	        }  
-	        return 0;  
-	    }}
+	public class HealthInput : InputFromSource<int>
+	{
+	    protected override int OnGetRawInput(InputContext context)
+	    {
+	        UtilityEntity inputSource = GetInputSource(context);
+	        if (inputSource.EntityFacade is Character character)
+	        {
+	            return character.Health.Health;
+	        }
+	
+	        return 0;
+	    }
+	}
 	```
 - Using `InputFromSource<Value>`, you can choose the source of the input: either **Self** or **Target**:
 ![[../../Attachments/UtilityIntelligence/Documenntation/Considerations/input-source.png|../../Attachments/UtilityIntelligence/Documenntation/Considerations/input-source.png]]
 
 To add inputs to the agent, you need to go to the **Input Tab**, give it a name, select the input type and then click to the **Create** button: 
 
-![[../../Attachments/UtilityIntelligence/Documenntation/Considerations/add-input.png|center|400]]
+![[../../Attachments/UtilityIntelligence/Documenntation/EditorWindow/input-tab.png|center|400]]
+
+To select the input for a consideration, you need to select the input name from this drop down in **Consideration Editor**:  
+
+![[../../Attachments/UtilityIntelligence/Documenntation/Considerations/select-input.png|center|600]]
 
 
 ## Built-in Inputs
@@ -74,6 +87,8 @@ Currently, **Utility Intelligence** provides these buit-in inputs:
 - **MyDistanceToTargetInput**: It returns the distance from the current agent to the target.
 
 # Input Normalizations
+
+## Creating Input Normalizations
 
 - To create a Input Normalization, you need to create a new inherited from `InputNormalization<Value>` and override `OnCalculateNormalizedInput` method. For example:
 	```cs
@@ -91,8 +106,8 @@ Currently, **Utility Intelligence** provides these buit-in inputs:
 	    }}
 	```
 
-- To select the input normalization for your consideration, you need to select the normalization type from this drop down in **Consideration Tab**:  
-	![[../../Attachments/UtilityIntelligence/Documenntation/Considerations/select-normalization.png|center|500]]
+- To select the input normalization for a consideration, you need to select the normalization type from this drop down in **Consideration Editor**:  
+	![[../../Attachments/UtilityIntelligence/Documenntation/Considerations/select-normalization.png|center|600]]
 
 ## Built-in Input Normalizations
 

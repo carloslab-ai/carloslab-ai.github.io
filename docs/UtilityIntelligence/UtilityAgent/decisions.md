@@ -25,7 +25,7 @@ In **Utility Intelligence**, you can control the prioritization of each decision
 
 ![[../../Attachments/UtilityIntelligence/Documenntation/Decisions/decision-weight.png|center|550]]
 
-To change the decision's weight, you need to use the Editor:
+You can change the weight of a decision in the **Decision Editor**:
 
 ![[../../Attachments/UtilityIntelligence/Documenntation/Decisions/adjust-decision-weight.png|../../Attachments/UtilityIntelligence/Documenntation/Decisions/adjust-decision-weight.png]]
 
@@ -37,7 +37,7 @@ Every decision has at least 1 target and they will be **scored per target**.  **
 
 # Creating Decisions
 
-To create a Decision, you need to go to the **Agent Tab**, fill in the **Name** field, and then click the **Create** button:
+To create a Decision, you need to go to the **Agent Tab**, fill in the **Name** field, and then click the **Create** button:
 
 ![[../../Attachments/UtilityIntelligence/Documenntation/Decisions/add-decision.png|center|500]]
 
@@ -46,81 +46,99 @@ To create a Decision, you need to go to the **Agent Tab**, fill in the **Name**
 
 ## Creating Target Filters
 
-- To create a Target Filter, you need to create a class inherited from `TargetFilter` and override `OnFilterTarget` method:
+1. To create a new Target Filter, you need to create a class inherited from `TargetFilter` and override `OnFilterTarget` method:
 	```cs
-	public class ChargeStationFilter : TargetFilter
-	{
-	    public ChargeStationType Type;
-	
-	    protected override bool OnFilterTarget(DecisionContext context)
-	    {
-	        return context.TargetFacade is ChargeStation station && station.Type == Type;
-	    }
-	}
+    public class ChargeStationFilter : TargetFilter
+    {
+        public ChargeStationType Type;
+
+        protected override bool OnFilterTarget(UtilityEntity target)
+        {
+            return target.EntityFacade is ChargeStation station && station.Type == Type;
+        }
+    }
 	```
 
-- Note that you can add multiple Target Filters to a decision. To add a Target Filter, you need to select a Target Filter type, and then click the **Create** button:
-![[../../Attachments/UtilityIntelligence/Documenntation/Decisions/add-target-filter.png|../../Attachments/UtilityIntelligence/Documenntation/Decisions/add-target-filter.png]]
+1.  To add the Target Filter to the agent, you need to go to **Target Filter Tab**, select a target filter type, give it a name, and then click the **Create** button:
+![[../../Attachments/UtilityIntelligence/Documenntation/EditorWindow/target-filter-tab.png|center|400]]
+
+1. To attach the Target Filter to a decision, you need to go the the **Decision Editor** in the **Agent Tab**, select the Target Filter name, then click the **Add** button:
+![[../../Attachments/UtilityIntelligence/Documenntation/Decisions/attach-target-filter.png|../../Attachments/UtilityIntelligence/Documenntation/Decisions/attach-target-filter.png]]
+
+> [!NOTE]
+> - You can attach multiple Target Filters to a decision.
+> - If the Target Filter list is empty, all entities in the world will be the targets for the decision.
 
 ## Built-in Target Filters
 
 Currently, we provides these built-in Target Filters:
-- **SelfFilter**: The filtered target is the current agent.
 - **OtherFilter**: The filtered targets are any entities in the utility world, except the current agent.
 - **AgentFilter**: The filtered targets are any agents in the utility world.
 
-# Actions
+# Action Tasks
+
+## Keep Running Until Finished
+In case you want to prevent the current agent from making a new decision while the action list is running, you can check the option: **Keep Running Until Finished** in the **Action List Editor**. 
+
+For example, it can be used with the attack action because the agent needs to finish the attack before starting the next action, such as run away from the enemy. 
+
+![[../../Attachments/UtilityIntelligence/Documenntation/Decisions/ActionTasks/keep-running-until-finished.png|../../Attachments/UtilityIntelligence/Documenntation/Decisions/ActionTasks/keep-running-until-finished.png]]
+
+## MaxRepeatCount
+
+It is the number of times to repeat the action list. 
+
+> [!NOTE]
+> - The action list only repeat if it is finished in success.
+> - If `MaxRepeatCount` <= 0 it will be repeated forever
+
+You can change `MaxRepeatCount` of the action list here:
+
+![[../../Attachments/UtilityIntelligence/Documenntation/Decisions/ActionTasks/max-repeat-count.png|../../Attachments/UtilityIntelligence/Documenntation/Decisions/ActionTasks/max-repeat-count.png]]
 
 ## Execution Modes
 
 After the agent finds out the best decision, it will execute the action list either in **sequence** or in **parallel**, depending on your choice. Currently, there are two execution modes for the action list:
-- **ActionsRunInSequence**
+- **Sequence**
 	- The actions will be run sequentially. 
-	- If an action returns success, the agent will run the next action, and the action list will finish in success when the last action returns success.
-	- If an action returns failure, the action list will finish in failure.
-- **ActionsRunInParallel**
+	- If an action finishes in success, the agent will run the next action, and the action list will finish in success if the last action finishes in success.
+	- If an action finishes in failure, the action list will finish in failure.
+- **Parallel**
 	- The actions will be run simultaneously. 
-	- If any action returns success, the action list will finish in success.
-	- If any action returns failure, the action list will finish in failure.
+	- The action list will finish in success if all actions are finished in success.
+	- If any action finishes in failure, other actions will be aborted and the action list will finish in failure.
+- **ParallelComplete**
+	- The actions will be run simultaneously. 
+	- If any action finishes in success or failure, other actions will be aborted and the action list will return the child status immediately.
 
-You can choose the execution mode you prefer by selecting it from this drop down menu:
-![[../../Attachments/UtilityIntelligence/Documenntation/Decisions/actions-sequence-parallel.png|../../Attachments/UtilityIntelligence/Documenntation/Decisions/actions-sequence-parallel.png]]
+You can choose the execution mode you want by selecting it from this drop down menu:
+![[../../Attachments/UtilityIntelligence/Documenntation/Decisions/ActionTasks/actions-execution-mode.png|../../Attachments/UtilityIntelligence/Documenntation/Decisions/ActionTasks/actions-execution-mode.png]]
 
+## Creating Action Tasks
 
-## Wait Until Finished
-In case you want to wait until the action list of the current decision is finished before the agent makes a new decision, you can check the option: **Wait Until Action List Finished**. For example, it can be used with the attack action because the agent needs to finish the attack before starting the next action, such as run away from the enemy. 
-
-![[../../Attachments/UtilityIntelligence/Documenntation/Decisions/wait-action-list-finished.png|../../Attachments/UtilityIntelligence/Documenntation/Decisions/wait-action-list-finished.png]]
-
-## Restarted After Finished
-
-> [!NOTE] Note
-> The action list will be restarted from the beginning after it is finished.
-
-## Creating Actions
-
-- To create a new action, you need to create a new class inherited from `ActionTask`:
+1. To create a new action task, you need to create a new class inherited from `ActionTask`:
 	```cs
-	public class Wait : ActionTask
-	{
-	    private float elapsedTime;
-	    public VariableReference<float> WaitTime = 1.0f;
-	
-	    protected override void OnStart()
-	    {
-	        elapsedTime = 0;
-	    }
-	
-	    protected override Status OnUpdate(float deltaTime)
-	    {
-	        elapsedTime += deltaTime;
-	
-	        if (elapsedTime > WaitTime) return Status.Success;
-	        return Status.Running;
-	    }
-	}
-	```
+    public class Wait : ActionTask
+    {
+        private float elapsedTime;
+        public VariableReference<float> WaitTime = 1.0f;
 
+        protected override void OnStart()
+        {
+            elapsedTime = 0;
+        }
+
+        protected override UpdateStatus OnUpdate(float deltaTime)
+        {
+            elapsedTime += deltaTime;
+
+            if (elapsedTime > WaitTime) return UpdateStatus.Success;
+            return UpdateStatus.Running;
+        }
+    }
+	```
+1. To assign the action task to a decision, you need to go the the **Action List Editor** in the **Agent Tab**, select the action type, then click the **Create** button:
+![[../../Attachments/UtilityIntelligence/Documenntation/Decisions/assign-action-task.png|../../Attachments/UtilityIntelligence/Documenntation/Decisions/assign-action-task.png]]
 
 ## Overridable Functions
 Here is the list of functions you could override to make your actions works as you want:
@@ -181,7 +199,7 @@ Here is the list of functions you could override to make your actions works as y
 
 ## Coroutine functions
 
-- We provides these functions to help you start/stop coroutines from your actions:
+- We provides these functions to help you start/stop coroutines from action tasks:
 	```cs
 	void StartCoroutine(string methodName);
 	
@@ -198,7 +216,7 @@ Here is the list of functions you could override to make your actions works as y
 
 ## Built-in Actions
 
-Here is the list of built-in actions we provide:
+Currently, **Utility Intelligence** provides these buit-in action tasks:
 - Idle
 - Log
 - Wait
