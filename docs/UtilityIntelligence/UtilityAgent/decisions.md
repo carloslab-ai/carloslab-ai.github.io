@@ -39,7 +39,7 @@ Every decision has at least 1 target and they will be **scored per target**.  **
 
 To create a Decision, you need to go to the **Agent Tab**, fill in the **Name** field, and then click the **Create** button:
 
-![[../../Attachments/UtilityIntelligence/Documenntation/Decisions/add-decision.png|center|500]]
+![[../../Attachments/UtilityIntelligence/Documenntation/Decisions/create-decision.png|center|500]]
 
 
 # Target Filters
