@@ -8,5 +8,6 @@ nav:
   - utility-world.md
   - utility-entities.md
   - UtilityAgent
+  - optimization.md
   - release-notes.md
   
