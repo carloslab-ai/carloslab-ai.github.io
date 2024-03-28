@@ -142,7 +142,7 @@ Here is the list of functions you could override to make your actions works as y
 
 # Built-in Action Tasks
 
-Currently, **Utility Intelligence** provides these buit-in action tasks:
+Currently, **Utility Intelligence** provides these buit-in action tasks:
 - Idle
 - Log
 - Wait
