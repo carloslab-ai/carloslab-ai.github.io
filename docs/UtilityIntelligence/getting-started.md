@@ -17,9 +17,9 @@ title: Getting Started
 1. Then double-click on the new **Utility Agent Asset** to open the **Editor Window**.
 2. Add new [[UtilityAgent/decision-makers|Decision Makers]], [[UtilityAgent/decisions|Decisions]], [[UtilityAgent/considerations|Considerations]] *as many as you want*
 ![[../Attachments/UtilityIntelligence/Documenntation/EditorWindow/agent-tab.png|../Attachments/UtilityIntelligence/Documenntation/EditorWindow/agent-tab.png]]
-1. Convert your AI GameObjects into [[utility-world#Utility Agent|Utility Agents]] and assign the new **Utility Agent Asset** to the **Agent Asset** field of the **Utility Agent Owner**
+1. Transform your AI GameObjects into [[utility-world#Utility Agent|Utility Agents]] and assign the new **Utility Agent Asset** to the **Agent Asset** field of the **Utility Agent Owner**
 ![[../Attachments/UtilityIntelligence/Documenntation/UtilityWorld/utility-agent.png|center|400]]
-1. Convert all the Game Objects that your Agents need to interact with into [[utility-world#Utility Entity|Utility Entities]]
+1. Transform all the Game Objects that your Agents need to interact with into [[utility-world#Utility Entity|Utility Entities]]
 ![[../Attachments/UtilityIntelligence/Documenntation/UtilityWorld/utility-entity.png|center|400]]
 1. Create a [[utility-world|Utility World]] and [[utility-world#Registering Utility Entities with a Utility World|register all the Utility Agents and Utility Entities]] in your game with it.
 ![[../Attachments/UtilityIntelligence/Documenntation/UtilityWorld/utility-world.png|center|400]]
@@ -44,7 +44,6 @@ To upgrade **Utility Intelligence** you just need to do the following:
 1. Backup your project
 2. Remove the following folders:
 	- CarlosLab/Common
-	- CarlosLab/AI
 	- CarlosLab/UtilityIntelligence
 3. Re-import **Utility Intelligence** package
 
