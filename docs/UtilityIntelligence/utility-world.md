@@ -3,8 +3,6 @@ share: true
 title: Utility World
 ---
 
-# Utility World
-
 A Utility World is a collection of Utility Entities. and the ID of each Utility Entity is only unique within its own world. 
 
 To create a Utility World, right-click in the **Hierarchy Window**, then select **CarlosLab/Utility World Owner**. Alternatively, you can create it manually by creating a new Game Object and adding a **Utility World Owner** component to it:
