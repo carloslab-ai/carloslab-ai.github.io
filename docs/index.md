@@ -28,7 +28,7 @@ I'm quite interested in AI development in games, especially Utility AI. That's w
 
 <p align="center">
 	<b>
-		<a href="https://carloslab-ai.github.io/UtilityIntelligence/">Documentation</a> - 
+		<a href="https://carloslab-ai.github.io/UtilityIntelligence/getting-started/">Documentation</a> - 
 		<a href="https://assetstore.unity.com/packages/slug/276632">Asset Store</a>
 	</b>
 </p>
