@@ -11,7 +11,7 @@ title: Editor Window
 - `Show Data`: Show the AgentModel data in JSON format.
 - `Clear Data`: Clear all the Agent Model data.
 
-With the File Menu Toolbar, you can directly edit the Agent Model data in JSON using your Text Editor, then Import it into the Agent Asset:
+With the File Menu Toolbar, you can edit the Agent Model data directly in JSON format using your Text Editor, then import it into the Agent Asset:
 
 ![[../Attachments/UtilityIntelligence/Animations/JSONEditing.gif|../Attachments/UtilityIntelligence/Animations/JSONEditing.gif]]
 
@@ -23,23 +23,34 @@ In **Agent Tab**, you can add new Decision Makers, Decisions, Considerations *as
 
 ![[../Attachments/UtilityIntelligence/Documenntation/EditorWindow/agent-tab.png|../Attachments/UtilityIntelligence/Documenntation/EditorWindow/agent-tab.png]]
 
-### Score Preview
+### Status Preview
 
-Besides that, you can preview the scores of all decisions, considerations and which decision will be chosen if there are any changes (health, energy, distance to the enemy) **right in the Editor without having to play your game** like with other AI solutions. I believe this feature will save a lot of your time while designing AIs for your games. 
+Besides that, you can preview the status of multiple components for any changes, such as inputs, and response curves, **right in the Editor without needing to play** the game. For example:
+- The score and status of each consideration, indicating which considerations are executed and discarded.
+- The score and status of each decision, indicating which decision is chosen based on the current inputs, normalizations, and response curves.
 
-![[../Attachments/UtilityIntelligence/Animations/ScorePreview.gif|../Attachments/UtilityIntelligence/Animations/ScorePreview.gif]]
+I believe this feature will save a lot of your time while designing AIs for your games. 
+
+![[../Attachments/UtilityIntelligence/Animations/StatusPreview.gif|../Attachments/UtilityIntelligence/Animations/StatusPreview.gif]]
 
 ### Runtime Status
 
-At runtime, you can view the best decision, the best target, decision scores, consideration scores, input values, which decision is running and whether it is successful or not.
+Additionally, you can view the current status of multiple components during runtime. It is similar to Status Preview but includes additional runtime information, such as the **best target** for each decision, and the **current status** of each task.
 
 ![[../Attachments/UtilityIntelligence/Animations/RuntimeStatus.gif|../Attachments/UtilityIntelligence/Animations/RuntimeStatus.gif]]
 
 ### Runtime Editing
 
-Moreover, you can modify your AI behavior during runtime for testing without having to replay your game.
+Moreover, you can modify AI behavior during runtime for testing purposes without needing to replay the game.
 
 ![[../Attachments/UtilityIntelligence/Animations/RuntimeEditing.gif|../Attachments/UtilityIntelligence/Animations/RuntimeEditing.gif]]
+
+
+## Target Filter Tab
+
+In **Target Filter Tab**, you can add new target filters to filter targets for each decision:
+
+![[../Attachments/UtilityIntelligence/Documenntation/EditorWindow/target-filter-tab.png|center|400]]
 
 ## Consideration Tab
 
@@ -49,9 +60,9 @@ In **Consideration Tab**, you can add new considerations and select the input, t
 
 ## Input Tab
 
-In **Input Tab**, you can add as many Inputs as you want to the current Agent:
+In **Input Tab**, you can add as many Inputs as you want to the current agent:
 
-![[../Attachments/UtilityIntelligence/Documenntation/Considerations/add-input.png|center|400]]
+![[../Attachments/UtilityIntelligence/Documenntation/EditorWindow/input-tab.png|center|400]]
 
 ## Blackboard Tab
 
