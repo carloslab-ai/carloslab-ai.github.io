@@ -6,7 +6,7 @@ nav:
   - getting-started.md
   - editor-window.md
   - utility-world.md
-  - utility-entities.md
+  - utility-entity.md
   - UtilityAgent
   - optimization.md
   - release-notes.md
