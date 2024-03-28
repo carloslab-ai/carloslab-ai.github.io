@@ -69,7 +69,7 @@ There are two ways to create a new input:
 	}
 	```
 - Using `InputFromSource<Value>`, you can choose the source of the input: either **Self** or **Target**:
-![[../../Attachments/UtilityIntelligence/Documenntation/Considerations/input-source.png|../../Attachments/UtilityIntelligence/Documenntation/Considerations/input-source.png]]
+![[../../Attachments/UtilityIntelligence/Documenntation/Considerations/Inputs/input-source.png|../../Attachments/UtilityIntelligence/Documenntation/Considerations/Inputs/input-source.png]]
 
 To add inputs to the agent, you need to go to the **Input Tab**, give it a name, select the input type and then click to the **Create** button: 
 
@@ -77,7 +77,7 @@ To add inputs to the agent, you need to go to the **Input Tab**, give it a name,
 
 To select the input for a consideration, you need to select the input name from this drop down in **Consideration Editor**:  
 
-![[../../Attachments/UtilityIntelligence/Documenntation/Considerations/select-input.png|center|600]]
+![[../../Attachments/UtilityIntelligence/Documenntation/Considerations/Inputs/select-input.png|center|600]]
 
 
 ## Built-in Inputs
@@ -111,7 +111,7 @@ Currently, **Utility Intelligence** provides these buit-in inputs:
 	```
 
 - To select the input normalization for a consideration, you need to select the normalization type from this drop down in **Consideration Editor**:  
-	![[../../Attachments/UtilityIntelligence/Documenntation/Considerations/select-normalization.png|center|600]]
+	![[../../Attachments/UtilityIntelligence/Documenntation/Considerations/Inputs/select-normalization.png|center|600]]
 
 ## Built-in Input Normalizations
 
