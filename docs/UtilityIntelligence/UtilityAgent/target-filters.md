@@ -3,7 +3,6 @@ share: true
 title: Target Filters
 ---
 
-
 # Creating Target Filters
 
 1. To create a new Target Filter, you need to create a class inherited from `TargetFilter` and override `OnFilterTarget` method:
