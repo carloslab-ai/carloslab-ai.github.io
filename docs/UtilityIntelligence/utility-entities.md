@@ -4,6 +4,7 @@ title: Utility Entities
 ---
 
 A Utility Entity represents an object inside a Utility World. And only Utility Entities can interact with each other within a Utility World. So you need to transform your Game Objects into Utility Entities to make them interactable by adding 2 components to it:
+
 1. **Utility Entity Facade**
 	- It is used to interact with the Game Object.
 	- To create your own Utility Entity Facade, you need to create a class inherited from `UtilityEntityFacade`. For example:
