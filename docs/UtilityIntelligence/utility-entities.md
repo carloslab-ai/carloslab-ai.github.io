@@ -31,42 +31,40 @@ A Utility Entity represents an object inside a Utility World. And only Utility E
 
 # Registering Utility Entities
 
-Utility Entities can only interact with each other if they are in the same Utility World. 
-
+- Utility Entities can only interact with each other if they are in the same Utility World. 
 - To add your Utility Entities to a Utility World, you need to register them with the Utility World through the `Register` method. For example:
-```cs
-public class AgentsPlacedInSceneDemo : MonoBehaviour
-{
-    [SerializeField]
-    private UtilityWorldOwner world;
-
-    [SerializeField]
-    private List<UtilityAgentOwner> agents;
-
-    [SerializeField]
-    private List<UtilityEntityOwner> chargeStations;
-
-    private void Start()
-    {
-        foreach (UtilityAgentOwner agent in agents)
-        {
-            agent.Register(world);
-        }
-
-        foreach (UtilityEntityOwner chargeStation in chargeStations)
-        {
-            chargeStation.Register(world);
-        }
-    }
-}
-```
+	```cs
+	public class AgentsPlacedInSceneDemo : MonoBehaviour
+	{
+	    [SerializeField]
+	    private UtilityWorldOwner world;
+	
+	    [SerializeField]
+	    private List<UtilityAgentOwner> agents;
+	
+	    [SerializeField]
+	    private List<UtilityEntityOwner> chargeStations;
+	
+	    private void Start()
+	    {
+	        foreach (UtilityAgentOwner agent in agents)
+	        {
+	            agent.Register(world);
+	        }
+	
+	        foreach (UtilityEntityOwner chargeStation in chargeStations)
+	        {
+	            chargeStation.Register(world);
+	        }
+	    }
+	}
+	```
 
 # Destroying Utility Entities
 
 Since utility entities are managed by a utility world, so if you destroy a utility entity using `GameObject.Destroy()` and it is the target of some utility agents, then you will receive an exception notifying that you are trying to access an object that has been destroyed because those utility agents are attempting to access the target entity.
 
 For safety, you should destroy utility entities by calling `UtilityEntityFacade.Destroy()` instead of `GameObject.Destroy()`. This method ensures that the utility entities are safely destroyed. For example:
-
 ```cs
 public class CharacterHealth : MonoBehaviour
 {
