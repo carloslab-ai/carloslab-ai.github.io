@@ -33,33 +33,33 @@ A Utility Entity represents an object inside a Utility World. And only Utility E
 
 Utility Entities can only interact with each other if they are in the same Utility World. 
 
-To add your Utility Entities to a Utility World, you need to register them with the Utility World through the `Register` method. For example:
-```cs
-public class AgentsPlacedInSceneDemo : MonoBehaviour
-{
-    [SerializeField]
-    private UtilityWorldOwner world;
-
-    [SerializeField]
-    private List<UtilityAgentOwner> agents;
-
-    [SerializeField]
-    private List<UtilityEntityOwner> chargeStations;
-
-    private void Start()
-    {
-        foreach (UtilityAgentOwner agent in agents)
-        {
-            agent.Register(world);
-        }
-
-        foreach (UtilityEntityOwner chargeStation in chargeStations)
-        {
-            chargeStation.Register(world);
-        }
-    }
-}
-```
+- To add your Utility Entities to a Utility World, you need to register them with the Utility World through the `Register` method. For example:
+	```cs
+	public class AgentsPlacedInSceneDemo : MonoBehaviour
+	{
+	    [SerializeField]
+	    private UtilityWorldOwner world;
+	
+	    [SerializeField]
+	    private List<UtilityAgentOwner> agents;
+	
+	    [SerializeField]
+	    private List<UtilityEntityOwner> chargeStations;
+	
+	    private void Start()
+	    {
+	        foreach (UtilityAgentOwner agent in agents)
+	        {
+	            agent.Register(world);
+	        }
+	
+	        foreach (UtilityEntityOwner chargeStation in chargeStations)
+	        {
+	            chargeStation.Register(world);
+	        }
+	    }
+	}
+	```
 
 # Destroying Utility Entities
 
