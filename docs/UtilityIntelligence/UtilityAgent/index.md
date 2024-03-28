@@ -1,6 +1,6 @@
 ---
 share: true
-title: Utility Agents
+title: Utility Agent
 ---
 
 A Utility Agent is a special Utility Entity that helps your AI make the right Decision in the current situation and controls it to perform the Actions attached to the chosen Decision.
