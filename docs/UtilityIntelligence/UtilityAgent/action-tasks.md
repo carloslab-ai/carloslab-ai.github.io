@@ -8,7 +8,7 @@ In case you want to prevent the current agent from making a new decision while t
 
 For example, it can be used with the attack action because the agent needs to finish the attack before starting the next action, such as run away from the enemy. 
 
-![[../../Attachments/UtilityIntelligence/Documenntation/ActionTasks/keep-running-until-finished.png|../../Attachments/UtilityIntelligence/Documenntation/ActionTasks/keep-running-until-finished.png]]
+![[../../Attachments/UtilityIntelligence/Documenntation/UtilityAgent/ActionTasks/keep-running-until-finished.png|../../Attachments/UtilityIntelligence/Documenntation/UtilityAgent/ActionTasks/keep-running-until-finished.png]]
 
 # MaxRepeatCount
 
@@ -20,7 +20,7 @@ It is the number of times to repeat the action list.
 
 You can change `MaxRepeatCount` of the action list here:
 
-![[../../Attachments/UtilityIntelligence/Documenntation/ActionTasks/max-repeat-count.png|../../Attachments/UtilityIntelligence/Documenntation/ActionTasks/max-repeat-count.png]]
+![[../../Attachments/UtilityIntelligence/Documenntation/UtilityAgent/ActionTasks/max-repeat-count.png|../../Attachments/UtilityIntelligence/Documenntation/UtilityAgent/ActionTasks/max-repeat-count.png]]
 
 # Execution Modes
 
@@ -38,7 +38,7 @@ After the agent finds out the best decision, it will execute the action list eit
 	- If any action finishes in success or failure, other actions will be aborted and the action list will return the child status immediately.
 
 You can choose the execution mode you want by selecting it from this drop down menu:
-![[../../Attachments/UtilityIntelligence/Documenntation/ActionTasks/actions-execution-mode.png|../../Attachments/UtilityIntelligence/Documenntation/ActionTasks/actions-execution-mode.png]]
+![[../../Attachments/UtilityIntelligence/Documenntation/UtilityAgent/ActionTasks/actions-execution-mode.png|../../Attachments/UtilityIntelligence/Documenntation/UtilityAgent/ActionTasks/actions-execution-mode.png]]
 
 # Creating Action Tasks
 
@@ -64,7 +64,7 @@ You can choose the execution mode you want by selecting it from this drop down m
     }
 	```
 1. To assign the action task to a decision, you need to go the the **Action List Editor** in the **Agent Tab**, select the action type, then click the **Create** button:
-![[../../Attachments/UtilityIntelligence/Documenntation/Decisions/assign-action-task.png|../../Attachments/UtilityIntelligence/Documenntation/Decisions/assign-action-task.png]]
+![[../../Attachments/UtilityIntelligence/Documenntation/UtilityAgent/Decisions/assign-action-task.png|../../Attachments/UtilityIntelligence/Documenntation/UtilityAgent/Decisions/assign-action-task.png]]
 
 # Overridable Functions
 Here is the list of functions you could override to make your actions works as you want:

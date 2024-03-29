@@ -23,23 +23,23 @@ In **Utility Intelligence**, you can control the prioritization of each decision
 - Combat Layer's Weight: 2.0
 - Urgent Layer's Weight: 3.0
 
-![[../../Attachments/UtilityIntelligence/Documenntation/Decisions/decision-weight.png|center|550]]
+![[../../Attachments/UtilityIntelligence/Documenntation/UtilityAgent/Decisions/decision-weight.png|center|550]]
 
 You can change the weight of a decision in the **Decision Editor**:
 
-![[../../Attachments/UtilityIntelligence/Documenntation/Decisions/adjust-decision-weight.png|../../Attachments/UtilityIntelligence/Documenntation/Decisions/adjust-decision-weight.png]]
+![[../../Attachments/UtilityIntelligence/Documenntation/UtilityAgent/Decisions/adjust-decision-weight.png|../../Attachments/UtilityIntelligence/Documenntation/UtilityAgent/Decisions/adjust-decision-weight.png]]
 
 ## Decisions are scored per Target
 
 Every decision has at least 1 target and they will be **scored per target**.  **Utility Intelligence** will compare all of the decision-target pairs with each other then choose the pair with the highest score.
 
-![[../../Attachments/UtilityIntelligence/Documenntation/Decisions/decisions-per-target.png|../../Attachments/UtilityIntelligence/Documenntation/Decisions/decisions-per-target.png]]
+![[../../Attachments/UtilityIntelligence/Documenntation/UtilityAgent/Decisions/decisions-per-target.png|../../Attachments/UtilityIntelligence/Documenntation/UtilityAgent/Decisions/decisions-per-target.png]]
 
 # Creating Decisions
 
 To create a new decision, you need to go to the **Agent Tab**, fill in the **Name** field, and then click the **Create** button:
 
-![[../../Attachments/UtilityIntelligence/Documenntation/Decisions/create-decision.png|center]]
+![[../../Attachments/UtilityIntelligence/Documenntation/UtilityAgent/Decisions/create-decision.png|center]]
 
 After create a decision, you can attach target filters, considerations and assign action tasks for the decision using **Decision Editor**.
 
