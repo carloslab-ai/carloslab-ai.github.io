@@ -5,8 +5,7 @@ nav:
   - why-use-utility-ai.md
   - getting-started.md
   - editor-window.md
-  - utility-world.md
-  - utility-entity.md
+  - UtilityWorld
   - UtilityAgent
   - optimization.md
   - release-notes.md
