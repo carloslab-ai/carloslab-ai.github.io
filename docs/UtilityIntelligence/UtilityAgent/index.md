@@ -1,11 +1,13 @@
 ---
 share: true
-title: Utility Agents
+title: Utility Agent
 ---
 
-A Utility Agent is a special Utility Entity that helps your AI make the right Decision in the current situation and controls it to perform the Actions attached to the chosen Decision.
+A Utility Agent is a special [[../UtilityWorld/utility-entity|Utility Entity]] that helps your AI make the right decision based on the current situation and controls it to perform the [[../UtilityAgent/action-tasks|Action Tasks]] attached to the chosen decision.
 
-To transform a Game Object into a Utility Agent, you need to add 2 components to it:
+# Transforming GameObjects into Utility Agents
+
+To transform a Game Object into a Utility Agent, you need to attach these two components to it:
 1. **Utility Agent Facade**
 	- It is used to interact with the Game Object.
 	- To create your own Utility Agent Facade, you need to create a class inherited from `UtilityAgentFacade`. For example:
@@ -37,8 +39,15 @@ To transform a Game Object into a Utility Agent, you need to add 2 components to
 		}
 		```
 1. **Utility Agent Owner**
-	- It will automatically create a Utility Agent when the game starts and manage it to make the right decisions based on the attached **Agent Asset**.
+	- It will automatically create a Utility Agent when the game starts and manage it to make the right decisions based on the attached [[#Utility Agent Asset|Utility Agent Asset]]
 ![[../../Attachments/UtilityIntelligence/Documenntation/UtilityWorld/utility-agent.png|center|400]]
+
+
+# Utility Agent Asset
+
+A **Utility Agent Asset** is a data container used to save **AI Behavior Data** of Utility Agents. The **AI Behavior Data** includes [[../UtilityAgent/decision-makers|Decision Makers]], [[../UtilityAgent/decisions|Decisions]], [[../UtilityAgent/target-filters|Target Filters]], [[../UtilityAgent/action-tasks|Action Tasks]], [[../UtilityAgent/considerations|Considerations]] and it is stored in JSON format. So you can edit it manually using your Text Editor then import it into **Utility Agent Asset** by using [[../utility-agent-editor#File Menu|File Toolbar Menu]].
+
+The **AI Behavior Data** is stored in JSON format, and you can import, export, view it by using [[../utility-agent-editor#File Menu|File Toolbar Menu]].
 
 ---
 <p align="center">

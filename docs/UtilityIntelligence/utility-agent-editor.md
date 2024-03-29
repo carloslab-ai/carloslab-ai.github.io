@@ -1,6 +1,6 @@
 ---
 share: true
-title: Editor Window
+title: Utility Agent Editor
 ---
 
 # Toolbar
@@ -15,13 +15,13 @@ With the File Menu Toolbar, you can edit the Agent Model data directly in JSON f
 
 ![[../Attachments/UtilityIntelligence/Animations/JSONEditing.gif|../Attachments/UtilityIntelligence/Animations/JSONEditing.gif]]
 
-# Tabs
+# Utility Agent Editor
 
 ## Agent Tab
 
 In **Agent Tab**, you can add new Decision Makers, Decisions, Considerations *as many as you want*:
 
-![[../Attachments/UtilityIntelligence/Documenntation/EditorWindow/agent-tab.png|../Attachments/UtilityIntelligence/Documenntation/EditorWindow/agent-tab.png]]
+![[../Attachments/UtilityIntelligence/Documenntation/UtilityAgent/UtilityAgentEditor/agent-tab.png|../Attachments/UtilityIntelligence/Documenntation/UtilityAgent/UtilityAgentEditor/agent-tab.png]]
 
 ### Status Preview
 
@@ -50,7 +50,7 @@ Moreover, you can modify AI behavior during runtime for testing purposes without
 
 In **Target Filter Tab**, you can add new target filters to filter targets for each decision:
 
-![[../Attachments/UtilityIntelligence/Documenntation/EditorWindow/target-filter-tab.png|center|400]]
+![[../Attachments/UtilityIntelligence/Documenntation/UtilityAgent/UtilityAgentEditor/target-filter-tab.png|center|400]]
 
 ## Consideration Tab
 
@@ -62,7 +62,7 @@ In **Consideration Tab**, you can add new considerations and select the input, t
 
 In **Input Tab**, you can add as many Inputs as you want to the current agent:
 
-![[../Attachments/UtilityIntelligence/Documenntation/EditorWindow/input-tab.png|center|400]]
+![[../Attachments/UtilityIntelligence/Documenntation/UtilityAgent/UtilityAgentEditor/input-tab.png|center|400]]
 
 ## Blackboard Tab
 

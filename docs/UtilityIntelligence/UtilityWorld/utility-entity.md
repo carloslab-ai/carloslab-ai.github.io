@@ -1,9 +1,13 @@
 ---
 share: true
-title: Utility Entities
+title: Utility Entity
 ---
 
-A Utility Entity represents an object inside a Utility World. And only Utility Entities can interact with each other within a Utility World. So you need to transform your Game Objects into Utility Entities to make them interactable by adding 2 components to it:
+A Utility Entity represents an object inside a Utility World, and only Utility Entities in the same world can interact with each other. Therefore, if you want a GameObject as the target of [[../UtilityAgent/index|Utility Agents]], you need to transform it into a Utility Entity.
+
+# Transforming GameObjects into Utility Entities
+
+To transform a GameObject into a Utility Entity, you need to attach these two components to it:
 
 1. **Utility Entity Facade**
 	- It is used to interact with the Game Object.
@@ -32,7 +36,7 @@ A Utility Entity represents an object inside a Utility World. And only Utility E
 # Registering Utility Entities
 
 - Utility Entities can only interact with each other if they are in the same Utility World. 
-- To add your Utility Entities to a Utility World, you need to register them with the Utility World through the `Register` method. For example:
+- To add your Utility Entities to a Utility World, you need to register them with the Utility World by calling `UtilityEntityOwner.Register` method. For example:
 	```cs
 	public class AgentsPlacedInSceneDemo : MonoBehaviour
 	{
