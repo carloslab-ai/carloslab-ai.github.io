@@ -47,9 +47,9 @@ To transform a Game Object into a Utility Agent, you need to attach these two co
 
 A **Utility Agent Asset** is a data container used to save **AI Behavior Data** of Utility Agents. 
 
-It includes [[../UtilityAgent/decision-makers|Decision Makers]], [[../UtilityAgent/decisions|Decisions]], [[../UtilityAgent/target-filters|Target Filters]], [[../UtilityAgent/action-tasks|Action Tasks]], [[../UtilityAgent/considerations|Considerations]] and is stored in JSON format. So you can edit it manually using your Text Editor then import it into **Utility Agent Asset** by using [[../utility-agent-editor#File Menu|File Toolbar Menu]].
+It includes [[../UtilityAgent/decision-makers|Decision Makers]], [[../UtilityAgent/decisions|Decisions]], [[../UtilityAgent/target-filters|Target Filters]], [[../UtilityAgent/action-tasks|Action Tasks]], [[../UtilityAgent/considerations|Considerations]] and is stored in JSON format. So you can edit it manually using your Text Editor then import it into **Utility Agent Asset** by using [[utility-agent-editor#File Menu|File Toolbar Menu]].
 
-But the recommended way to change **AI Behavior Data** is to use [[../utility-agent-editor|Utility Agent Editor]].
+But the recommended way to change **AI Behavior Data** is to use [[utility-agent-editor|Utility Agent Editor]].
 
 ---
 <p align="center">
