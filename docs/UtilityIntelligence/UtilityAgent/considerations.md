@@ -73,7 +73,7 @@ There are two ways to create a new input:
 
 To add inputs to the agent, you need to go to the **Input Tab**, give it a name, select the input type and then click to the **Create** button: 
 
-![[../../Attachments/UtilityIntelligence/Documenntation/UtilityAgent/UtilityAgentEditor/input-tab.png|center|400]]
+![[../../Attachments/UtilityIntelligence/Documenntation/UtilityAgentEditor/input-tab.png|center|400]]
 
 To select the input for a consideration, you need to select the input name from this drop down in **Consideration Editor**:  
 
