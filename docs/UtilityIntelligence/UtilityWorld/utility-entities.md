@@ -1,6 +1,6 @@
 ---
 share: true
-title: Utility Entity
+title: Utility Entities
 ---
 
 A Utility Entity represents an object inside a Utility World. And only Utility Entities can interact with each other within a Utility World. So you need to transform your Game Objects into Utility Entities to make them interactable by adding 2 components to it:
