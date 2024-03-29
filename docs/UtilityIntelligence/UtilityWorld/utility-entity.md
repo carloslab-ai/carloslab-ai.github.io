@@ -1,0 +1,123 @@
+---
+share: true
+title: Utility Entity
+---
+
+A Utility Entity represents an object inside a Utility World, and only Utility Entities in the same world can interact with each other. Therefore, if you want a GameObject as the target of [[../UtilityAgent/index|Utility Agents]], you need to transform it into a Utility Entity.
+
+# Transforming GameObjects into Utility Entities
+
+To transform a GameObject into a Utility Entity, you need to attach these two components to it:
+
+1. **Utility Entity Facade**
+	- It is used to interact with the Game Object.
+	- To create your own Utility Entity Facade, you need to create a class inherited from `UtilityEntityFacade`. For example:
+		```cs
+		public class ChargeStation : UtilityEntityFacade
+		{
+		    [SerializeField]
+		    private ChargeStationType type;
+		
+		    [SerializeField]
+		    private float chargeRadius;
+		
+		    [SerializeField]
+		    private float chargePerSec;
+		
+		    public ChargeStationType Type => type;
+		    public float ChargeRadius => chargeRadius;
+		    public float ChargePerSec => chargePerSec;
+		}
+		```
+1. **Utility Entity Owner**
+	- It will automatically create a Utility Entity when the game starts to manage the Game Object within the Utility World.
+	![[../../Attachments/UtilityIntelligence/Documenntation/UtilityWorld/utility-entity.png|center|400]]
+
+# Registering Utility Entities
+
+- Utility Entities can only interact with each other if they are in the same Utility World. 
+- To add your Utility Entities to a Utility World, you need to register them with the Utility World by calling `UtilityEntityOwner.Register` method. For example:
+	```cs
+	public class AgentsPlacedInSceneDemo : MonoBehaviour
+	{
+	    [SerializeField]
+	    private UtilityWorldOwner world;
+	
+	    [SerializeField]
+	    private List<UtilityAgentOwner> agents;
+	
+	    [SerializeField]
+	    private List<UtilityEntityOwner> chargeStations;
+	
+	    private void Start()
+	    {
+	        foreach (UtilityAgentOwner agent in agents)
+	        {
+	            agent.Register(world);
+	        }
+	
+	        foreach (UtilityEntityOwner chargeStation in chargeStations)
+	        {
+	            chargeStation.Register(world);
+	        }
+	    }
+	}
+	```
+
+# Destroying Utility Entities
+
+Since utility entities are managed by a utility world, so if you destroy a utility entity using `GameObject.Destroy()` and it is the target of some utility agents, then you will receive an exception notifying that you are trying to access an object that has been destroyed because those utility agents are attempting to access the target entity.
+
+For safety, you should destroy utility entities by calling `UtilityEntityFacade.Destroy()` instead of `GameObject.Destroy()`. This method ensures that the utility entities are safely destroyed. For example:
+```cs
+public class CharacterHealth : MonoBehaviour
+{
+    private Character character;
+
+    private int health = 100;
+
+    private bool isDied;
+
+    private void Awake()
+    {
+        character = GetComponent<Character>();
+    }
+    
+    public int Health
+    {
+        get => health;
+        set
+        {
+            int newHealth = value;
+
+            if (newHealth < 0)
+                newHealth = 0;
+
+            if (this.health == newHealth)
+                return;
+
+            this.health = newHealth;
+
+            if (this.health == 0)
+                Die();
+        }
+    }
+
+    private void Die()
+    {
+        if (isDied)
+            return;
+
+        isDied = true;
+        character.Destroy();
+    }
+}
+```
+
+
+---
+<p align="center">
+	If you <b>find</b> this plugin <b>helpful</b>, please consider <b>supporting</b> it by leaving a <b>5-star review</b> on the Asset Store. Your <b>positive feedback</b> allows me to <b>dedicate more time</b> to its development. 
+	<br>Thank you so much! 🥰
+	<br><a href="https://assetstore.unity.com/packages/slug/276632"><img width= '30%' height='30%'  src="/Attachments/unity-asset-store.png" title="Leave a 5-star review"></img></a>
+</p>
