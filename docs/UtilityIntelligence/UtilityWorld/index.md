@@ -3,10 +3,13 @@ share: true
 title: Utility World
 ---
 
-A Utility World contains a collection of [[./utility-entity|Utility Entities]], and 
+A Utility World contains a collection of [[utility-entity|Utility Entities]], and 
 the main jobs of a Utility World are:
 1. Handling the decision-making process of all [[../UtilityAgent/index|Utility Agents]] inside the world.
 3. Running the task associated with the chosen decision for all [[../UtilityAgent/index|Utility Agents]]  inside the world.
+
+[[../what-is-utility-ai|what-is-utility-ai]]
+
 
 > [!NOTE]
 > - Utility Worlds manage their Utility Entities and Utility Agents independently, not related to each other. 
