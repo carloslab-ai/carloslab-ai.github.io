@@ -9,6 +9,7 @@ the main jobs of a Utility World are:
 3. Running the task associated with the chosen decision for all [[../UtilityAgent/index|Utility Agents]]  inside the world.
 
 [[../what-is-utility-ai|what-is-utility-ai]]
+[[../UtilityAgent/action-tasks|action-tasks]]
 
 
 > [!NOTE]
