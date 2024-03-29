@@ -11,13 +11,13 @@ title: Home
 	<font size=16><b>Carlos Lab</b></font><br>
 	<a href="https://discord.gg/vRFEK5uE3f"><img width = '50' height='50' src="/Attachments/discord.png" title="Join my community"></img></a>
 	<a href="https://twitter.com/carlos_truong9"><img width = '50' height='50' src="/Attachments/twitter.png" title="Follow me"></img></a>
-	<a href="mailto: carloslab.contact@gmail.com" title="Send email to me"><img width = '50' height='50' src="/Attachments/gmail.png"></img></a>
+	<a href="mailto: carloslab.contact@gmail.com" title="Contact for business"><img width = '50' height='50' src="/Attachments/gmail.png"></img></a>
 </p>
 
 # Introduction
 Hi everyone! I'm Carlos, a senior Unity game developer. I've been working for game companies for many years. However, I prefer more freedom, so currently, I am an indie dev.
 
-I'm quite interested in AI development in games, especially Utility AI. That's why I created these plugins.
+I'm quite interested in AI development, especially Utility AI. That's why I created these plugins.
 
 # My Plugins
 ## Utility Intelligence
