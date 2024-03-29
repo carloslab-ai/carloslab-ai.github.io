@@ -12,13 +12,13 @@ In addition, you can add **as many axes as you want** to a decision. That's why 
 # Understanding how Considerations work?
 
 A consideration is made up of:
-- An Input
-- An Input Normalization
-- A Response Curve
+- An [[#Inputs|Input]]
+- An [[#Input Normalizations|Input Normalization]]
+- A [[#Response Curves|Response Curve]]
 
-**Input** is some knowledge about the game world that used to calculate the score of a consideration. For example, my health, target health, distance to target, etc. And it is normalized to `[0, 1]` by an **Input Normalization**. 
+**Input** is some knowledge about the game world that used to calculate the score of a consideration. For example, my health, target health, distance to target, etc. And it is normalized to `[0, 1]` by an [[#Input Normalizations|Input Normalization]].
 
-Then the normalized input is processed through a **Reponse Curve**, which remaps the normalized input to a consideration score. These consideration scores are then multiplied together to get the final score of the decision. Therefore, if the score of any consideration is `0`, then the score of the decision will also be `0`.
+Then the normalized input is processed through a [[#Response Curves|Response Curve]], which remaps the normalized input to a consideration score. These consideration scores are then multiplied together to get the final score of the decision. Therefore, if the score of any consideration is `0`, then the score of the decision will also be `0`.
 
 ![[../../Attachments/UtilityIntelligence/Documenntation/UtilityAgent/Considerations/infinite-axis.png|center]]
 
@@ -29,7 +29,7 @@ To create a new consideration, you need to go to the **Consideration Tab**, fill
 
 ![[../../Attachments/UtilityIntelligence/Documenntation/UtilityAgent/Considerations/create-consideration.png|center|600]]
 
-After create a consideration, you can select an input, an input normalization and update the response curve of the consideration using **Consideration Editor**.
+After create a consideration, you can select an [[#Inputs|Input]], an [[#Input Normalizations|Input Normalization]], and update the [[#Response Curves| Response Curve]] of the consideration using **Consideration Editor**.
 
 # Inputs
 
