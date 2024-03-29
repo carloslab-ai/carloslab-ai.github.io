@@ -8,7 +8,7 @@ title: Getting Started
 1. Firstly, you need to create a **Utility Agent Asset** by right-clicking in the **Project Window** and select **Create/CarlosLab/Utility Agent Asset**.
 1. Then double-click on the new **Utility Agent Asset** to open the **Editor Window**.
 2. Add new [[UtilityAgent/decision-makers|Decision Makers]], [[UtilityAgent/decisions|Decisions]], [[UtilityAgent/considerations|Considerations]] *as many as you want*
-![[../Attachments/UtilityIntelligence/Documenntation/UtilityAgent/UtilityAgentEditor/agent-tab.png|../Attachments/UtilityIntelligence/Documenntation/UtilityAgent/UtilityAgentEditor/agent-tab.png]]
+![[../Attachments/UtilityIntelligence/Documenntation/UtilityAgentEditor/agent-tab.png|../Attachments/UtilityIntelligence/Documenntation/UtilityAgentEditor/agent-tab.png]]
 1. Transform your AI GameObjects into [[UtilityAgent/index|Utility Agents]] and assign the new **Utility Agent Asset** to the **Agent Asset** field of the **Utility Agent Owner**
 ![[../Attachments/UtilityIntelligence/Documenntation/UtilityWorld/utility-agent.png|center|400]]
 1. Transform all the Game Objects that your Agents need to interact with into [[UtilityWorld/utility-entity|Utility Entities]]
