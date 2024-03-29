@@ -4,17 +4,17 @@ title: Decisions
 ---
 
 In **Utility Intelligence**, each decision has:
-- A list of **Target Filters**: They are used to filter the Targets for this Decision.
-- A list of **Considerations**: They are used to calculate the score of this Decision.
-- A list of **Actions**: These Actions will be executed by the Agent if this Decision is chosen.
+- A list of [[#Target Filters|Target Filters]]: They are used to filter targets for the decision.
+- A list of [[considerations|Considerations]]: They are used to calculate the score of the decision.
+- A list of [[action-tasks|Action Tasks]]: They will be executed by the egent if the decision is chosen.
 
 # How do Decisions work?
 
-Because decisions [[#Decision are scored per Target|are scored per Target]]. And any entity in the **Utility World** (all GameObjects with `UtilityEntityOwner` or `UtilityAgentOwner` attached)  could be a Target. Therefore, we need a way to filter Targets, ensuring that the **Decision Score Evaluator** only evaluates appropriate Targets. And that is the job of `TargetFilter`.
+Since a decision [[#Decisions are scored per target|is scored per target]], and any [[../UtilityWorld/utility-entity|Utility Entity]] (all GameObjects with `UtilityEntityOwner` or `UtilityAgentOwner` attached) in the [[../UtilityWorld/index|Utility World]] could be a target of the decision, we need a way to filter targets to ensure that only appropriate targets are considered. This is the job of [[#Target Filters| > Target Filters]].
 
-After finding appropriate targets, all considerations of that decision will be evaluated for each target to calculate the score of each decision-target pair. Then the score of each pair is multiplied with the [[#Decision Weight|Decision Weight]] to get the final score.
+After finding appropriate targets, all [[considerations|Considerations]] of the decision will be evaluated for each target to calculate the score of each decision-target pair. Then the score of each pair is multiplied with the [[#Decision Weight|Decision Weight]] to get the final score.
 
-Finally, the best decision-target pair with the highest score will be chosen and the agent will execute all actions attached to the decision, either in **Sequence** or in **Parallel**.
+Finally, the best decision-target pair with the highest score will be chosen and the agent will execute all [[action-tasks|Action Tasks]] attached to the decision, either in **Sequence** or in **Parallel**.
 
 ## Decision Weight
 
@@ -29,11 +29,49 @@ You can change the weight of a decision in the **Decision Editor**:
 
 ![[../../Attachments/UtilityIntelligence/Documenntation/UtilityAgent/Decisions/adjust-decision-weight.png|../../Attachments/UtilityIntelligence/Documenntation/UtilityAgent/Decisions/adjust-decision-weight.png]]
 
-## Decisions are scored per Target
+## Decisions are scored per target
 
-Every decision has at least 1 target and they will be **scored per target**.  **Utility Intelligence** will compare all of the decision-target pairs with each other then choose the pair with the highest score.
+A decision may or may not have targets, but:
+1. If it has targets, it will be **scored per target**. Afterward, **Utility Intelligence** will compare the scores of all the decision-target pairs with each other and select the pair with the highest score.
+2. If it doesn't have targets, it will be scored only once, and that score is the final score of the decision.
 
 ![[../../Attachments/UtilityIntelligence/Documenntation/UtilityAgent/Decisions/decisions-per-target.png|../../Attachments/UtilityIntelligence/Documenntation/UtilityAgent/Decisions/decisions-per-target.png]]
+
+
+# Target Filters
+
+**Target Filters** are used to filter targets for the current decision. 
+
+> [!NOTE]
+> - A decision may or may not have Target Filters.
+> - But if the Target Filter list is empty, all utility entities in the world will be the targets for the decision.
+
+## Creating Target Filters
+
+1. To create a new Target Filter, you need to create a class inherited from `TargetFilter` and override `OnFilterTarget` method:
+	```cs
+    public class ChargeStationFilter : TargetFilter
+    {
+        public ChargeStationType Type;
+
+        protected override bool OnFilterTarget(UtilityEntity target)
+        {
+            return target.EntityFacade is ChargeStation station && station.Type == Type;
+        }
+    }
+	```
+
+1.  To add the Target Filter to the agent, you need to go to **Target Filter Tab**, select a target filter type, give it a name, and then click the **Create** button:
+![[../../Attachments/UtilityIntelligence/Documenntation/UtilityAgent/UtilityAgentEditor/target-filter-tab.png|center|400]]
+
+1. To attach the Target Filter to a decision, you need to go the the **Decision Editor** in the **Agent Tab**, select the Target Filter name, then click the **Add** button:
+![[../../Attachments/UtilityIntelligence/Documenntation/UtilityAgent/Decisions/attach-target-filter.png|../../Attachments/UtilityIntelligence/Documenntation/UtilityAgent/Decisions/attach-target-filter.png]]
+
+## Built-in Target Filters
+
+Currently, we provides these built-in Target Filters:
+- **OtherFilter**: The filtered targets are any entities in the utility world, except the current agent.
+- **AgentFilter**: The filtered targets are any agents in the utility world.
 
 # Creating Decisions
 
@@ -41,7 +79,7 @@ To create a new decision, you need to go to the **Agent Tab**, fill in the **Nam
 
 ![[../../Attachments/UtilityIntelligence/Documenntation/UtilityAgent/Decisions/create-decision.png|center]]
 
-After create a decision, you can attach target filters, considerations and assign action tasks for the decision using **Decision Editor**.
+After create a decision, you can attach [[#Target Filters|Target Filters]], [[considerations|Considerations]] and assign [[action-tasks|Action Tasks]] for the decision using **Decision Editor**.
 
 ---
 <p align="center">
