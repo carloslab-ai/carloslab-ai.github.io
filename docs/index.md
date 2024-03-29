@@ -11,7 +11,7 @@ title: Home
 	<font size=16><b>Carlos Lab</b></font><br>
 	<a href="https://discord.gg/vRFEK5uE3f"><img width = '50' height='50' src="/Attachments/discord.png" title="Join my community"></img></a>
 	<a href="https://twitter.com/carlos_truong9"><img width = '50' height='50' src="/Attachments/twitter.png" title="Follow me"></img></a>
-	<a href="mailto: carloslab.contact@gmail.com" title="Contact for business"><img width = '50' height='50' src="/Attachments/gmail.png"></img></a>
+	<a href="mailto: carloslab.contact@gmail.com" title="Contact me"><img width = '50' height='50' src="/Attachments/gmail.png"></img></a>
 </p>
 
 # Introduction
