@@ -4,6 +4,7 @@ nav:
   - utility-agent-editor.md
   - decision-makers.md
   - decisions.md
+  - target-filters.md
   - action-tasks.md
   - considerations.md
   - blackboard.md
