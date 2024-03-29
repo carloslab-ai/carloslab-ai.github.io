@@ -11,7 +11,7 @@ title: Home
 	<font size=16><b>Carlos Lab</b></font><br>
 	<a href="https://discord.gg/vRFEK5uE3f"><img width = '50' height='50' src="/Attachments/discord.png" title="Join my community"></img></a>
 	<a href="https://twitter.com/carlos_truong9"><img width = '50' height='50' src="/Attachments/twitter.png" title="Follow me"></img></a>
-	<a href="mailto: carlos.truong.dev@gmail.com" title="Send email to me"><img width = '50' height='50' src="/Attachments/gmail.png"></img></a>
+	<a href="mailto: carloslab.contact@gmail.com" title="Send email to me"><img width = '50' height='50' src="/Attachments/gmail.png"></img></a>
 </p>
 
 # Introduction
@@ -28,7 +28,7 @@ I'm quite interested in AI development in games, especially Utility AI. That's w
 
 <p align="center">
 	<b>
-		<a href="https://carloslab-ai.github.io/UtilityIntelligence/getting-started/">Documentation</a> - 
+		<a href="https://carloslab-ai.github.io/UtilityIntelligence/">Documentation</a> - 
 		<a href="https://assetstore.unity.com/packages/slug/276632">Asset Store</a>
 	</b>
 </p>
