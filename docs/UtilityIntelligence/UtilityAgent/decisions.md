@@ -62,7 +62,7 @@ A decision may or may not have targets, but:
 	```
 
 1.  To add the Target Filter to the agent, you need to go to **Target Filter Tab**, select a target filter type, give it a name, and then click the **Create** button:
-![[../../Attachments/UtilityIntelligence/Documenntation/UtilityAgent/UtilityAgentEditor/target-filter-tab.png|center|400]]
+![[../../Attachments/UtilityIntelligence/Documenntation/UtilityAgentEditor/target-filter-tab.png|center|400]]
 
 1. To attach the Target Filter to a decision, you need to go the the **Decision Editor** in the **Agent Tab**, select the Target Filter name, then click the **Add** button:
 ![[../../Attachments/UtilityIntelligence/Documenntation/UtilityAgent/Decisions/attach-target-filter.png|../../Attachments/UtilityIntelligence/Documenntation/UtilityAgent/Decisions/attach-target-filter.png]]
