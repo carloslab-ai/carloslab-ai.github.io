@@ -3,11 +3,14 @@ share: true
 title: Utility World
 ---
 
-A Utility World contains a collection of [[utility-entity|Utility Entities]] and the ID of each Utility Entity is only unique within its own world. Therefore, utility entities in different worlds might have the same IDs. 
-
-The main jobs of a Utility World are:
+A Utility World contains a collection of [[utility-entity|Utility Entities]], and 
+the main jobs of a Utility World are:
 1. Handling the decision-making process of all [[../UtilityAgent/index|Utility Agents]] inside the world.
 2. Running the task associated with the chosen decision for all [[../UtilityAgent/index|Utility Agents]]  inside the world.
+
+> [!NOTE]
+> - Utility Worlds manage their Utility Entities and Utility Agents independently, not related to each other. 
+> - So you can create multiple utility worlds for different purposes without having to worry about they will affect each other.
 
 To create a Utility World, right-click in the **Hierarchy Window**, then select **CarlosLab/Utility World Owner**. Alternatively, you can create it manually by creating a new Game Object and adding a **Utility World Owner** component to it:
 

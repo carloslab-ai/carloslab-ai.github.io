@@ -3,24 +3,7 @@ share: true
 title: Action Tasks
 ---
 
-# Keep Running Until Finished
-In case you want to prevent the current agent from making a new decision while the action list is running, you can check the option: **Keep Running Until Finished** in the **Action List Editor**. 
-
-For example, it can be used with the attack action because the agent needs to finish the attack before starting the next action, such as run away from the enemy. 
-
-![[../../Attachments/UtilityIntelligence/Documenntation/UtilityAgent/ActionTasks/keep-running-until-finished.png|../../Attachments/UtilityIntelligence/Documenntation/UtilityAgent/ActionTasks/keep-running-until-finished.png]]
-
-# MaxRepeatCount
-
-It is the number of times to repeat the action list. 
-
-> [!NOTE]
-> - The action list only repeat if it is finished in success.
-> - If `MaxRepeatCount` <= 0 it will be repeated forever
-
-You can change `MaxRepeatCount` of the action list here:
-
-![[../../Attachments/UtilityIntelligence/Documenntation/UtilityAgent/ActionTasks/max-repeat-count.png|../../Attachments/UtilityIntelligence/Documenntation/UtilityAgent/ActionTasks/max-repeat-count.png]]
+Action Tasks are tasks that the agent has to execute if the attached decision has been selected. They are executed either in sequence or in parallel, depending on the execution mode of the action list.
 
 # Execution Modes
 
@@ -39,6 +22,25 @@ After the agent finds out the best decision, it will execute the action list eit
 
 You can choose the execution mode you want by selecting it from this drop down menu:
 ![[../../Attachments/UtilityIntelligence/Documenntation/UtilityAgent/ActionTasks/actions-execution-mode.png|../../Attachments/UtilityIntelligence/Documenntation/UtilityAgent/ActionTasks/actions-execution-mode.png]]
+
+# MaxRepeatCount
+
+It is the number of times to repeat the action list. 
+
+> [!NOTE]
+> - The action list only repeat if it is finished in success.
+> - If `MaxRepeatCount` <= 0 it will be repeated forever
+
+You can change `MaxRepeatCount` of the action list here:
+
+![[../../Attachments/UtilityIntelligence/Documenntation/UtilityAgent/ActionTasks/max-repeat-count.png|../../Attachments/UtilityIntelligence/Documenntation/UtilityAgent/ActionTasks/max-repeat-count.png]]
+
+# Keep Running Until Finished
+In case you want to prevent the current agent from making a new decision while the action list is running, you can check the option: **Keep Running Until Finished** in the **Action List Editor**. 
+
+For example, it can be used with the attack action because the agent needs to finish the attack before starting the next action, such as run away from the enemy. 
+
+![[../../Attachments/UtilityIntelligence/Documenntation/UtilityAgent/ActionTasks/keep-running-until-finished.png|../../Attachments/UtilityIntelligence/Documenntation/UtilityAgent/ActionTasks/keep-running-until-finished.png]]
 
 # Creating Action Tasks
 
@@ -65,6 +67,18 @@ You can choose the execution mode you want by selecting it from this drop down m
 	```
 1. To assign the action task to a decision, you need to go the the **Action List Editor** in the **Agent Tab**, select the action type, then click the **Create** button:
 ![[../../Attachments/UtilityIntelligence/Documenntation/UtilityAgent/Decisions/assign-action-task.png|../../Attachments/UtilityIntelligence/Documenntation/UtilityAgent/Decisions/assign-action-task.png]]
+
+# Built-in Action Tasks
+
+Currently, **Utility Intelligence** provides these buit-in action tasks:
+- Idle
+- Log
+- Wait
+- RandomWait
+- MoveTowards
+- NavmeshMoveTowards
+- DestroySelf
+
 
 # Overridable Functions
 Here is the list of functions you could override to make your actions works as you want:
@@ -140,16 +154,6 @@ Here is the list of functions you could override to make your actions works as y
 	void StopAllCoroutines();
 	```
 
-# Built-in Action Tasks
-
-Currently, **Utility Intelligence** provides these buit-in action tasks:
-- Idle
-- Log
-- Wait
-- RandomWait
-- MoveTowards
-- NavmeshMoveTowards
-- DestroySelf
 
 ---
 <p align="center">
