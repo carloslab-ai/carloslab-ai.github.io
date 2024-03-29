@@ -123,7 +123,7 @@ extra_css:
     - assets/css/image-alignment.css
 extra:
   SEO: assets/meta/carloslab-icon.png
-  comments: false #disable comments globally
+  comments: true #disable comments globally
   generator: false
   generate_graph: false #generate the graph of the site
   attachments: 'assets/img' #path to the folder where the attachments are stored
