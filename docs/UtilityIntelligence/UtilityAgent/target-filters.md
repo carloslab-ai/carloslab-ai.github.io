@@ -22,7 +22,7 @@ title: Target Filters
 ![[../../Attachments/UtilityIntelligence/Documenntation/EditorWindow/target-filter-tab.png|center|400]]
 
 1. To attach the Target Filter to a decision, you need to go the the **Decision Editor** in the **Agent Tab**, select the Target Filter name, then click the **Add** button:
-![[../../Attachments/UtilityIntelligence/Documenntation/Decisions/attach-target-filter.png|../../Attachments/UtilityIntelligence/Documenntation/Decisions/attach-target-filter.png]]
+![[../../Attachments/UtilityIntelligence/Documenntation/UtilityAgent/Decisions/attach-target-filter.png|../../Attachments/UtilityIntelligence/Documenntation/UtilityAgent/Decisions/attach-target-filter.png]]
 
 > [!NOTE]
 > - You can attach multiple Target Filters to a decision.
