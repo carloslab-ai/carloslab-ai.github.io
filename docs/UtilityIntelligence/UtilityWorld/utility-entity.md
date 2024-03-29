@@ -27,7 +27,7 @@ A Utility Entity represents an object inside a Utility World. And only Utility E
 		```
 1. **Utility Entity Owner**
 	- It will automatically create a Utility Entity when the game starts to manage the Game Object within the Utility World.
-	![[../Attachments/UtilityIntelligence/Documenntation/UtilityWorld/utility-entity.png|center|400]]
+	![[../../Attachments/UtilityIntelligence/Documenntation/UtilityWorld/utility-entity.png|center|400]]
 
 # Registering Utility Entities
 

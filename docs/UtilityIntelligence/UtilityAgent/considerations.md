@@ -24,12 +24,12 @@ Then the normalized input is processed through a **Reponse Curve**, which remaps
 
 # Creating Considerations
 
-To create a Consideration, you need to go to the **Consideration Tab**, fill in the
+To create a new consideration, you need to go to the **Consideration Tab**, fill in the
 **Name** field, and then click the **Create** button:
 
 ![[../../Attachments/UtilityIntelligence/Documenntation/Considerations/create-consideration.png|center|600]]
 
-After that, you can select an input, an input normalization and update the response curve of the consideration using **Consideration Editor**.
+After create a consideration, you can select an input, an input normalization and update the response curve of the consideration using **Consideration Editor**.
 
 # Inputs
 

@@ -37,8 +37,8 @@ Every decision has at least 1 target and they will be **scored per target**.  **
 
 # Creating Decisions
 
-To create a Decision, you need to go to the **Agent Tab**, fill in the **Name** field, and then click the **Create** button:
+To create a new decision, you need to go to the **Agent Tab**, fill in the **Name** field, and then click the **Create** button:
 
 ![[../../Attachments/UtilityIntelligence/Documenntation/Decisions/create-decision.png|center]]
 
-After that, you can attach target filters, considerations and assign action tasks for the decision using **Decision Editor**.
+After create a decision, you can attach target filters, considerations and assign action tasks for the decision using **Decision Editor**.
