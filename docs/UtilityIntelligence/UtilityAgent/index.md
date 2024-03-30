@@ -12,8 +12,8 @@ A Utility Agent is a special [[../UtilityWorld/utility-entity|Utility Entity]] t
 [[../UtilityWorld/index|index]]
 [[../UtilityWorld/utility-entity|utility-entity]]
 
-[[Areas/PersonalBlog/UtilityIntelligence/UtilityWorld/index|index]]
-[[Areas/PersonalBlog/UtilityIntelligence/UtilityWorld/utility-entity|utility-entity]]
+[[UtilityIntelligence/UtilityWorld/index|index]]
+[[UtilityIntelligence/UtilityWorld/utility-entity|utility-entity]]
 
 
 
