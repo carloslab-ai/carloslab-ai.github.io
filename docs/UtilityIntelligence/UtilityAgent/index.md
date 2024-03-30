@@ -7,9 +7,12 @@ A Utility Agent is a special [[../UtilityWorld/utility-entity|Utility Entity]] t
 
 [[action-tasks|Action Tasks]]
 [[target-filters|target-filters]]
-[[../UtilityWorld/utility-entity|Utility Entity]]
-[[../UtilityWorld/index|index]]
 [[../what-is-utility-ai|what-is-utility-ai]]
+
+[[../UtilityWorld/index|index]]
+[[../UtilityWorld/utility-entity|Utility Entity]]
+
+
 
 # Transforming GameObjects into Utility Agents
 
