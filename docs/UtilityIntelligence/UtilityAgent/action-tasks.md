@@ -21,7 +21,7 @@ After the agent finds out the best decision, it will execute the action list eit
 	- If any action finishes in success or failure, other actions will be aborted and the action list will return the child status immediately.
 
 You can choose the execution mode you want by selecting it from this drop down menu:
-![[../../Attachments/UtilityIntelligence/Documentation/UtilityAgent/ActionTasks/actions-execution-mode.png|../../Attachments/UtilityIntelligence/Documentation/UtilityAgent/ActionTasks/actions-execution-mode.png]]
+![actions-execution-mode.png](../../Attachments/UtilityIntelligence/Documentation/UtilityAgent/ActionTasks/actions-execution-mode.png)
 
 # MaxRepeatCount
 
@@ -33,14 +33,14 @@ It is the number of times to repeat the action list.
 
 You can change `MaxRepeatCount` of the action list here:
 
-![[../../Attachments/UtilityIntelligence/Documentation/UtilityAgent/ActionTasks/max-repeat-count.png|../../Attachments/UtilityIntelligence/Documentation/UtilityAgent/ActionTasks/max-repeat-count.png]]
+![max-repeat-count.png](../../Attachments/UtilityIntelligence/Documentation/UtilityAgent/ActionTasks/max-repeat-count.png)
 
 # Keep Running Until Finished
 In case you want to prevent the current agent from making a new decision while the action list is running, you can check the option: **Keep Running Until Finished** in the **Action List Editor**. 
 
 For example, it can be used with the attack action because the agent needs to finish the attack before starting the next action, such as run away from the enemy. 
 
-![[../../Attachments/UtilityIntelligence/Documentation/UtilityAgent/ActionTasks/keep-running-until-finished.png|../../Attachments/UtilityIntelligence/Documentation/UtilityAgent/ActionTasks/keep-running-until-finished.png]]
+![keep-running-until-finished.png](../../Attachments/UtilityIntelligence/Documentation/UtilityAgent/ActionTasks/keep-running-until-finished.png)
 
 # Creating Action Tasks
 
@@ -66,7 +66,7 @@ For example, it can be used with the attack action because the agent needs to fi
     }
 	```
 1. To assign the action task to a decision, you need to go the the **Action List Editor** in the **Agent Tab**, select the action type, then click the **Create** button:
-![[../../Attachments/UtilityIntelligence/Documentation/UtilityAgent/Decisions/assign-action-task.png|../../Attachments/UtilityIntelligence/Documentation/UtilityAgent/Decisions/assign-action-task.png]]
+![assign-action-task.png](../../Attachments/UtilityIntelligence/Documentation/UtilityAgent/Decisions/assign-action-task.png)
 
 # Built-in Action Tasks
 
