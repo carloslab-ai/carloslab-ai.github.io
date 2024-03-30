@@ -3,12 +3,9 @@ share: true
 title: Utility Entity
 ---
 
-A Utility Entity represents an object inside a [[index|Utility World]], and only Utility Entities in the same world can interact with each other. Therefore, if you want a GameObject to be the target of a [[../UtilityAgent/index|Utility Agent]], you need to do the following:
+A Utility Entity represents an object inside a [Utility World](index.md), and only Utility Entities in the same world can interact with each other. Therefore, if you want a GameObject to be the target of a [Utility Agent](../UtilityAgent/index.md), you need to do the following:
 1. Transform the GameObject into a Utility Entity 
 2. Register the Utility Entity with the same Utility World as the Utility Agent.
-
-[index](../UtilityAgent/index.md)
-[action-tasks](../UtilityAgent/action-tasks.md)
 
 # Transforming GameObjects into Utility Entities
 
@@ -36,7 +33,7 @@ To transform a GameObject into a Utility Entity, you need to attach these two co
 		```
 1. **Utility Entity Owner**
 	- It will automatically create a Utility Entity when the game starts to manage the Game Object within the Utility World.
-	![[../../Attachments/UtilityIntelligence/Documenntation/UtilityWorld/utility-entity.png|center|400]]
+	![center|400](../../Attachments/UtilityIntelligence/Documenntation/UtilityWorld/utility-entity.png)
 
 # Registering Utility Entities
 
