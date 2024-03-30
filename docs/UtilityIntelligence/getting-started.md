@@ -7,13 +7,13 @@ title: Getting Started
 
 1. Firstly, you need to create a **Utility Agent Asset** by right-clicking in the **Project Window** and select **Create/CarlosLab/Utility Agent Asset**.
 1. Then double-click on the new **Utility Agent Asset** to open the **Editor Window**.
-2. Add new [[UtilityAgent/decision-makers|Decision Makers]], [[UtilityAgent/decisions|Decisions]], [[UtilityAgent/considerations|Considerations]] *as many as you want*
+2. Add new [[decision-makers|Decision Makers]], [[decisions|Decisions]], [[considerations|Considerations]] *as many as you want*
 ![[../Attachments/UtilityIntelligence/Documenntation/UtilityAgent/UtilityAgentEditor/agent-tab.png|../Attachments/UtilityIntelligence/Documenntation/UtilityAgent/UtilityAgentEditor/agent-tab.png]]
-1. Transform your AI GameObjects into [[UtilityAgent/index|Utility Agents]] and assign the new **Utility Agent Asset** to the **Agent Asset** field of the **Utility Agent Owner**
+1. Transform your AI GameObjects into [[utility-agent|Utility Agents]] and assign the new **Utility Agent Asset** to the **Agent Asset** field of the **Utility Agent Owner**
 ![[../Attachments/UtilityIntelligence/Documenntation/UtilityWorld/utility-agent.png|center|400]]
-1. Transform all the Game Objects that your Agents need to interact with into [[UtilityWorld/utility-entity|Utility Entities]]
+1. Transform all the Game Objects that your Agents need to interact with into [[utility-entity|Utility Entities]]
 ![[../Attachments/UtilityIntelligence/Documenntation/UtilityWorld/utility-entity.png|center|400]]
-1. Create a [[UtilityWorld/index|Utility World]] and [[UtilityWorld/utility-entity#Registering Utility Entities|register all the Utility Agents and Utility Entities]] in your game with it.
+1. Create a [[utility-world|Utility World]] and [[utility-entity#Registering Utility Entities|register all the Utility Agents and Utility Entities]] in your game with it.
 ![[../Attachments/UtilityIntelligence/Documenntation/UtilityWorld/utility-world.png|center|400]]
 1. Play your game.
 
