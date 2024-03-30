@@ -3,13 +3,13 @@ share: true
 title: Utility Agent
 ---
 
-A Utility Agent is a special [[../UtilityWorld/utility-entity|Utility Entity]] that helps your AI make the right decision based on the current situation and controls it to perform the [[action-tasks|Action Tasks]] attached to the chosen decision.
+A Utility Agent is a special [Utility Entity](../UtilityWorld/utility-entity.md) that helps your AI make the right decision based on the current situation and controls it to perform the [Action Tasks](action-tasks.md) attached to the chosen decision.
 
-[[action-tasks|Action Tasks]]
-[[target-filters|target-filters]]
+[Action Tasks](action-tasks.md)
+[target-filters](target-filters.md)
 [Utility Entity](../UtilityWorld/utility-entity.md)
 [index](../UtilityWorld/index.md)
-[[../what-is-utility-ai|what-is-utility-ai]]
+[what-is-utility-ai](../what-is-utility-ai.md)
 
 # Transforming GameObjects into Utility Agents
 
@@ -45,17 +45,17 @@ To transform a Game Object into a Utility Agent, you need to attach these two co
 		}
 		```
 1. **Utility Agent Owner**
-	- It will automatically create a Utility Agent when the game starts and manage it to make the right decisions based on the attached [[#Utility Agent Asset|Utility Agent Asset]]
-![[../../Attachments/UtilityIntelligence/Documenntation/UtilityWorld/utility-agent.png|center|400]]
+	- It will automatically create a Utility Agent when the game starts and manage it to make the right decisions based on the attached [ > Utility Agent Asset](.md#Utility%20Agent%20Asset)
+![center|400](../../Attachments/UtilityIntelligence/Documenntation/UtilityWorld/utility-agent.png)
 
 
 # Utility Agent Asset
 
 A **Utility Agent Asset** is a data container used to save **AI Behavior Data** of Utility Agents. 
 
-It includes [[decision-makers|Decision Makers]], [[decisions|Decisions]], [[target-filters|Target Filters]], [[action-tasks|Action Tasks]], [[considerations|Considerations]] and is stored in JSON format. So you can edit it manually using your Text Editor then import it into **Utility Agent Asset** by using [[utility-agent-editor#File Menu|File Toolbar Menu]].
+It includes [Decision Makers](decision-makers.md), [Decisions](decisions.md), [Target Filters](target-filters.md), [Action Tasks](action-tasks.md), [Considerations](considerations.md) and is stored in JSON format. So you can edit it manually using your Text Editor then import it into **Utility Agent Asset** by using [File Toolbar Menu](utility-agent-editor.md#File%20Menu).
 
-But the recommended way to change **AI Behavior Data** is to use [[utility-agent-editor|Utility Agent Editor]].
+But the recommended way to change **AI Behavior Data** is to use [Utility Agent Editor](utility-agent-editor.md).
 
 ---
 <p align="center">
