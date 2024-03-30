@@ -3,13 +3,13 @@ share: true
 title: Utility Agent
 ---
 
-A Utility Agent is a special [[../UtilityWorld/utility-entity|Utility Entity]] that helps your AI make the right decision based on the current situation and controls it to perform the [[../UtilityAgent/action-tasks|Action Tasks]] attached to the chosen decision.
+A Utility Agent is a special [[UtilityWorld/utility-entity|Utility Entity]] that helps your AI make the right decision based on the current situation and controls it to perform the [[action-tasks|Action Tasks]] attached to the chosen decision.
 
 [[action-tasks|Action Tasks]]
 [[target-filters|target-filters]]
-[[../UtilityWorld/utility-entity|utility-entity]]
-[[../UtilityWorld/index|index]]
-[[../what-is-utility-ai|what-is-utility-ai]]
+[[UtilityWorld/utility-entity|utility-entity]]
+[[UtilityWorld/index|index]]
+[[what-is-utility-ai|what-is-utility-ai]]
 
 # Transforming GameObjects into Utility Agents
 
@@ -53,7 +53,7 @@ To transform a Game Object into a Utility Agent, you need to attach these two co
 
 A **Utility Agent Asset** is a data container used to save **AI Behavior Data** of Utility Agents. 
 
-It includes [[../UtilityAgent/decision-makers|Decision Makers]], [[../UtilityAgent/decisions|Decisions]], [[../UtilityAgent/target-filters|Target Filters]], [[../UtilityAgent/action-tasks|Action Tasks]], [[../UtilityAgent/considerations|Considerations]] and is stored in JSON format. So you can edit it manually using your Text Editor then import it into **Utility Agent Asset** by using [[utility-agent-editor#File Menu|File Toolbar Menu]].
+It includes [[decision-makers|Decision Makers]], [[decisions|Decisions]], [[target-filters|Target Filters]], [[action-tasks|Action Tasks]], [[considerations|Considerations]] and is stored in JSON format. So you can edit it manually using your Text Editor then import it into **Utility Agent Asset** by using [[utility-agent-editor#File Menu|File Toolbar Menu]].
 
 But the recommended way to change **AI Behavior Data** is to use [[utility-agent-editor|Utility Agent Editor]].
 
