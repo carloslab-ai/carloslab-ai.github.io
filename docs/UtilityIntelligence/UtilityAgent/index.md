@@ -3,13 +3,13 @@ share: true
 title: Utility Agent
 ---
 
-A Utility Agent is a special [[UtilityWorld/utility-entity|Utility Entity]] that helps your AI make the right decision based on the current situation and controls it to perform the [[action-tasks|Action Tasks]] attached to the chosen decision.
+A Utility Agent is a special [[../UtilityWorld/utility-entity|Utility Entity]] that helps your AI make the right decision based on the current situation and controls it to perform the [[action-tasks|Action Tasks]] attached to the chosen decision.
 
 [[action-tasks|Action Tasks]]
 [[target-filters|target-filters]]
-[[UtilityWorld/utility-entity|utility-entity]]
-[[UtilityWorld/index|index]]
-[[what-is-utility-ai|what-is-utility-ai]]
+[[../UtilityWorld/utility-entity|Utility Entity]]
+[[../UtilityWorld/index|index]]
+[[../what-is-utility-ai|what-is-utility-ai]]
 
 # Transforming GameObjects into Utility Agents
 
