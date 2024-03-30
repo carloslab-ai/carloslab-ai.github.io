@@ -10,7 +10,7 @@ In **Utility Intelligence**, each decision has:
 
 # How Decisions work?
 
-Since a decision [[#Decisions are scored per target|is scored per target]], and any [[../UtilityWorld/utility-entity|Utility Entity]] (all GameObjects with `UtilityEntityOwner` or `UtilityAgentOwner` attached) in the [[../UtilityWorld/index|Utility World]] could be a target of the decision, we need a way to filter targets to ensure that only appropriate targets are considered. This is the job of [[target-filters|Target Filters]].
+Since a decision [[#Decisions are scored per target|is scored per target]], and any [[utility-entity|Utility Entity]] (all GameObjects with `UtilityEntityOwner` or `UtilityAgentOwner` attached) in the [[utility-world|Utility World]] could be a target of the decision, we need a way to filter targets to ensure that only appropriate targets are considered. This is the job of [[target-filters|Target Filters]].
 
 After finding appropriate targets, all [[considerations|Considerations]] of the decision will be evaluated for each target to calculate the score of each decision-target pair. Then the score of each pair is multiplied with the [[#Decision Weight|Decision Weight]] to get the final score.
 
@@ -23,11 +23,11 @@ In **Utility Intelligence**, you can control the prioritization of each decision
 - Combat Layer's Weight: 2.0
 - Urgent Layer's Weight: 3.0
 
-![[../../Attachments/UtilityIntelligence/Documenntation/UtilityAgent/Decisions/decision-weight.png|center|550]]
+![[../Attachments/UtilityIntelligence/Documenntation/UtilityAgent/Decisions/decision-weight.png|center|550]]
 
 You can change the weight of a decision in the **Decision Editor**:
 
-![[../../Attachments/UtilityIntelligence/Documenntation/UtilityAgent/Decisions/adjust-decision-weight.png|../../Attachments/UtilityIntelligence/Documenntation/UtilityAgent/Decisions/adjust-decision-weight.png]]
+![[../Attachments/UtilityIntelligence/Documenntation/UtilityAgent/Decisions/adjust-decision-weight.png|../Attachments/UtilityIntelligence/Documenntation/UtilityAgent/Decisions/adjust-decision-weight.png]]
 
 ## Decisions are scored per target
 
@@ -35,14 +35,14 @@ A decision may or may not have targets. However:
 1. If it has targets, it will be **scored per target**. Afterward, **Utility Intelligence** will compare the scores of all the decision-target pairs with each other and select the pair with the highest score.
 2. If it does not have targets, it will be scored only once, and that score is the final score of the decision.
 
-![[../../Attachments/UtilityIntelligence/Documenntation/UtilityAgent/Decisions/decisions-per-target.png|../../Attachments/UtilityIntelligence/Documenntation/UtilityAgent/Decisions/decisions-per-target.png]]
+![[../Attachments/UtilityIntelligence/Documenntation/UtilityAgent/Decisions/decisions-per-target.png|../Attachments/UtilityIntelligence/Documenntation/UtilityAgent/Decisions/decisions-per-target.png]]
 
 
 # Creating Decisions
 
 To create a new decision, you need to go to the **Agent Tab**, fill in the **Name** field, and then click the **Create** button:
 
-![[../../Attachments/UtilityIntelligence/Documenntation/UtilityAgent/Decisions/create-decision.png|center]]
+![[../Attachments/UtilityIntelligence/Documenntation/UtilityAgent/Decisions/create-decision.png|center]]
 
 After create a decision, you can attach [[target-filters|Target Filters]], [[considerations|Considerations]] and assign [[action-tasks|Action Tasks]] to the decision using **Decision Editor**.
 
