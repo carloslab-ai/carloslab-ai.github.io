@@ -12,8 +12,6 @@ A Utility Agent is a special [[../UtilityWorld/utility-entity|Utility Entity]] t
 [[../UtilityWorld/index|index]]
 [[../UtilityWorld/utility-entity|Utility Entity]]
 
-
-
 # Transforming GameObjects into Utility Agents
 
 To transform a Game Object into a Utility Agent, you need to attach these two components to it:
