@@ -71,14 +71,13 @@ To transform a GameObject into a Utility Entity, you need to attach these two co
 
 # Getting Utility Entities
 
-After being registered with a Utility World, the Utility Entity is allocated an **Entity Id**. This Id is unique within the world, and you can get the entity from the world by calling `UtilityWorldOwner.GetEntity()` and passing the **Entity Id** as the parameter of the method. For example:
+- After being registered with a Utility World, the Utility Entity is allocated an **Entity Id**. This Id is unique within the world, and you can get the entity from the world by calling `UtilityWorldOwner.GetEntity()` and passing the **Entity Id** as the parameter of the method. For example:
+	```cs
+	int entityId = entity.Id;  
+	var entity = world.GetEntity(id);
+	```
 
-```cs
-int entityId = entity.Id;  
-var entity = world.GetEntity(id);
-```
-
-It's useful in case you want to access the entity from multiple places but don't want to pass the entity object everywhere.
+- It's useful in case you want to access the entity from multiple places but don't want to pass the entity object everywhere.
 
 # Destroying Utility Entities
 
