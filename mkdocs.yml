@@ -64,8 +64,8 @@ markdown_extensions:
   - pymdownx.tasklist:
        custom_checkbox: true
   - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - admonition
   - toc:
       permalink: true
@@ -124,7 +124,6 @@ extra_css:
 extra:
   SEO: assets/meta/carloslab-icon.png
   comments: false #disable comments globally
-  generator: false
   generate_graph: false #generate the graph of the site
   attachments: 'assets/img' #path to the folder where the attachments are stored
   no-auto-h1: false #disable the automatic generation of h1 if no h1 is found
