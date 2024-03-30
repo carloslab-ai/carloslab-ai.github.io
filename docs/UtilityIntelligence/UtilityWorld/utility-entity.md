@@ -7,8 +7,8 @@ A Utility Entity represents an object inside a [[index|Utility World]], and only
 1. Transform the GameObject into a Utility Entity 
 2. Register the Utility Entity with the same Utility World as the Utility Agent.
 
-
-[[../UtilityAgent/action-tasks|Action Tasks]]
+[index](../UtilityAgent/index.md)
+[action-tasks](../UtilityAgent/action-tasks.md)
 
 # Transforming GameObjects into Utility Entities
 
