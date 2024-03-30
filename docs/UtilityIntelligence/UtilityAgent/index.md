@@ -10,7 +10,9 @@ A Utility Agent is a special [[../UtilityWorld/utility-entity|Utility Entity]] t
 [[../what-is-utility-ai|what-is-utility-ai]]
 
 [[../UtilityWorld/index|index]]
-[[../UtilityWorld/utility-entity|Utility Entity]]
+[[../UtilityWorld/utility-entity|utility-entity]]
+
+
 
 # Transforming GameObjects into Utility Agents
 
@@ -47,7 +49,7 @@ To transform a Game Object into a Utility Agent, you need to attach these two co
 		```
 1. **Utility Agent Owner**
 	- It will automatically create a Utility Agent when the game starts and manage it to make the right decisions based on the attached [[#Utility Agent Asset|Utility Agent Asset]]
-![[../../Attachments/UtilityIntelligence/Documenntation/UtilityWorld/utility-agent.png|center|400]]
+![[../../Attachments/UtilityIntelligence/Documentation/UtilityWorld/utility-agent.png|center|400]]
 
 
 # Utility Agent Asset
