@@ -27,7 +27,7 @@ Blackboard is used to share information between multiple components in an Agent.
 	}
 	```
 - Then you can add this Variable to your Agent's Blackboard by going to the **Blackboard Tab**, select the Variable type, give it a name and then click the **Create** button:
-	![center|400](../../Attachments/UtilityIntelligence/Documenntation/UtilityAgent/Blackboard/add-variable.png)
+	![[../../Attachments/UtilityIntelligence/Documenntation/UtilityAgent/Blackboard/add-variable.png|center|400]]
 
 
 # Referencing Variables
@@ -71,7 +71,7 @@ And to reference a Variable from your classes, you need to declare a `VariableRe
 
 Finally, you need to select the Variable you just created from the dropdown menu:
 
-![reference-variable](../../Attachments/UtilityIntelligence/Documenntation/UtilityAgent/Blackboard/reference-variable.png)
+![[../../Attachments/UtilityIntelligence/Documenntation/UtilityAgent/Blackboard/reference-variable.png|../../Attachments/UtilityIntelligence/Documenntation/UtilityAgent/Blackboard/reference-variable.png]]
 
 
 
