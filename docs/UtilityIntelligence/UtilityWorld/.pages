@@ -1,5 +1,6 @@
 title: Utility World
 nav:
-  - index.md
+  - utility-world.md
   - utility-entity.md
+  - utility-agent.md
   

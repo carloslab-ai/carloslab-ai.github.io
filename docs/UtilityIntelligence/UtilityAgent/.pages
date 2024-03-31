@@ -1,7 +1,6 @@
 title: Utility Agent
 nav:
-  - index.md
-  - utility-agent-editor.md
+  - editor-window.md
   - decision-makers.md
   - decisions.md
   - target-filters.md
