@@ -27,7 +27,7 @@ I'm quite interested in AI development, especially Utility AI. That's why I crea
 
 <p align="center">
 	<b>
-		<a href="https://carloslab-ai.github.io/UtilityIntelligence/">Documentation</a> - 
+		<a href="UtilityIntelligence/index">Documentation</a> - 
 		<a href="https://assetstore.unity.com/packages/slug/276632">Asset Store</a>
 	</b>
 </p>
