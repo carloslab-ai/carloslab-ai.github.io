@@ -8,8 +8,7 @@ In **Utility Intelligence**, each decision has:
 - A list of [Considerations](UtilityIntelligence/UtilityAgent/considerations.md): They are used to calculate the score of the decision.
 - A list of [Action Tasks](UtilityIntelligence/UtilityAgent/action-tasks.md): They will be executed by the egent if the decision is chosen.
 
-[Decisions are scored per target](#Decisions%20are%20scored%20per%20target)  
-[Decisions are scored per target](.mddecisions-are-scored-per-target)
+[is scored per target](.mddecisions-are-scored-per-target)
 
 # How Decisions work?
 
