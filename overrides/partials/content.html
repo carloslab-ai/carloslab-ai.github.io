@@ -39,6 +39,8 @@
 <!-- Page content -->
 {{ page.content }}
 
+{% include "partials/support.html" %}
+
 <!-- Source file information -->
 {% if page.meta and (
 page.meta.git_revision_date_localized or
