@@ -1,6 +1,6 @@
 ---
 share: true
-title: Utility Agent Editor
+title: Editor Window
 ---
 
 # Toolbar
