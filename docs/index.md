@@ -45,7 +45,7 @@ This is the first game I made as an indie dev.
 	<a href="https://store.steampowered.com/app/1393570/Superbugs_Awaken">Steam Page</a>
 </p>
 
-![[Attachments/superbugs-awaken.png|Superbugs Awaken | 700]]
+![Superbugs Awaken | 700](Attachments/superbugs-awaken.png)
 
 ### My team
 I've created this game with my friends. Our team consists of 4 people: 1 designer, 1 artist, 1 marketer and me as an game dev. It's one of the happiest periods in my life. We have numerous unforgettable memories during the journey of developing this game, experiencing both happiness and sadness, but most of the time, it was filled with joy. I'm truly grateful for that. I'm also very happy and pround that we were able to finish and release this game.

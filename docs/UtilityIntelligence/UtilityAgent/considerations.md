@@ -13,24 +13,24 @@ In addition, you can add **as many axes as you want** to a decision. That's why 
 # Understanding how Considerations work?
 
 A consideration is made up of:
-- An [[#Inputs|Input]]
-- An [[#Input Normalizations|Input Normalization]]
-- A [[#Response Curves|Response Curve]]
+- An [Input](#Inputs)
+- An [Input Normalization](#Input%20Normalizations)
+- A [Response Curve](#Response%20Curves)
 
-**Input** is some knowledge about the game world that used to calculate the score of a consideration. For example, my health, target health, distance to target, etc. And it is normalized to `[0, 1]` by an [[#Input Normalizations|Input Normalization]].
+**Input** is some knowledge about the game world that used to calculate the score of a consideration. For example, my health, target health, distance to target, etc. And it is normalized to `[0, 1]` by an [Input Normalization](#Input%20Normalizations).
 
-Then the normalized input is processed through a [[#Response Curves|Response Curve]], which remaps the normalized input to a consideration score. These consideration scores are then multiplied together to get the final score of the decision. Therefore, if the score of any consideration is `0`, then the score of the decision will also be `0`.
+Then the normalized input is processed through a [Response Curve](#Response%20Curves), which remaps the normalized input to a consideration score. These consideration scores are then multiplied together to get the final score of the decision. Therefore, if the score of any consideration is `0`, then the score of the decision will also be `0`.
 
-![[UtilityIntelligence/UtilityAgent/Attachments/Considerations/infinite-axis.png|center]]
+![center](Attachments/Considerations/infinite-axis.png)
 
 # Creating Considerations
 
 To create a new consideration, you need to go to the **Consideration Tab**, fill in the
 **Name** field, and then click the **Create** button:
 
-![[UtilityIntelligence/UtilityAgent/Attachments/Considerations/create-consideration.png|center|600]]
+![center|600](Attachments/Considerations/create-consideration.png)
 
-After create a consideration, you can select an [[#Inputs|Input]], an [[#Input Normalizations|Input Normalization]], and update the [[#Response Curves| Response Curve]] of the consideration using **Consideration Editor**.
+After create a consideration, you can select an [Input](#Inputs), an [Input Normalization](#Input%20Normalizations), and update the [ Response Curve](#Response%20Curves) of the consideration using **Consideration Editor**.
 
 # Inputs
 
@@ -70,15 +70,15 @@ There are two ways to create a new input:
 	}
 	```
 - Using `InputFromSource<Value>`, you can choose the source of the input: either **Self** or **Target**:
-![[UtilityIntelligence/UtilityAgent/Attachments/Considerations/Inputs/input-source.png]]
+![input-source](Attachments/Considerations/Inputs/input-source.png)
 
 To add inputs to the agent, you need to go to the **Input Tab**, give it a name, select the input type and then click to the **Create** button: 
 
-![[UtilityIntelligence/UtilityAgent/Attachments/UtilityAgentEditor/input-tab.png|center|400]]
+![center|400](Attachments/UtilityAgentEditor/input-tab.png)
 
 To select the input for a consideration, you need to select the input name from this drop down in **Consideration Editor**:  
 
-![[UtilityIntelligence/UtilityAgent/Attachments/Considerations/Inputs/select-input.png|center|600]]
+![center|600](Attachments/Considerations/Inputs/select-input.png)
 
 
 ## Built-in Inputs
@@ -112,7 +112,7 @@ Currently, **Utility Intelligence** provides these buit-in inputs:
 	```
 
 - To select the input normalization for a consideration, you need to select the normalization type from this drop down in **Consideration Editor**:  
-	![[UtilityIntelligence/UtilityAgent/Attachments/Considerations/Inputs/select-normalization.png|center|600]]
+	![center|600](Attachments/Considerations/Inputs/select-normalization.png)
 
 ## Built-in Input Normalizations
 
@@ -142,4 +142,4 @@ You can change these parameters to adjust the shape of the response curve based 
 
 **Utility Intelligence** also provides a list of useful presets for response curves. If you want to use our presets, you just need to select one and click to the **Apply** button.
 
-![[UtilityIntelligence/UtilityAgent/Attachments/Considerations/response-curves.png|center|600]]
+![center|600](Attachments/Considerations/response-curves.png)

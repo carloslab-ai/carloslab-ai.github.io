@@ -57,7 +57,7 @@ For simple AIs, everything is okay, there aren't any problems. However, as your 
 
 This is the behavior tree of an agent in one of my previous games:
 
-![[UtilityIntelligence/Attachments/behavior-tree-virus.png|Attachments/UtilityIntelligence/Documentation/behavior-tree-virus.png]]
+![Attachments/UtilityIntelligence/Documentation/behavior-tree-virus.png](Attachments/behavior-tree-virus.png)
 
 As you can see, it's quite complex, isn't it? I still remember that once it becomes complex like this, it's very time-consuming to apply changes whenever designers alter the game design. I have to redesign my behavior tree again and again, and it takes a lot of my time. It's a nightmare, and that's one of the reasons why I created this plugin.
 

@@ -8,14 +8,14 @@ category: Utility Intelligence
 
 1. Firstly, you need to create a **Utility Agent Asset** by right-clicking in the **Project Window** and select **Create/CarlosLab/Utility Agent Asset**.
 1. Then double-click on the new **Utility Agent Asset** to open the **Editor Window**.
-2. Add new [[UtilityIntelligence/UtilityAgent/decision-makers|Decision Makers]], [[UtilityIntelligence/UtilityAgent/decisions|Decisions]], [[UtilityIntelligence/UtilityAgent/considerations|Considerations]] *as many as you want*
-![[UtilityIntelligence/UtilityAgent/Attachments/UtilityAgentEditor/agent-tab.png|Attachments/UtilityIntelligence/Documentation/UtilityAgent/UtilityAgentEditor/agent-tab.png]]
-1. Transform your AI GameObjects into [[UtilityIntelligence/UtilityWorld/utility-agent|Utility Agents]] and assign the new **Utility Agent Asset** to the **Agent Asset** field of the **Utility Agent Owner**
-![[UtilityIntelligence/UtilityWorld/Attachments/utility-agent.png|center|400]]
-1. Transform all the Game Objects that your Agents need to interact with into [[UtilityIntelligence/UtilityWorld/utility-entity|Utility Entities]]
-![[UtilityIntelligence/UtilityWorld/Attachments/utility-entity.png|center|400]]
-1. Create a [[UtilityIntelligence/UtilityWorld/utility-world|Utility World]] and [[UtilityIntelligence/UtilityWorld/utility-entity#Registering Utility Entities|register all the Utility Agents and Utility Entities]] in your game with it.
-![[UtilityIntelligence/UtilityWorld/Attachments/utility-world.png|center|400]]
+2. Add new [Decision Makers](UtilityAgent/decision-makers.md), [Decisions](UtilityAgent/decisions.md), [Considerations](UtilityAgent/considerations.md) *as many as you want*
+![Attachments/UtilityIntelligence/Documentation/UtilityAgent/UtilityAgentEditor/agent-tab.png](UtilityAgent/Attachments/UtilityAgentEditor/agent-tab.png)
+1. Transform your AI GameObjects into [Utility Agents](UtilityWorld/utility-agent.md) and assign the new **Utility Agent Asset** to the **Agent Asset** field of the **Utility Agent Owner**
+![center|400](UtilityWorld/Attachments/utility-agent.png)
+1. Transform all the Game Objects that your Agents need to interact with into [Utility Entities](UtilityWorld/utility-entity.md)
+![center|400](UtilityWorld/Attachments/utility-entity.png)
+1. Create a [Utility World](UtilityWorld/utility-world.md) and [](UtilityWorld/utility-entity.md#Registering%20Utility%20Entities|register%20all%20the%20Utility%20Agents%20and%20Utility%20Entities) in your game with it.
+![center|400](UtilityWorld/Attachments/utility-world.png)
 1. Play your game.
 
 # Running Demos in URP and HDRP
