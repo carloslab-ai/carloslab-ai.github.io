@@ -9,11 +9,11 @@ title: Getting Started
 1. Then double-click on the new **Utility Agent Asset** to open the **Editor Window**.
 2. Add new [[UtilityIntelligence/UtilityAgent/decision-makers|Decision Makers]], [[UtilityIntelligence/UtilityAgent/decisions|Decisions]], [[UtilityIntelligence/UtilityAgent/considerations|Considerations]] *as many as you want*
 ![[Attachments/UtilityIntelligence/Documentation/UtilityAgent/UtilityAgentEditor/agent-tab.png|Attachments/UtilityIntelligence/Documentation/UtilityAgent/UtilityAgentEditor/agent-tab.png]]
-1. Transform your AI GameObjects into [[UtilityIntelligence/UtilityWorld/utility-agent|Utility Agents]] and assign the new **Utility Agent Asset** to the **Agent Asset** field of the **Utility Agent Owner**
+1. Transform your AI GameObjects into [[UtilityWorld/utility-agent|Utility Agents]] and assign the new **Utility Agent Asset** to the **Agent Asset** field of the **Utility Agent Owner**
 ![[Attachments/UtilityIntelligence/Documentation/UtilityWorld/utility-agent.png|center|400]]
 1. Transform all the Game Objects that your Agents need to interact with into [[UtilityIntelligence/UtilityWorld/utility-entity|Utility Entities]]
 ![[Attachments/UtilityIntelligence/Documentation/UtilityWorld/utility-entity.png|center|400]]
-1. Create a [[UtilityIntelligence/UtilityWorld/utility-world|Utility World]] and [[UtilityIntelligence/UtilityWorld/utility-entity#Registering Utility Entities|register all the Utility Agents and Utility Entities]] in your game with it.
+1. Create a [[UtilityWorld/utility-world|Utility World]] and [[UtilityIntelligence/UtilityWorld/utility-entity#Registering Utility Entities|register all the Utility Agents and Utility Entities]] in your game with it.
 ![[Attachments/UtilityIntelligence/Documentation/UtilityWorld/utility-world.png|center|400]]
 1. Play your game.
 
@@ -50,3 +50,10 @@ To upgrade **Utility Intelligence** you just need to do the following:
 ## Videos
 1. [Architecture Tricks: Managing Behaviors in Time, Space, and Depth](https://www.gdcvault.com/play/1018040/Architecture-Tricks-Managing-Behaviors-in), Dave Mark (From 33:30)
 2. [Building a Better Centaur: AI at Massive Scale](https://www.gdcvault.com/play/1021848/Building-a-Better-Centaur-AI), Dave Mark and Mike Lewis
+
+---
+<p align="center">
+	If you <b>find</b> this plugin <b>helpful</b>, please consider <b>supporting</b> it by leaving a <b>5-star review</b> on the Asset Store. Your <b>positive feedback</b> allows me to <b>dedicate more time</b> to its development. 
+	<br>Thank you so much! 🥰
+	<br><a href="https://assetstore.unity.com/packages/slug/276632"><img width= '30%' height='30%'  src="/Attachments/unity-asset-store.png" title="Leave a 5-star review"></img></a>
+</p>

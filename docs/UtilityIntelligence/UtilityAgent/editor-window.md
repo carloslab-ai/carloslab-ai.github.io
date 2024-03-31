@@ -1,6 +1,6 @@
 ---
 share: true
-title: Editor Window
+title: Utility Agent Editor
 ---
 
 # Toolbar
@@ -69,3 +69,10 @@ In **Input Tab**, you can add as many Inputs as you want to the current agent:
 In **Blackboard Tab**, you can add any type of Variable you want to share information between multiple components in your Agent:
 
 ![[Attachments/UtilityIntelligence/Animations/BlackboardVariables.gif|Attachments/UtilityIntelligence/Animations/BlackboardVariables.gif]]
+
+---
+<p align="center">
+	If you <b>find</b> this plugin <b>helpful</b>, please consider <b>supporting</b> it by leaving a <b>5-star review</b> on the Asset Store. Your <b>positive feedback</b> allows me to <b>dedicate more time</b> to its development. 
+	<br>Thank you so much! 🥰
+	<br><a href="https://assetstore.unity.com/packages/slug/276632"><img width= '30%' height='30%'  src="/Attachments/unity-asset-store.png" title="Leave a 5-star review"></img></a>
+</p>

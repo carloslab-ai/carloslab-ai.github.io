@@ -16,3 +16,10 @@ Here's how the decision-making process of a Utility-Based AI works step by step:
 1. **Making the decision**
 	- The decision with the **highest utility score** is chosen for the AI character to execute.
 	- This ensures the NPC prioritizes decisions that are most beneficial for the current situation.
+
+---
+<p align="center">
+	If you <b>find</b> this plugin <b>helpful</b>, please consider <b>supporting</b> it by leaving a <b>5-star review</b> on the Asset Store. Your <b>positive feedback</b> allows me to <b>dedicate more time</b> to its development. 
+	<br>Thank you so much! 🥰
+	<br><a href="https://assetstore.unity.com/packages/slug/276632"><img width= '30%' height='30%'  src="/Attachments/unity-asset-store.png" title="Leave a 5-star review"></img></a>
+</p>

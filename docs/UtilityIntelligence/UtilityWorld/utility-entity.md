@@ -3,7 +3,7 @@ share: true
 title: Utility Entity
 ---
 
-A Utility Entity represents an object inside a [[UtilityIntelligence/UtilityWorld/utility-world|Utility World]], and only Utility Entities in the same world can interact with each other. Therefore, if you want a GameObject to be the target of a [[UtilityIntelligence/UtilityWorld/utility-agent|Utility Agent]], you need to do the following:
+A Utility Entity represents an object inside a [[utility-world|Utility World]], and only Utility Entities in the same world can interact with each other. Therefore, if you want a GameObject to be the target of a [[utility-agent|Utility Agent]], you need to do the following:
 1. Transform the GameObject into a Utility Entity 
 2. Register the Utility Entity with the same Utility World as the Utility Agent.
 
@@ -129,3 +129,11 @@ public class CharacterHealth : MonoBehaviour
     }
 }
 ```
+
+
+---
+<p align="center">
+	If you <b>find</b> this plugin <b>helpful</b>, please consider <b>supporting</b> it by leaving a <b>5-star review</b> on the Asset Store. Your <b>positive feedback</b> allows me to <b>dedicate more time</b> to its development. 
+	<br>Thank you so much! 🥰
+	<br><a href="https://assetstore.unity.com/packages/slug/276632"><img width= '30%' height='30%'  src="/Attachments/unity-asset-store.png" title="Leave a 5-star review"></img></a>
+</p>
