@@ -1,6 +1,7 @@
 ---
 share: true
 title: Getting Started
+category: Utility Intelligence
 ---
 
 # Quick Start
@@ -50,10 +51,3 @@ To upgrade **Utility Intelligence** you just need to do the following:
 ## Videos
 1. [Architecture Tricks: Managing Behaviors in Time, Space, and Depth](https://www.gdcvault.com/play/1018040/Architecture-Tricks-Managing-Behaviors-in), Dave Mark (From 33:30)
 2. [Building a Better Centaur: AI at Massive Scale](https://www.gdcvault.com/play/1021848/Building-a-Better-Centaur-AI), Dave Mark and Mike Lewis
-
----
-<p align="center">
-	If you <b>find</b> this plugin <b>helpful</b>, please consider <b>supporting</b> it by leaving a <b>5-star review</b> on the Asset Store. Your <b>positive feedback</b> allows me to <b>dedicate more time</b> to its development. 
-	<br>Thank you so much! 🥰
-	<br><a href="https://assetstore.unity.com/packages/slug/276632"><img width= '30%' height='30%'  src="/Attachments/unity-asset-store.png" title="Leave a 5-star review"></img></a>
-</p>

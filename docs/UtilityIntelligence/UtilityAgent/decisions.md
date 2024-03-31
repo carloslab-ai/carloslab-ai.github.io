@@ -1,6 +1,7 @@
 ---
 share: true
 title: Decisions
+category: Utility Intelligence
 ---
 
 In **Utility Intelligence**, each decision has:
@@ -45,10 +46,3 @@ To create a new decision, you need to go to the **Agent Tab**, fill in the **Nam
 ![[Attachments/UtilityIntelligence/Documentation/UtilityAgent/Decisions/create-decision.png|center]]
 
 After create a decision, you can attach [[UtilityIntelligence/UtilityAgent/target-filters|Target Filters]], [[UtilityIntelligence/UtilityAgent/considerations|Considerations]] and assign [[UtilityIntelligence/UtilityAgent/action-tasks|Action Tasks]] to the decision using **Decision Editor**.
-
----
-<p align="center">
-	If you <b>find</b> this plugin <b>helpful</b>, please consider <b>supporting</b> it by leaving a <b>5-star review</b> on the Asset Store. Your <b>positive feedback</b> allows me to <b>dedicate more time</b> to its development. 
-	<br>Thank you so much! 🥰
-	<br><a href="https://assetstore.unity.com/packages/slug/276632"><img width= '30%' height='30%'  src="/Attachments/unity-asset-store.png" title="Leave a 5-star review"></img></a>
-</p>

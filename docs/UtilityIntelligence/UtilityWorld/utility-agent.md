@@ -1,6 +1,7 @@
 ---
 share: true
 title: Utility Agent
+category: Utility Intelligence
 ---
 
 A Utility Agent is a special [[UtilityIntelligence/UtilityWorld/utility-entity|Utility Entity]] that helps your AI make the right decision based on the current situation, and controls it to perform the [[UtilityIntelligence/UtilityAgent/action-tasks|Action Tasks]] attached to the chosen decision.
@@ -51,10 +52,3 @@ A **Utility Agent Asset** is a data container used to save **AI Behavior Data** 
 It includes [[UtilityIntelligence/UtilityAgent/decision-makers|Decision Makers]], [[UtilityIntelligence/UtilityAgent/decisions|Decisions]], [[UtilityIntelligence/UtilityAgent/target-filters|Target Filters]], [[UtilityIntelligence/UtilityAgent/action-tasks|Action Tasks]], [[UtilityIntelligence/UtilityAgent/considerations|Considerations]] and is stored in JSON format. So you can edit it manually using your Text Editor then import it into **Utility Agent Asset** by using [[UtilityIntelligence/UtilityAgent/editor-window#File Menu|File Toolbar Menu]].
 
 But the recommended way to change **AI Behavior Data** is to use [[UtilityIntelligence/UtilityAgent/editor-window|Utility Agent Editor]].
-
----
-<p align="center">
-	If you <b>find</b> this plugin <b>helpful</b>, please consider <b>supporting</b> it by leaving a <b>5-star review</b> on the Asset Store. Your <b>positive feedback</b> allows me to <b>dedicate more time</b> to its development. 
-	<br>Thank you so much! 🥰
-	<br><a href="https://assetstore.unity.com/packages/slug/276632"><img width= '30%' height='30%'  src="/Attachments/unity-asset-store.png" title="Leave a 5-star review"></img></a>
-</p>
