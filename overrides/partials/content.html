@@ -39,6 +39,12 @@
 <!-- Page content -->
 {{ page.content }}
 
+{% if page.meta and page.meta.category %}
+	{% if "utility-intelligence" in page.meta.category %}
+		{% include "partials/support_intelligence.html" %}
+	{% endif %}
+{% endif %}
+
 <!-- Source file information -->
 {% if page.meta and (
 page.meta.git_revision_date_localized or
