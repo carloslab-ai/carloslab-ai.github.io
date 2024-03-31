@@ -8,7 +8,7 @@ A Utility Entity represents an object inside a [Utility World](utility-world.md)
 1. Transform the GameObject into a Utility Entity 
 2. Register the Utility Entity with the same Utility World as the Utility Agent.
 
-# Transforming GameObjects into Utility Entities
+## Transforming GameObjects into Utility Entities
 
 To transform a GameObject into a Utility Entity, you need to attach these two components to it:
 
@@ -36,41 +36,41 @@ To transform a GameObject into a Utility Entity, you need to attach these two co
 	- It will automatically create a Utility Entity when the game starts to manage the Game Object within the Utility World.
 	![center|400](Attachments/utility-entity.png)
 
-# Registering Utility Entities
+## Registering Utility Entities
 
 > [!NOTE]
 > - A Utility Entity can only be associated with a single Utility World. 
 > - Therefore, it's not possible to register a Utility Entity with multiple Utility Worlds.
 
-- To register a Utility Entity with a Utility World, you need to call the `Register` method of the **UtilityEntityOwner** and pass the Utility World as the parameter. For example:
-	```cs
-	public class AgentsPlacedInSceneDemo : MonoBehaviour
-	{
-	    [SerializeField]
-	    private UtilityWorldOwner world;
-	
-	    [SerializeField]
-	    private List<UtilityAgentOwner> agents;
-	
-	    [SerializeField]
-	    private List<UtilityEntityOwner> chargeStations;
-	
-	    private void Start()
-	    {
-	        foreach (UtilityAgentOwner agent in agents)
-	        {
-	            agent.Register(world);
-	        }
-	
-	        foreach (UtilityEntityOwner chargeStation in chargeStations)
-	        {
-	            chargeStation.Register(world);
-	        }
-	    }
-	}
-	```
+To register a Utility Entity with a Utility World, you need to call the `Register` method of the **UtilityEntityOwner** and pass the Utility World as the parameter. For example:
+```cs
+public class AgentsPlacedInSceneDemo : MonoBehaviour
+{
+    [SerializeField]
+    private UtilityWorldOwner world;
 
-# Getting Utility Entities
+    [SerializeField]
+    private List<UtilityAgentOwner> agents;
+
+    [SerializeField]
+    private List<UtilityEntityOwner> chargeStations;
+
+    private void Start()
+    {
+        foreach (UtilityAgentOwner agent in agents)
+        {
+            agent.Register(world);
+        }
+
+        foreach (UtilityEntityOwner chargeStation in chargeStations)
+        {
+            chargeStation.Register(world);
+        }
+    }
+}
+```
+
+## Getting Utility Entities
 
 - After being registered with a Utility World, the Utility Entity is allocated an **Entity Id**. This Id is unique within the world, and you can get the entity from the world by calling `UtilityWorldOwner.GetEntity()` and passing the **Entity Id** as the parameter of the method. For example:
 	```cs
@@ -79,7 +79,7 @@ To transform a GameObject into a Utility Entity, you need to attach these two co
 	```
 - It's useful in case you want to access the entity from multiple places but don't want to pass the entity object everywhere.
 
-# Destroying Utility Entities
+## Destroying Utility Entities
 
 Since utility entities are managed by a utility world, if you destroy a utility entity using `GameObject.Destroy()` and it is the target of some utility agents, you will receive an exception notifying you that you are trying to access an object that has been destroyed. 
 

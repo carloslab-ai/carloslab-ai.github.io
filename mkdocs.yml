@@ -134,4 +134,4 @@ extra:
     no_page_found: "No pages found!" #message to display when no pages are found ; Add your own translation!
   hooks:
     strip_comments: true
-    fix_heading: true
+    fix_heading: false

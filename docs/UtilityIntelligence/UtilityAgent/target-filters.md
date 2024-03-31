@@ -9,7 +9,7 @@ category: Utility Intelligence
 2. If all Target Filters return no targets, then the decision will be scored only once, as if it does not have targets.
 
 
-# Creating Target Filters
+## Creating Target Filters
 
 1. To create a new Target Filter, you need to create a class inherited from `TargetFilter` and override `OnFilterTarget` method:
 	```cs
@@ -30,7 +30,7 @@ category: Utility Intelligence
 1. To attach the Target Filter to a decision, you need to go the the **Decision Editor** in the **Agent Tab**, select the Target Filter name, then click the **Add** button:
 ![Attachments/UtilityIntelligence/Documentation/UtilityAgent/Decisions/attach-target-filter.png](Attachments/Decisions/attach-target-filter.png)
 
-# Built-in Target Filters
+## Built-in Target Filters
 
 Currently, we provides these built-in Target Filters:
 - **OtherFilter**: The filtered targets are any entities in the utility world, except the current agent.

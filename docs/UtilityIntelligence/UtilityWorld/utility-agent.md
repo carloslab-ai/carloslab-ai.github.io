@@ -7,7 +7,7 @@ category: Utility Intelligence
 A Utility Agent is a special [Utility Entity](utility-entity.md) that helps your AI make the right decision based on the current situation, and controls it to perform the [Action Tasks](../UtilityAgent/action-tasks.md) attached to the chosen decision.
 
 
-# Transforming GameObjects into Utility Agents
+## Transforming GameObjects into Utility Agents
 
 To transform a Game Object into a Utility Agent, you need to attach these two components to it:
 1. **Utility Agent Facade**
@@ -45,7 +45,7 @@ To transform a Game Object into a Utility Agent, you need to attach these two co
 ![center|400](Attachments/utility-agent.png)
 
 
-# Utility Agent Asset
+## Utility Agent Asset
 
 A **Utility Agent Asset** is a data container used to save **AI Behavior Data** of Utility Agents. 
 

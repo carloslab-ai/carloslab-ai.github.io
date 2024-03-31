@@ -10,7 +10,7 @@ For instance, suppose our agent has a decision called `AttackEnemy`, and this de
 
 In addition, you can add **as many axes as you want** to a decision. That's why *Dave Mark* calls it the **Infinite Axis Utility System**. 
 
-# Understanding how Considerations work?
+## Understanding how Considerations work?
 
 A consideration is made up of:
 - An [Input](#Inputs)
@@ -23,7 +23,7 @@ Then the normalized input is processed through a [Response Curve](#Response%20Cu
 
 ![center](Attachments/Considerations/infinite-axis.png)
 
-# Creating Considerations
+## Creating Considerations
 
 To create a new consideration, you need to go to the **Consideration Tab**, fill in the
 **Name** field, and then click the **Create** button:
@@ -32,9 +32,9 @@ To create a new consideration, you need to go to the **Consideration Tab**, fill
 
 After create a consideration, you can select an [Input](#Inputs), an [Input Normalization](#Input%20Normalizations), and update the [ Response Curve](#Response%20Curves) of the consideration using **Consideration Editor**.
 
-# Inputs
+## Inputs
 
-## Creating Inputs
+### Creating Inputs
 
 There are two ways to create a new input:
 1. Create a class inherited from `Input<Value>` and override `OnGetRawInput` method. For example:
@@ -81,15 +81,15 @@ To select the input for a consideration, you need to select the input name from 
 ![center|600](Attachments/Considerations/Inputs/select-input.png)
 
 
-## Built-in Inputs
+### Built-in Inputs
 
 Currently, **Utility Intelligence** provides these buit-in inputs:
 - **BasicInputFloat(Int/Bool)**: It returns the default value of the type at runtime and is mainly used for testing considerations
 - **MyDistanceToTargetInput**: It returns the distance from the current agent to the target.
 
-# Input Normalizations
+## Input Normalizations
 
-## Creating Input Normalizations
+### Creating Input Normalizations
 
 - To create a Input Normalization, you need to create a new inherited from `InputNormalization<Value>` and override `OnCalculateNormalizedInput` method. For example:
 	```cs
@@ -114,7 +114,7 @@ Currently, **Utility Intelligence** provides these buit-in inputs:
 - To select the input normalization for a consideration, you need to select the normalization type from this drop down in **Consideration Editor**:  
 	![center|600](Attachments/Considerations/Inputs/select-normalization.png)
 
-## Built-in Input Normalizations
+### Built-in Input Normalizations
 
 We provides a lot of built-in input normalizations to help you normalize your inputs **without having to write a single line of code**:
 - Float
@@ -129,7 +129,7 @@ We provides a lot of built-in input normalizations to help you normalize your in
 - Bool
 	- **BasicNormalizationBool**: It returns `1` if the input value is `true`; otherwise, it returns `0`.
 
-# Response Curves
+## Response Curves
 
 In **Utility Intelligence**, response curves are used to remap the normalized input to the consideration score. And it has 5 parameters:
 - Curve Type

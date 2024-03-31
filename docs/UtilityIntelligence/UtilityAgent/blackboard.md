@@ -8,7 +8,7 @@ Blackboard is used to share information between multiple components in an Agent.
 - It can be access from many places, such as Inputs, Input Normalizations, Target Filters, Actions. 
 - It contains a list of Variables and you can Read/Write to these Variables for any purpose.
 
-# Creating Variables
+## Creating Variables
 - To create a new Variable, you need to create a new class inherited from `Variable<TValue>`. For example:
 	```cs
 	public class FloatVariable : Variable<float>
@@ -31,7 +31,7 @@ Blackboard is used to share information between multiple components in an Agent.
 	![center|400](Attachments/Blackboard/add-variable.png)
 
 
-# Referencing Variables
+## Referencing Variables
 
 And to reference a Variable from your classes, you need to declare a `VariableReference<Type>`. For example:
 - Action:
@@ -74,9 +74,7 @@ Finally, you need to select the Variable you just created from the dropdown menu
 
 ![Attachments/UtilityIntelligence/Documentation/UtilityAgent/Blackboard/reference-variable.png](Attachments/Blackboard/reference-variable.png)
 
-
-
-# Built-in Variables
+## Built-in Variables
 Currently, we provides these built-in variables:
 
 - Float

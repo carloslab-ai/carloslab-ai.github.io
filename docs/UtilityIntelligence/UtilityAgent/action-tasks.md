@@ -6,7 +6,7 @@ category: Utility Intelligence
 
 Action Tasks are tasks that the agent has to execute if the attached decision has been selected. They are executed either in sequence or in parallel, depending on the execution mode of the action list.
 
-# Execution Modes
+## Execution Modes
 
 After the agent finds out the best decision, it will execute the action list either in **sequence** or in **parallel**, depending on your choice. Currently, there are two execution modes for the action list:
 - **Sequence**
@@ -24,7 +24,7 @@ After the agent finds out the best decision, it will execute the action list eit
 You can choose the execution mode you want by selecting it from this drop down menu:
 ![Attachments/UtilityIntelligence/Documentation/UtilityAgent/ActionTasks/actions-execution-mode.png](Attachments/ActionTasks/actions-execution-mode.png)
 
-# MaxRepeatCount
+## MaxRepeatCount
 
 It is the number of times to repeat the action list. 
 
@@ -36,14 +36,14 @@ You can change `MaxRepeatCount` of the action list here:
 
 ![Attachments/UtilityIntelligence/Documentation/UtilityAgent/ActionTasks/max-repeat-count.png](Attachments/ActionTasks/max-repeat-count.png)
 
-# Keep Running Until Finished
+## Keep Running Until Finished
 In case you want to prevent the current agent from making a new decision while the action list is running, you can check the option: **Keep Running Until Finished** in the **Action List Editor**. 
 
 For example, it can be used with the attack action because the agent needs to finish the attack before starting the next action, such as run away from the enemy. 
 
 ![Attachments/UtilityIntelligence/Documentation/UtilityAgent/ActionTasks/keep-running-until-finished.png](Attachments/ActionTasks/keep-running-until-finished.png)
 
-# Creating Action Tasks
+## Creating Action Tasks
 
 1. To create a new action task, you need to create a new class inherited from `ActionTask`:
 	```cs
@@ -69,7 +69,7 @@ For example, it can be used with the attack action because the agent needs to fi
 1. To assign the action task to a decision, you need to go the the **Action List Editor** in the **Agent Tab**, select the action type, then click the **Create** button:
 ![Attachments/UtilityIntelligence/Documentation/UtilityAgent/Decisions/assign-action-task.png](Attachments/Decisions/assign-action-task.png)
 
-# Built-in Action Tasks
+## Built-in Action Tasks
 
 Currently, **Utility Intelligence** provides these buit-in action tasks:
 - Idle
@@ -81,7 +81,7 @@ Currently, **Utility Intelligence** provides these buit-in action tasks:
 - DestroySelf
 
 
-# Overridable Functions
+## Overridable Functions
 Here is the list of functions you could override to make your actions works as you want:
 - **Lifecycle Functions**:
 	```cs
@@ -138,7 +138,7 @@ Here is the list of functions you could override to make your actions works as y
 	void OnAnimatorIK(int layerIndex);
 	```
 
-# Coroutine functions
+## Coroutine functions
 
 - We provides these functions to help you start/stop coroutines from action tasks:
 	```cs
