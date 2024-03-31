@@ -39,7 +39,9 @@
 <!-- Page content -->
 {{ page.content }}
 
-{% include "partials/support.html" %}
+{% if not page.is_index %}
+	{% include "partials/support.html" %}
+{% endif %}
 
 <!-- Source file information -->
 {% if page.meta and (

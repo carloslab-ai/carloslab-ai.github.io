@@ -142,10 +142,3 @@ You can change these parameters to adjust the shape of the response curve based 
 **Utility Intelligence** also provides a list of useful presets for response curves. If you want to use our presets, you just need to select one and click to the **Apply** button.
 
 ![[Attachments/UtilityIntelligence/Documentation/UtilityAgent/Considerations/response-curves.png|center|600]]
-
----
-<p align="center">
-	If you <b>find</b> this plugin <b>helpful</b>, please consider <b>supporting</b> it by leaving a <b>5-star review</b> on the Asset Store. Your <b>positive feedback</b> allows me to <b>dedicate more time</b> to its development. 
-	<br>Thank you so much! 🥰
-	<br><a href="https://assetstore.unity.com/packages/slug/276632"><img width= '30%' height='30%'  src="/Attachments/unity-asset-store.png" title="Leave a 5-star review"></img></a>
-</p>

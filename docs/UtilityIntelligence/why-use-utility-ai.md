@@ -87,10 +87,3 @@ In **Utility AI**, this situation is very unlikely to happen unless you intentio
 For example, if the players is inside `10` m, the score of `AttackPlayer` is `1.0`, then if the distance to player is `11` m, the score of `AttackPlayer` will be `0.9`. Therefore, whether the distance is `11` m or `10` m, if the score of `AttackPlayer` is greater than `Idle`, then `AttackPlayer` is still chosen. 
 
 This is the reason why agents made by **Utility-Based AI** are far more natural than the predictably robotic **If/Else-Based AI** such as **Behavior Trees** and **Finite State Machines**.
-
----
-<p align="center">
-	If you <b>find</b> this plugin <b>helpful</b>, please consider <b>supporting</b> it by leaving a <b>5-star review</b> on the Asset Store. Your <b>positive feedback</b> allows me to <b>dedicate more time</b> to its development. 
-	<br>Thank you so much! 🥰
-	<br><a href="https://assetstore.unity.com/packages/slug/276632"><img width= '30%' height='30%'  src="/Attachments/unity-asset-store.png" title="Leave a 5-star review"></img></a>
-</p>
