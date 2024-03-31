@@ -39,10 +39,6 @@
 <!-- Page content -->
 {{ page.content }}
 
-{% if not page.is_index %}
-	{% include "partials/support.html" %}
-{% endif %}
-
 <!-- Source file information -->
 {% if page.meta and (
 page.meta.git_revision_date_localized or
