@@ -34,7 +34,7 @@ To transform a GameObject into a Utility Entity, you need to attach these two co
 		```
 1. **Utility Entity Owner**
 	- It will automatically create a Utility Entity when the game starts to manage the Game Object within the Utility World.
-	![[Attachments/UtilityIntelligence/Documentation/UtilityWorld/utility-entity.png|center|400]]
+	![[UtilityIntelligence/UtilityWorld/Attachments/utility-entity.png|center|400]]
 
 # Registering Utility Entities
 

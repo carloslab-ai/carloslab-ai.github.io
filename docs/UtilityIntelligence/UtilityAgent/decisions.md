@@ -24,11 +24,11 @@ In **Utility Intelligence**, you can control the prioritization of each decision
 - Combat Layer's Weight: 2.0
 - Urgent Layer's Weight: 3.0
 
-![[Attachments/UtilityIntelligence/Documentation/UtilityAgent/Decisions/decision-weight.png|center|550]]
+![[UtilityIntelligence/UtilityAgent/Attachments/Decisions/decision-weight.png|center|550]]
 
 You can change the weight of a decision in the **Decision Editor**:
 
-![[Attachments/UtilityIntelligence/Documentation/UtilityAgent/Decisions/adjust-decision-weight.png|Attachments/UtilityIntelligence/Documentation/UtilityAgent/Decisions/adjust-decision-weight.png]]
+![[UtilityIntelligence/UtilityAgent/Attachments/Decisions/adjust-decision-weight.png|Attachments/UtilityIntelligence/Documentation/UtilityAgent/Decisions/adjust-decision-weight.png]]
 
 ## Decisions are scored per target
 
@@ -36,13 +36,13 @@ A decision may or may not have targets. However:
 1. If it has targets, it will be **scored per target**. Afterward, **Utility Intelligence** will compare the scores of all the decision-target pairs with each other and select the pair with the highest score.
 2. If it does not have targets, it will be scored only once, and that score is the final score of the decision.
 
-![[Attachments/UtilityIntelligence/Documentation/UtilityAgent/Decisions/decisions-per-target.png|Attachments/UtilityIntelligence/Documentation/UtilityAgent/Decisions/decisions-per-target.png]]
+![[UtilityIntelligence/UtilityAgent/Attachments/Decisions/decisions-per-target.png|Attachments/UtilityIntelligence/Documentation/UtilityAgent/Decisions/decisions-per-target.png]]
 
 
 # Creating Decisions
 
 To create a new decision, you need to go to the **Agent Tab**, fill in the **Name** field, and then click the **Create** button:
 
-![[Attachments/UtilityIntelligence/Documentation/UtilityAgent/Decisions/create-decision.png|center]]
+![[UtilityIntelligence/UtilityAgent/Attachments/Decisions/create-decision.png|center]]
 
 After create a decision, you can attach [[UtilityIntelligence/UtilityAgent/target-filters|Target Filters]], [[UtilityIntelligence/UtilityAgent/considerations|Considerations]] and assign [[UtilityIntelligence/UtilityAgent/action-tasks|Action Tasks]] to the decision using **Decision Editor**.

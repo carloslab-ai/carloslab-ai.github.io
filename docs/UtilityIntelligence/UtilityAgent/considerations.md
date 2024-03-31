@@ -21,14 +21,14 @@ A consideration is made up of:
 
 Then the normalized input is processed through a [[#Response Curves|Response Curve]], which remaps the normalized input to a consideration score. These consideration scores are then multiplied together to get the final score of the decision. Therefore, if the score of any consideration is `0`, then the score of the decision will also be `0`.
 
-![[Attachments/UtilityIntelligence/Documentation/UtilityAgent/Considerations/infinite-axis.png|center]]
+![[UtilityIntelligence/UtilityAgent/Attachments/Considerations/infinite-axis.png|center]]
 
 # Creating Considerations
 
 To create a new consideration, you need to go to the **Consideration Tab**, fill in the
 **Name** field, and then click the **Create** button:
 
-![[Attachments/UtilityIntelligence/Documentation/UtilityAgent/Considerations/create-consideration.png|center|600]]
+![[UtilityIntelligence/UtilityAgent/Attachments/Considerations/create-consideration.png|center|600]]
 
 After create a consideration, you can select an [[#Inputs|Input]], an [[#Input Normalizations|Input Normalization]], and update the [[#Response Curves| Response Curve]] of the consideration using **Consideration Editor**.
 
@@ -70,15 +70,15 @@ There are two ways to create a new input:
 	}
 	```
 - Using `InputFromSource<Value>`, you can choose the source of the input: either **Self** or **Target**:
-![[Attachments/UtilityIntelligence/Documentation/UtilityAgent/Considerations/Inputs/input-source.png]]
+![[UtilityIntelligence/UtilityAgent/Attachments/Considerations/Inputs/input-source.png]]
 
 To add inputs to the agent, you need to go to the **Input Tab**, give it a name, select the input type and then click to the **Create** button: 
 
-![[Attachments/UtilityIntelligence/Documentation/UtilityAgent/UtilityAgentEditor/input-tab.png|center|400]]
+![[UtilityIntelligence/UtilityAgent/Attachments/UtilityAgentEditor/input-tab.png|center|400]]
 
 To select the input for a consideration, you need to select the input name from this drop down in **Consideration Editor**:  
 
-![[Attachments/UtilityIntelligence/Documentation/UtilityAgent/Considerations/Inputs/select-input.png|center|600]]
+![[UtilityIntelligence/UtilityAgent/Attachments/Considerations/Inputs/select-input.png|center|600]]
 
 
 ## Built-in Inputs
@@ -112,7 +112,7 @@ Currently, **Utility Intelligence** provides these buit-in inputs:
 	```
 
 - To select the input normalization for a consideration, you need to select the normalization type from this drop down in **Consideration Editor**:  
-	![[Attachments/UtilityIntelligence/Documentation/UtilityAgent/Considerations/Inputs/select-normalization.png|center|600]]
+	![[UtilityIntelligence/UtilityAgent/Attachments/Considerations/Inputs/select-normalization.png|center|600]]
 
 ## Built-in Input Normalizations
 
@@ -142,4 +142,4 @@ You can change these parameters to adjust the shape of the response curve based 
 
 **Utility Intelligence** also provides a list of useful presets for response curves. If you want to use our presets, you just need to select one and click to the **Apply** button.
 
-![[Attachments/UtilityIntelligence/Documentation/UtilityAgent/Considerations/response-curves.png|center|600]]
+![[UtilityIntelligence/UtilityAgent/Attachments/Considerations/response-curves.png|center|600]]

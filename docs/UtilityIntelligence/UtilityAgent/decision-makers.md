@@ -6,7 +6,7 @@ category: Utility Intelligence
 
 In **Utility Intelligence**, a Decision Maker contains a list of decisions, and the responsibility of each Decision Maker is to select the best decision from them based on the current situation. Additionally, each Utility Agent can contain multiple Decision Makers.
 
-![[Attachments/UtilityIntelligence/Documentation/UtilityAgent/DecisionMakers/decision-maker.png|Attachments/UtilityIntelligence/Documentation/UtilityAgent/DecisionMakers/decision-maker.png]]
+![[UtilityIntelligence/UtilityAgent/Attachments/DecisionMakers/decision-maker.png|Attachments/UtilityIntelligence/Documentation/UtilityAgent/DecisionMakers/decision-maker.png]]
 
 # Understanding how Decision-Making Process work?
 
@@ -18,4 +18,4 @@ Here's how the **Decision-Making Process** of a Utility Agent works:
 
 To create a Decision Maker, you need to go to the **Agent Tab**, fill in the **Name** Field, and then click the **Create** button:
 
-![[Attachments/UtilityIntelligence/Documentation/UtilityAgent/DecisionMakers/create-decision-maker.png|center|400]]
+![[UtilityIntelligence/UtilityAgent/Attachments/DecisionMakers/create-decision-maker.png|center|400]]
