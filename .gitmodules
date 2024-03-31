@@ -1,0 +1,3 @@
+[submodule "docs/.obsidian"]
+	path = docs/.obsidian
+	url = https://carlos.truong.dev@gitlab.com/obsidian7915334/obsidiansettings.git
