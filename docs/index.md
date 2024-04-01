@@ -3,8 +3,8 @@ title: Home
 hide: feedback
 ---
 
-<p align="center">
-	<font size=16><b>Carlos Lab</b></font><br>
+<p style="text-align:center">
+	<b style="font-size:50px">Carlos Lab</b><br>
 	<a href="https://discord.gg/vRFEK5uE3f"><img width = '50' height='50' src="/Attachments/discord.png" title="Join my community"></img></a>
 	<a href="https://twitter.com/carlos_truong9"><img width = '50' height='50' src="/Attachments/twitter.png" title="Follow me"></img></a>
 	<a href="mailto: carloslab.contact@gmail.com" title="Contact me"><img width = '50' height='50' src="/Attachments/gmail.png"></img></a>

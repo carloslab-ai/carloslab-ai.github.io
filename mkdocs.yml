@@ -34,6 +34,7 @@ theme:
         - navigation.tabs
         - navigation.tabs.sticky
         - navigation.expand
+        - navigation.footer
         - search.suggest
         - search.highlight
         
@@ -126,6 +127,13 @@ extra:
   generate_graph: false #generate the graph of the site
   attachments: 'assets/img' #path to the folder where the attachments are stored
   no-auto-h1: false #disable the automatic generation of h1 if no h1 is found
+  social:
+    - icon: fontawesome/brands/x-twitter
+      link: https://twitter.com/carlos_truong9
+      name: Follow me for updates
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/vRFEK5uE3f
+      name: Join our Discord
   analytics:
     provider: google
     property: G-T11R8YGY0B

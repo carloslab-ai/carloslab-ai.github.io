@@ -72,11 +72,13 @@ DONT FORGET TO EDIT THE URL
 .md-support {
 	margin-top: 1em;
 	margin-bottom: 1em;
+	text-align: center;
 }
 
 .md-support-content {
 	margin-top: 0;
 	margin-bottom: 1em;
+	font-size: 14px;
 }
 
 img[alt*="center"] {
