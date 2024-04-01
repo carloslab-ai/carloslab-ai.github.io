@@ -1,6 +1,6 @@
 ---
-share: true
 title: Utility Intelligence
+hide: feedback
 ---
 
 ![[Attachments/UtilityIntelligence/Card_420-280.png|center]]
