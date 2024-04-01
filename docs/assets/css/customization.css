@@ -48,6 +48,7 @@ DONT FORGET TO EDIT THE URL
     border: 0;
 }
 
+/* ---------------------Carlos Lab-----------------------*/
 
 
 .md-header__button.md-logo {
@@ -61,4 +62,25 @@ DONT FORGET TO EDIT THE URL
 .md-header__button.md-logo png {
 	height: 2.2rem;
 	width: 2.2rem;
+}
+
+.md-feedback {
+	margin-top: 0;
+	margin-bottom: 1em;
+}
+
+.md-support {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+.md-support-content {
+	margin-top: 0;
+	margin-bottom: 1em;
+}
+
+img[alt*="center"] {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }

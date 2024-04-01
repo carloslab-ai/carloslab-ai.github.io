@@ -1,7 +1,6 @@
 ---
-share: true
-comments: false
 title: Home
+hide: feedback
 ---
 
 <p align="center">
