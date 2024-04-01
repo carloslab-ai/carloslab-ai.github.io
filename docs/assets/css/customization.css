@@ -80,6 +80,10 @@ DONT FORGET TO EDIT THE URL
 	margin-bottom: 1em;
 	font-size: 14px;
 }
+.md-support-button {
+  height: 23%;
+  width: 23%;
+}
 
 img[alt*="center"] {
     display: block;
