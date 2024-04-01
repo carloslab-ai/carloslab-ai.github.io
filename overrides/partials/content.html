@@ -39,11 +39,15 @@
 <!-- Page content -->
 {{ page.content }}
 
+<!---------- Carlos Lab ------------>
+
 {% if page.meta and page.meta.category %}
 	{% if "Utility Intelligence" in page.meta.category %}
 		{% include "partials/support-intelligence.html" %}
 	{% endif %}
 {% endif %}
+
+<!---------------------------------->
 
 <!-- Source file information -->
 {% if page.meta and (

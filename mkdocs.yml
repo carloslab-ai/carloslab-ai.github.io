@@ -144,12 +144,12 @@ extra:
           name: This page was helpful
           data: 1
           note: >-
-            Thanks for your feedback!
+            Thanks for your feedback! Why not join our <a href="https://discord.gg/vRFEK5uE3f">Discord</a> to help us make it even better!
         - icon: material/thumb-down-outline
           name: This page could be improved
           data: 0
           note: >- 
-            Thanks for your feedback! Help us improve this page by letting us know what you're missing via our <a href="https://discord.gg/vRFEK5uE3f">Discord</a>.
+            Thanks for your feedback! Let us know what's missing by sharing your thoughts on our <a href="https://discord.gg/vRFEK5uE3f">Discord</a>.
   blog_list:
     pagination: true #enable pagination
     pagination_message: true #display the message "Showing x posts out of y"
