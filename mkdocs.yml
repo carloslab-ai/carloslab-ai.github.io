@@ -130,10 +130,10 @@ extra:
   social:
     - icon: fontawesome/brands/x-twitter
       link: https://twitter.com/carlos_truong9
-      name: Follow me for updates
+      name: Follow me
     - icon: fontawesome/brands/discord
       link: https://discord.gg/vRFEK5uE3f
-      name: Join our Discord
+      name: Join my community
   analytics:
     provider: google
     property: G-T11R8YGY0B
