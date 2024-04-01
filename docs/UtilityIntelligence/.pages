@@ -1,9 +1,7 @@
 title: Utility Intelligence
 nav:
   - index.md
-  - getting-started.md
-  - what-is-utility-ai.md
-  - why-use-utility-ai.md
+  - GettingStarted
   - UtilityWorld
   - UtilityAgent
   - release-notes.md
