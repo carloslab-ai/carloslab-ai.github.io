@@ -4,7 +4,7 @@ title: Utility Agent
 category: Utility Intelligence
 ---
 
-A Utility Agent is a special [[UtilityIntelligence/UtilityWorld/utility-entity|Utility Entity]] that helps your AI make the right decision based on the current situation, and controls it to perform the [[UtilityIntelligence/UtilityAgent/action-tasks|Action Tasks]] attached to the chosen decision.
+A Utility Agent is a special [[UtilityIntelligence/UtilityWorld/utility-entity|Utility Entity]] that helps your AI make the right decision based on the current situation, and controls it to perform the [[UtilityIntelligence/UtilityIntelligence/action-tasks|Action Tasks]] attached to the chosen decision.
 
 
 ## Transforming GameObjects into Utility Agents
@@ -41,14 +41,14 @@ To transform a Game Object into a Utility Agent, you need to attach these two co
 		}
 		```
 1. **Utility Agent Owner**
-	- It will automatically create a Utility Agent when the game starts and manage it to make the right decisions based on the attached [[#Utility Agent Asset|Utility Agent Asset]]
+	- It will automatically create a Utility Agent when the game starts and manage it to make the right decisions based on the attached [[#Utility Intelligence Asset|Utility Intelligence Asset]]
 ![[Attachments/UtilityIntelligence/Documentation/UtilityWorld/utility-agent.png|center|400]]
 
 
-## Utility Agent Asset
+## Utility Intelligence Asset
 
-A **Utility Agent Asset** is a data container used to save **AI Behavior Data** of Utility Agents. 
+A **Utility Intelligence Asset** is a data container used to save **Utility Intelligence Data** of Utility Agents. 
 
-It includes [[UtilityIntelligence/UtilityAgent/decision-makers|Decision Makers]], [[UtilityIntelligence/UtilityAgent/decisions|Decisions]], [[UtilityIntelligence/UtilityAgent/target-filters|Target Filters]], [[UtilityIntelligence/UtilityAgent/action-tasks|Action Tasks]], [[UtilityIntelligence/UtilityAgent/considerations|Considerations]] and is stored in JSON format. So you can edit it manually using your Text Editor then import it into **Utility Agent Asset** by using [[UtilityIntelligence/UtilityAgent/editor-window#File Menu|File Toolbar Menu]].
+It includes [[UtilityIntelligence/UtilityIntelligence/decision-makers|Decision Makers]], [[UtilityIntelligence/UtilityIntelligence/decisions|Decisions]], [[UtilityIntelligence/UtilityIntelligence/target-filters|Target Filters]], [[UtilityIntelligence/UtilityIntelligence/action-tasks|Action Tasks]], [[UtilityIntelligence/UtilityIntelligence/considerations|Considerations]] and is stored in JSON format. So you can edit it manually using your Text Editor then import it into **Utility Intelligence Asset** by using [[UtilityIntelligence/UtilityIntelligence/editor-window#File Menu|File Toolbar Menu]].
 
-But the recommended way to change **AI Behavior Data** is to use [[UtilityIntelligence/UtilityAgent/editor-window|Utility Agent Editor]].
+But the recommended way to change **Utility Intelligence Data** is to use [[UtilityIntelligence/UtilityIntelligence/editor-window|Utility Intelligence Editor]].

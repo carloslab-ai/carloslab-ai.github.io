@@ -6,11 +6,11 @@ category: Utility Intelligence
 
 ## Quick Start
 
-1. Firstly, you need to create a **Utility Agent Asset** by right-clicking in the **Project Window** and select **Create/CarlosLab/Utility Agent Asset**.
-1. Then double-click on the new **Utility Agent Asset** to open the **Editor Window**.
-2. Add new [[UtilityIntelligence/UtilityAgent/decision-makers|Decision Makers]], [[UtilityIntelligence/UtilityAgent/decisions|Decisions]], [[UtilityIntelligence/UtilityAgent/considerations|Considerations]] *as many as you want*
+1. Firstly, you need to create a **Utility Intelligence Asset** by right-clicking in the **Project Window** and select **Create/CarlosLab/Utility Intelligence Asset**.
+1. Then double-click on the new **Utility Intelligence Asset** to open the **Editor Window**.
+2. Add new [[UtilityIntelligence/UtilityIntelligence/decision-makers|Decision Makers]], [[UtilityIntelligence/UtilityIntelligence/decisions|Decisions]], [[UtilityIntelligence/UtilityIntelligence/considerations|Considerations]] *as many as you want*
 ![[Attachments/UtilityIntelligence/Documentation/UtilityAgent/UtilityAgentEditor/agent-tab.png|Attachments/UtilityIntelligence/Documentation/UtilityAgent/UtilityAgentEditor/agent-tab.png]]
-1. Transform your AI GameObjects into [[UtilityIntelligence/UtilityWorld/utility-agent|Utility Agents]] and assign the new **Utility Agent Asset** to the **Agent Asset** field of the **Utility Agent Owner**
+1. Transform your AI GameObjects into [[UtilityIntelligence/UtilityWorld/utility-agent|Utility Agents]] and assign the new **Utility Intelligence Asset** to the **Agent Asset** field of the **Utility Agent Owner**
 ![[Attachments/UtilityIntelligence/Documentation/UtilityWorld/utility-agent.png|center|400]]
 1. Transform all the Game Objects that your Agents need to interact with into [[UtilityIntelligence/UtilityWorld/utility-entity|Utility Entities]]
 ![[Attachments/UtilityIntelligence/Documentation/UtilityWorld/utility-entity.png|center|400]]

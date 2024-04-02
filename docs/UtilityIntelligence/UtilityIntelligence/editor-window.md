@@ -16,9 +16,9 @@ With the File Menu Toolbar, you can edit the Agent Model data directly in JSON f
 
 ![[Attachments/UtilityIntelligence/Animations/JSONEditing.gif|Attachments/UtilityIntelligence/Animations/JSONEditing.gif]]
 
-## Utility Agent Editor
+## Tabs
 
-### Agent Tab
+### Intelligence Tab
 
 In **Agent Tab**, you can add new Decision Makers, Decisions, Considerations *as many as you want*:
 
