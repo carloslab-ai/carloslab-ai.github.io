@@ -32,7 +32,7 @@ To transform a GameObject into a Utility Entity, you need to attach these two co
 		    public float ChargePerSec => chargePerSec;
 		}
 		```
-1. **Utility Entity Owner**
+1. **Utility Entity Controller**
 	- It will automatically create a Utility Entity when the game starts to manage the Game Object within the Utility World.
 	![[Attachments/UtilityIntelligence/Documentation/UtilityWorld/utility-entity.png|center|400]]
 
@@ -42,7 +42,7 @@ To transform a GameObject into a Utility Entity, you need to attach these two co
 > - A Utility Entity can only be associated with a single Utility World. 
 > - Therefore, it's not possible to register a Utility Entity with multiple Utility Worlds.
 
-To register a Utility Entity with a Utility World, you need to call the `Register` method of the **UtilityEntityOwner** and pass the Utility World as the parameter. For example:
+To register a Utility Entity with a Utility World, you need to call the `Register` method of the **UtilityEntityController** and pass the Utility World as the parameter. For example:
 ```cs
 public class AgentsPlacedInSceneDemo : MonoBehaviour
 {
@@ -50,19 +50,19 @@ public class AgentsPlacedInSceneDemo : MonoBehaviour
     private UtilityWorldOwner world;
 
     [SerializeField]
-    private List<UtilityAgentOwner> agents;
+    private List<UtilityAgentController> agents;
 
     [SerializeField]
-    private List<UtilityEntityOwner> chargeStations;
+    private List<UtilityEntityController> chargeStations;
 
     private void Start()
     {
-        foreach (UtilityAgentOwner agent in agents)
+        foreach (UtilityAgentController agent in agents)
         {
             agent.Register(world);
         }
 
-        foreach (UtilityEntityOwner chargeStation in chargeStations)
+        foreach (UtilityEntityController chargeStation in chargeStations)
         {
             chargeStation.Register(world);
         }

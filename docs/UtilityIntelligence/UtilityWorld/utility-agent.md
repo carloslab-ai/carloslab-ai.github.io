@@ -40,7 +40,7 @@ To transform a Game Object into a Utility Agent, you need to attach these two co
 		    }
 		}
 		```
-1. **Utility Agent Owner**
+1. **Utility Agent Controller**
 	- It will automatically create a Utility Agent when the game starts and manage it to make the right decisions based on the attached [[#Utility Intelligence Asset|Utility Intelligence Asset]]
 ![[Attachments/UtilityIntelligence/Documentation/UtilityWorld/utility-agent.png|center|400]]
 

@@ -10,7 +10,7 @@ category: Utility Intelligence
 1. Then double-click on the new **Utility Intelligence Asset** to open the **Editor Window**.
 2. Add new [[UtilityIntelligence/UtilityIntelligence/decision-makers|Decision Makers]], [[UtilityIntelligence/UtilityIntelligence/decisions|Decisions]], [[UtilityIntelligence/UtilityIntelligence/considerations|Considerations]] *as many as you want*
 ![[Attachments/UtilityIntelligence/Documentation/UtilityIntelligence/EditorWindow/agent-tab.png|Attachments/UtilityIntelligence/Documentation/UtilityAgent/UtilityAgentEditor/agent-tab.png]]
-1. Transform your AI GameObjects into [[UtilityIntelligence/UtilityWorld/utility-agent|Utility Agents]] and assign the new **Utility Intelligence Asset** to the **Agent Asset** field of the **Utility Agent Owner**
+1. Transform your AI GameObjects into [[UtilityIntelligence/UtilityWorld/utility-agent|Utility Agents]] and assign the new **Utility Intelligence Asset** to the **Agent Asset** field of the **Utility Agent Controller**
 ![[Attachments/UtilityIntelligence/Documentation/UtilityWorld/utility-agent.png|center|400]]
 1. Transform all the Game Objects that your Agents need to interact with into [[UtilityIntelligence/UtilityWorld/utility-entity|Utility Entities]]
 ![[Attachments/UtilityIntelligence/Documentation/UtilityWorld/utility-entity.png|center|400]]

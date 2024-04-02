@@ -11,7 +11,7 @@ In **Utility Intelligence**, each decision has:
 
 ## How Decisions work?
 
-Since a decision [[#Decisions are scored per target|is scored per target]], and any [[UtilityIntelligence/UtilityWorld/utility-entity|Utility Entity]] (all GameObjects with `UtilityEntityOwner` or `UtilityAgentOwner` attached) in the [[UtilityIntelligence/UtilityWorld/utility-world|Utility World]] could be a target of the decision, we need a way to filter targets to ensure that only appropriate targets are considered. This is the job of [[UtilityIntelligence/UtilityIntelligence/target-filters|Target Filters]].
+Since a decision [[#Decisions are scored per target|is scored per target]], and any [[UtilityIntelligence/UtilityWorld/utility-entity|Utility Entity]] (all GameObjects with `UtilityEntityController` or `UtilityAgentController` attached) in the [[UtilityIntelligence/UtilityWorld/utility-world|Utility World]] could be a target of the decision, we need a way to filter targets to ensure that only appropriate targets are considered. This is the job of [[UtilityIntelligence/UtilityIntelligence/target-filters|Target Filters]].
 
 After finding appropriate targets, all [[UtilityIntelligence/UtilityIntelligence/considerations|Considerations]] of the decision will be evaluated for each target to calculate the score of each decision-target pair. Then the score of each pair is multiplied with the [[#Decision Weight|Decision Weight]] to get the final score.
 
