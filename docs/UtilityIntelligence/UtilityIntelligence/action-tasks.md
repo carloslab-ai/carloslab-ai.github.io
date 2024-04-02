@@ -66,7 +66,7 @@ For example, it can be used with the attack action because the agent needs to fi
         }
     }
 	```
-1. To assign the action task to a decision, you need to go the the **Action List Editor** in the **Agent Tab**, select the action type, then click the **Create** button:
+1. To assign the action task to a decision, you need to go the the **Action List Editor** in [[UtilityIntelligence/UtilityIntelligence/editor-window#Intelligence Tab|Intelligence Tab]], select the action type, then click the **Create** button:
 ![[Attachments/UtilityIntelligence/Documentation/UtilityIntelligence/Decisions/assign-action-task.png|Attachments/UtilityIntelligence/Documentation/UtilityAgent/Decisions/assign-action-task.png]]
 
 ## Built-in Action Tasks

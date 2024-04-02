@@ -22,7 +22,7 @@ With the File Menu Toolbar, you can edit the **Intelligence Data** directly in J
 
 ### Intelligence Tab
 
-In **Agent Tab**, you can add new Decision Makers, Decisions, Considerations *as many as you want*:
+In **Intelligence Tab**, you can add new Decision Makers, Decisions, Considerations *as many as you want*:
 
 ![[Attachments/UtilityIntelligence/Documentation/UtilityIntelligence/EditorWindow/agent-tab.png|Attachments/UtilityIntelligence/Documentation/UtilityAgent/UtilityAgentEditor/agent-tab.png]]
 

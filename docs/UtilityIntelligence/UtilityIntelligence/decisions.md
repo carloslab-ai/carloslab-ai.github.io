@@ -41,7 +41,7 @@ A decision may or may not have targets. However:
 
 ## Creating Decisions
 
-To create a new decision, you need to go to the **Agent Tab**, fill in the **Name** field, and then click the **Create** button:
+To create a new decision, you need to go to the [[UtilityIntelligence/UtilityIntelligence/editor-window#Intelligence Tab|Intelligence Tab]], fill in the **Name** field, and then click the **Create** button:
 
 ![[Attachments/UtilityIntelligence/Documentation/UtilityIntelligence/Decisions/create-decision.png|center]]
 
