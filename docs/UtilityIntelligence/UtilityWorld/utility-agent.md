@@ -47,8 +47,8 @@ To transform a Game Object into a Utility Agent, you need to attach these two co
 
 ## Utility Intelligence Asset
 
-A **Utility Intelligence Asset** is a data container used to save **Utility Intelligence Data** of Utility Agents. 
+A **Utility Intelligence Asset** is a data container used to save **Intelligence Data** of Utility Agents. 
 
 It includes [[UtilityIntelligence/UtilityIntelligence/decision-makers|Decision Makers]], [[UtilityIntelligence/UtilityIntelligence/decisions|Decisions]], [[UtilityIntelligence/UtilityIntelligence/target-filters|Target Filters]], [[UtilityIntelligence/UtilityIntelligence/action-tasks|Action Tasks]], [[UtilityIntelligence/UtilityIntelligence/considerations|Considerations]] and is stored in JSON format. So you can edit it manually using your Text Editor then import it into **Utility Intelligence Asset** by using [[UtilityIntelligence/UtilityIntelligence/editor-window#File Menu|File Toolbar Menu]].
 
-But the recommended way to change **Utility Intelligence Data** is to use [[UtilityIntelligence/UtilityIntelligence/editor-window|Utility Intelligence Editor]].
+But the recommended way to change **Intelligence Data** is to use [[UtilityIntelligence/UtilityIntelligence/editor-window|Utility Intelligence Editor]].
