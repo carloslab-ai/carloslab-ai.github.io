@@ -47,7 +47,7 @@ To register a Utility Entity with a Utility World, you need to call the `Registe
 public class AgentsPlacedInSceneDemo : MonoBehaviour
 {
     [SerializeField]
-    private UtilityWorldOwner world;
+    private UtilityWorldController world;
 
     [SerializeField]
     private List<UtilityAgentController> agents;
@@ -72,7 +72,7 @@ public class AgentsPlacedInSceneDemo : MonoBehaviour
 
 ## Getting Utility Entities
 
-After being registered with a Utility World, the Utility Entity is allocated an **Entity Id**. This Id is unique within the world, and you can get the entity from the world by calling `UtilityWorldOwner.GetEntity()` and passing the **Entity Id** as the parameter of the method. For example:
+After being registered with a Utility World, the Utility Entity is allocated an **Entity Id**. This Id is unique within the world, and you can get the entity from the world by calling `UtilityWorldController.GetEntity()` and passing the **Entity Id** as the parameter of the method. For example:
 ```cs
 int entityId = entity.Id;  
 var entity = world.GetEntity(id);
