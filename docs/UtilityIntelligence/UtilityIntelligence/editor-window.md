@@ -4,6 +4,8 @@ title: Editor Window
 category: Utility Intelligence
 ---
 
+# Utility Intelligence Editor
+
 ## Toolbar
 
 ### File Menu
