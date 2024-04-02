@@ -4,7 +4,7 @@ title: Utility World
 category: Utility Intelligence
 ---
 
-A Utility World contains a collection of [[UtilityIntelligence/UtilityWorld/utility-entity|Utility Entities]], and 
+A **Utility World** contains a collection of [[UtilityIntelligence/UtilityWorld/utility-entity|Utility Entities]], and 
 the main jobs of a Utility World are:
 1. Handling the decision-making process of all [[UtilityIntelligence/UtilityWorld/utility-agent|Utility Agents]] inside the world.
 3. Running the task associated with the chosen decision for all [[UtilityIntelligence/UtilityWorld/utility-agent|Utility Agents]]  inside the world.
@@ -17,4 +17,4 @@ To create a Utility World, right-click in the **Hierarchy Window**, then select 
 
 ![[Attachments/UtilityIntelligence/Documentation/UtilityWorld/utility-world.png|center|400]]
 
-The Utility World Controller will automatically create a Utility World when your game starts and manage it throughout its lifetime. And you can change **Make Decision Interval** inside a Utility World by adjusting it in the Utility World Controller's Inspector, the default value for it is `0.1`.
+The **Utility World Controller** will automatically create a **Utility World** when your game starts and manage it throughout its lifetime. And you can change **Make Decision Interval** inside a Utility World by adjusting it in the Utility World Controller's Inspector, the default value for it is `0.1`.

@@ -13,7 +13,22 @@ A Utility Entity represents an object inside a [[UtilityIntelligence/UtilityWorl
 To transform a GameObject into a Utility Entity, you need to attach these two components to it:
 
 1. **Utility Entity Facade**
-	- It is used to interact with the Game Object.
+	- It is used to interact with the Entity's Game Object. For example, [[UtilityIntelligence/UtilityIntelligence/target-filters|Target Filters]] can access the **Entity Facade** of both itself and the target to retrieve information from Game Objects in order to check the validity of the target.
+		```cs
+		public class OtherTeamFilter : TargetFilter
+		{
+		    protected override bool OnFilterTarget(UtilityEntity target)
+		    {
+		        if (target.EntityFacade is Character targetCharacter)
+		        {
+		            Character myCharacter = AgentFacade as Character;
+		            return myCharacter.Team != targetCharacter.Team;
+		        }
+		
+		        return false;
+		    }
+		}
+		```
 	- To create your own Utility Entity Facade, you need to create a class inherited from `UtilityEntityFacade`. For example:
 		```cs
 		public class ChargeStation : UtilityEntityFacade
