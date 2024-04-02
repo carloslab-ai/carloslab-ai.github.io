@@ -9,12 +9,12 @@ category: Utility Intelligence
 ## Toolbar
 
 ### File Menu
-- `Import Data`: Import the AgentModel data from a JSON file.
-- `Export Data`: Export the AgentModel data to a JSON file.
-- `Show Data`: Show the AgentModel data in JSON format.
-- `Clear Data`: Clear all the Agent Model data.
+- `Import Data`: Import the **Intelligence Data** from a JSON file.
+- `Export Data`: Export the **Intelligence Data** to a JSON file.
+- `Show Data`: Show the **Intelligence Data** in JSON format.
+- `Clear Data`: Clear all the **Intelligence Data**.
 
-With the File Menu Toolbar, you can edit the Agent Model data directly in JSON format using your Text Editor, then import it into the Agent Asset:
+With the File Menu Toolbar, you can edit the **Intelligence Data** directly in JSON format using your Text Editor, then import it into the Intelligence Asset:
 
 ![[Attachments/UtilityIntelligence/Animations/JSONEditing.gif|Attachments/UtilityIntelligence/Animations/JSONEditing.gif]]
 

@@ -6,13 +6,13 @@ category: Utility Intelligence
 
 ## Quick Start
 
-1. Firstly, you need to create a **Utility Intelligence Asset** by right-clicking in the **Project Window** and select **Create/CarlosLab/Utility Intelligence Asset**.
-1. Then double-click on the new **Utility Intelligence Asset** to open the **Editor Window**.
+1. Firstly, you need to create a [[UtilityIntelligence/UtilityWorld/utility-agent#Utility Intelligence Asset|Utility Intelligence Asset]] by right-clicking in the **Project Window** and select **Create/CarlosLab/Utility Intelligence Asset**.
+1. Then double-click on the new **Utility Intelligence Asset** to open the [[UtilityIntelligence/UtilityIntelligence/editor-window|Utility Intelligence Editor]].
 2. Add new [[UtilityIntelligence/UtilityIntelligence/decision-makers|Decision Makers]], [[UtilityIntelligence/UtilityIntelligence/decisions|Decisions]], [[UtilityIntelligence/UtilityIntelligence/considerations|Considerations]] *as many as you want*
 ![[Attachments/UtilityIntelligence/Documentation/UtilityIntelligence/EditorWindow/agent-tab.png|Attachments/UtilityIntelligence/Documentation/UtilityAgent/UtilityAgentEditor/agent-tab.png]]
-1. Transform your AI GameObjects into [[UtilityIntelligence/UtilityWorld/utility-agent|Utility Agents]] and assign the new **Utility Intelligence Asset** to the **Agent Asset** field of the **Utility Agent Controller**
+1. Transform your AI GameObjects into [[UtilityIntelligence/UtilityWorld/utility-agent|Utility Agents]] and assign the **Utility Intelligence Asset** to the **Intelligence Asset** field of the **Utility Agent Controller**
 ![[Attachments/UtilityIntelligence/Documentation/UtilityWorld/utility-agent.png|center|400]]
-1. Transform all the Game Objects that your Agents need to interact with into [[UtilityIntelligence/UtilityWorld/utility-entity|Utility Entities]]
+1. Transform all the Game Objects that your agents need to interact with into [[UtilityIntelligence/UtilityWorld/utility-entity|Utility Entities]]
 ![[Attachments/UtilityIntelligence/Documentation/UtilityWorld/utility-entity.png|center|400]]
 1. Create a [[UtilityIntelligence/UtilityWorld/utility-world|Utility World]] and [[UtilityIntelligence/UtilityWorld/utility-entity#Registering Utility Entities|register all the Utility Agents and Utility Entities]] in your game with it.
 ![[Attachments/UtilityIntelligence/Documentation/UtilityWorld/utility-world.png|center|400]]
@@ -20,7 +20,7 @@ category: Utility Intelligence
 
 ## Running Demos in URP and HDRP
 
-The Demos are created using Built-In Render Pipeline, so if you are using URP or HDRP, please convert all materials to the target pipeline first:
+Since this plugin doesn't have any graphical features, it is compatible with all render pipelines. However the materials of the demo scenes are created using the Built-In Render Pipeline. Therefore, if you want to run the demos in URP or HDRP, you need to convert all materials to the target pipeline first:
 
 ### URP
 1. Open **Render Pipeline Converter** (Window -> Rendering -> Render Pipeline Converter)
