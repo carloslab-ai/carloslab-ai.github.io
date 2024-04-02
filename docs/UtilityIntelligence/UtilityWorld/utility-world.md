@@ -5,7 +5,7 @@ category: Utility Intelligence
 ---
 
 A **Utility World** contains a collection of [[UtilityIntelligence/UtilityWorld/utility-entity|Utility Entities]], and 
-the main jobs of a Utility World are:
+the main roles of a Utility World are:
 1. Handling the decision-making process of all [[UtilityIntelligence/UtilityWorld/utility-agent|Utility Agents]] inside the world.
 3. Running the task associated with the chosen decision for all [[UtilityIntelligence/UtilityWorld/utility-agent|Utility Agents]]  inside the world.
 

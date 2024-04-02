@@ -11,7 +11,7 @@ A Utility Agent is a special [[UtilityIntelligence/UtilityWorld/utility-entity|U
 
 To transform a Game Object into a Utility Agent, you need to attach these two components to it:
 1. **Utility Agent Facade**
-	- It is used to interact with the Game Object.
+	- It is similar to **Utility Entity Facade** but instead of interact with the GameObject of the **Utility Entity**, it is used to interact with the Game Object of the **Utility Agent**.
 	- To create your own Utility Agent Facade, you need to create a class inherited from `UtilityAgentFacade`. For example:
 		```cs
 		public class Character : UtilityAgentFacade
@@ -41,7 +41,8 @@ To transform a Game Object into a Utility Agent, you need to attach these two co
 		}
 		```
 1. **Utility Agent Controller**
-	- It will automatically create a Utility Agent when the game starts and manage it to make the right decisions based on the attached [[#Utility Intelligence Asset|Utility Intelligence Asset]]
+	- It is similar to **Utility Entity Controller**, but instead of create and manage the lifecycle of the **Utility Entity**, it creates and manage the lifecycle of the **Utility Agent**.
+	- It injects **Intelligence Data** from the [[#Utility Intelligence Asset]] into Utility Agent, granting the agent intelligence.
 ![[Attachments/UtilityIntelligence/Documentation/UtilityWorld/utility-agent.png|center|400]]
 
 

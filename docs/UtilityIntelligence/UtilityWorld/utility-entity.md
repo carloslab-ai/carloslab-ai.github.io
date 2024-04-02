@@ -13,7 +13,7 @@ A Utility Entity represents an object inside a [[UtilityIntelligence/UtilityWorl
 To transform a GameObject into a Utility Entity, you need to attach these two components to it:
 
 1. **Utility Entity Facade**
-	- It is used to interact with the Entity's Game Object. For example, [[UtilityIntelligence/UtilityIntelligence/target-filters|Target Filters]] can access the **Entity Facade** of both itself and the target to retrieve information from Game Objects in order to check the validity of the target.
+	- It is used to interact with the **Utility Entity**'s Game Object. For example, [[UtilityIntelligence/UtilityIntelligence/target-filters|Target Filters]] can access the **Entity Facade** of both itself and the target to retrieve information from the components of Game Objects in order to check the validity of the target.
 		```cs
 		public class OtherTeamFilter : TargetFilter
 		{
@@ -29,7 +29,7 @@ To transform a GameObject into a Utility Entity, you need to attach these two co
 		    }
 		}
 		```
-	- To create your own Utility Entity Facade, you need to create a class inherited from `UtilityEntityFacade`. For example:
+	- To create your own **Entity Facade**, you need to create a class inherited from `UtilityEntityFacade`. For example:
 		```cs
 		public class ChargeStation : UtilityEntityFacade
 		{
@@ -48,7 +48,7 @@ To transform a GameObject into a Utility Entity, you need to attach these two co
 		}
 		```
 1. **Utility Entity Controller**
-	- It will automatically create a Utility Entity when the game starts to manage the Game Object within the Utility World.
+	- The main role of a Utility Entity Controller is to create and manage the Utility Entity's lifecycle, including initialization, destruction, registration, and unregistration with utility worlds.
 	![[Attachments/UtilityIntelligence/Documentation/UtilityWorld/utility-entity.png|center|400]]
 
 ## Registering Utility Entities
