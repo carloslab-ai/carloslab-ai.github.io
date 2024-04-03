@@ -9,7 +9,7 @@ Blackboard is used to share information between multiple components in an Agent.
 - It contains a list of Variables and you can Read/Write to these Variables for any purpose.
 
 ## Creating Variables
-To create a new Variable, you need to create a new class inherited from `Variable<TValue>`. For example:
+To create a new variable, you need to create a new class inherited from `Variable<TValue>`. For example:
 ```cs
 public class FloatVariable : Variable<float>
 {
@@ -28,13 +28,13 @@ public class FloatVariable : Variable<float>
 }
 ```
 
-Then you can add this Variable to your Agent's Blackboard by going to the **Blackboard Tab**, select the Variable type, give it a name and then click the **Create** button:
+Then you can add this variable to your agent's blackboard by going to the **Blackboard Tab**, select the variable type, give it a name and then click the **Create** button:
 ![[Attachments/UtilityIntelligence/Documentation/UtilityIntelligence/Blackboard/add-variable.png|center|400]]
 
 
 ## Referencing Variables
 
-And to reference a Variable from your classes, you need to declare a `VariableReference<Type>`. For example:
+And to reference the variable you just created, you need to declare a `VariableReference<Type>`. For example:
 - **Action**:
 	```cs
 	public class Wait : ActionTask
@@ -60,6 +60,8 @@ And to reference a Variable from your classes, you need to declare a `VariableRe
 	```cs
     public class DivideByMaxValueNormalizationFloat : DivideByMaxValueNormalization<float>
     {
+	    public VariableReference<TValue> MaxValue;
+	    
         protected override float OnCalculateNormalizedInput(float rawInput, InputContext context)
         {
             if (MaxValue == 0.0f) return 0.0f;
@@ -69,7 +71,7 @@ And to reference a Variable from your classes, you need to declare a `VariableRe
 	```
 
 
-Finally, you need to select the Variable you just created from the dropdown menu:
+Then select the variable from this dropdown menu in the Editor:
 
 ![[Attachments/UtilityIntelligence/Documentation/UtilityIntelligence/Blackboard/reference-variable.png|Attachments/UtilityIntelligence/Documentation/UtilityAgent/Blackboard/reference-variable.png]]
 

@@ -21,3 +21,28 @@ To create a Decision Maker, you need to go to the [[UtilityIntelligence/UtilityI
 ![[Attachments/UtilityIntelligence/Documentation/UtilityIntelligence/DecisionMakers/create-decision-maker.png|center|400]]
 
 After creating a decision maker, you can add [[UtilityIntelligence/UtilityIntelligence/decisions|decisions]] to it and monitor which decision will be chosen as the best one based on the current situation.
+
+
+## Decision Maker's Statuses
+
+At runtime, decision makers have 4 statuses:
+- <div>
+<div style="width: 200px; height: 20px; margin-top:3px; vertical-align: top; background-color: rgb(255, 255, 0); display: inline-block"></div><p style="display: inline-block">&nbsp;: Running</p>
+</div>
+- <div>
+<div style="width: 200px; height: 20px; margin-top:3px; vertical-align: top; background-color: rgb(0, 255, 0); display: inline-block"></div><p style="display: inline-block">&nbsp;: Success</p>
+</div>
+- <div>
+<div style="width: 200px; height: 20px; margin-top:3px; vertical-align: top; background-color: rgb(255, 0, 0); display: inline-block"></div><p style="display: inline-block">&nbsp;: Failed</p>
+</div>
+- <div>
+<div style="width: 200px; height: 20px; margin-top:3px; vertical-align: top; background-color: rgb(255, 165, 0); display: inline-block"></div><p style="display: inline-block">&nbsp;: Aborted</p>
+</div>
+
+At editor time, decision makers only have 2 statuses:
+- <div>
+<div style="width: 200px; height: 20px; margin-top:3px; vertical-align: top; background-color: rgb(0, 255, 255); display: inline-block"></div><p style="display: inline-block">&nbsp;: Selected</p>
+</div>
+- <div>
+<div style="width: 200px; height: 20px; margin-top:3px; vertical-align: top; border: 2px solid white; background-color: rgba(0, 0, 0,0); display: inline-block"></div><p style="display: inline-block">&nbsp;: Unselected</p>
+</div>

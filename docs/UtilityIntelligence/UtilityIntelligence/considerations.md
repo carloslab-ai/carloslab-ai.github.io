@@ -32,6 +32,16 @@ To create a new consideration, you need to go to the **Consideration Tab**, fill
 
 After creating a consideration, you can select an [[#Inputs|Input]], an [[#Input Normalizations|Input Normalization]], and update the [[#Response Curves| Response Curve]] of the consideration, change their values and observe how these changes affect the consideration score.
 
+## Consideration's Statuses
+
+Considerations only have two statuses at both runtime and editor time:
+- <div>
+<div style="width: 200px; height: 20px; margin-top:3px; vertical-align: top; background-color: rgb(0, 255, 0); display: inline-block"></div><p style="display: inline-block">&nbsp;: Executed</p>
+</div>
+- <div>
+<div style="width: 200px; height: 20px; margin-top:3px; vertical-align: top; background-color: rgb(255, 165, 0); display: inline-block"></div><p style="display: inline-block">&nbsp;: Discarded</p>
+</div>
+
 ## Inputs
 
 ### Creating Inputs

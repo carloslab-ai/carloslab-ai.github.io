@@ -32,6 +32,6 @@ category: Utility Intelligence
 
 ## Built-in Target Filters
 
-Currently, we provides these built-in Target Filters:
+Currently, we provides these built-in target filters:
 - **OtherFilter**: The filtered targets are any entities in the utility world, except the current agent.
 - **AgentFilter**: The filtered targets are any agents in the utility world.

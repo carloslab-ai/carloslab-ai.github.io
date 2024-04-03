@@ -69,9 +69,13 @@ For example, it can be used with the attack action because the agent needs to fi
 1. To assign the action task to a decision, you need to go the the **Action List Editor** in [[UtilityIntelligence/UtilityIntelligence/editor-window#Intelligence Tab|Intelligence Tab]], select the action type, then click the **Create** button:
 ![[Attachments/UtilityIntelligence/Documentation/UtilityIntelligence/Decisions/assign-action-task.png|Attachments/UtilityIntelligence/Documentation/UtilityAgent/Decisions/assign-action-task.png]]
 
+
+## Action Task's Statuses
+It's the same as [[UtilityIntelligence/UtilityIntelligence/decision-makers#Decision Maker's Statuses|Decision Makers]]
+
 ## Built-in Action Tasks
 
-Currently, **Utility Intelligence** provides these buit-in action tasks:
+Currently, **Utility Intelligence** provides these built-in action tasks:
 - Idle
 - Log
 - Wait
