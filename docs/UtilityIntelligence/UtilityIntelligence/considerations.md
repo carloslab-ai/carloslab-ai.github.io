@@ -35,11 +35,12 @@ After creating a consideration, you can select an [[#Inputs|Input]], an [[#Input
 ## Consideration's Statuses
 
 Considerations only have two statuses at both runtime and editor time:
-- <div>
-<div style="width: 200px; height: 20px; margin-top:3px; vertical-align: top; background-color: rgb(0, 255, 0); display: inline-block"></div><p style="display: inline-block">&nbsp;: Executed</p>
-</div>
-- <div>
-<div style="width: 200px; height: 20px; margin-top:3px; vertical-align: top; background-color: rgb(255, 165, 0); display: inline-block"></div><p style="display: inline-block">&nbsp;: Discarded</p>
+<div>
+	<div style="width: 200px; height: 20px; margin-top:3px; vertical-align: middle; background-color: rgb(0, 255, 0); display: inline-block"></div>
+	<p style="display: inline-block">&nbsp;: Executed</p>
+	<br>
+	<div style="width: 200px; height: 20px; margin-top:3px; vertical-align: middle; background-color: rgb(255, 165, 0); display: inline-block"></div>
+	<p style="display: inline-block">&nbsp;: Discarded</p>
 </div>
 
 ## Inputs
