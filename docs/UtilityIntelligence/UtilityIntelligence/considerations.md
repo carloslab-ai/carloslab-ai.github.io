@@ -30,7 +30,7 @@ To create a new consideration, you need to go to the **Consideration Tab**, fill
 
 ![[Attachments/UtilityIntelligence/Documentation/UtilityIntelligence/Considerations/create-consideration.png|center|600]]
 
-After create a consideration, you can select an [[#Inputs|Input]], an [[#Input Normalizations|Input Normalization]], and update the [[#Response Curves| Response Curve]] of the consideration using **Consideration Editor**.
+After creating a consideration, you can select an [[#Inputs|Input]], an [[#Input Normalizations|Input Normalization]], and update the [[#Response Curves| Response Curve]] of the consideration, change their values and observe how these changes affect the consideration score.
 
 ## Inputs
 

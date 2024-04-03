@@ -45,4 +45,4 @@ To create a new decision, you need to go to the [[UtilityIntelligence/UtilityInt
 
 ![[Attachments/UtilityIntelligence/Documentation/UtilityIntelligence/Decisions/create-decision.png|center]]
 
-After create a decision, you can attach [[UtilityIntelligence/UtilityIntelligence/target-filters|Target Filters]], [[UtilityIntelligence/UtilityIntelligence/considerations|Considerations]] and assign [[UtilityIntelligence/UtilityIntelligence/action-tasks|Action Tasks]] to the decision using **Decision Editor**.
+After creating a decision, you can add [[UtilityIntelligence/UtilityIntelligence/considerations|considerations]] to the decision and observe how they affect the decision score. Additionally, you can add [[UtilityIntelligence/UtilityIntelligence/target-filters|target filters]] and [[UtilityIntelligence/UtilityIntelligence/action-tasks|action tasks]] to the decision to determine which actions will be executed with the target if this decision is selected at runtime.

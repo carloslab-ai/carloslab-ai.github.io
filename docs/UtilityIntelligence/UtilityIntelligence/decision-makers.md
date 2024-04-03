@@ -19,3 +19,5 @@ Here's how the **Decision-Making Process** of a Utility Agent works:
 To create a Decision Maker, you need to go to the [[UtilityIntelligence/UtilityIntelligence/editor-window#Intelligence Tab|Intelligence Tab]], fill in the **Name** Field, and then click the **Create** button:
 
 ![[Attachments/UtilityIntelligence/Documentation/UtilityIntelligence/DecisionMakers/create-decision-maker.png|center|400]]
+
+After creating a decision maker, you can add [[UtilityIntelligence/UtilityIntelligence/decisions|decisions]] to it and monitor which decision will be chosen as the best one based on the current situation.
