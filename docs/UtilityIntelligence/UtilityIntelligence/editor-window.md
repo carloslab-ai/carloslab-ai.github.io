@@ -22,7 +22,7 @@ With the File Menu Toolbar, you can edit the **Intelligence Data** directly in J
 
 ### Intelligence Tab
 
-In **Intelligence Tab**, you can add new Decision Makers, Decisions, Considerations *as many as you want*:
+In **Intelligence Tab**, you can add new [[UtilityIntelligence/UtilityIntelligence/decision-makers|Decision Makers]], [[UtilityIntelligence/UtilityIntelligence/decisions|Decisions]], [[UtilityIntelligence/UtilityIntelligence/considerations|Considerations]] *as many as you want*
 
 ![[Attachments/UtilityIntelligence/Documentation/UtilityIntelligence/EditorWindow/agent-tab.png|Attachments/UtilityIntelligence/Documentation/UtilityAgent/UtilityAgentEditor/agent-tab.png]]
 
@@ -44,7 +44,7 @@ Additionally, you can view the current status of multiple components during runt
 
 #### Runtime Editing
 
-Moreover, you can modify AI behavior during runtime for testing purposes without needing to replay the game.
+Furthermore, you can modify AI behavior during runtime for testing purposes without needing to replay the game.
 
 ![[Attachments/UtilityIntelligence/Animations/RuntimeEditing.gif|Attachments/UtilityIntelligence/Animations/RuntimeEditing.gif]]
 
@@ -63,12 +63,16 @@ In **Consideration Tab**, you can add new considerations and select the input, t
 
 ### Input Tab
 
-In **Input Tab**, you can add as many Inputs as you want to the current agent:
+In **Input Tab**, you can add as many [[UtilityIntelligence/UtilityIntelligence/considerations#Inputs|inputs]] as you want to the current agent:
 
 ![[Attachments/UtilityIntelligence/Documentation/UtilityIntelligence/EditorWindow/input-tab.png|center|400]]
 
+> [!TIP]
+> You can modify the input values in the editor and observe how these changes affect the status of considerations and decisions. For further details, read [Status Preview](app://obsidian.md/index.html#Status%20Preview).
+
+
 ### Blackboard Tab
 
-In **Blackboard Tab**, you can add any type of Variable you want to share information between multiple components in your Agent:
+In **Blackboard Tab**, you can add variables to share information between multiple components within the agent, such as target filters, tasks, and inputs.
 
 ![[Attachments/UtilityIntelligence/Animations/BlackboardVariables.gif|Attachments/UtilityIntelligence/Animations/BlackboardVariables.gif]]
