@@ -5,9 +5,9 @@ category: Utility Intelligence
 
 ## Understanding how the score-calculation process works
 
-Before starting optimization, you need to understand how the score-calculation process works first. In Utility Intelligence, the score-calculation process is executed sequentially from top to bottom, and the lower ones are discarded if they cannot possibly win the higher one.
+Before starting optimization, you need to understand how the **score-calculation process** works first. In Utility Intelligence, the score-calculation process is executed sequentially from top to bottom, and the lower ones are discarded if they cannot possibly win the higher one.
 For example:
-![[Attachments/UtilityIntelligence/Documentation/UtilityIntelligence/Optimization/ones-below-discarded.png|center|550]]
+![[Attachments/UtilityIntelligence/Documentation/UtilityIntelligence/Optimization/ones-below-discarded.png|center|500]]
 
 In this case, firstly, **Decision 1** is scored, and its final score is `0.61`. This score will be passed into the score-calculation process of **Decision 2** as `minToBeat`. 
 
@@ -17,12 +17,19 @@ For decision makers, they are similar to decisions, if the lower ones realize th
 
 ## Optimization
 
-Now that you understand how the score-calculation process works, and to optimize this process, you need to do the following:
-- Put the ones with the highest chances of winning at the top. For example:
-	- Decisions with highest weight
-	- Considerations that are boolean (50% winning rate)
-- Put expensive ones at the bottom
-	- Considerations with raycasts
+Now that you understand how the score-calculation process works, and to optimize this process, follow these guidelines:
+
+- **Considerations**
+	- Put considerations that have a high probability of returning a low score at the top. This ensures that lower considerations will be discarded because the decision is difficult to beat the higher one if its first consideration returns a low score. For example:
+		- Considerations that are boolean (return `0.0` or `1.0`)
+	- Put considerations that are expensive at the bottom. For example:
+		- Considerations using raycasts
+- **Decisions**
+	- Put decisions that have a high probability of returning a high score at the top. For example:
+		- Decisions with high weights
+- **Decision Makers**
+	- Put decision makers that have a high probability of returning a high score at the top.
+
 
 To reorder decision makers, decisions, and considerations, you need to enable the **Reorderable** option in the Editor. This option adds drag handles before every item, allowing you to change the order of each item by dragging it.
 
