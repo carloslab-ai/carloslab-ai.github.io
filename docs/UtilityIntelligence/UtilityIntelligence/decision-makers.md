@@ -47,6 +47,6 @@ At editor time, decision makers only have 2 statuses:
 	<div style="width: 200px; height: 20px; vertical-align: middle; background-color: rgb(0, 255, 255); display: inline-block"></div>
 	<p style="display: inline-block">&nbsp;: Selected</p>
 	<br>
-	<div class="cl-border" style="width: 200px; height: 20px; vertical-align: middle; background-color: rgba(0, 0, 0,0); display: inline-block"></div>
+	<div class="cl-rect-border" style="width: 200px; height: 20px; vertical-align: middle; background-color: rgba(0, 0, 0,0); display: inline-block"></div>
 	<p style="display: inline-block">&nbsp;: Unselected</p>
 </div>

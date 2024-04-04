@@ -71,7 +71,22 @@ For example, it can be used with the attack action because the agent needs to fi
 
 
 ## Action Task's Statuses
-It's the same as [[UtilityIntelligence/UtilityIntelligence/decision-makers#Decision Maker's Statuses|Decision Makers]]
+At runtime, action tasks have 4 statuses:
+<div>
+	<div style="width: 200px; height: 20px; margin-top:3px; vertical-align: middle; background-color: rgb(255, 255, 0); display: inline-block"></div>
+	<p style="display: inline-block">&nbsp;: Running</p>
+	<br>
+	<div style="width: 200px; height: 20px; margin-top:3px; vertical-align: middle; background-color: rgb(0, 255, 0); display: inline-block"></div>
+	<p style="display: inline-block">&nbsp;: Success</p>
+</div>
+
+<div>
+	<div style="width: 200px; height: 20px; margin-top:3px; vertical-align: middle; background-color: rgb(255, 0, 0); display: inline-block"></div>
+	<p style="display: inline-block">&nbsp;: Failed</p>
+	<br>
+	<div style="width: 200px; height: 20px; margin-top:3px; vertical-align: middle; background-color: rgb(255, 165, 0); display: inline-block"></div>
+	<p style="display: inline-block">&nbsp;: Aborted</p>
+</div>
 
 ## Built-in Action Tasks
 
