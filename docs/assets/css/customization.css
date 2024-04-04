@@ -50,6 +50,16 @@ DONT FORGET TO EDIT THE URL
 
 /* ---------------------Carlos Lab-----------------------*/
 
+/* black/white anchor color override */
+@media screen {
+    [data-md-color-primary="black"] {
+        --cl-border-color: solid white;
+    }
+    [data-md-color-primary="white"] {
+        --cl-border-color: solid black;
+    }
+}
+
 
 .md-header__button.md-logo {
 	margin-top: 0;
@@ -79,6 +89,10 @@ DONT FORGET TO EDIT THE URL
 	margin-top: 0;
 	margin-bottom: 1em;
 	font-size: 14px;
+}
+
+.cl-border {
+	border: 2px var(--cl-border-color)
 }
 
 img[alt*="center"] {

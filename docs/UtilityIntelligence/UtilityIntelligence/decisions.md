@@ -9,7 +9,7 @@ In **Utility Intelligence**, each decision has:
 - A list of [[UtilityIntelligence/UtilityIntelligence/considerations|Considerations]]: They are used to calculate the score of the decision.
 - A list of [[UtilityIntelligence/UtilityIntelligence/action-tasks|Action Tasks]]: They will be executed by the egent if the decision is chosen.
 
-## How Decisions work?
+## How decisions work?
 
 Since a decision [[#Decisions are scored per target|is scored per target]], and any [[UtilityIntelligence/UtilityWorld/utility-entity|Utility Entity]] (all GameObjects with `UtilityEntityController` or `UtilityAgentController` attached) in the [[UtilityIntelligence/UtilityWorld/utility-world|Utility World]] could be a target of the decision, we need a way to filter targets to ensure that only appropriate targets are considered. This is the job of [[UtilityIntelligence/UtilityIntelligence/target-filters|Target Filters]].
 

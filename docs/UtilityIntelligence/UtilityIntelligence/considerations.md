@@ -10,7 +10,7 @@ For instance, suppose our agent has a decision called `AttackEnemy`, and this de
 
 In addition, you can add **as many axes as you want** to a decision. That's why *Dave Mark* calls it the **Infinite Axis Utility System**. 
 
-## Understanding how Considerations work?
+## Understanding how considerations work
 
 A consideration is made up of:
 - An [[#Inputs|Input]]
@@ -22,6 +22,24 @@ A consideration is made up of:
 Then the normalized input is processed through a [[#Response Curves|Response Curve]], which remaps the normalized input to a consideration score. These consideration scores are then multiplied together to get the final score of the decision. Therefore, if the score of any consideration is `0`, then the score of the decision will also be `0`.
 
 ![[Attachments/UtilityIntelligence/Documentation/UtilityIntelligence/Considerations/infinite-axis.png|center]]
+
+## Compensation Factor
+The more considerations a decision has, the lower the score it will be due to the multiplication. For example, if a decision has 9 considerations and the score of each consideration is `0.9`, then the final score of it will be **0.9<sup>9</sup> = 0.387**.
+
+Therefore, theoretically, if a decision has an infinite number of axes, even if the consideration scores are high, the final score of the decision will be close to `0`.
+
+To address this issue, *Dave Mark* introduced the **Compensation Factor** calculation, which takes into account the number of considerations to balance it. He presented this calculation in [Building a Better Centaur: AI at Massive Scale](https://www.gdcvault.com/play/1021848/Building-a-Better-Centaur-AI) (9:10).
+
+Here's how the compensation factor calculation is implemented in code:
+```cs
+public static float CompensateScore(float considerationScore, float considerationCount)  
+{  
+    float modificationFactor = 1.0f - 1.0f / considerationCount;  
+    float makeUpValue = (1.0f - considerationScore) * modificationFactor;  
+    return considerationScore + makeUpValue * considerationScore;  
+}
+```
+
 
 ## Creating Considerations
 

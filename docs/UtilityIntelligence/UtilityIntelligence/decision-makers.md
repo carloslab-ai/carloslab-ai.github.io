@@ -4,19 +4,19 @@ title: Decision Makers
 category: Utility Intelligence
 ---
 
-In **Utility Intelligence**, a Decision Maker contains a list of decisions, and the responsibility of each Decision Maker is to select the best decision from them based on the current situation. Additionally, each Utility Agent can contain multiple Decision Makers.
+In **Utility Intelligence**, a decision maker contains a list of decisions, and the responsibility of each decision maker is to select the best decision from them based on the current situation. Additionally, each utility agent can contain multiple decision makers.
 
 ![[Attachments/UtilityIntelligence/Documentation/UtilityIntelligence/DecisionMakers/decision-maker.png|Attachments/UtilityIntelligence/Documentation/UtilityAgent/DecisionMakers/decision-maker.png]]
 
-## Understanding how Decision-Making Process work?
+## Understanding how the decision-making process works
 
-Here's how the **Decision-Making Process** of a Utility Agent works:
-1. For each Decision Maker, the Utility Agent calculates the scores of all attached decisions and selects the best decision. 
-2. Afterwards, the Utility Agent compares the scores of the best decisions from each Decision Maker with each other, and the winner is the decision with the highest score.
+Here's how the **decision-making process** of a utility agent works:
+1. For each decision maker, the utility agent calculates the scores of all attached decisions and selects the best decision. 
+2. Afterwards, the utiltiy agent compares the scores of the best decisions from each decision maker with each other, and the winner is the decision with the highest score.
 
 ## Creating Decision Makers
 
-To create a Decision Maker, you need to go to the [[UtilityIntelligence/UtilityIntelligence/editor-window#Intelligence Tab|Intelligence Tab]], fill in the **Name** Field, and then click the **Create** button:
+To create a decision maker, you need to go to the [[UtilityIntelligence/UtilityIntelligence/editor-window#Intelligence Tab|Intelligence Tab]], fill in the **Name** Field, and then click the **Create** button:
 
 ![[Attachments/UtilityIntelligence/Documentation/UtilityIntelligence/DecisionMakers/create-decision-maker.png|center|400]]
 
@@ -47,6 +47,6 @@ At editor time, decision makers only have 2 statuses:
 	<div style="width: 200px; height: 20px; vertical-align: middle; background-color: rgb(0, 255, 255); display: inline-block"></div>
 	<p style="display: inline-block">&nbsp;: Selected</p>
 	<br>
-	<div style="width: 200px; height: 20px; vertical-align: middle; border: 2px solid white; background-color: rgba(0, 0, 0,0); display: inline-block"></div>
+	<div class="cl-border" style="width: 200px; height: 20px; vertical-align: middle; background-color: rgba(0, 0, 0,0); display: inline-block"></div>
 	<p style="display: inline-block">&nbsp;: Unselected</p>
 </div>
