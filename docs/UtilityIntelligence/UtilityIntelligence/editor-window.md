@@ -68,7 +68,7 @@ In **Input Tab**, you can add as many [[UtilityIntelligence/UtilityIntelligence/
 ![[Attachments/UtilityIntelligence/Documentation/UtilityIntelligence/EditorWindow/input-tab.png|center|400]]
 
 > [!TIP]
-> You can modify the input values in the editor and observe how these changes affect the status of considerations and decisions. For further details, read [Status Preview](app://obsidian.md/index.html#Status%20Preview).
+> You can modify the input values in the editor and observe how these changes affect the status of considerations and decisions. For further details, read [[#Status Preview]]
 
 
 ### Blackboard Tab
