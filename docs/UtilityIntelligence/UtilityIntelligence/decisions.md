@@ -48,4 +48,29 @@ To create a new decision, you need to go to the [[UtilityIntelligence/UtilityInt
 After creating a decision, you can add [[UtilityIntelligence/UtilityIntelligence/considerations|considerations]] to the decision and observe how they affect the decision score. Additionally, you can add [[UtilityIntelligence/UtilityIntelligence/target-filters|target filters]] and [[UtilityIntelligence/UtilityIntelligence/action-tasks|action tasks]] to the decision to determine which actions will be executed with the target if this decision is selected at runtime.
 
 ## Decision's Statuses
-It's the same as [[UtilityIntelligence/UtilityIntelligence/decision-makers#Decision Maker's Statuses|Decision Makers]]
+At runtime, decisions have 5 statuses:
+<div>
+	<div style="width: 200px; height: 20px; margin-top:3px; vertical-align: middle; background-color: rgb(255, 255, 0); display: inline-block"></div>
+	<p style="display: inline-block">&nbsp;: Running</p>
+	<br>
+	<div style="width: 200px; height: 20px; margin-top:3px; vertical-align: middle; background-color: rgb(0, 255, 0); display: inline-block"></div>
+	<p style="display: inline-block">&nbsp;: Success</p>
+	<br>
+	<div style="width: 200px; height: 20px; margin-top:3px; vertical-align: middle; background-color: rgb(255, 0, 0); display: inline-block"></div>
+	<p style="display: inline-block">&nbsp;: Failed</p>
+	<br>
+	<div style="width: 200px; height: 20px; margin-top:3px; vertical-align: middle; background-color: rgb(255, 165, 0); display: inline-block"></div>
+	<p style="display: inline-block">&nbsp;: Aborted</p>
+	<br>
+	<div class="cl-rect-border" style="width: 200px; height: 20px; vertical-align: middle; background-color: rgba(0, 0, 0,0); display: inline-block"></div>
+	<p style="display: inline-block">&nbsp;: Inactive</p>
+</div>
+
+At editor time, decision only have 2 statuses:
+<div>
+	<div style="width: 200px; height: 20px; vertical-align: middle; background-color: rgb(0, 255, 255); display: inline-block"></div>
+	<p style="display: inline-block">&nbsp;: Selected</p>
+	<br>
+	<div class="cl-rect-border" style="width: 200px; height: 20px; vertical-align: middle; background-color: rgba(0, 0, 0,0); display: inline-block"></div>
+	<p style="display: inline-block">&nbsp;: Unselected</p>
+</div>

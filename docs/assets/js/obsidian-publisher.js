@@ -90,9 +90,18 @@ for (const i of document.querySelectorAll("img")) {
     const D = /^(?<alt>(?!^\d*x?\d*$).*?)?(\|?\s*?(?<width>\d+)(x(?<height>\d+))?)?$/gi;
     if (i.alt.match(D)) {
         const E = D.exec(i.alt ?? "");
+		console.log(i.src);
 		console.log("i.width = " + i.width + ", i.height = " + i.height);
 		console.log("E.width = " + E.width + ", E.height = " + E.height);
-        i.width = E.groups.width ?? i.width, i.height = E.groups.height ?? i.height, i.alt = E.groups.alt ?? i.alt
+		
+		if(E.groups.width)
+			i.width = E.groups.width;
+		
+		if(E.groups.height)
+			i.height = E.groups.height;
+		
+		if(E.groups.alt)
+			i.alt = E.groups.alt;
     }
 }
 const article = document.querySelectorAll("article.md-content__inner.md-typeset > *:not(.highlight)"),
