@@ -120,22 +120,7 @@ if (cite)
             H.innerText.trim().length < 2 && (H.style.display = "none")
         }
     }
-window.onload = function() {
-    var e = document.querySelector("iframe");
-    if (e) {
-        const t = [];
-        document.querySelectorAll("link").forEach(e => {
-            e.href.endsWith(".css") && t.push(e.href)
-        });
-        const r = e.contentDocument || e.contentWindow.document;
-        t.forEach(e => {
-            var t = document.createElement("link");
-            t.rel = "stylesheet", t.href = e, t.type = "text/css", r.head.appendChild(t)
-        });
-        var e = document.querySelector("[data-md-color-scheme]");
-        "default" === e.getAttribute("data-md-color-scheme") ? r.body.setAttribute("class", "light") : (r.body.setAttribute("class", "dark"), e = getComputedStyle(e).getPropertyValue("--md-default-bg-color"), r.body.style.setProperty("--md-default-bg-color", e)), r.body.classList.add("graph-view")
-    }
-};
+
 const paletteSwitcher1 = document.getElementById("__palette_1"),
     paletteSwitcher2 = document.getElementById("__palette_2"),
     isMermaidPage = document.querySelector(".mermaid"),
@@ -145,22 +130,3 @@ const paletteSwitcher1 = document.getElementById("__palette_1"),
         location.reload()
     })), document.querySelector('meta[name="site_url"]') ? document.querySelector('meta[name="site_url"]').content : location.origin),
     position = ["top", "right", "bottom", "left"];
-
-function brokenImage(e) {
-    var t = e?.querySelectorAll("img");
-    if (t)
-        for (let e = 0; e < t.length; e++) {
-            var r = t[e];
-            r.src = decodeURI(decodeURI(r.src)), r.src = r.src.replace(location.origin, blogURL)
-        }
-    return e
-}
-
-function cleanText(e) {
-    return e.innerText = e.innerText.replaceAll("↩", "").replaceAll("¶", ""), e
-}
-
-function calculateHeight(e) {
-    e = e ? e.innerText || e : "", e = Math.floor(e.split(" ").length / 100);
-    return e < 2 ? "auto" : 5 <= e ? "20rem" : e + "rem"
-}
