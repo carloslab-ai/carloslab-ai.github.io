@@ -1,1 +1,1 @@
-This is the official reporitory of Carlos Lab: https://carloslab-ai.github.io/
+This is the official reporitory of CarlosLab's website: https://carloslab-ai.github.io/
