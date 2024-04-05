@@ -34,7 +34,7 @@ At runtime, decision makers have 2 statuses:
 	<p style="display: inline-block">&nbsp;: Inactive</p>
 </div>
 
-At editor time, decision makers only have 2 statuses:
+At editor time, decision makers have 2 statuses:
 <div>
 	<div style="width: 200px; height: 20px; vertical-align: middle; background-color: rgb(0, 255, 255); display: inline-block"></div>
 	<p style="display: inline-block">&nbsp;: Selected</p>
