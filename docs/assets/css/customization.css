@@ -58,8 +58,12 @@ DONT FORGET TO EDIT THE URL
     [data-md-color-primary="white"] {
         --cl-border-color: solid black;
     }
-}
 
+	[dir=ltr] .md-header__title {
+        margin-left: .6rem;
+        font-size: 20px;
+    }
+}
 
 .md-header__button.md-logo {
 	margin-top: 0;
