@@ -31,14 +31,6 @@ Since this plugin doesn't have any graphical features, it is compatible with all
 1. Open **HDRP Wizard** (Window -> Rendering -> HDRP Wizard)
 2. Click **Convert All Built-In Materials to HDRP**
 
-## Upgrade Guide
-
-To upgrade **Utility Intelligence** you just need to do the following:
-1. Backup your project
-2. Remove the following folders:
-	- CarlosLab/Common
-	- CarlosLab/UtilityIntelligence
-3. Re-import **Utility Intelligence** package
 
 ## Other Learning Resources
 
