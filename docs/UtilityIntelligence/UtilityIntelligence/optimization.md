@@ -3,7 +3,9 @@ title: Optimization
 category: Utility Intelligence
 ---
 
-## Understanding how the score-calculation process works
+## The score-calculation process
+
+### Understanding how the process works
 
 Before starting optimization, you need to understand how the **score-calculation process** works first. In Utility Intelligence, the score-calculation process is executed sequentially from top to bottom, and the lower ones are discarded if they cannot possibly beat the higher one.
 For example:
@@ -15,7 +17,7 @@ When calculating the score of **Decision 2**, since its first consideration is s
 
 For decision makers, they are similar to decisions, if the lower ones realize that they cannot possibly beat the higher one, then they will be discarded, and their final score will be `0.00`.
 
-## Optimization
+### Optimizing the process
 
 Now that you understand how the score-calculation process works, and to optimize this process, follow these guidelines:
 
@@ -34,6 +36,16 @@ Now that you understand how the score-calculation process works, and to optimize
 To reorder decision makers, decisions, and considerations, you need to enable the **Reorderable** option in the Editor. This option adds drag handles before every item, allowing you to change the order of each item by dragging it.
 
 ![[Attachments/UtilityIntelligence/Documentation/UtilityIntelligence/Optimization/reorderable.png]]
+
+## Enable Burst Compilation
+Some places in **Utility Intelligence** use Unity.Burst, so to achieve higher performance, you should **Enable Burst Compilation**:
+1. Install these two packages:
+	- com.unity.burst
+	- com.unity.mathematics
+1. Enable Burst Compilation (**Jobs -> Burst -> Enable Compilation**)
+![[Attachments/UtilityIntelligence/Documentation/UtilityIntelligence/Optimization/enable-burst-compilation.png|400]]
+
+
 
 
 
