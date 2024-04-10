@@ -10,7 +10,7 @@ category: Utility Intelligence
 
 There are two ways to open the Utility Intelligence Editor:
 1. Double-click on a [[UtilityIntelligence/UtilityWorld/utility-agent#Utility Intelligence Asset|Utility Intelligence Asset]] in the **Project Window**
-2. Navigate to **Tools -> Carlos Lab -> Utility Intelligence -> Editor Window** and then select a Utility Intelligence Asset in the **Project Window**
+2. Select **Tools -> Carlos Lab -> Utility Intelligence -> Editor Window**, and then click on a Utility Intelligence Asset in the **Project Window**
 ![[Attachments/UtilityIntelligence/Documentation/UtilityIntelligence/EditorWindow/open-editor-window.png|500]]
 
 

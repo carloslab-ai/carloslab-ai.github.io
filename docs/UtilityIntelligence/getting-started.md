@@ -33,7 +33,7 @@ Since this plugin doesn't have any graphical features, it is compatible with all
 
 ## Upgrade Guide
 
-To upgrade **Utility Intelligence** you just need to do the following:
+To upgrade **Utility Intelligence** you need to do the following:
 1. Backup your project
 2. Remove the following folders:
 	- CarlosLab/Common
