@@ -1,5 +1,6 @@
 ---
 title: Utility Intelligence
+description: The documentation of Utility Intelligence: A user-friendly Utility AI Framework
 hide: feedback
 ---
 
