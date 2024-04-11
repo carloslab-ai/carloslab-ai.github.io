@@ -1,6 +1,7 @@
 ---
 share: true
 title: Release Notes
+description: The full release notes of Utility Intelligence
 ---
 
 ## Upgrade Guide

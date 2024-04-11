@@ -78,6 +78,11 @@ In **Input Tab**, you can add as many [[UtilityIntelligence/UtilityIntelligence/
 > [!TIP]
 > You can modify the input values in the editor and observe how these changes affect the status of considerations and decisions. For further details, read [[#Status Preview]]
 
+For example, in our demos, if you set the input values as follows:
+![[Attachments/UtilityIntelligence/Documentation/UtilityIntelligence/EditorWindow/status-preview_set-inputs.png|center|450]]
+
+Then you will notice that the decision: **MoveToEnemy** is selected in the **Intelligence Tab**. This means you can determine which decision will be chosen based on the current input values without needing to play your game. Therefore, you will have more time to design your AIs.
+![[Attachments/UtilityIntelligence/Documentation/UtilityIntelligence/EditorWindow/status-preview_decision-selection.png]]
 
 ### Blackboard Tab
 

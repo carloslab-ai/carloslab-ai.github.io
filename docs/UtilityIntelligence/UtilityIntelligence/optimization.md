@@ -37,6 +37,14 @@ To reorder decision makers, decisions, and considerations, you need to enable th
 
 ![[Attachments/UtilityIntelligence/Documentation/UtilityIntelligence/Optimization/reorderable.png]]
 
+
+> [!NOTE]
+> - Considerations that are <b style="color:rgb(0, 255, 0)">green</b> have been executed.
+> - Considerations that are <b style="color:rgb(255, 165, 0)">orange</b> have been discarded.
+> - For more information about the statuses of considerations, check [[UtilityIntelligence/UtilityIntelligence/considerations#Consideration's Statuses|Consideration's Statuses]]
+
+![[Attachments/UtilityIntelligence/Documentation/UtilityIntelligence/Optimization/considerations-statuses.png]]
+
 ## Enable Burst Compilation
 Some places in **Utility Intelligence** use Unity.Burst, so to achieve higher performance, you should **Enable Burst Compilation**:
 1. Install these two packages:
