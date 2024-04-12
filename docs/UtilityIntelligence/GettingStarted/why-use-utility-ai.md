@@ -85,6 +85,6 @@ With this decision-making logic, the enemy will suddenly attack the player when 
 
 In **Utility AI**, this situation is very unlikely to happen unless you intentionally do so because **Utility AI** measures **How much do I want to take this decision at the moment**. So the distance to the player is `11` m just means the desire to attack the player is lower than when it is `10` m. 
 
-For example, if the players is inside `10` m, the score of `AttackPlayer` is `1.0`, then if the distance to player is `11` m, the score of `AttackPlayer` will be `0.9`. Therefore, whether the distance is `11` m or `10` m, if the score of `AttackPlayer` is greater than `Idle`, then `AttackPlayer` is still chosen. 
+For example, if the player is within `10` m, the score of `AttackPlayer` is `1.0`. Then if the distance to player is `11` m, the score of `AttackPlayer` will be `0.9`. Therefore, regardless of whether the distance is `11` m or `10` m, if the score of `AttackPlayer` is greater than `Idle`, then `AttackPlayer` is still chosen. 
 
 This is the reason why agents made by **Utility-Based AI** are far more natural than the predictably robotic **If/Else-Based AI** such as **Behavior Trees** and **Finite State Machines**.
