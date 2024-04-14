@@ -1,6 +1,7 @@
 ---
 share: true
 title: Why use Utility AI?
+description: Why use Utility AI instead of Behavior Trees and State Machines?
 category: Utility Intelligence
 ---
 
