@@ -36,11 +36,8 @@ I'm quite interested in AI development, especially Utility AI. That's why I crea
 ## My Indie Games
 
 ### Superbugs: Awaken
-This is the first game I made as an indie dev.
 
-<p align="center">
-	<a href="https://store.steampowered.com/app/1393570/Superbugs_Awaken">Steam Page</a>
-</p>
+Steam Link: https://store.steampowered.com/app/1393570/Superbugs_Awaken
 
 ![[Attachments/superbugs-awaken.png|Superbugs Awaken | 700]]
 
@@ -49,5 +46,6 @@ I've created this game with my friends. Our team consists of 4 people: 1 designe
 
 #### Gameplay
 It's a Communication-Based, Co-Op game for 2 Players. You and your friend have to choose one of two roles, either as the Scientist or the Hunter. And Mimi, is your precious cat, the 3rd member of your family. Unfortunately, Mimi is seriously ill due to being infected by extremly dangerous Superbugs. Therefore, you both have to collaborate to save Mimi from the damage caused by these deadly Superbugs! 
+
 -->
 

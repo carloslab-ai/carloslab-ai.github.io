@@ -40,6 +40,9 @@ public static float CompensateScore(float considerationScore, float consideratio
 }
 ```
 
+To enable/disable Compensation Factor, you need to check/uncheck the Compensation Factor option in the **Intelligence Editor**.
+
+![[Attachments/UtilityIntelligence/Documentation/UtilityIntelligence/Considerations/enable-disable-compensation-factor.png|center|300]]
 
 ## Creating Considerations
 

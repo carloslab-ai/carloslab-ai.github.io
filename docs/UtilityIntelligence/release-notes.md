@@ -13,6 +13,10 @@ To upgrade **Utility Intelligence** you need to do the following:
 	- CarlosLab/UtilityIntelligence
 3. Re-import **Utility Intelligence** package
 
+## 1.0.2
+**Added**
+- A toggle to enable/disable [[UtilityIntelligence/UtilityIntelligence/considerations#Compensation Factor|Compensation Factor]]
+
 ## 1.0.1
 **Added**
 - Consideration Benchmarks
@@ -23,7 +27,7 @@ To upgrade **Utility Intelligence** you need to do the following:
 
 **Fixed**
 - Fixed the issue where the state of a decision maker was incorrect when exiting/entering.
-- Fixed the issue where the Editor did not select the correct decision when adding or removing decision makers, decisions, considerations.
+- Fixed the issue where the Editor did not select the correct decision when adding or removing decision makers, decisions and considerations.
 
 ## 1.0.0
 First release
