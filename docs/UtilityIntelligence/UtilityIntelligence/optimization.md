@@ -41,7 +41,7 @@ To reorder decision makers, decisions, and considerations, you need to enable th
 > [!NOTE]
 > - Considerations that are <b style="color:rgb(0, 255, 0)">green</b> have been executed.
 > - Considerations that are <b style="color:rgb(255, 165, 0)">orange</b> have been discarded.
-> - For more information about the statuses of considerations, check [[UtilityIntelligence/UtilityIntelligence/considerations#Consideration's Statuses|Consideration's Statuses]]
+> - For more information about the statuses of considerations, check [[UtilityIntelligence/UtilityIntelligence/considerations#Consideration Statuses|Consideration Statuses]]
 
 ![[Attachments/UtilityIntelligence/Documentation/UtilityIntelligence/Optimization/considerations-statuses.png]]
 

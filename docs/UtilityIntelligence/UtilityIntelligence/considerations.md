@@ -53,7 +53,7 @@ To create a new consideration, you need to go to the **Consideration Tab**, fill
 
 After creating a consideration, you can select an [[#Inputs|Input]], an [[#Input Normalizations|Input Normalization]], and update the [[#Response Curves| Response Curve]] of the consideration, change their values and observe how these changes affect the consideration score.
 
-## Consideration's Statuses
+## Consideration Statuses
 
 Considerations only have two statuses at both runtime and editor time:
 <div>

@@ -70,7 +70,7 @@ For example, it can be used with the attack action because the agent needs to fi
 ![[Attachments/UtilityIntelligence/Documentation/UtilityIntelligence/Decisions/assign-action-task.png|Attachments/UtilityIntelligence/Documentation/UtilityAgent/Decisions/assign-action-task.png]]
 
 
-## Action Task's Statuses
+## Action Task Statuses
 At runtime, action tasks have 4 statuses:
 <div>
 	<div style="width: 200px; height: 20px; margin-top:3px; vertical-align: middle; background-color: rgb(255, 255, 0); display: inline-block"></div>

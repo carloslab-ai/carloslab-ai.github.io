@@ -23,7 +23,7 @@ To create a decision maker, you need to go to the [[UtilityIntelligence/UtilityI
 After creating a decision maker, you can add [[UtilityIntelligence/UtilityIntelligence/decisions|decisions]] to it and monitor which decision will be chosen as the best one based on the current situation.
 
 
-## Decision Maker's Statuses
+## Decision Maker Statuses
 
 At runtime, decision makers have 2 statuses:
 <div>
