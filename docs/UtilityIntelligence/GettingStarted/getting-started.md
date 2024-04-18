@@ -1,5 +1,4 @@
 ---
-share: true
 title: Getting Started
 category: Utility Intelligence
 ---
@@ -18,27 +17,6 @@ category: Utility Intelligence
 ![[Attachments/UtilityIntelligence/Documentation/UtilityWorld/utility-world.png|center|400]]
 1. Play your game.
 
-## Running Demos in URP and HDRP
-
-Since this plugin doesn't have any graphical features, it is compatible with all render pipelines. However the materials of the demo scenes are created using the Built-In Render Pipeline. Therefore, if you want to run the demos in URP or HDRP, you need to convert all materials to the target pipeline first:
-
-### URP
-1. Open **Render Pipeline Converter** (Window -> Rendering -> Render Pipeline Converter)
-2. Tick **Material Upgrade**
-3. Click **Initialize and Converter** button
-
-### HDRP
-1. Open **HDRP Wizard** (Window -> Rendering -> HDRP Wizard)
-2. Click **Convert All Built-In Materials to HDRP**
-
-## Upgrade Guide
-
-To upgrade **Utility Intelligence** you need to do the following:
-1. Backup your project
-2. Remove the following folders:
-	- CarlosLab/Common
-	- CarlosLab/UtilityIntelligence
-3. Re-import **Utility Intelligence** package
 
 ## Other Learning Resources
 
@@ -51,3 +29,32 @@ To upgrade **Utility Intelligence** you need to do the following:
 ### Videos
 1. [Architecture Tricks: Managing Behaviors in Time, Space, and Depth](https://www.gdcvault.com/play/1018040/Architecture-Tricks-Managing-Behaviors-in), Dave Mark (From 33:30)
 2. [Building a Better Centaur: AI at Massive Scale](https://www.gdcvault.com/play/1021848/Building-a-Better-Centaur-AI), Dave Mark and Mike Lewis
+
+
+## FAQs
+
+### 1. How to get support?
+Currently, there are three ways to get support:
+1. Send an email to carloslab.customer@gmail.com, including your **Invoice Number**.
+2. Post your questions on the forum thread: [Utility Intelligence - A user-friendly Utility AI Framework](https://forum.unity.com/threads/utility-intelligence-a-user-friendly-utility-ai-framework.1547540/).
+3. Join my community on Discord: https://discord.gg/vRFEK5uE3f.
+	- I highly recommend this method as you'll get support from fellow members in my community when I'm not available.
+
+### 2. How to run demos in URP and HDRP
+
+Since this plugin doesn't have any graphical features, it is compatible with all render pipelines. However the materials of the demo scenes are created using the Built-In Render Pipeline. Therefore, if you want to run the demos in URP or HDRP, you need to convert all materials to the target pipeline first:
+
+#### URP
+1. Open **Render Pipeline Converter** (Window -> Rendering -> Render Pipeline Converter)
+2. Tick **Material Upgrade**
+3. Click **Initialize and Converter** button
+
+#### HDRP
+1. Open **HDRP Wizard** (Window -> Rendering -> HDRP Wizard)
+2. Click **Convert All Built-In Materials to HDRP**
+
+
+
+
+
+
