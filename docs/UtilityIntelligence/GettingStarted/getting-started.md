@@ -37,7 +37,6 @@ category: Utility Intelligence
 Currently, there are three ways to get support:
 
 1. Join my Discord community and post your questions there: https://discord.gg/vRFEK5uE3f.
-	- I highly recommend this method since I regularly check messages there, so you'll receive support faster.
 2. Post your questions on the Unity forum thread: [Utility Intelligence - A user-friendly Utility AI Framework](https://forum.unity.com/threads/utility-intelligence-a-user-friendly-utility-ai-framework.1547540/).
 3. Send an email to carloslab.customer@gmail.com, and don't forget to include your **Invoice Number**.
 
