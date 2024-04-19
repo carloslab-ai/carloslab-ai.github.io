@@ -10,9 +10,9 @@ Currently, there are three ways to get support:
 3. Send an email to carloslab.customer@gmail.com, and don't forget to include your **Invoice Number**.
 
 ## 2. How to support me?
-In case you feel this plugin is more useful than its price, especially when it's on sale and you want to support me, currently, there are two ways to do so:
-1. Leave a **5-star review** on the [Unity Asset Store](https://assetstore.unity.com/packages/slug/276632) (it's free)
-2. Buy me some coffees at [Ko-fi](https://ko-fi.com/carlos_ai)
+In case you **feel** this plugin is more **useful** than its **price**, especially when it's **on sale** and you want to **support** me, currently, there are two ways to do so:
+1. Leave a **5-star review** on the [Unity Asset Store](https://assetstore.unity.com/packages/slug/276632).
+2. Buy me **some coffees** at [Ko-fi](https://ko-fi.com/carlos_ai).
 
 Thank you so much for your support! 🥰 
 It allows me to **dedicate more time** to developing my plugins.
