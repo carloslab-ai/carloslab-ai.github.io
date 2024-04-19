@@ -86,13 +86,13 @@ DONT FORGET TO EDIT THE URL
 .cl-support {
 	margin-top: 1em;
 	margin-bottom: 1em;
-	text-align: center;
 }
 
 .cl-support-content {
 	margin-top: 0;
 	margin-bottom: 1em;
-	font-size: 14px;
+	font-size: 15px;
+	text-align: left;
 }
 
 .cl-rect-border {
