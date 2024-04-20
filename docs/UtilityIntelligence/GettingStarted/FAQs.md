@@ -17,19 +17,6 @@ In case you **find** this plugin more **useful** than its **price**, especially 
 Thank you so much for your support! 🥰 
 It **allows** me to **dedicate more time** to developing my plugins.
 
-## 3. How to run demos in URP and HDRP
-
-Since this plugin doesn't have any graphical features, it is compatible with all render pipelines. However the materials of the demo scenes are created using the Built-In Render Pipeline. Therefore, if you want to run the demos in URP or HDRP, you need to convert all materials to the target pipeline first:
-
-#### URP
-1. Open **Render Pipeline Converter** (Window -> Rendering -> Render Pipeline Converter)
-2. Tick **Material Upgrade**
-3. Click **Initialize and Converter** button
-
-#### HDRP
-1. Open **HDRP Wizard** (Window -> Rendering -> HDRP Wizard)
-2. Click **Convert All Built-In Materials to HDRP**
-
 
 
 
