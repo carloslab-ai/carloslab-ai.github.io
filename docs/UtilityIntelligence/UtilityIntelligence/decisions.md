@@ -40,7 +40,7 @@ You can change the weight of a decision in the **Decision Editor**:
 
 ## Momentum Bonus
 
-When using Utility AI, there may be a scenario where decision-target pairs with similar scores oscillate back and forth as their scores rise and fall. To address this issue, we need to add a **momentum bonus** to the score of the last decision-target pair in the **next** decision-making round. This prioritizes the last decision-target pair, increasing its chances of winning, thereby reducing the oscillation.
+When using Utility AI, there may be a scenario where decision-target pairs with similar scores oscillate back and forth as their scores rise and fall. To address this issue, we need to add a **momentum bonus** to the score of the last decision-target pair in the **next** decision-making round. This prioritizes the last decision-target pair, increasing its chances of winning and thereby reducing the oscillation between nearly-equal decision-target pairs.
 
 > [!INFO]
 > Currently, the **Momentum Bonus** in Utility Intelligence is **25%**.
