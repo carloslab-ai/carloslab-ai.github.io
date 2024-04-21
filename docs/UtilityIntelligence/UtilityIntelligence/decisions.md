@@ -9,15 +9,23 @@ In **Utility Intelligence**, each decision has:
 - A list of [[UtilityIntelligence/UtilityIntelligence/considerations|Considerations]]: They are used to calculate the score of the decision.
 - A list of [[UtilityIntelligence/UtilityIntelligence/action-tasks|Action Tasks]]: They will be executed by the egent if the decision is chosen.
 
-## How decisions work?
+## Understanding how decisions work?
 
 Since a decision [[#Decisions are scored per target|is scored per target]], and any [[UtilityIntelligence/UtilityWorld/utility-entity|Utility Entity]] (all GameObjects with `UtilityEntityController` or `UtilityAgentController` attached) in the [[UtilityIntelligence/UtilityWorld/utility-world|Utility World]] could be a target of the decision, we need a way to filter targets to ensure that only appropriate targets are considered. This is the job of [[UtilityIntelligence/UtilityIntelligence/target-filters|Target Filters]].
 
-After finding appropriate targets, all [[UtilityIntelligence/UtilityIntelligence/considerations|Considerations]] of the decision will be evaluated for each target to calculate the score of each decision-target pair. Then the score of each pair is multiplied with the [[#Decision Weight|Decision Weight]] to get the final score.
+After finding appropriate targets, all [[UtilityIntelligence/UtilityIntelligence/considerations|Considerations]] of the decision will be evaluated for each target to calculate the score of each decision-target pair. Then the score of each pair is multiplied with the [[#Decision weight|Decision weight]] to get the final score.
 
 Finally, the best decision-target pair with the highest score will be chosen and the agent will execute all [[UtilityIntelligence/UtilityIntelligence/action-tasks|Action Tasks]] attached to the decision, either in **Sequence** or in **Parallel**.
 
-### Decision Weight
+## Decisions are scored per target
+
+A decision may or may not have targets. However:
+1. If it has targets, it will be **scored per target**. Afterward, **Utility Intelligence** will compare the scores of all the decision-target pairs with each other and select the pair with the highest score.
+2. If it does not have targets, it will be scored only once, and that score is the final score of the decision.
+
+![[Attachments/UtilityIntelligence/Documentation/UtilityIntelligence/Decisions/decisions-per-target.png|Attachments/UtilityIntelligence/Documentation/UtilityAgent/Decisions/decisions-per-target.png]]
+
+## Decision Weight
 
 In **Utility Intelligence**, you can control the prioritization of each decision by adjusting the Decision Weight. For example, you can organize your decisions into multiple layers like the following:
 - Normal Layer's Weight: 1.0
@@ -30,14 +38,15 @@ You can change the weight of a decision in the **Decision Editor**:
 
 ![[Attachments/UtilityIntelligence/Documentation/UtilityIntelligence/Decisions/adjust-decision-weight.png|Attachments/UtilityIntelligence/Documentation/UtilityAgent/Decisions/adjust-decision-weight.png]]
 
-### Decisions are scored per target
+## Momentum Bonus
 
-A decision may or may not have targets. However:
-1. If it has targets, it will be **scored per target**. Afterward, **Utility Intelligence** will compare the scores of all the decision-target pairs with each other and select the pair with the highest score.
-2. If it does not have targets, it will be scored only once, and that score is the final score of the decision.
+When using Utility AI, there may be a scenario where decision-target pairs with similar scores oscillate back and forth as their scores rise and fall. To address this issue, we need to add a **momentum bonus** to the score of the last decision-target pair in the **next** decision-making round. This prioritizes the last decision-target pair, increasing its chances of winning, thereby reducing the oscillation.
 
-![[Attachments/UtilityIntelligence/Documentation/UtilityIntelligence/Decisions/decisions-per-target.png|Attachments/UtilityIntelligence/Documentation/UtilityAgent/Decisions/decisions-per-target.png]]
+> [!INFO]
+> Currently, the **Momentum Bonus** in Utility Intelligence is **25%**.
 
+To enable/disable Momentum Bonus, you need to check/uncheck the Momentum Bonus option in the **Intelligence Editor**.
+![[Attachments/UtilityIntelligence/Documentation/UtilityIntelligence/Decisions/momentum-bonus.png|center|300]]
 
 ## Creating Decisions
 

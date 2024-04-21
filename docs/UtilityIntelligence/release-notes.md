@@ -13,6 +13,11 @@ To upgrade **Utility Intelligence** you need to do the following:
 	- CarlosLab/UtilityIntelligence
 3. Re-import **Utility Intelligence** package
 
+
+## 1.0.3
+**Added**
+- Add [[UtilityIntelligence/UtilityIntelligence/decisions#Momentum Bonus|Momentum Bonus]] to reduce the oscillation between the decision-target pairs
+
 ## 1.0.2
 **Added**
 - A toggle to enable/disable [[UtilityIntelligence/UtilityIntelligence/considerations#Compensation Factor|Compensation Factor]]
