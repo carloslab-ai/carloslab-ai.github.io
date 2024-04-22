@@ -16,16 +16,19 @@ To upgrade **Utility Intelligence** you need to do the following:
 
 ## 1.0.3
 **Added**
-- Add [[UtilityIntelligence/UtilityIntelligence/decisions#Momentum Bonus|Momentum Bonus]] to reduce [[UtilityIntelligence/UtilityIntelligence/decisions#Oscillation between Decisions|the oscillation between nearly-equal decision-target pairs]]
+- Added [[UtilityIntelligence/UtilityIntelligence/decisions#Momentum Bonus|Momentum Bonus]] to reduce [[UtilityIntelligence/UtilityIntelligence/decisions#Oscillation between Decisions|the oscillation between nearly equal decision-target pairs]]
 
 ## 1.0.2
 **Added**
-- A toggle to enable/disable [[UtilityIntelligence/UtilityIntelligence/considerations#Compensation Factor|Compensation Factor]]
+- A toggle to enable/disable [[UtilityIntelligence/UtilityIntelligence/considerations#Compensation Factor|Compensation Factor]].
+
+**Changed**
+- Removed Consideration Benchmarks.
 
 ## 1.0.1
 **Added**
-- Consideration Benchmarks
-- InfluenceCurve Benchmarks
+- Consideration Benchmarks.
+- InfluenceCurve Benchmarks.
 
 **Changed**
 - Select the first decision maker if all decision makers return a score of 0.

@@ -49,7 +49,7 @@ You can change the weight of a decision in the **Decision Editor**:
 
 ## Momentum Bonus
 
-When you enable the **Momentum Bonus** option, **Utility Intelligence** will add a momentum bonus to the score of the last decision-target pair in the **next** decision-making round. This prioritizes the last decision-target pair, increasing its chances of winning and thereby reducing the oscillation between nearly-equal decision-target pairs.
+When you enable the **Momentum Bonus** option, **Utility Intelligence** will add a momentum bonus to the score of the last decision-target pair in the **next** decision-making round. This prioritizes the last decision-target pair, increasing its chances of winning and thereby reducing the oscillation between nearly equal decision-target pairs.
 
 > [!INFO]
 > Currently, the **Momentum Bonus** in Utility Intelligence is **25%**.
