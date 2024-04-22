@@ -25,7 +25,7 @@ A decision may or may not have targets. However:
 
 ![[Attachments/UtilityIntelligence/Documentation/UtilityIntelligence/Decisions/decisions-per-target.png|Attachments/UtilityIntelligence/Documentation/UtilityAgent/Decisions/decisions-per-target.png]]
 
-## Oscillation between Decisions
+## Oscillation between decision-target pairs
 
 When using Utility AI, there may be a scenario where decision-target pairs with similar scores oscillate back and forth as their scores rise and fall. There are three ways to address this issue:
 1. Enable the [[#Momentum Bonus]] to prioritize the last decision-target pair in the next decision-making round.
@@ -49,7 +49,7 @@ You can change the weight of a decision in the **Decision Editor**:
 
 ## Momentum Bonus
 
-When you enable the **Momentum Bonus** option, **Utility Intelligence** will add a momentum bonus to the score of the last decision-target pair in the **next** decision-making round. This prioritizes the last decision-target pair, increasing its chances of winning and thereby reducing the oscillation between nearly equal decision-target pairs.
+When you enable the **Momentum Bonus** option, **Utility Intelligence** will add a momentum bonus to the score of the last decision-target pair in the **next** decision-making round. This prioritizes the last decision-target pair, increasing its chances of winning and thereby reducing [[#Oscillation between decision-target pairs|the oscillation between nearly equal decision-target pairs]]
 
 > [!INFO]
 > Currently, the **Momentum Bonus** in Utility Intelligence is **25%**.

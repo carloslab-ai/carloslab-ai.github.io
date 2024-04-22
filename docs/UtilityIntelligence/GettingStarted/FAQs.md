@@ -2,14 +2,18 @@
 title: FAQs
 ---
 
-## 1. How to get support?
+## Which Unity version is supported?
+Currently, the supported Unity version is 2023.2.3f1 or higher. You can check the supported Unity version here in the Asset Store:
+![[Attachments/UtilityIntelligence/Documentation/GettingStarted/supported-version.png|400]]
+
+## 2. How to get support?
 Currently, there are three ways to get support:
 
 1. Join my community and post your questions there: [Join us on Discord](https://discord.gg/vRFEK5uE3f).
 2. Post your questions on the Unity forum thread: [Utility Intelligence - A user-friendly Utility AI Framework](https://forum.unity.com/threads/utility-intelligence-a-user-friendly-utility-ai-framework.1547540/).
 3. Send an email to carloslab.customer@gmail.com, and don't forget to include your **Invoice Number**.
 
-## 2. How to support me?
+## 3. How to support me?
 In case you **find** this plugin more **useful** than its **price**, especially when it's **on sale** and you want to **support** me, currently, there are two ways to do so:
 1. Leave a **5-star review** on the [Unity Asset Store](https://assetstore.unity.com/packages/slug/276632).
 2. Buy me **a coffee** at [Ko-fi](https://ko-fi.com/carlos_ai).
