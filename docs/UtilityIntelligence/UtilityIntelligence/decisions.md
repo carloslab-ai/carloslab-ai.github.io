@@ -28,15 +28,18 @@ A decision may or may not have targets. However:
 ## Oscillation between decision-target pairs
 
 When using Utility AI, there may be a scenario where decision-target pairs with similar scores oscillate back and forth as their scores rise and fall. There are three ways to address this issue:
-1. Enable the [[#Momentum Bonus]] to prioritize the last decision-target pair in the next decision-making round.
-2. Increase the [[#Decision Weight|weight]] of the decision that you want to prioritize. 
-	- For example, let's say 2 or 3 instead of just 1.
+1. Enable the [[#Momentum Bonus]] option  to add a **bonus** to the last chosen decision-target pair in the next decision-making round.
+	- This will prioritize the last decision-target pair over the others, thereby eliminating the oscillation.
+2. Increase the [[#Decision Weight|weight]] of the decision that you want to prioritize. For example, let's say 2 or 3 instead of just 1.
+	- This will prioritize one decision over the others, eliminating the oscillation.
 3. Add more considerations to each decision. 
 	- This will introduce more variation to the score-calculation process, increasing the chances that the competing decision will consistently win (or lose) and thereby reducing the oscillation.
 
 ## Decision Weight
 
-In **Utility Intelligence**, you can control the prioritization of each decision by adjusting the Decision Weight. For example, you can organize your decisions into multiple layers like the following:
+In **Utility Intelligence**, you can control the prioritization of each decision by adjusting the Decision Weight. 
+
+For example, you can organize your decisions into multiple layers like the following:
 - Normal Layer's Weight: 1.0
 - Combat Layer's Weight: 2.0
 - Urgent Layer's Weight: 3.0
@@ -47,9 +50,13 @@ You can change the weight of a decision in the **Decision Editor**:
 
 ![[Attachments/UtilityIntelligence/Documentation/UtilityIntelligence/Decisions/adjust-decision-weight.png|Attachments/UtilityIntelligence/Documentation/UtilityAgent/Decisions/adjust-decision-weight.png]]
 
+
+> [!TIP]
+> Decision Weight is a good tool to reduce [[#Oscillation between decision-target pairs|the oscillation between nearly equal decision-target pairs]].
+
 ## Momentum Bonus
 
-When you enable the **Momentum Bonus** option, **Utility Intelligence** will add a momentum bonus to the score of the last decision-target pair in the **next** decision-making round. This prioritizes the last decision-target pair, increasing its chances of winning and thereby reducing [[#Oscillation between decision-target pairs|the oscillation between nearly equal decision-target pairs]]
+When you enable the **Momentum Bonus** option, **Utility Intelligence** will add a **bonus** to the score of the last decision-target pair in the **next** decision-making round. This prioritizes the last chosen decision-target pair, increasing its chances of winning and thereby reducing [[#Oscillation between decision-target pairs|the oscillation between nearly equal decision-target pairs]].
 
 > [!INFO]
 > Currently, the **Momentum Bonus** in Utility Intelligence is **25%**.
