@@ -6,7 +6,7 @@ title: FAQs
 Currently, the supported Unity version is 2023.2.3f1 or higher. You can check the supported Unity version here in the Asset Store:
 ![[Attachments/UtilityIntelligence/Documentation/GettingStarted/supported-version.png|350]]
 
-## What are advantages of Utility Intelligence compared to other Utility AI solutions
+## What are the advantages of Utility Intelligence compared to other Utility AI solutions?
 1. Utility Intelligence has its own **ResponseCurveView** for representing the **Response Curve**, while other solutions usually use Unity's **AnimationCurveView**, which is **primarily designed for animations**, so it will not be a good fit to represent response curves.
 	- For example, if the value of `[input, score]` is `[0.43, 0.70]`, we will need some time to visualize its position in the **AnimationCurveView**. 
 	![[Attachments/UtilityIntelligence/Documentation/GettingStarted/animation-curve-view.png]]
