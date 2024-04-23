@@ -27,12 +27,15 @@ A decision may or may not have targets. However:
 
 ## Oscillation between decision-target pairs
 
-When using Utility AI, there may be a scenario where decision-target pairs with similar scores oscillate back and forth as their scores rise and fall. There are three ways to address this issue:
+When using Utility AI, there may be a scenario where decision-target pairs with similar scores oscillate back and forth as their scores rise and fall. This leads to the agent constantly changing its decision and target. Currently, there are four ways to address this issue:
+
 1. Enable the [[#Momentum Bonus]] option  to add a **bonus** to the last chosen decision-target pair in the next decision-making round.
 	- This will prioritize the last decision-target pair over the others, thereby eliminating the oscillation.
 2. Increase the [[#Decision Weight|weight]] of the decision that you want to prioritize. For example, let's say 2 or 3 instead of just 1.
 	- This will prioritize one decision over the others, eliminating the oscillation.
-3. Add more considerations to each decision. 
+3. Enable [[UtilityIntelligence/UtilityIntelligence/action-tasks#Keep Running Until Finished|Keep Running Until Finished]] option to prevent the agent from making a new decision while an important task is running.
+	- When the agent is performing an important task, such as **AttackPlayer**, **ChargeHealth**, and **ReloadAmmunition**, and you don't want it to be interrupted, you can enable this option to prevent the agent from switching to another decision while that task is running.
+1. Add more considerations to each decision. 
 	- This will introduce more variation to the score-calculation process, increasing the chances that the competing decision will consistently win (or lose) and thereby reducing the oscillation.
 
 ## Decision Weight
@@ -52,7 +55,7 @@ You can change the weight of a decision in the **Decision Editor**:
 
 
 > [!TIP]
-> Decision Weight is a good tool to reduce [[#Oscillation between decision-target pairs|the oscillation between nearly equal decision-target pairs]].
+> You can adjust the weight of decisions to reduce [[#Oscillation between decision-target pairs|the oscillation between nearly equal decision-target pairs]].
 
 ## Momentum Bonus
 

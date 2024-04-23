@@ -39,7 +39,12 @@ You can change `MaxRepeatCount` of the action list here:
 ## Keep Running Until Finished
 In case you want to prevent the current agent from making a new decision while the action list is running, you can check the option: **Keep Running Until Finished** in the **Action List Editor**. 
 
-For example, it can be used with the attack action because the agent needs to finish the attack before starting the next action, such as run away from the enemy. 
+
+> [!TIP]
+> - By enabling this option for important tasks, such as **AttackEnemy**, **ChargeHealth**, and **ReloadAmmunition**, it prevents these tasks from being interrupted by the agent switching to another decision. This helps reduce [[UtilityIntelligence/UtilityIntelligence/decisions#Oscillation between decision-target pairs|the oscillation between these important decisions and other non-important ones]]
+> - For example, with **AttackEnemy** decision, you should enable this option because the agent needs to finish the attack before switching to another decision, such as **RunAwayFromEnemy**. 
+
+To enable/disable **Keep Running Until Finished** option, you need to check/uncheck it in the **Action List Editor**:
 
 ![[Attachments/UtilityIntelligence/Documentation/UtilityIntelligence/ActionTasks/keep-running-until-finished.png|Attachments/UtilityIntelligence/Documentation/UtilityAgent/ActionTasks/keep-running-until-finished.png]]
 
