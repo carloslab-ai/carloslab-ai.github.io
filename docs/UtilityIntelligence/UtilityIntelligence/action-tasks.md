@@ -41,8 +41,15 @@ In case you want to prevent the current agent from making a new decision while t
 
 
 > [!TIP]
-> - By enabling this option for important tasks, such as **AttackEnemy**, **ChargeHealth**, and **ReloadAmmunition**, it prevents these tasks from being interrupted by the agent switching to another decision. This helps reduce [[UtilityIntelligence/UtilityIntelligence/decisions#Oscillation between decision-target pairs|the oscillation between these important decisions and other non-important ones]]
+> - By enabling this option for important decisions, such as **AttackEnemy**, **ChargeHealth**, and **ReloadAmmunition**, it stops the agent from getting distracted by other non-important decisions. This helps reduce [[UtilityIntelligence/UtilityIntelligence/decisions#Oscillation between decision-target pairs|the oscillation between these important decisions and other non-important ones]].
 > - For example, with **AttackEnemy** decision, you should enable this option because the agent needs to finish the attack before switching to another decision, such as **RunAwayFromEnemy**. 
+
+
+> [!NOTE]
+> - If you enable this option, the agent can only change its decision after the action list is finished, regardless of whether the scores of other decisions are higher than the current one.
+> - For example, with **AttackEnemy** decision, the agent can only switch to another decision after each attack is finished, even if the scores of other decisions such as **RunAwayFromEnemy** or **ReloadAmmunition** are higher than **AttackEnemy**.
+> - Additionally, if the score of the **AttackEnemy** decision remains the highest after each attack, the agent will keep running this decision.
+
 
 To enable/disable **Keep Running Until Finished** option, you need to check/uncheck it in the **Action List Editor**:
 
