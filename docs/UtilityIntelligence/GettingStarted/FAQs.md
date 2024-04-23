@@ -36,7 +36,7 @@ In case you **find** this plugin more **useful** than its **price**, especially 
 2. Buy me **a coffee** at [Ko-fi](https://ko-fi.com/carlos_ai).
 
 Thank you so much for your support! 🥰 
-It **allows** me to **dedicate more time** to developing my plugins.
+It **allows** me to **dedicate more time** to developing this plugin.
 
 
 
