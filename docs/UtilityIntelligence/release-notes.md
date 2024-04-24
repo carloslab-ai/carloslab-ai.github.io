@@ -13,6 +13,12 @@ To upgrade **Utility Intelligence** you need to do the following:
 	- CarlosLab/UtilityIntelligence
 3. Re-import **Utility Intelligence** package
 
+## 1.0.4
+**Added**
+- Variables classes to store GameObject and Transform.
+
+**Fixed**
+- Fixed an issue where custom variables could not be referenced in the Editor.
 
 ## 1.0.3
 **Added**
