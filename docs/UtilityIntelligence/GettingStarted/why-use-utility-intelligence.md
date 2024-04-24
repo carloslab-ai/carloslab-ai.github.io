@@ -18,6 +18,11 @@ Basically, I believe that **Utility Intelligence** is more user-friendly and has
 	You can read more about it here:
 	- [[UtilityIntelligence/UtilityIntelligence/editor-window#Status Preview|Status Preview]]
 	- [[UtilityIntelligence/UtilityIntelligence/editor-window#Input Tab|Input Tab]]
-3. The **Intelligence Data** is stored in **JSON** format, making it easy to read and allowing you to edit it using your Text Editor.
+3. Besides that, you can view additional runtime information such as the **best target** for each decision, and the **current status** of each task at runtime. 
+![[Attachments/UtilityIntelligence/Animations/RuntimeStatus.gif]]
+4. The **Intelligence Data** is stored in **JSON** format, making it easy to read and allowing you to edit it using your Text Editor.
 	![[Attachments/UtilityIntelligence/Animations/JSONEditing.gif]]
-4. **Utility Intelligence** provides many ways to reduce [[UtilityIntelligence/UtilityIntelligence/decisions#Oscillation between decision-target pairs|the oscillation between nearly equal decision-target pairs]] that other Utility AI solutions may not have.
+5. **Utility Intelligence** provides many ways to reduce [[UtilityIntelligence/UtilityIntelligence/decisions#Oscillation between decision-target pairs|the oscillation between nearly equal decision-target pairs]] that other Utility AI solutions may not have.
+	- [[UtilityIntelligence/UtilityIntelligence/decisions#Momentum Bonus|Momentum Bonus]]
+	- [[UtilityIntelligence/UtilityIntelligence/decisions#Decision Weight|Decision Weight]]
+	- [[UtilityIntelligence/UtilityIntelligence/action-tasks#Keep Running Until Finished|Prevent the agent from switching to another decision while the action list is running]]
