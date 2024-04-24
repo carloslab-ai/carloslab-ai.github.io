@@ -16,7 +16,7 @@ To upgrade **Utility Intelligence** you need to do the following:
 
 ## 1.0.3
 **Added**
-- Added [[UtilityIntelligence/UtilityIntelligence/decisions#Momentum Bonus|Momentum Bonus]] to reduce [[UtilityIntelligence/UtilityIntelligence/decisions#Oscillation between decision-target pairs|the oscillation between nearly equal decision-target pairs]]
+- Added [[UtilityIntelligence/UtilityIntelligence/decisions#Momentum Bonus|Momentum Bonus]] to reduce [[UtilityIntelligence/UtilityIntelligence/decisions#Oscillation between decision-target pairs|the oscillation between nearly equal decision-target pairs]].
 
 ## 1.0.2
 **Added**
