@@ -9,7 +9,7 @@ Blackboard is used to share information between multiple components in an Agent.
 - It contains a list of Variables and you can Read/Write to these Variables for any purpose.
 
 ## Creating Variables
-To create a new variable, you need to create a new class inherited from `Variable<TValue>`. For example:
+To create a new variable, you need to create a new class inherited from `Variable<TValue>`. For example:
 ```cs
 public class FloatVariable : Variable<float>
 {
@@ -91,3 +91,5 @@ Currently, we provides these built-in variables:
 - Vector3
 - Vector3Int
 - Color
+- GameObject
+- Transform
