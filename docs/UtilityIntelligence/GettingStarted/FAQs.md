@@ -1,5 +1,5 @@
 ---
-title: Frequently Asked Questions
+title: FAQs
 ---
 
 ## Which Unity version is supported?
