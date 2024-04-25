@@ -5,7 +5,7 @@ description: Why should you choose Utility Intelligence over other Utility AI so
 category: Utility Intelligence
 ---
 
-Basically, I believe that **Utility Intelligence** is more user-friendly and has more robust features than other Utility AI solutions. If you are not familiar with Utility AI yet, or you need a robust Utility AI Framework, then **Utility Intelligence** is a good choice. Here are some unique features that make it different from other Utility AI solutions:
+Basically, I believe that **Utility Intelligence** is more user-friendly and has more robust features than other Utility AI solutions for Unity. If you are not familiar with Utility AI yet, or you need a robust Utility AI Framework, then **Utility Intelligence** is a good choice. Here are some unique features that make it different from other Utility AI solutions:
 1. Utility Intelligence has its own **ResponseCurveView** for representing the **Response Curve**, while other solutions usually use Unity's **AnimationCurveView**, which is **primarily designed for animations**, so it will not be a good fit to represent response curves.
 	- For example, if the value of `[input, score]` is `[0.43, 0.70]`, we will need some time to visualize its position in the **AnimationCurveView**. 
 	![[Attachments/UtilityIntelligence/Documentation/GettingStarted/animation-curve-view.png]]
