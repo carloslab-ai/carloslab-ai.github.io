@@ -25,4 +25,4 @@ Basically, I believe that **Utility Intelligence** is more user-friendly and has
 5. **Utility Intelligence** provides many tools to reduce [[UtilityIntelligence/UtilityIntelligence/decisions#Oscillation between decision-target pairs|the oscillation between nearly equal decision-target pairs]] that other Utility AI solutions may not have.
 	- [[UtilityIntelligence/UtilityIntelligence/decisions#Momentum Bonus|Momentum Bonus]]
 	- [[UtilityIntelligence/UtilityIntelligence/decisions#Decision Weight|Decision Weight]]
-	- [[UtilityIntelligence/UtilityIntelligence/action-tasks#Keep Running Until Finished|Keep Running Until Finished]] 
+	- [[UtilityIntelligence/UtilityIntelligence/action-tasks#Keep Running Until Finished|Keep Running The Decision Until Finished]] 
