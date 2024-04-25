@@ -99,12 +99,13 @@ It's useful in case you want to access the entity from multiple places but don't
 
 Since utility entities are managed by a utility world, if you destroy a utility entity using `GameObject.Destroy()` and it is the target of some utility agents, you will receive an exception notifying you that you are trying to access an object that has been destroyed. 
 
-This occurs because the target entity has been destroyed before the decision-making process is run. Consequently when the decision-making process is executed, utility agents attemp to access the destroyed target entity, resulting in the exception.
+This occurs because the target entity has been destroyed before the decision-making process is run. Consequently, when the decision-making process is executed, utility agents attemp to access the destroyed target entity, resulting in the exception.
 
 For safety, you should destroy utility entities by calling `UtilityEntityFacade.Destroy()` instead of `GameObject.Destroy()`. This method ensures that the utility entities are safely destroyed and does not affect any utility agents. For example:
 ```cs
 public class CharacterHealth : MonoBehaviour
 {
+	//Character inherited from UtilityEntityFacade
     private Character character;
 
     private int health = 100;
