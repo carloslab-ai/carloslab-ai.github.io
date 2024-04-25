@@ -6,12 +6,12 @@ category: Utility Intelligence
 ---
 
 Basically, I believe that **Utility Intelligence** is more user-friendly and has more robust features than other Utility AI solutions for Unity. If you are not familiar with Utility AI yet, or you need a robust Utility AI Framework, then **Utility Intelligence** is a good choice. Here are some unique features that make it different from other Utility AI solutions:
-1. Utility Intelligence has its own **ResponseCurveView** for representing the **Response Curve**, while other solutions usually use Unity's **AnimationCurveView**, which is **primarily designed for animations**, so it will not be a good fit to represent response curves.
+1. Utility Intelligence has its own **ResponseCurveView** for representing the **Response Curve**, while other Utility AI solutions usually use Unity's **AnimationCurveView**, which is **primarily designed for animations**, so it will not be a good fit to represent response curves.
 	- For example, if the value of `[input, score]` is `[0.43, 0.70]`, we will need some time to visualize its position in the **AnimationCurveView**. 
 	![[Attachments/UtilityIntelligence/Documentation/GettingStarted/animation-curve-view.png]]
 	- I hate it so I created my own **ResponseCurveView** to represent response curves. In my **ResponseCurveView**, you can see the position of `[input, score]` immediately without needing to visualize it in your head. It's very intuitive, right? 
 	![[Attachments/UtilityIntelligence/Documentation/GettingStarted/response-curve-view.png|200]]
-	- Another thing I don't like about **AnimationCurve** is that my hands aren't as flexible as those of artists, so it's quite difficult for me to adjust the keyframes to generate the curve I want. Therefore, in my **ResponseCurveEditor**, I just need to change its parameters to generate the curve:
+	- Another thing I don't like about **AnimationCurve** is that my hands aren't as flexible as those of artists, so it's quite difficult for me to adjust the keyframes to achieve my desired curve. Therefore, in my **ResponseCurveEditor**, all I have to do is tweak its parameters to generate the curve I want.
 	![[Attachments/UtilityIntelligence/Animations/ResponseCurveEditor.gif|300]]
 2. **Utility Intelligence** offers a robust feature to preview which decision will be selected, which considerations are executed and discarded when any changes occur **in the Editor**, such as inputs and response curves **without needing to play your game**. 
 	![[Attachments/UtilityIntelligence/Animations/StatusPreview.gif]] 
