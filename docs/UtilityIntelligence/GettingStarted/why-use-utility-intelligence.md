@@ -1,6 +1,6 @@
 ---
 share: true
-title: Why choose Utility Intelligence?
+title: Why use Utility Intelligence?
 description: Why should you choose Utility Intelligence over other Utility AI solutions?
 category: Utility Intelligence
 ---
