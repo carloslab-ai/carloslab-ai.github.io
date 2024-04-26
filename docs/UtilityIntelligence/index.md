@@ -7,7 +7,7 @@ hide: feedback
 ![[Attachments/UtilityIntelligence/Card_420-280.png|center]]
 <div style="text-align:center">
 	<p style="margin-top:0px; margin-bottom:0px">
-		<b style="font-size:20px">
+		<b style="font-size:18px">
 			<a href="https://assetstore.unity.com/packages/slug/276632">Asset Store</a> - 
 			<a href="https://www.youtube.com/watch?v=CwgmtA7B098">Introduction Video</a>
 		</b>
