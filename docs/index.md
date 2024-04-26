@@ -5,9 +5,9 @@ hide: feedback
 
 <p style="text-align:center">
 	<b style="font-size:50px">Carlos Lab</b><br>
-	<a href="mailto: carloslab.contact@gmail.com" title="Contact us"><img width="50" height="50" src="/Attachments/gmail.png"></img></a>
-	<a href="https://twitter.com/carloslab_ai"><img width="50" height="50" src="/Attachments/twitter.png" title="Follow us"></img></a>
-	<a href="https://discord.gg/vRFEK5uE3f"><img width="50" height="50" src="/Attachments/discord.png" title="Join our community"></img></a>
+	<a href="mailto: carloslab.contact@gmail.com" title="Contact me"><img width="50" height="50" src="/Attachments/gmail.png"></img></a>
+	<a href="https://twitter.com/carlos_aii"><img width="50" height="50" src="/Attachments/twitter.png" title="Follow me"></img></a>
+	<a href="https://discord.gg/vRFEK5uE3f"><img width="50" height="50" src="/Attachments/discord.png" title="Join my community"></img></a>
 </p>
 
 ## Introduction
