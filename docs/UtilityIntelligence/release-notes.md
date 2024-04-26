@@ -15,7 +15,7 @@ To upgrade **Utility Intelligence** you need to do the following:
 
 ## 1.0.4
 **Added**
-- Variables classes to store GameObject and Transform.
+- Added variable classes to store GameObject and Transform.
 
 **Fixed**
 - Fixed an issue where custom variables could not be referenced in the Editor.
