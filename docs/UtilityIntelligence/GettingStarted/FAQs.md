@@ -16,9 +16,10 @@ Currently, there are three ways to get support:
 ## How to support me?
 In case you **find** this plugin more **useful** than its **price**, especially when it's **on sale** and you want to **support** me, currently, there are two ways to do so:
 1. Leave a **5-star review** on the [Unity Asset Store](https://assetstore.unity.com/packages/slug/276632).
-2. Buy me **a coffee** at [Ko-fi](https://ko-fi.com/carlos_ai). And you'll receive a special role on this server exclusively for donors:
-	- **Supporter**: One-time donation.
-	- **Backer**: Monthly donation.
+2. Buy me **a coffee** at [Ko-fi](https://ko-fi.com/carlos_ai). 
+	Donation **Benefits**: You'll receive a special role on this server exclusively for donors:
+	- <b style="color:#2ecc71">Supporter</b>: One-time donation.
+	- <b style="color:#9b59b6">Backer</b>: Monthly donation.
 
 Thank you so much for your support! 🥰 
 It **allows** me to **dedicate more time** to developing this plugin.
