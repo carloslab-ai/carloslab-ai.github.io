@@ -77,6 +77,9 @@ markdown_extensions:
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
 plugins:
+  - exclude:
+      glob:
+        - "*.excalidraw.md"
   - search
   - meta-descriptions
   - git-revision-date-localized:
