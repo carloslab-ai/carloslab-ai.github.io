@@ -1,6 +1,6 @@
 ---
 title: Utility Intelligence
-description: The documentation of Utility Intelligence - A user-friendly Utility AI Framework
+description: The documentation of Utility Intelligence - A user-friendly Utility AI Framework for Unity
 hide: feedback
 ---
 
