@@ -7,6 +7,8 @@ theme:
     logo: assets/meta/carloslab-icon.png
     favicon: assets/meta/carloslab-icon.png
     custom_dir: overrides
+    static_templates:
+        - sitemap.xml
     font:
         text: Ubuntu
         code: Ubuntu Mono
@@ -77,9 +79,6 @@ markdown_extensions:
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
 plugins:
-  - exclude:
-      glob:
-        - "*.excalidraw.md"
   - search
   - meta-descriptions
   - git-revision-date-localized:

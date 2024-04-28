@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{%- for page in nav.pages -%}
+    {% if not page.is_link %}
+    <url>
+         <loc>{% if page.canonical_url %}{{ page.canonical_url|e }}{% else %}{{ page.abs_url|e }}{% endif %}</loc>
+         {% if page.update_date %}<lastmod>{{page.update_date}}</lastmod>{% endif %}
+         <changefreq>daily</changefreq>
+    </url>
+    {%- endif -%}
+{% endfor %}
+</urlset>
