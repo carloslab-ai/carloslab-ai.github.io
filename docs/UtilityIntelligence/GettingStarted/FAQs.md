@@ -19,7 +19,7 @@ In case you **find** this plugin more **useful** than its **price**, especially 
 2. Buy me **a coffee** at [Ko-fi](https://ko-fi.com/carlos_ai). 
 	Donation **Benefits**: You'll receive a special role on my Discord server exclusively for donors:
 	- <b style="color:#2ecc71">Supporter</b>: One-time donation.
-	- <b style="color:#9b59b6">Backer</b>: Monthly donation.
+	- <b style="color:#9b59b6">Patron</b>: Monthly donation.
 
 Thank you so much for your support! 🥰 
 It **allows** me to **dedicate more time** to developing this plugin.
