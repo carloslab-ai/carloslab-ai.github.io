@@ -8,7 +8,7 @@ hide: feedback
 <div style="text-align:center">
 	<p style="margin-top:0px; margin-bottom:0px">
 		<b style="font-size:18px">
-			<a href="https://assetstore.unity.com/packages/slug/276632?aid=1011l3HCkp&pubref=website">Asset Store</a> - 
+			<a href="https://assetstore.unity.com/packages/slug/276632?aid=1011l3HCkp&pubref=official-website">Asset Store</a> - 
 			<a href="https://www.youtube.com/watch?v=CwgmtA7B098">Introduction Video</a>
 		</b>
 	</p>
