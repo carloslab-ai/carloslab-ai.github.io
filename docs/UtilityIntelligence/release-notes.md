@@ -13,6 +13,17 @@ To upgrade **Utility Intelligence** you need to do the following:
 	- CarlosLab/UtilityIntelligence
 3. Re-import **Utility Intelligence** package
 
+
+## 1.0.5
+**Changed**
+- Group these classes under the menu: **AddComponent/CarlosLab**.
+	- UtilityWorldController
+	- UtilityAgentController
+	- UtilityAgentFacade
+	- UtilityEntityController
+	- UtilityEntityFacade
+- Separate the ChargeStations from Environment prefab in demos.
+
 ## 1.0.4
 **Added**
 - Added variable classes to store GameObject and Transform.
