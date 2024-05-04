@@ -16,10 +16,10 @@ Currently, there are three ways to get support:
 ## How to support me?
 In case you **find** this plugin more **useful** than its **price**, especially when it's **on sale** and you want to **support** me, currently, there are 2 ways to do so:
 <!--
-1. Buy this plugin on the Asset Store via [this link](https://assetstore.unity.com/packages/slug/276632?aid=1011l3HCkp&pubref=official-website). 
+1. Buy this plugin on the Asset Store via [this link](https://assetstore.unity.com/packages/slug/276632?aid=1011l3HCkp&pubref=website_carloslab). 
 	- You still pay the same price, but I'll get a 5% commission from Unity.
 -->
-1. Leave a **5-star review** on the [Asset Store](https://assetstore.unity.com/packages/slug/276632?aid=1011l3HCkp&pubref=official-website).
+1. Leave a **5-star review** on the [Asset Store](https://assetstore.unity.com/packages/slug/276632?aid=1011l3HCkp&pubref=website_carloslab).
 2. Buy me **a coffee** at [Ko-fi](https://ko-fi.com/carlos_ai). Donation **Benefits**:
 	- Your requests will be **prioritized** in my todo-list.
 	- You'll receive a special role on my Discord server exclusively for donors:
