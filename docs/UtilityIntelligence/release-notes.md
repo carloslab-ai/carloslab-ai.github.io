@@ -14,6 +14,15 @@ To upgrade **Utility Intelligence** you need to do the following:
 3. Re-import **Utility Intelligence** package
 
 
+## 1.0.6
+**Added**
+- Added Ids for Views
+
+**Fixed**
+- Fixed an issue where list items could be renamed to an empty string.
+- Fixed an issue where only the selected consideration would update the new input name when renaming an input.
+- Fixed issues where only the selected decision would update the new consideration name when renaming a consideration, and the new target filter name when renaming a target filter.
+
 ## 1.0.5
 **Changed**
 - Group these classes under the menu: **AddComponent/CarlosLab**.
