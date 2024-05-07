@@ -13,6 +13,10 @@ To upgrade **Utility Intelligence** you need to do the following:
 	- CarlosLab/UtilityIntelligence
 3. Re-import **Utility Intelligence** package
 
+## 1.0.7
+
+**Fixed**
+- Fixed an issue where adding multiple target filters did not work
 
 ## 1.0.6
 **Added**
