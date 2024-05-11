@@ -22,7 +22,7 @@ There are two ways to open the Utility Intelligence Editor:
 - `Show Data`: Show the **Intelligence Data** in JSON format.
 - `Clear Data`: Clear all the **Intelligence Data**.
 
-With the File Menu Toolbar, you can edit the **Intelligence Data** directly in JSON format using your Text Editor, then import it into the Intelligence Asset:
+With the File Menu Toolbar, you can edit the **Intelligence Data** directly in JSON format using your Text Editor, then import it into the **Intelligence Asset**:
 
 ![[Attachments/UtilityIntelligence/Animations/JSONEditing.gif|Attachments/UtilityIntelligence/Animations/JSONEditing.gif]]
 
