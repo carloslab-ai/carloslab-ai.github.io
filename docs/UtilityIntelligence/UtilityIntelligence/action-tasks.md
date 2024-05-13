@@ -112,7 +112,47 @@ Currently, **Utility Intelligence** provides these built-in action tasks:
 - DestroySelf
 
 
-## Overridable Functions
+## Properties and Functions
+
+### Properties
+
+Here are some useful properties that you can use in your custom tasks:
+```cs
+Transform Transform { get; private set; }  
+  
+GameObject GameObject { get; private set; }  
+  
+UtilityAgentController AgentController { get; private set; }
+```
+
+### Functions
+
+#### GetComponent Functions
+You can get any component attached to the GameObject by calling these functions:
+
+```cs
+T GetComponent<T>()
+T GetComponentInChildren<T>()
+```
+
+#### Coroutine functions
+
+We provides these functions to help you start/stop coroutines from action tasks:
+```cs
+void StartCoroutine(string methodName);
+
+Coroutine StartCoroutine(IEnumerator routine);
+
+Coroutine StartCoroutine(string methodName, object value);
+
+void StopCoroutine(string methodName);
+
+void StopCoroutine(IEnumerator routine);
+
+void StopAllCoroutines();
+```
+
+#### Overridable Functions
 Here is the list of functions you could override to make your actions works as you want:
 - **Lifecycle Functions**:
 	```cs
@@ -169,19 +209,6 @@ Here is the list of functions you could override to make your actions works as y
 	void OnAnimatorIK(int layerIndex);
 	```
 
-## Coroutine functions
 
-We provides these functions to help you start/stop coroutines from action tasks:
-```cs
-void StartCoroutine(string methodName);
 
-Coroutine StartCoroutine(IEnumerator routine);
 
-Coroutine StartCoroutine(string methodName, object value);
-
-void StopCoroutine(string methodName);
-
-void StopCoroutine(IEnumerator routine);
-
-void StopAllCoroutines();
-```
