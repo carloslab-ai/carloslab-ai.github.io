@@ -69,7 +69,7 @@ As a result, you no longer need to worry about the conditions and order of all d
 - Flee from the enemy?
 - Attack the enemy?
 
-One drawback of other AI systems is that the decision-making conditions are based on **a threshold**. Consider this decision-making logic for an Enemy AI:
+One drawback of other AI systems is that the decision-making conditions are usually based on **a threshold**. Consider this decision-making logic for an Enemy AI:
 ```cs
 if(ShouldAttackPlayer())
 	AttackPlayer()
