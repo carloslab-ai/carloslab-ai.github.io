@@ -13,6 +13,18 @@ To upgrade **Utility Intelligence** you need to do the following:
 	- CarlosLab/UtilityIntelligence
 3. Re-import **Utility Intelligence** package
 
+## 1.0.8
+**Changed**
+- Refactored `Input` and `TargetFilter`.
+- [Breaking] Renamed `IsLessThanOrEqualValueNormalization`s to `IsLessThanOrEqualToValueNormalization`s
+- [Breaking] Renamed `IsGreaterThanOrEqualValueNormalization`s to `IsGreaterThanOrEqualToValueNormalization`s
+> [!CAUTION] Breaking Changes
+> Sorry, if you are using `IsGreaterThanOrEqualValueNormalization`s or `IsLessThanOrEqualValueNormalization`s, after upgrading to 1.0.8, you need to edit **Intelligence Data** to update these class names by using [[UtilityIntelligence/UtilityIntelligence/editor-window#File Menu|File Toolbar Menu]].
+
+
+**Fixed**
+- Fixed an issue where the consideration editor did not update properly when removing an input from InputTab.
+
 ## 1.0.7
 
 **Fixed**
