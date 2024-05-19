@@ -13,6 +13,11 @@ To upgrade **Utility Intelligence** you need to do the following:
 	- CarlosLab/UtilityIntelligence
 3. Re-import **Utility Intelligence** package
 
+## 1.0.9
+**Changed**
+- In Unity 6, Unity has fixed the bug that prevented DropdownField choices from being nested. Therefore, we've updated some DropdownFields to include nested choices. If you use Unity 6, you will see some DropdownFields that have nested choices like this:
+- ![[Attachments/UtilityIntelligence/Documentation/nested-dropdown.png]]
+
 ## 1.0.8
 **Changed**
 - Refactored `Input` and `TargetFilter`.
