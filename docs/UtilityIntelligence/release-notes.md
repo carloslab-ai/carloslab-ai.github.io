@@ -13,6 +13,21 @@ To upgrade **Utility Intelligence** you need to do the following:
 	- CarlosLab/UtilityIntelligence
 3. Re-import **Utility Intelligence** package
 
+## 1.0.10
+**Added**
+- Added `GetVariable<TValue>()` function for the Blackboard. You can use this function to retrieve Blackboard variables from other places.
+	```cs
+	public void TestBlackboard()
+	{
+		var blackboard = characterFacade.Entity.Intelligence.Blackboard;
+	    var sightRadiusVariable = blackboard.GetVariable<float>("SightRadius");
+	    sightRadiusVariable.Value = 30;
+	}
+	```
+
+**Fixed**
+- Fixed an issue that caused MomentumBonus to not work at runtime.
+
 ## 1.0.9
 **Changed**
 - In Unity 6, Unity has fixed the bug that prevented DropdownField choices from being nested. Therefore, we've updated our DropdownFields to include nested choices. If you use Unity 6, you will see some DropdownFields that have nested choices like this:
