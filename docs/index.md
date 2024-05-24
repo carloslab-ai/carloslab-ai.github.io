@@ -29,7 +29,7 @@ I'm quite interested in AI development, especially Utility AI. That's why I crea
 	</b>
 </p>
 
-<iframe width="720" height="405" src="https://www.youtube.com/embed/CwgmtA7B098?si=3c6o3334MqnJKLni" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="720" height="405" src="https://www.youtube.com/embed/n2miaCHBVhw?si=v3xu80xnzH5Qm-DZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <!--
 

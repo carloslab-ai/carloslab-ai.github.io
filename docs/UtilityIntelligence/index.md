@@ -9,7 +9,7 @@ hide: feedback
 	<p style="margin-top:0px; margin-bottom:0px">
 		<b style="font-size:18px">
 			<a href="https://assetstore.unity.com/packages/slug/276632?aid=1011l3HCkp&pubref=website_carloslab">Asset Store</a> - 
-			<a href="https://www.youtube.com/watch?v=CwgmtA7B098">Highlighted Features</a>
+			<a href="https://www.youtube.com/watch?v=n2miaCHBVhw">Highlighted Features</a>
 		</b>
 	</p>
 	<p style="margin-top:20px">
