@@ -4,13 +4,13 @@ title: Considerations
 category: Utility Intelligence
 ---
 
-In **Utility Intelligence,** a **consideration** represents an aspect of the game world that influences the utility of a decision. It indicates **how appealing** the decision is at the moment and is always normalized in the range `[0, 1]`. 
+In **Utility Intelligence,** a **consideration (also called axis)** represents an aspect of the game world that influences the utility of a decision. It indicates **how appealing** the decision is at the moment and is always normalized in the range `[0, 1]`. 
 
 For instance, suppose our agent has a decision called `AttackEnemy`, and this decision has an consideration like this: **How high is my health right now?**. If the agent's health currently is `100`, then the utility of this consideration will be `1.0`. It's very appealing, isn't it? However if the agent's health is just `50`, then the utility is only `0.5`. It's not as appealing anymore, right?
 
 
 > [!TIP] Infinite Number of Considerations
-> You can add **an infinite number of considerations** to a decision. However, the more considerations you add, the more decision score approaches 0. To address this, we introduced [[#Compensation Factor]].
+> You can add **an infinite number of considerations** to a decision. However, the more considerations you add, the closer decision score approaches 0. To address this, we introduced [[#Compensation Factor]].
 
 ## Understanding how considerations work
 
