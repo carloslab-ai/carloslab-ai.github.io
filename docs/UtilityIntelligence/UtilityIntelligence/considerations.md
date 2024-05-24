@@ -4,11 +4,13 @@ title: Considerations
 category: Utility Intelligence
 ---
 
-In **Utility Intelligence,** a **consideration (also called axis)** represents an aspect of the game world that influences the utility of a decision. It indicates **how appealing** the decision is at the moment and is always normalized in the range `[0, 1]`. 
+In **Utility Intelligence,** a **consideration** represents an aspect of the game world that influences the utility of a decision. It indicates **how appealing** the decision is at the moment and is always normalized in the range `[0, 1]`. 
 
-For instance, suppose our agent has a decision called `AttackEnemy`, and this decision has an axis like this: **How high is my health right now?**. If the agent's health currently is `100`, then the utility of this axis will be `1.0`. It's very appealing, isn't it? However if the agent's health is just `50`, then the utility is only `0.5`. It's not as appealing anymore, right?
+For instance, suppose our agent has a decision called `AttackEnemy`, and this decision has an consideration like this: **How high is my health right now?**. If the agent's health currently is `100`, then the utility of this consideration will be `1.0`. It's very appealing, isn't it? However if the agent's health is just `50`, then the utility is only `0.5`. It's not as appealing anymore, right?
 
-In addition, you can add **as many axes as you want** to a decision. That's why *Dave Mark* calls it the **Infinite Axis Utility System**. 
+
+> [!TIP] Infinite Number of Considerations
+> You can add **an infinite number of considerations** to a decision. However, the more considerations you add, the more decision score approaches 0. To address this, we introduced [[#Compensation Factor]].
 
 ## Understanding how considerations work
 
@@ -26,9 +28,9 @@ Then the normalized input is processed through a [[#Response Curves|Response Cur
 ## Compensation Factor
 The more considerations a decision has, the lower the score it will be due to the multiplication. For example, if a decision has 9 considerations and the score of each consideration is `0.9`, then the final score of it will be **0.9<sup>9</sup> = 0.387**.
 
-Therefore, theoretically, if a decision has an infinite number of axes, even if the consideration scores are high, the final score of the decision will be close to `0`.
+Therefore, theoretically, if a decision has an infinite number of considerations, even if the consideration scores are high, the final score of the decision will be close to `0`.
 
-To address this issue, *Dave Mark* introduced the **Compensation Factor** calculation, which takes into account the number of considerations to balance it. He presented this calculation in [Building a Better Centaur: AI at Massive Scale](https://www.gdcvault.com/play/1021848/Building-a-Better-Centaur-AI) (9:10).
+To address this issue, we added the **Compensation Factor** calculation, which takes into account the number of considerations to balance it. This calculation originally presented in [Building a Better Centaur: AI at Massive Scale](https://www.gdcvault.com/play/1021848/Building-a-Better-Centaur-AI) (9:10).
 
 Here's how the compensation factor calculation is implemented in code:
 ```cs
