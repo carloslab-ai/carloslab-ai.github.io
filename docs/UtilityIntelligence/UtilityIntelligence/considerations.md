@@ -10,7 +10,7 @@ For instance, suppose our agent has a decision called `AttackEnemy`, and this de
 
 
 > [!TIP] Infinite Number of Considerations
-> You can add **an infinite number of considerations** to a decision. However, the more considerations you add, the closer decision score approaches 0. To address this, we introduced [[#Compensation Factor]].
+> You can add **an infinite number of considerations (axes)** to a decision. However, the more considerations you add, the closer decision score approaches 0. To address this, we introduced [[#Compensation Factor]].
 
 ## Understanding how considerations work
 
@@ -30,7 +30,7 @@ The more considerations a decision has, the lower the score it will be due to th
 
 Therefore, theoretically, if a decision has an infinite number of considerations, even if the consideration scores are high, the final score of the decision will be close to `0`.
 
-To address this issue, we added the **Compensation Factor** calculation, which takes into account the number of considerations to balance it. This calculation originally presented in [Building a Better Centaur: AI at Massive Scale](https://www.gdcvault.com/play/1021848/Building-a-Better-Centaur-AI) (9:10).
+To address this issue, we added the **Compensation Factor** calculation, which takes into account the number of considerations to balance it. This calculation originally presented in [Building a Better Centaur: AI at Massive Scale](https://www.gdcvault.com/play/1021848/Building-a-Better-Centaur-AI), Dave Mark (9:10)
 
 Here's how the compensation factor calculation is implemented in code:
 ```cs
