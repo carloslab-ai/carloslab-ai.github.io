@@ -19,6 +19,6 @@ permissions:
 
 jobs:
   deploy:
-    uses: Enveloppe/actions/.github/workflows/deploy.yml@main
+    uses: carloslab-ai/actions/.github/workflows/deploy.yml@main
     secrets:
       GH_PAT: ${{ secrets.GITHUB_TOKEN }}
