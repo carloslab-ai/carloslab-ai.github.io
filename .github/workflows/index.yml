@@ -30,7 +30,7 @@ on:
 
 jobs:
   run:
-    uses: ObsidianPublisher/actions/.github/workflows/index.yml@main
+    uses: Enveloppe/actions/.github/workflows/index.yml@main
     with:
       category_name: ${{ inputs.category_name}}
       path: ${{ inputs.path}}
