@@ -13,6 +13,26 @@ To upgrade **Utility Intelligence** you need to do the following:
 	- CarlosLab/UtilityIntelligence
 3. Re-import **Utility Intelligence** package
 
+## 1.0.11
+**Changed**
+- Changed `GetVariable<TValue>()` function of the Blackboard to `GetVariable<TVariable>()`. Now, you have to pass variable type instead of value type to the function.
+	```cs
+	public void TestBlackboard()
+	{
+		var blackboard = characterFacade.Entity.Intelligence.Blackboard;
+	    var sightRadiusVariable = blackboard.GetVariable<FloatVariable>("SightRadius");
+	    sightRadiusVariable.Value = 30;
+	}
+	```
+
+**Added**
+- Added `GameObjectListVariable` and `TransformListVariable` to store a list of GameObjects and Transforms in Blackboard.
+
+**Fixed**
+- Fixed a bug where the IntelligenceAsset did not save when changing Input to None.
+- Fixed deserializing failed when a property value was null
+- Fixed a bug where VariableReferences of Inputs had a null Blackboard at runtime.
+
 ## 1.0.10
 **Added**
 - Added `GetVariable<TValue>()` function for the Blackboard. You can use this function to retrieve Blackboard variables from other places.
