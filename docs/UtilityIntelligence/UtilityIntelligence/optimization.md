@@ -45,6 +45,9 @@ To reorder decision makers, decisions, and considerations, you need to enable th
 
 ![[Attachments/UtilityIntelligence/Documentation/UtilityIntelligence/Optimization/considerations-statuses.png]]
 
+
+<!--
+
 ## Enable Burst Compilation
 Some places in **Utility Intelligence** use Unity.Burst, so to achieve higher performance, you should **Enable Burst Compilation**:
 1. Install these two packages:
@@ -56,7 +59,7 @@ Some places in **Utility Intelligence** use Unity.Burst, so to achieve higher pe
 	- In player builds, select **Edit -> Player Settings -> Burst AOT Settings -> Enable Burst Compilation**
 	![[Attachments/UtilityIntelligence/Documentation/UtilityIntelligence/Optimization/enable-burst-compilation-build.png]]
 
-
+-->
 
 
 
