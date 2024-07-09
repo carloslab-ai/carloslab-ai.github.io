@@ -29,8 +29,8 @@ You can choose the execution mode you want by selecting it from this drop down m
 It is the number of times to repeat the action list. 
 
 > [!NOTE]
-> - The action list only repeat if it is finished in success.
-> - If `MaxRepeatCount` <= 0 it will be repeated forever
+> - The action list will only repeat if it is finished in success.
+> - If `MaxRepeatCount` <= 0 it will repeat forever until it returns failure.
 
 You can change `MaxRepeatCount` of the action list here:
 
