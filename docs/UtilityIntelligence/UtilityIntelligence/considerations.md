@@ -2,6 +2,7 @@
 share: true
 title: Considerations
 category: Utility Intelligence
+description: Infinite Axis Utility System
 ---
 
 In **Utility Intelligence,** a **consideration (also called axis)** represents an aspect of the game world that influences the utility of a decision. It indicates **how appealing** the decision is at the moment and is always normalized in the range `[0, 1]`. 
