@@ -22,16 +22,16 @@ For decision makers, they are similar to decisions, if the lower ones realize th
 Now that you understand how the score-calculation process works, and to optimize this process, follow these guidelines:
 
 - **Considerations**
-	- Put considerations that have a high probability of returning a low score at the top. This ensures that lower considerations will be discarded because it's very difficult for lower decisions to beat the higher ones if their first consideration returns a low score. For example:
+	- Put considerations that have a high probability of returning a low score at the top. This ensures that lower considerations will be discarded because it's very difficult for lower decisions to beat the higher ones if their first consideration returns a low score. A good question we should ask ourselves when doing this is: Does this consideration return a low score most of the time? For example:
 		- `IsTargetInAttackRange` (it usually returns `0.0` because most of the time the target is not in the attack range)
 	- Put considerations that are expensive at the bottom. For example:
 		- Considerations using raycasts
 - **Decisions**
-	- Put decisions that have a high probability of returning a high score at the top. This ensures that lower decisions will be discarded because it's very difficult for them to beat the higher ones with a high score. For examle:
+	- Put decisions that have a high probability of returning a high score at the top. This ensures that lower decisions will be discarded because it's very difficult for them to beat the higher ones with a high score. A good question we should ask ourselves when doing this is: Does this decision return a high score most of the time? For example:
 		- `AttackEnemy` (It usually returns a high score if the enemy is in its attack range)
 		- Decisions with high weights
 - **Decision Makers**
-	- Put decision makers that have a high probability of returning a high score at the top. This ensures that lower decision makers will be discarded because it's very difficult for them to beat the higher ones with a high score.
+	- Same as Decisions
 
 To reorder decision makers, decisions, and considerations, you need to enable the **Reorderable** option in the Editor. This option adds drag handles before every item, allowing you to change the order of each item by dragging it.
 
