@@ -27,11 +27,19 @@ Since this plugin doesn't have any graphical features, it is compatible with all
 2. Tick **Material Upgrade**
 3. Click **Initialize and Converter** button
 
+Or
+
+1. Select all Example Materials
+2. Click **Edit -> Rendering -> Material -> Convert Selected Built-in Materials to URP**
+
 ### HDRP
 1. Open **HDRP Wizard** (Window -> Rendering -> HDRP Wizard)
 2. Click **Convert All Built-In Materials to HDRP**
 
+Or
 
+1. Select all Example Materials
+2. Click **Edit -> Rendering -> Material -> Convert Selected Built-in Materials to HDRP**
 
 ## Other Learning Resources
 

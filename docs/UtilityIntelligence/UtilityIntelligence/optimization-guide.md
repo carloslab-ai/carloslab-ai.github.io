@@ -22,14 +22,18 @@ For decision makers, they are similar to decisions, if the lower ones realize th
 Now that you understand how the score-calculation process works, and to optimize this process, follow these guidelines:
 
 - **Considerations**
-	- Put considerations that have a high probability of returning a low score at the top. This ensures that lower considerations will be discarded because it's very difficult for lower decisions to beat the higher ones if their first consideration returns a low score. A good question we should ask ourselves when doing this is: Does this consideration return a low score most of the time? For example:
-		- `IsTargetInAttackRange` (it usually returns `0.0` because most of the time the target is not in the attack range)
+	- Put considerations that have a high probability of returning a low score at the top. 
+		- This ensures that lower considerations will be discarded because it's very difficult for lower decisions to beat the higher ones if their first consideration returns a low score. 
+		- A good question we should ask ourselves when doing this is: Does this consideration return a low score most of the time? For example:
+			- `IsTargetInAttackRange` (it usually returns `0.0` because most of the time the target is not in the attack range)
 	- Put considerations that are expensive at the bottom. For example:
 		- Considerations using raycasts
 - **Decisions**
-	- Put decisions that have a high probability of returning a high score at the top. This ensures that lower decisions will be discarded because it's very difficult for them to beat the higher ones with a high score. A good question we should ask ourselves when doing this is: Does this decision return a high score most of the time? For example:
-		- `AttackEnemy` (It usually returns a high score if the enemy is in its attack range)
-		- Decisions with high weights
+	- Put decisions that have a high probability of returning a high score at the top. 
+		- This ensures that lower decisions will be discarded because it's very difficult for them to beat the higher ones with a high score. 
+		- A good question we should ask ourselves when doing this is: Does this decision return a high score most of the time? For example:
+			- `FindPlayer` (it usually returns high score because most of the monsters are constantly finding the player)
+			- Decisions with high weights
 - **Decision Makers**
 	- Same as Decisions
 
