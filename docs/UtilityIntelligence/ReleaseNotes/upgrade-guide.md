@@ -1,6 +1,5 @@
 ---
-share: true
-title: Release Notes - 1.0.x
+title: Upgrade Guide
 ---
 
 ## Upgrading from 1.0.x to 1.1.0
