@@ -108,11 +108,11 @@ protected override float OnCalculateNormalizedInput(int rawInput, in InputNormal
 ```
 
 #### NavMeshActionTask
-If your action scripts inherit from `NavMeshActionTask`, you need to do the following:
-1. Create a `NavMeshAgentVariable` in the Blackboard Tab of the Intelligence Editor
+If your action tasks inherit from `NavMeshActionTask`, you need to do the following:
+1. Create a `NavMeshAgentVariable` in the Blackboard Tab of the Intelligence Editor.
 2. Select the `NavMeshAgentVariable` in the Action Task Editor.
 ![[Attachments/UtilityIntelligence/Documentation/UpgradeGuide/NavMeshAgentVariable.png]]
-4. Change `NavMeshAgent` to `navMeshAgent` in your action scripts.
+4. Change `NavMeshAgent` to `navMeshAgent` in your action tasks.
 5. Inject your `NavMeshAgent` into the blackboard through the `NavMeshAgentVariable`:
 	```cs
 	private void Start()
