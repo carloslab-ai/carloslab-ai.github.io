@@ -28,7 +28,7 @@ v1.0.x uses data v1 and v1.1.0 uses data v2. Therefore, you need to update your 
 	- Change `MyDistanceToTargetInput` to `DistanceToTargetInput`.
 	- Change `NavMeshMoveTowards` to `MoveToTarget`.
 	- Remove all InputNormalizations from all Considerations.
-	- Move Decisions from DecisionMakers to the outside.
+	- Move Decisions from DecisionMakers to the outer scope.
 		**Data Structure - v1.0.x**
 		```json
 		{
