@@ -12,13 +12,10 @@ To upgrade **Utility Intelligence** you need to do the following:
 3. Re-import **Utility Intelligence** package
 
 ## Upgrading from v1.0.x to v1.1.0
-
-There are some breaking changes that you need to fix manually when upgrading from v1.0.x to v1.1.0.
+v1.1.0 is a major release with a lot of changes. It includes some breaking changes that require manual updates when upgrading from v1.0.x to v1.1.0. Sorry for the inconvenience.
 
 > [!CAUTION] Caution
-> These changes may break your project, so please backup you project before starting.
-
-
+> These changes may break your project, so please backup your project before upgrading.
 
 ### Intelligence Asset
 v1.0.x uses data v1 and v1.1.0 uses data v2. Therefore, you need to update your intelligence assets to data version v2 so that this framework can deserialize them.
