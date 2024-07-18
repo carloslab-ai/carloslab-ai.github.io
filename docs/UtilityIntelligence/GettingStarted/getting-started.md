@@ -18,9 +18,10 @@ category: Utility Intelligence
 1. Play your game.
 
 
-## Running Demos in URP and HDRP
+## Examples
+You can download the examples here: Coming soon
 
-Since this plugin doesn't have any graphical features, it is compatible with all render pipelines. However the materials of the demo scenes are created using the Built-In Render Pipeline. Therefore, if you want to run the demos in URP or HDRP, you need to convert all materials to the target pipeline first:
+Since this plugin doesn't have any graphical features, it is compatible with all render pipelines. However the materials of the example scenes are created using the Built-In Render Pipeline. Therefore, if you want to run the demos in URP or HDRP, you need to convert all materials to the target pipeline first:
 
 ### URP
 1. Open **Render Pipeline Converter** (Window -> Rendering -> Render Pipeline Converter)
