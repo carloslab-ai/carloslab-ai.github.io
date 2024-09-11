@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Redirecting...</title>
+    <!-- Dynamically set the canonical link to point to the new domain -->
+    <script>
+        var newDomain = "https://carloslab-ai.com"; // Replace with your new domain
+        var currentPath = window.location.pathname + window.location.search + window.location.hash;
+        
+        // Create a canonical link dynamically
+        var canonicalLink = document.createElement('link');
+        canonicalLink.rel = 'canonical';
+        canonicalLink.href = newDomain + currentPath;
+        document.head.appendChild(canonicalLink);
+
+        // Redirect to the new domain with the same path
+        window.location.href = newDomain + currentPath;
+    </script>
+</head>
+<body>
+    Redirecting to the new site. If you are not redirected automatically, follow this <a id="redirectLink" href="#">link</a>.
+    <script>
+        document.getElementById("redirectLink").href = newDomain + currentPath;
+    </script>
+</body>
+</html>
