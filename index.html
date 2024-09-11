@@ -3,23 +3,20 @@
 <head>
     <title>Redirecting...</title>
     <script>
-        var newDomain = "https://carloslab-ai.com";
-        var currentPath = window.location.pathname + window.location.search + window.location.hash;
-        
-        // Create a canonical link dynamically
-        var canonicalLink = document.createElement('link');
-        canonicalLink.rel = 'canonical';
-        canonicalLink.href = newDomain + currentPath;
-        document.head.appendChild(canonicalLink);
+        // Set the new site URL in a variable
+        var newSiteUrl = "https://carloslab-ai.com"; // Replace with your specific URL
 
-        window.location.href = newDomain + currentPath;
+        // Redirect using JavaScript
+        window.location.href = newSiteUrl;
     </script>
+    <!-- Meta refresh as a fallback -->
+    <meta http-equiv="refresh" content="0; url=" + newSiteUrl>
 </head>
 <body>
-    Redirecting to the new site. If you are not redirected automatically, follow this <a id="redirectLink" href="#">link</a>.
+    Redirecting to the new site. If you are not redirected automatically, follow this <a id="redirectLink" href="#">link to the new site</a>.
     <script>
         // Update the fallback link for users without JavaScript enabled
-        document.getElementById("redirectLink").href = newDomain + currentPath;
+        document.getElementById("redirectLink").href = newSiteUrl;
     </script>
 </body>
 </html>
