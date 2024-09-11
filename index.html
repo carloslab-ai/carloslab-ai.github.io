@@ -1,12 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-	<title>Redirecting...</title>
-	<link rel="canonical" href="https://carloslab-ai.com" />
-    <meta http-equiv="refresh" content="0; URL='https://carloslab-ai.com/'" />
+    <title>Redirecting...</title>
+    <script>
+        var newDomain = "https://carloslab-ai.com";
+        var currentPath = window.location.pathname + window.location.search + window.location.hash;
+        
+        // Create a canonical link dynamically
+        var canonicalLink = document.createElement('link');
+        canonicalLink.rel = 'canonical';
+        canonicalLink.href = newDomain + currentPath;
+        document.head.appendChild(canonicalLink);
+
+        window.location.href = newDomain + currentPath;
+    </script>
 </head>
 <body>
-    <p>If you are not redirected automatically, follow this <a href="https://carloslab-ai.com/">link to the new site</a>.</p>
+    Redirecting to the new site. If you are not redirected automatically, follow this <a id="redirectLink" href="#">link</a>.
+    <script>
+        // Update the fallback link for users without JavaScript enabled
+        document.getElementById("redirectLink").href = newDomain + currentPath;
+    </script>
 </body>
 </html>
